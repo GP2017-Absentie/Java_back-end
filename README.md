@@ -6,7 +6,7 @@
 
 
 
-![ERD_v1.2](datebase_diagrams/ERD_v1.2.png)
+![ERD_v1.2](datebase_diagrams/ERD_v1.1.png)
 
 
 
@@ -22,3 +22,4 @@
 
 - [x] add user table
 - [ ] add absence archive tabel
+
