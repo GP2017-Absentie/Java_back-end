@@ -15,14 +15,14 @@
 To setup the database:
 
 * in mySQL, create a new database called 'AbsentieSys';
-* inside this git directory, copy the DDL code from database/ddl/*
+* inside this git directory, copy the DDL code from `database/ddl/*`
 * paste and run the code in the new database you just created
 
-> database/ddl/clean_database_init.sql
+> `clean_database_init.sql`
 >
 > - initializes all tables and coloums without any data
 >
-> database/ddl/database_init.sql
+> `database_init.sql`
 >
 > * initalizes all tables and fields, then adds the data extracted from the CSV files
 
