@@ -7,6 +7,15 @@
 # ************************************************************
 
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
 # Dump of table absentie
 # ------------------------------------------------------------
 
@@ -33,9 +42,8 @@ CREATE TABLE `absentie` (
 DROP TABLE IF EXISTS `klas`;
 
 CREATE TABLE `klas` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `code` varchar(10) NOT NULL DEFAULT '',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -52,14 +60,14 @@ CREATE TABLE `les` (
   `eindtijd` time NOT NULL,
   `vak_FK` int(11) unsigned NOT NULL,
   `lokaal_FK` int(11) unsigned NOT NULL,
-  `klas_FK` int(11) unsigned NOT NULL,
   `docent_FK` int(11) unsigned NOT NULL,
+  `klas_FK` varchar(10) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
-  KEY `les_klas_FK` (`klas_FK`),
   KEY `les_persoon_FK` (`docent_FK`),
   KEY `les_lokaal_FK` (`lokaal_FK`),
   KEY `les_vak_FK` (`vak_FK`),
-  CONSTRAINT `les_klas_FK` FOREIGN KEY (`klas_FK`) REFERENCES `klas` (`id`),
+  KEY `les_klas_FK` (`klas_FK`),
+  CONSTRAINT `les_klas_FK` FOREIGN KEY (`klas_FK`) REFERENCES `klas` (`code`),
   CONSTRAINT `les_lokaal_FK` FOREIGN KEY (`lokaal_FK`) REFERENCES `lokaal` (`id`),
   CONSTRAINT `les_persoon_FK` FOREIGN KEY (`docent_FK`) REFERENCES `persoon` (`id`),
   CONSTRAINT `les_vak_FK` FOREIGN KEY (`vak_FK`) REFERENCES `vak` (`id`)
@@ -88,15 +96,18 @@ DROP TABLE IF EXISTS `persoon`;
 
 CREATE TABLE `persoon` (
   `id` int(11) unsigned NOT NULL,
-  `email` varchar(25) NOT NULL DEFAULT '',
-  `naam` varchar(30) DEFAULT NULL,
-  `user_FK` int(11) unsigned NOT NULL,
-  `rol_FK` int(11) unsigned NOT NULL,
-  `klas_FK` int(11) unsigned NOT NULL,
+  `email` varchar(40) NOT NULL DEFAULT '',
+  `naam` varchar(30) NOT NULL DEFAULT '',
+  `user_FK` int(11) unsigned DEFAULT NULL,
+  `rol_FK` int(11) unsigned DEFAULT NULL,
+  `klas_FK` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `persoon_klas_FK` FOREIGN KEY (`id`) REFERENCES `klas` (`id`),
-  CONSTRAINT `persoon_rol_FK` FOREIGN KEY (`id`) REFERENCES `rol` (`id`),
-  CONSTRAINT `persoon_user_FK` FOREIGN KEY (`id`) REFERENCES `user` (`id`)
+  KEY `persoon_rol_FK` (`rol_FK`),
+  KEY `persoon_user_FK` (`user_FK`),
+  KEY `persoon_klas_FK` (`klas_FK`),
+  CONSTRAINT `persoon_klas_FK` FOREIGN KEY (`klas_FK`) REFERENCES `klas` (`code`),
+  CONSTRAINT `persoon_rol_FK` FOREIGN KEY (`rol_FK`) REFERENCES `rol` (`id`),
+  CONSTRAINT `persoon_user_FK` FOREIGN KEY (`user_FK`) REFERENCES `user` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -121,7 +132,7 @@ DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `username` varchar(15) NOT NULL DEFAULT '',
+  `username` varchar(30) NOT NULL DEFAULT '',
   `password` varchar(11) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -139,3 +150,13 @@ CREATE TABLE `vak` (
   `naam` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

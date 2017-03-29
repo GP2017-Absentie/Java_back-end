@@ -12,17 +12,11 @@
 
 ### Data Definition Code
 
-To setup the database:
+**Database Setup**
 
-* in mySQL, create a new database called 'AbsentieSys';
-* inside this git directory, copy the DDL code from `database/ddl/*`
-* paste and run the code in the new database you just created
+To setup the database, first create a new database in MySQL called 'AbsentieSys'. There are two ways to fill the database with content:
 
-> `clean_database_init.sql`
->
-> - initializes all tables and coloums without any data
->
-> `database_init.sql`
->
-> * initalizes all tables and fields, then adds the data extracted from the CSV files
+- Use the `clean_database_init.sql` file located in `database/ddl` to setup the architecture and run the `app.py` to fill the database with content.
+- Use the `database_init.sql` file located in  `database/ddl` to setup the architecture and fill the content. This file also has INSERT statements for all the data delivered by the HU.
 
+> The first method (using Python) is especially useful when the csv data has been changed. For regular database initialization I recommend using the second method.
