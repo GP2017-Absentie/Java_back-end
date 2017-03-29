@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/CsvConverter$rooster_import.coverage" NAME="rooster_import Coverage Results" MODIFIED="1490716103340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CsvConverter$studentConverter.coverage" NAME="studentConverter Coverage Results" MODIFIED="1490716423135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CsvConverter$docent_import.coverage" NAME="docent_import Coverage Results" MODIFIED="1490715997588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/csvToSql$app.coverage" NAME="app Coverage Results" MODIFIED="1490781696883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/csvToSql$app.coverage" NAME="app Coverage Results" MODIFIED="1490786369978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,47 +38,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="docent_import.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docent_import.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="52" column="14" selection-start-line="11" selection-start-column="0" selection-end-line="52" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <marker date="1490715808000" expanded="true" signature="866:1095" ph="INSERT INTO user" />
-                <marker date="1490715808000" expanded="true" signature="1223:1299" ph="SELECT `id` user" />
-                <marker date="1490715808000" expanded="true" signature="1527:1681" ph="INSERT INTO persoon" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rooster_import.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rooster_import.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="103" column="20" selection-start-line="10" selection-start-column="0" selection-end-line="103" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <marker date="1490715808000" expanded="true" signature="808:892" ph="SELECT * FRO... vak" />
-                <marker date="1490715808000" expanded="true" signature="1164:1432" ph="INSERT INTO vak" />
-                <marker date="1490715808000" expanded="true" signature="1553:1632" ph="SELECT `id` vak" />
-                <marker date="1490715808000" expanded="true" signature="1791:1882" ph="SELECT `id` lokaal" />
-                <marker date="1490715808000" expanded="true" signature="2141:2416" ph="INSERT INTO lokaal" />
-                <marker date="1490715808000" expanded="true" signature="2549:2633" ph="SELECT `id` lokaal" />
-                <marker date="1490715808000" expanded="true" signature="2817:2897" ph="SELECT `id` persoon" />
-                <marker date="1490715808000" expanded="true" signature="3211:3418" ph="INSERT INTO les" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import_functions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/import_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+              <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#3205#6221#0" expanded="false" />
+                <marker date="1490786358000" expanded="true" signature="452:456" ph="INSERT INTO rol" />
+                <marker date="1490786358000" expanded="true" signature="666:893" ph="INSERT INTO klas" />
+                <marker date="1490786358000" expanded="true" signature="1041:1271" ph="INSERT INTO rol" />
+                <marker date="1490786358000" expanded="true" signature="1375:1613" ph="INSERT INTO rol" />
+                <marker date="1490786358000" expanded="true" signature="2087:2258" ph="INSERT INTO persoon" />
+                <marker date="1490786358000" expanded="true" signature="2957:3095" ph="INSERT INTO persoon" />
+                <marker date="1490786358000" expanded="true" signature="3628:3713" ph="SELECT * FRO... vak" />
+                <marker date="1490786358000" expanded="true" signature="3945:4217" ph="INSERT INTO vak" />
+                <marker date="1490786358000" expanded="true" signature="4330:4410" ph="SELECT `id` vak" />
+                <marker date="1490786358000" expanded="true" signature="4559:4651" ph="SELECT `id` lokaal" />
+                <marker date="1490786358000" expanded="true" signature="4893:5172" ph="INSERT INTO lokaal" />
+                <marker date="1490786358000" expanded="true" signature="5297:5382" ph="SELECT `id` lokaal" />
+                <marker date="1490786358000" expanded="true" signature="5556:5637" ph="SELECT `id` persoon" />
+                <marker date="1490786358000" expanded="true" signature="5886:6097" ph="INSERT INTO les" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +97,8 @@
         <option value="$PROJECT_DIR$/CSV/V1C.csv" />
         <option value="$PROJECT_DIR$/CSV/V1F.csv" />
         <option value="$PROJECT_DIR$/student_import.py" />
-        <option value="$PROJECT_DIR$/import_functions.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/import_functions.py" />
       </list>
     </option>
   </component>
@@ -547,7 +540,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380597" sideWeight="0.79429895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.79429895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -650,25 +643,21 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#4728#7744#0" expanded="false" />
-            <marker date="1490782062000" expanded="true" signature="452:456" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="666:893" ph="INSERT INTO klas" />
-            <marker date="1490782062000" expanded="true" signature="1041:1271" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="1375:1613" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="2159:2392" ph="INSERT INTO user" />
-            <marker date="1490782062000" expanded="true" signature="2514:2591" ph="SELECT `id` user" />
-            <marker date="1490782062000" expanded="true" signature="2810:2968" ph="INSERT INTO persoon" />
-            <marker date="1490782062000" expanded="true" signature="3792:4021" ph="INSERT INTO user" />
-            <marker date="1490782062000" expanded="true" signature="4146:4222" ph="SELECT `id` user" />
-            <marker date="1490782062000" expanded="true" signature="4447:4614" ph="INSERT INTO persoon" />
-            <marker date="1490782062000" expanded="true" signature="5151:5236" ph="SELECT * FRO... vak" />
-            <marker date="1490782062000" expanded="true" signature="5468:5740" ph="INSERT INTO vak" />
-            <marker date="1490782062000" expanded="true" signature="5853:5933" ph="SELECT `id` vak" />
-            <marker date="1490782062000" expanded="true" signature="6082:6174" ph="SELECT `id` lokaal" />
-            <marker date="1490782062000" expanded="true" signature="6416:6695" ph="INSERT INTO lokaal" />
-            <marker date="1490782062000" expanded="true" signature="6820:6905" ph="SELECT `id` lokaal" />
-            <marker date="1490782062000" expanded="true" signature="7079:7160" ph="SELECT `id` persoon" />
-            <marker date="1490782062000" expanded="true" signature="7409:7620" ph="INSERT INTO les" />
+            <element signature="e#3205#6221#0" expanded="false" />
+            <marker date="1490786358000" expanded="true" signature="452:456" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="666:893" ph="INSERT INTO klas" />
+            <marker date="1490786358000" expanded="true" signature="1041:1271" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="1375:1613" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="2087:2258" ph="INSERT INTO persoon" />
+            <marker date="1490786358000" expanded="true" signature="2957:3095" ph="INSERT INTO persoon" />
+            <marker date="1490786358000" expanded="true" signature="3628:3713" ph="SELECT * FRO... vak" />
+            <marker date="1490786358000" expanded="true" signature="3945:4217" ph="INSERT INTO vak" />
+            <marker date="1490786358000" expanded="true" signature="4330:4410" ph="SELECT `id` vak" />
+            <marker date="1490786358000" expanded="true" signature="4559:4651" ph="SELECT `id` lokaal" />
+            <marker date="1490786358000" expanded="true" signature="4893:5172" ph="INSERT INTO lokaal" />
+            <marker date="1490786358000" expanded="true" signature="5297:5382" ph="SELECT `id` lokaal" />
+            <marker date="1490786358000" expanded="true" signature="5556:5637" ph="SELECT `id` persoon" />
+            <marker date="1490786358000" expanded="true" signature="5886:6097" ph="INSERT INTO les" />
           </folding>
         </state>
       </provider>
@@ -775,40 +764,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/import_functions.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#4728#7744#0" expanded="false" />
-            <marker date="1490782062000" expanded="true" signature="452:456" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="666:893" ph="INSERT INTO klas" />
-            <marker date="1490782062000" expanded="true" signature="1041:1271" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="1375:1613" ph="INSERT INTO rol" />
-            <marker date="1490782062000" expanded="true" signature="2159:2392" ph="INSERT INTO user" />
-            <marker date="1490782062000" expanded="true" signature="2514:2591" ph="SELECT `id` user" />
-            <marker date="1490782062000" expanded="true" signature="2810:2968" ph="INSERT INTO persoon" />
-            <marker date="1490782062000" expanded="true" signature="3792:4021" ph="INSERT INTO user" />
-            <marker date="1490782062000" expanded="true" signature="4146:4222" ph="SELECT `id` user" />
-            <marker date="1490782062000" expanded="true" signature="4447:4614" ph="INSERT INTO persoon" />
-            <marker date="1490782062000" expanded="true" signature="5151:5236" ph="SELECT * FRO... vak" />
-            <marker date="1490782062000" expanded="true" signature="5468:5740" ph="INSERT INTO vak" />
-            <marker date="1490782062000" expanded="true" signature="5853:5933" ph="SELECT `id` vak" />
-            <marker date="1490782062000" expanded="true" signature="6082:6174" ph="SELECT `id` lokaal" />
-            <marker date="1490782062000" expanded="true" signature="6416:6695" ph="INSERT INTO lokaal" />
-            <marker date="1490782062000" expanded="true" signature="6820:6905" ph="SELECT `id` lokaal" />
-            <marker date="1490782062000" expanded="true" signature="7079:7160" ph="SELECT `id` persoon" />
-            <marker date="1490782062000" expanded="true" signature="7409:7620" ph="INSERT INTO les" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/import_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="158">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+          <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#3205#6221#0" expanded="false" />
+            <marker date="1490786358000" expanded="true" signature="452:456" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="666:893" ph="INSERT INTO klas" />
+            <marker date="1490786358000" expanded="true" signature="1041:1271" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="1375:1613" ph="INSERT INTO rol" />
+            <marker date="1490786358000" expanded="true" signature="2087:2258" ph="INSERT INTO persoon" />
+            <marker date="1490786358000" expanded="true" signature="2957:3095" ph="INSERT INTO persoon" />
+            <marker date="1490786358000" expanded="true" signature="3628:3713" ph="SELECT * FRO... vak" />
+            <marker date="1490786358000" expanded="true" signature="3945:4217" ph="INSERT INTO vak" />
+            <marker date="1490786358000" expanded="true" signature="4330:4410" ph="SELECT `id` vak" />
+            <marker date="1490786358000" expanded="true" signature="4559:4651" ph="SELECT `id` lokaal" />
+            <marker date="1490786358000" expanded="true" signature="4893:5172" ph="INSERT INTO lokaal" />
+            <marker date="1490786358000" expanded="true" signature="5297:5382" ph="SELECT `id` lokaal" />
+            <marker date="1490786358000" expanded="true" signature="5556:5637" ph="SELECT `id` persoon" />
+            <marker date="1490786358000" expanded="true" signature="5886:6097" ph="INSERT INTO les" />
+          </folding>
         </state>
       </provider>
     </entry>

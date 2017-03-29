@@ -96,18 +96,16 @@ DROP TABLE IF EXISTS `persoon`;
 
 CREATE TABLE `persoon` (
   `id` int(11) unsigned NOT NULL,
-  `email` varchar(40) NOT NULL DEFAULT '',
   `naam` varchar(30) NOT NULL DEFAULT '',
-  `user_FK` int(11) unsigned DEFAULT NULL,
+  `email` varchar(40) NOT NULL,
+  `wachtwoord` varchar(30) NOT NULL,
   `rol_FK` int(11) unsigned DEFAULT NULL,
   `klas_FK` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `persoon_rol_FK` (`rol_FK`),
-  KEY `persoon_user_FK` (`user_FK`),
   KEY `persoon_klas_FK` (`klas_FK`),
   CONSTRAINT `persoon_klas_FK` FOREIGN KEY (`klas_FK`) REFERENCES `klas` (`code`),
-  CONSTRAINT `persoon_rol_FK` FOREIGN KEY (`rol_FK`) REFERENCES `rol` (`id`),
-  CONSTRAINT `persoon_user_FK` FOREIGN KEY (`user_FK`) REFERENCES `user` (`id`)
+  CONSTRAINT `persoon_rol_FK` FOREIGN KEY (`rol_FK`) REFERENCES `rol` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -120,20 +118,6 @@ DROP TABLE IF EXISTS `rol`;
 CREATE TABLE `rol` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `naam` enum('student','docent') NOT NULL DEFAULT 'student',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
-
-# Dump of table user
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `user`;
-
-CREATE TABLE `user` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `username` varchar(30) NOT NULL DEFAULT '',
-  `password` varchar(11) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

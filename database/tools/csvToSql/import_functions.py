@@ -59,37 +59,20 @@ def importDocenten(cnx, cursor):
 						docentMail = row[0]
 						if row[2] == '':
 								docentNaam = row[1] + ' ' + row[3]
-								docentUserName = row[1] + row[3]
 
 						else:
 								docentNaam = row[1] + ' ' + row[2] + ' ' + row[3]
-								docentUserName = row[1] + row[2] + row[3]
 
-						# create user record
-						cursor.execute("""
-	                                          INSERT INTO
-	                                              user
-	                                          (username, password)
-	                                          VALUES
-	                                              (%s, %s)""", (docentUserName, "geheim"))
-						cnx.commit()
 
-						# fetch id from the just created user record
-						query = ("""SELECT `id` FROM `user`
-	                                 WHERE username = %s""")
-						cursor.execute(query, (docentUserName,))
 
-						cnx.commit()
-
-						user_id = cursor.fetchone()
 
 						# add the corresponding person record and link the FK (user_id)
 						cursor.execute("""
 	               INSERT INTO
 	                    persoon
-	                (id, email, naam, user_FK, rol_FK)
+	                (`id`, `naam`, `email`, `wachtwoord`, `rol_FK`)
 	                VALUES
-	                    (%s, %s, %s, %s, %s)""", [docentId, docentMail, docentNaam, user_id[0], 2])
+	                    (%s, %s, %s, %s, %s)""", [docentId, docentNaam, docentMail, 'geheim', 2])
 						cnx.commit()
 
 						i += 1
@@ -102,43 +85,24 @@ def importStudenten(cnx, cursor, klas):
 						studNum = row[0]
 						if row[2] != '':
 								studNaam = row[3] + ' ' + row[2] + ' ' + row[1]
-								studMail = row[3] + row[2] + row[1] + '@student.hu.nl'
-								studUsrName = row[1] + row[2] + row[3]
+								studMail = row[3] +'.'+ row[2] +'.'+ row[1] + '@student.hu.nl'
+
 						else:
 								studNaam = row[3] + ' ' + row[1]
-								studMail = row[3] + row[1] + '@student.hu.nl'
-								studUsrName = row[1] + row[3]
+								studMail = row[3] +'.'+ row[1] + '@student.hu.nl'
 
-								studMail = studMail.lower()
-								studMail = studMail.replace(" ", "")
-								studUsrName = studUsrName.replace(" ", "")
 
-								# create user record
-								cursor.execute("""
-                                          INSERT INTO
-                                              user
-                                          (username, password)
-                                          VALUES
-                                              (%s, %s)""", (studUsrName, "geheim"))
-								cnx.commit()
+						studMail = studMail.lower()
+						studMail = studMail.replace(" ", "")
 
-								# fetch id from the just created user record
-								query = ("""SELECT `id` FROM `user`
-                                 WHERE username = %s""")
-								cursor.execute(query, (studUsrName,))
-
-								cnx.commit()
-
-								user_id = cursor.fetchone()
-
-								# add the corresponding person record and link the FK (user_id)
-								cursor.execute("""
-               INSERT INTO
-                    persoon
-                (id, email, naam, user_FK, rol_FK, klas_FK)
-                VALUES
-                    (%s, %s, %s, %s, %s, %s)""", [studNum, studMail, studNaam, user_id[0], 1, klas])
-								cnx.commit()
+						# add the corresponding person record and link the FK (user_id)
+						cursor.execute("""
+					 INSERT INTO
+								persoon
+						(`id`, `naam`, `email`, `wachtwoord`, `rol_FK`, `klas_FK`)
+						VALUES
+								(%s, %s, %s, %s, %s, %s)""", [studNum, studNaam, studMail, 'geheim', 1, klas])
+						cnx.commit()
 
 
 def importRooster(cnx, cursor):

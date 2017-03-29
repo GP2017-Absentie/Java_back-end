@@ -7,19 +7,19 @@ try:
 except:
 		print("ERROR: failed to connect to the database,'\nplease check db_config.py")
 
-try:
-		import_functions.foreignKeyToggle(cnx, cursor, 0)
-		import_functions.importRollen(cnx, cursor)
-		klassenLijst = import_functions.importKlassen(cnx,cursor)
-		import_functions.importDocenten(cnx, cursor)
-		import_functions.importRooster(cnx, cursor)
+# try:
+import_functions.foreignKeyToggle(cnx, cursor, 0)
+import_functions.importRollen(cnx, cursor)
+klassenLijst = import_functions.importKlassen(cnx,cursor)
+import_functions.importDocenten(cnx, cursor)
+import_functions.importRooster(cnx, cursor)
 
-		for klas in klassenLijst:
-				import_functions.importStudenten(cnx, cursor, klas)
+for klas in klassenLijst:
+		import_functions.importStudenten(cnx, cursor, klas)
 
-		import_functions.foreignKeyToggle(cnx, cursor, 1)
+import_functions.foreignKeyToggle(cnx, cursor, 1)
 
-		print("Import succesfull")
+print("Import succesfull")
 
-except:
-		print("ERROR: something went wrong")
+# except:
+# 		print("ERROR: something went wrong")
