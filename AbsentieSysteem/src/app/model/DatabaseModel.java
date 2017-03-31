@@ -1,8 +1,8 @@
-package app.controller;
+package app.model;
 
 import java.sql.*;
 
-public final class DatabaseController {
+public final class DatabaseModel {
     private static Connection myConn;
     private static Statement myStatement;
     private static ResultSet myResultSet;

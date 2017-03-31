@@ -63,7 +63,7 @@ public class Persoon {
      * @return boolean
      */
     public boolean checkPswd(String pswd){
-        if (this.pswd == pswd){
+        if (this.pswd.equals(pswd)){
             return true;
         } return false;
     }
