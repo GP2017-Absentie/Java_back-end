@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Object that represents a teacher. Inherited from Persoon class.
  */
 public class Docent extends Persoon {
-    private int medewerkersNummer;
+
 
     public Docent() {
 

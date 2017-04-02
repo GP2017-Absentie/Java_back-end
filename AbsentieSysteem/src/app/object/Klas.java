@@ -19,9 +19,7 @@ public class Klas extends CoreObject {
 
     }
 
-    public ArrayList<Student> loadStudenten(){
 
-    }
 
 
     public String getCode() {
@@ -33,6 +31,6 @@ public class Klas extends CoreObject {
      * @return lessen
      */
     public ArrayList<Les> getLessen(){
-        return this.lessen;
+        return this._lessen;
     }
 }
