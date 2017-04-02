@@ -1,8 +1,9 @@
 
-Ksquid:S1068"/Remove this unused "toelichting" private field.(½áıÔ8Ø²ò†²+
-Hsquid:S1068"'Remove this unused "les" private field.(¸ğüÿÿÿÿ8¼õè†²+
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÒôÔ8Õ…ê†²+
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÒôÔ8ÇÈï†²+
 Lsquid:S1068"+Remove this unused "persoon" private field.(¸òªËıÿÿÿÿ8 Êç†²+
-Rsquid:S1068"1Remove this unused "redenAbsentie" private field.(„³ä®ıÿÿÿÿ8ğñ‰‡²+
 wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÒôÔ8òªğ†²+
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µº¦èüÿÿÿÿ8ø´íÛ²+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÒôÔ8ÇÈï†²+
+Hsquid:S1068"'Remove this unused "les" private field.(¸ğüÿÿÿÿ8¼õè†²+
+Ksquid:S1068"/Remove this unused "toelichting" private field.(½áıÔ8Ø²ò†²+
+Rsquid:S1068"1Remove this unused "redenAbsentie" private field.(„³ä®ıÿÿÿÿ8ğñ‰‡²+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÒôÔ8Õ…ê†²+

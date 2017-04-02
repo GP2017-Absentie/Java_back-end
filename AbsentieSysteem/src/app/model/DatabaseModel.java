@@ -3,7 +3,7 @@ package app.model;
 import java.sql.*;
 
 public final class DatabaseModel {
-    private static Connection myConn;
+    public static Connection myConn;
     private static Statement myStatement;
     private static ResultSet myResultSet;
 
@@ -12,7 +12,6 @@ public final class DatabaseModel {
         // ...
         try {
             myConn = DriverManager.getConnection("jdbc:mysql://localhost:8889/AbsentieSys", "root", "root");
-            myStatement = myConn.createStatement();
 
         } catch (SQLException ex) {
             // handle any errors
@@ -22,9 +21,7 @@ public final class DatabaseModel {
         }
     }
 
-    public static Statement getStatement(){
-        return myStatement;
-    }
+
 
     public static void close(){
         try {

@@ -1,3 +1,4 @@
 
 Isquid:S1068"(Remove this unused "klas" private field.(Éû»êøÿÿÿÿ8¶à•ş±+
-Rsquid:S1068"1Remove this unused "studentNummer" private field.(§ÅŞıüÿÿÿÿ8èæ’ş±+
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(èêñŞùÿÿÿÿ8òÈîÛ²+
+Fsquid:S2160"*Override this superclass' "equals" method.(û  æ8­æòÛ²+

@@ -1,0 +1,21 @@
+
+Asquid:S1166"%Either log or rethrow this exception.(¯áè8óÉ”Ò²+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óÉ”Ò²+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8¡ì®¤²+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ÷××8¼ÏñØ²+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8¡ì®¤²+
+asquid:UselessImportCheck"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8ŸÕØ²+
+hsquid:UselessImportCheck":Remove this unused import 'java.lang.reflect.Constructor'.(¿ã–şúÿÿÿÿ8Ÿ¨˜Ù²+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óÉ”Ò²+
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯©œ“ıÿÿÿÿ8‡Å¢Ù²+
+Asquid:S1166"%Either log or rethrow this exception.(Å¡ß8óÉ”Ò²+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8¡ì®¤²+
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8´²ºÙ²+
+vsquid:UselessImportCheck"HRemove this unused import 'java.lang.reflect.InvocationTargetException'.(è¾†„øÿÿÿÿ8‡üªÙ²+
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Îº¸Ù²+
+`squid:S2147"DCombine this catch with the one at line 47, which has the same body.(¯áè8óÉ”Ò²+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8¡ì®¤²+
+squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Í†ßúÿÿÿÿ8·İ¹Ù²+

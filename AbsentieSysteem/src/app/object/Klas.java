@@ -5,20 +5,27 @@ import java.util.ArrayList;
 /**
  * Object that represents a grade of students.
  */
-public class Klas {
+public class Klas extends CoreObject {
     private String code;
-    private ArrayList<Student> studenten;
-    private ArrayList<Les> lessen;
+    private ArrayList<Student> _studenten;
+    private ArrayList<Les> _lessen;
 
     /**
      * @param code grade code
      * @param studenten ArrayList of students
      * @param lessen ArrayList of lessons
      */
-    public Klas(String code, ArrayList<Student> studenten, ArrayList<Les> lessen) {
-        this.code = code;
-        this.studenten = studenten;
-        this.lessen = lessen;
+    public Klas() {
+
+    }
+
+    public ArrayList<Student> loadStudenten(){
+
+    }
+
+
+    public String getCode() {
+        return code;
     }
 
     /**

@@ -1,4 +1,12 @@
 
+msquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ÙØ¤Şıÿÿÿÿ8ûêßˆ²+
+csquid:UselessImportCheck":Remove this unused import 'javax.swing.plaf.nimbus.State'.(ğÒ´Ò8Õ‚¤¥²+
+Wsquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8Û»ª¥²+
+[squid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Û»ª¥²+
+]squid:UselessImportCheck"/Remove this unused import 'app.model.LesModel'.(ÍƒŞàûÿÿÿÿ8‘Ûäù²+
+Asquid:S1166"%Either log or rethrow this exception.(”ı¾8Õ‹ÈÛ²+
+Zsquid:UselessImportCheck",Remove this unused import 'app.object.Klas'.(“¾À×ıÿÿÿÿ8‚¹¥²+
 [squid:S1118":Add a private constructor to hide the implicit public one.(é¹‹İüÿÿÿÿ8ãèŞˆ²+
 osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é¹‹İüÿÿÿÿ8ûêßˆ²+
-hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘8ûêßˆ²+
+Xsquid:UselessImportCheck"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8Û»ª¥²+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Õ‹ÈÛ²+

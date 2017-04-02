@@ -8,16 +8,7 @@ import java.util.ArrayList;
 public class Docent extends Persoon {
     private int medewerkersNummer;
 
+    public Docent() {
 
-    /**
-     * @param naam name of teacher
-     * @param email email of teacher
-     * @param pswrd password of teacher
-     * @param medewerkersNummer employee number
-     * @param lessen array of lesson objects corresponding to the teacher
-     */
-    public Docent(String naam, String email, String pswrd, int medewerkersNummer, ArrayList<Les> lessen) {
-        super(naam, email, pswrd, lessen);
-        this.medewerkersNummer = medewerkersNummer;
     }
 }

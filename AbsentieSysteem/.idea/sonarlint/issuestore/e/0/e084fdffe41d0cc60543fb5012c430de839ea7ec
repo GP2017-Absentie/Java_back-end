@@ -1,6 +1,9 @@
 
-squid:S1319"tThe type of the "studenten" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåşø8¯Üå†²+
+wsquid:S00116"URename this field "_studenten" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•×ÿûÿÿÿÿ8˜Ç¤ƒ³+
+osquid:S00116"RRename this field "_lessen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¸ˆ÷8âÛ¤ƒ³+
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôš«åşÿÿÿÿ8ñ §ƒ³+
+Gsquid:S1068"+Remove this unused "_lessen" private field.(Ë¸ˆ÷8âÛ¤ƒ³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ôš«åşÿÿÿÿ8ñ §ƒ³+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªó–¶8ÅëÛ²+
 ‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹şüÿÿÿÿ8Ÿ‹Èƒ²+
-squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåşø8¯Üå†²+
-Nsquid:S1068"-Remove this unused "studenten" private field.(³Š¿–øÿÿÿÿ8„‚šş±+
-Dsquid:S1068"(Remove this unused "code" private field.(²âèú8ŞÜş±+
+Osquid:S1068".Remove this unused "_studenten" private field.(ã•×ÿûÿÿÿÿ8˜Ç¤ƒ³+

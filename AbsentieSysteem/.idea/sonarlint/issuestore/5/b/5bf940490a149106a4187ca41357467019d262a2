@@ -1,19 +1,0 @@
-
-Ysquid:S1854"8Remove this useless assignment to local variable "conn".(þöì¦ùÿÿÿÿ8‡ïÛŠ²+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8‡ïÛŠ²+
-Asquid:S1166"%Either log or rethrow this exception.(û¹§Ï8¿ÆåŠ²+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ8¿ÆåŠ²+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ8‡ïÛŠ²+
-Jsquid:S1481")Remove this unused "conn" local variable.(þöì¦ùÿÿÿÿ8‡ïÛŠ²+
-[squid:S1118":Add a private constructor to hide the implicit public one.(ÂÞÊÞûÿÿÿÿ8ð¿’‹²+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8¿ÆåŠ²+
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8‡ïÛŠ²+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ8¿ÆåŠ²+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ8‡ïÛŠ²+
-Ksquid:S1068"/Remove this unused "myResultSet" private field.(Þ—Þ±8ªêÁ‹²+

@@ -1,16 +1,19 @@
 package app.object;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * Object to represent a person
  */
-public class Persoon {
-    private String naam;
-    private String email;
-    private String pswd;
-    private ArrayList<Absentie> absenties;
-    private ArrayList<Les> lessen;
+public class Persoon extends CoreObject {
+    public String naam;
+    public String email;
+    public String wachtwoord;
+    public String  rol;
+    public ArrayList<Absentie> absenties;
+    public ArrayList<Les> lessen;
 
     /**
      * @param naam persons name
@@ -18,11 +21,14 @@ public class Persoon {
      * @param pswd persons password
      * @param lessen ArrayList of persons lessons
      */
-    public Persoon(String naam, String email, String pswd, ArrayList<Les> lessen) {
-        this.naam = naam;
-        this.email = email;
-        this.pswd = pswd;
-        this.lessen = lessen;
+
+    public Persoon() {
+    }
+
+
+    @Override
+    public void deserialize(HashMap map) {
+        super.deserialize(map);
     }
 
     /**
@@ -57,13 +63,16 @@ public class Persoon {
         return lessen;
     }
 
+    public void setLessen(ArrayList<Les> lessen) {
+        this.lessen = lessen;}
+
     /**
      * Checks password of the user
      * @param pswd
      * @return boolean
      */
-    public boolean checkPswd(String pswd){
-        if (this.pswd.equals(pswd)){
+    public boolean checkPassword(String pswd){
+        if (this.wachtwoord.equals(pswd)){
             return true;
         } return false;
     }
@@ -80,7 +89,7 @@ public class Persoon {
      * deletes and absence object from the ArrayList
      * @param absentie
      */
-    public void delAbsentie(Absentie absentie){
+    public void removeAbsentie(Absentie absentie){
         this.absenties.remove(absentie);
     }
 
@@ -99,5 +108,16 @@ public class Persoon {
             }
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\nPersoon{" +
+                "naam='" + naam + '\'' +
+                ", email='" + email + '\'' +
+                ", pswd='" + wachtwoord + '\'' +
+                ", absenties=" + absenties +
+                ", lessen=" + lessen +
+                '}';
     }
 }
