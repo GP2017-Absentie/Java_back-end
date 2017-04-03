@@ -6,12 +6,12 @@ package app.object;
 public class Absentie {
     private Persoon persoon;
     private Les les;
-    public enum Redenen{
-        ziek, afwezig, zorgafspraak
-    }
+    //public enum Redenen{
+    //    ziek, afwezig, zorgafspraak
+    //}
 
-    private Redenen redenAbsentie;
-   // private String redenAbsentie;
+    //private Redenen redenAbsentie;
+    private String redenAbsentie;
     private String toelichting;
 
     /**
@@ -20,7 +20,7 @@ public class Absentie {
      * @param redenAbsentie the reason of absence
      * @param toelichting a more detailed description
      */
-    public Absentie(Persoon persoon, Les les,Redenen redenAbsentie, String toelichting) {
+    public Absentie(Persoon persoon, Les les,String redenAbsentie, String toelichting) {
         this.persoon = persoon;
         this.les = les;
         this.redenAbsentie = redenAbsentie;
