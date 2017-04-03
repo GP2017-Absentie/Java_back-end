@@ -1,5 +1,6 @@
 package app.object;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -12,8 +13,8 @@ public class Les {
     private String gebouw;
     private String lokaal;
 
-    private Date starttijd;
-    private Date eindtijd;
+    private Time starttijd;
+    private Time eindtijd;
 
     private Klas klas;
     private Docent docent;
@@ -30,7 +31,7 @@ public class Les {
      * @param docent teacher
      * @param absenties ArrayList of absence objects
      */
-    public Les(String vakNaam, String vakCode, String gebouw, String lokaal, Date starttijd, Date eindtijd, Klas klas,
+    public Les(String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, Klas klas,
                Docent docent, ArrayList<Absentie> absenties)
     {
         this.vakNaam = vakNaam;
