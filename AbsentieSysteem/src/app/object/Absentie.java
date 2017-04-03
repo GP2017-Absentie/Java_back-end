@@ -7,7 +7,8 @@ public class Absentie {
     private Persoon persoon;
     private Les les;
     private enum Redenen{
-        ziek, afwezig, zorgafspraak
+        Dokter, Tandarts, Religieuze_feestdag,
+        Huwelijk, Begrafenis, Overige 
     }
 
     private Redenen redenAbsentie;
