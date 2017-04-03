@@ -6,12 +6,12 @@ package app.object;
 public class Absentie {
     private Persoon persoon;
     private Les les;
-    private enum Redenen{
-        Dokter, Tandarts, Religieuze_feestdag,
-        Huwelijk, Begrafenis, Overige 
+    public enum Redenen{
+        ziek, afwezig, zorgafspraak
     }
 
     private Redenen redenAbsentie;
+   // private String redenAbsentie;
     private String toelichting;
 
     /**

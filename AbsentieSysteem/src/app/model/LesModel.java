@@ -2,13 +2,13 @@ package app.model;
 
 
 import app.model.DatabaseModel;
+import app.object.Docent;
 import app.object.Les;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Time;
-
 
 public final class LesModel {
 	
@@ -21,10 +21,13 @@ public final class LesModel {
             
             int les_id = res.getInt("id");
             int vak_FK = res.getInt("vak_FK");
+            String klas = res.getString("klas_FK");
             int lokaal_FK = res.getInt("lokaal_FK");
             int docent_FK = res.getInt("docent_FK");
             Time starttijd = res.getTime("starttijd"); // 10:00:00
             Time eindtijd = res.getTime("eindtijd"); // 12:30:00
+            
+            
             System.out.println(starttijd);
             System.out.println(eindtijd);
             
@@ -43,17 +46,15 @@ public final class LesModel {
             String gebouw = res.getString("gebouw");
             String lokaal_nummer = res.getString("nummer");
                         
-            //Klas klas = KlasModel.getById(vak_FK); KLASMODEL
-            //Docent docent = DocentModel.getById(docent_FK); DOCENTMODEL
+            Docent docent = DocentModel.getById(docent_FK);
             //ArrayList<Absentie> absenties  = AbsentieModel.getById(les_id); ABSENTIEMODEL
             
-            //Les l = new Les(vakNaam,vakCode,gebouw,lokaal,starttijd,eindtijd, klas, docent, absenties);
-            
-            
+            Les l = new Les(vakNaam,vakCode,gebouw,lokaal_nummer,starttijd,eindtijd, klas, docent);
+                        
             res.close();
             stat.close();
             
-            return null;
+            return l;
 
         } catch (SQLException ex) {
             // handle any errors

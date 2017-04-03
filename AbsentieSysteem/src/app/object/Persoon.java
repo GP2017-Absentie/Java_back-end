@@ -18,11 +18,13 @@ public class Persoon {
      * @param pswd persons password
      * @param lessen ArrayList of persons lessons
      */
-    public Persoon(String naam, String email, String pswd, ArrayList<Les> lessen) {
+    public Persoon(String naam, String email, String pswd) {   //, ArrayList<Les> lessen) {
         this.naam = naam;
         this.email = email;
         this.pswd = pswd;
-        this.lessen = lessen;
+        this.absenties = new ArrayList<Absentie>();
+        this.lessen = new ArrayList<Les>();
+        //this.lessen = lessen;
     }
 
     /**
@@ -53,9 +55,9 @@ public class Persoon {
      * Get's persons lessons
      * @return lessons
      */
-    public ArrayList<Les> getLessen() {
-        return lessen;
-    }
+    //public ArrayList<Les> getLessen() {
+    //    return lessen;
+    //}
 
     /**
      * Checks password of the user

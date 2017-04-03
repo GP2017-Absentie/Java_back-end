@@ -1,6 +1,7 @@
 package app.model;
 
 import app.model.DatabaseModel;
+import app.object.Docent;
 import app.object.Persoon;
 
 import java.sql.ResultSet;
@@ -12,15 +13,16 @@ public final class PersoonModel {
     public static Persoon getById(int id) {
         try {
             Statement stat = DatabaseModel.getStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `persoon`");
-
-            while (res.next()){
-                System.out.println(res.getString("naam"));
-            }
-
-
-            stat.close();
+            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);           
+            res.next();
+            System.out.println("DEBUG: PERSOON ID = " + res.getInt("id"));
+            
+            Persoon p = new Persoon(res.getString("naam"), res.getString("email"), res.getString("wachtwoord"));
+             
             res.close();
+            stat.close();
+            
+            return p;
 
         } catch (SQLException ex) {
             // handle any errors
@@ -30,4 +32,5 @@ public final class PersoonModel {
         }
         return null;
     }
+
 }

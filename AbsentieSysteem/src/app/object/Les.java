@@ -16,7 +16,7 @@ public class Les {
     private Time starttijd;
     private Time eindtijd;
 
-    private Klas klas;
+    private String klas;
     private Docent docent;
     private ArrayList<Absentie> absenties;
 
@@ -31,8 +31,8 @@ public class Les {
      * @param docent teacher
      * @param absenties ArrayList of absence objects
      */
-    public Les(String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, Klas klas,
-               Docent docent, ArrayList<Absentie> absenties)
+    public Les(String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, String klas,
+               Docent docent)
     {
         this.vakNaam = vakNaam;
         this.vakCode = vakCode;
@@ -42,6 +42,10 @@ public class Les {
         this.eindtijd = eindtijd;
         this.klas = klas;
         this.docent = docent;
-        this.absenties = absenties;
+        this.absenties = new ArrayList<Absentie>();
+    }
+    
+    public void voegAbsentieToe(Absentie abs) {
+    	this.absenties.add(abs);
     }
 }
