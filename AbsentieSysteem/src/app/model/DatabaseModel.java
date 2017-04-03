@@ -11,7 +11,7 @@ public final class DatabaseModel {
         Connection conn = null;
         // ...
         try {
-            myConn = DriverManager.getConnection("jdbc:mysql://localhost:8889/AbsentieSys", "root", "root");
+            myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/absentiesys", "root", "");
             myStatement = myConn.createStatement();
 
         } catch (SQLException ex) {
