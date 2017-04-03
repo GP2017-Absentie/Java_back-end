@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import app.object.Absentie;
-import app.object.Absentie.Redenen;
 import app.object.Les;
 import app.object.Persoon;
 
@@ -21,11 +20,9 @@ public final class AbsentieModel {
             Persoon persoon = PersoonModel.getById(res.getInt("persoon_FK"));
             Les les = LesModel.getById(res.getInt("les_FK"));
             String rede = res.getString("reden");
-            //Redenen reden = Redenen.valueOf(Redenen, rede); Convert rede to Enum Redenen
-            Redenen reden = Redenen.ziek;
             String toelichting = res.getString("toelichting");
             
-            Absentie a = new Absentie(persoon ,les , reden ,toelichting);
+            Absentie a = new Absentie(persoon ,les , rede ,toelichting);
             
             res.close();
             stat.close();
