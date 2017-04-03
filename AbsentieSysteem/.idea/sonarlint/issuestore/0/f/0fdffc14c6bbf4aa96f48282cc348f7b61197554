@@ -1,5 +1,14 @@
 
-Wsquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8†ËÔØ²+
-[squid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8†ËÔØ²+
-Xsquid:UselessImportCheck"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8†ËÔØ²+
-bsquid:UselessImportCheck"4Remove this unused import 'app.model.DatabaseModel'.(úæÒàÿÿÿÿÿ8†ËÔØ²+
+8squid:S2095"Close this "ResultSet".(¹ÚÌíşÿÿÿÿ8ãŒ‹„³+
+8squid:S2095"Close this "Statement".(”ÁëÑøÿÿÿÿ8ãŒ‹„³+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Îüÿ…8ãŒ‹„³+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ãŒ‹„³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ãŒ‹„³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ãŒ‹„³+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ôÇ©•8ãŒ‹„³+
+Jsquid:S1172")Remove this unused method parameter "id".(Ìëòúÿÿÿÿ8ãŒ‹„³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ãŒ‹„³+

@@ -3,7 +3,9 @@ package app;
 import app.model.DatabaseModel;
 import app.model.LesModel;
 import app.model.PersoonModel;
+import app.model.StudentModel;
 import app.object.Klas;
+import app.object.Les;
 
 import javax.swing.plaf.nimbus.State;
 import java.sql.ResultSet;
@@ -15,9 +17,9 @@ class main
     public static void main(String [] args) throws Exception {
         DatabaseModel.open();
 
-        PersoonModel permod = new PersoonModel();
+        LesModel studMod = new LesModel();
         try {
-            permod.getById(3);
+            studMod.getLessenByKlas("V1D");
         } catch (Exception e) {
             e.printStackTrace();
         }

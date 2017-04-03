@@ -2,6 +2,7 @@ package app.object;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 /**
  * Object that represents a lesson.
@@ -22,6 +23,12 @@ public class Les extends CoreObject {
 
     public Les()
     {
+
+    }
+
+    @Override
+    public void deserialize(HashMap map) {
+        super.deserialize(map);
 
     }
 }

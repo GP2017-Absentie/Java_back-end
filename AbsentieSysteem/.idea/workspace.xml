@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/app/object/CoreObject.java" line="36" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/app/object/CoreObject.java" line="30" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21d06344-e5e5-4c87-a93a-e003057d23db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/model/KlasModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/model/StudentModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fdffc14c6bbf4aa96f48282cc348f7b61197554" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fdffc14c6bbf4aa96f48282cc348f7b61197554" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/2497449ee84e030cbb2b65f90983e6102969722b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/2497449ee84e030cbb2b65f90983e6102969722b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7160a74ea7e1f95651a5fef7065407e2682bdc" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7160a74ea7e1f95651a5fef7065407e2682bdc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559a198813f475db8ff2d7ca1db66c39d5bfdf2c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559a198813f475db8ff2d7ca1db66c39d5bfdf2c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/628afb87c6d2cd775186f36cba736a16ca4d3782" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/628afb87c6d2cd775186f36cba736a16ca4d3782" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67a0d5c4073699f97cb764177669c54c25fb879b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67a0d5c4073699f97cb764177669c54c25fb879b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a43de7a2beb443eee0eea840aaa15f24027561d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a43de7a2beb443eee0eea840aaa15f24027561d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60b243b4941d13eacfcd66d93b674f7d8e2d9b0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60b243b4941d13eacfcd66d93b674f7d8e2d9b0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dceba51af22c86ebb4357a2a20ca3838969fe2a4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dceba51af22c86ebb4357a2a20ca3838969fe2a4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e084fdffe41d0cc60543fb5012c430de839ea7ec" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e084fdffe41d0cc60543fb5012c430de839ea7ec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/main.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/model/PersoonModel.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/model/PersoonModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/CoreObject.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/CoreObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Docent.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Docent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Persoon.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Persoon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Student.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main.java" afterPath="$PROJECT_DIR$/src/app/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/CoreModel.java" afterPath="$PROJECT_DIR$/src/app/model/CoreModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/LesModel.java" afterPath="$PROJECT_DIR$/src/app/model/LesModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/PersoonModel.java" afterPath="$PROJECT_DIR$/src/app/model/PersoonModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/CoreObject.java" afterPath="$PROJECT_DIR$/src/app/object/CoreObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Docent.java" afterPath="$PROJECT_DIR$/src/app/object/Docent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Klas.java" afterPath="$PROJECT_DIR$/src/app/object/Klas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Les.java" afterPath="$PROJECT_DIR$/src/app/object/Les.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Persoon.java" afterPath="$PROJECT_DIR$/src/app/object/Persoon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Student.java" afterPath="$PROJECT_DIR$/src/app/object/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +41,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AbsentieSysteem$main.coverage" NAME="main Coverage Results" MODIFIED="1491216987061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,8 +68,22 @@
         <entry file="file://$PROJECT_DIR$/src/app/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LesModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/model/LesModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <marker date="1491218565000" expanded="true" signature="505:546" ph="SELECT * FRO... missingValue" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,17 +91,7 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/object/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/object/CoreObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="255">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,83 +100,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersoonModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/model/PersoonModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#238#239#0" expanded="false" />
-                <element signature="e#274#275#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Persoon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/object/Persoon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="docComment;class#Persoon#0" expanded="false" />
-                <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
-                <element signature="e#616#617#0" expanded="false" />
-                <element signature="e#654#655#0" expanded="false" />
-                <element signature="docComment;method#getNaam#0;class#Persoon#0" expanded="false" />
-                <element signature="e#747#748#0" expanded="false" />
-                <element signature="e#774#775#0" expanded="false" />
-                <element signature="e#870#871#0" expanded="false" />
-                <element signature="e#898#899#0" expanded="false" />
-                <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
-                <element signature="e#1038#1039#0" expanded="false" />
-                <element signature="e#1070#1071#0" expanded="false" />
-                <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
-                <element signature="e#1179#1180#0" expanded="false" />
-                <element signature="e#1208#1209#0" expanded="false" />
-                <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
-                <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
-                <element signature="e#1665#1666#0" expanded="false" />
-                <element signature="e#1709#1710#0" expanded="false" />
-                <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
-                <element signature="e#1853#1854#0" expanded="false" />
-                <element signature="e#1900#1901#0" expanded="false" />
-                <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Klas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/object/Klas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Docent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/object/Docent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Les.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/object/Les.java">
+      <file leaf-file-name="CoreModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/model/CoreModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="235">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1491217526000" expanded="true" signature="793:838" ph="SELECT * FRO... missingValue" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersoonModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/model/PersoonModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/model/StudentModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Les.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/object/Les.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KlasModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/model/KlasModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <marker date="1491217289000" expanded="true" signature="492:515" ph="SELECT * FRO... " />
+                <marker date="1491217289000" expanded="true" signature="492:540" ph="SELECT * FRO... missingValue" />
               </folding>
             </state>
           </provider>
@@ -193,17 +226,19 @@
         <option value="$PROJECT_DIR$/src/app/model/PersoonController.java" />
         <option value="$PROJECT_DIR$/src/app/model/Test.java" />
         <option value="$PROJECT_DIR$/src/app/model/DatabaseModel.java" />
-        <option value="$PROJECT_DIR$/src/app/model/PersoonModel.java" />
         <option value="$PROJECT_DIR$/src/app/object/Absentie.java" />
-        <option value="$PROJECT_DIR$/src/app/model/CoreModel.java" />
-        <option value="$PROJECT_DIR$/src/app/model/LesModel.java" />
-        <option value="$PROJECT_DIR$/src/app/object/Les.java" />
-        <option value="$PROJECT_DIR$/src/app/main.java" />
-        <option value="$PROJECT_DIR$/src/app/object/Persoon.java" />
-        <option value="$PROJECT_DIR$/src/app/object/Student.java" />
-        <option value="$PROJECT_DIR$/src/app/object/CoreObject.java" />
         <option value="$PROJECT_DIR$/src/app/object/Klas.java" />
         <option value="$PROJECT_DIR$/src/app/object/Docent.java" />
+        <option value="$PROJECT_DIR$/src/app/object/CoreObject.java" />
+        <option value="$PROJECT_DIR$/src/app/model/PersoonModel.java" />
+        <option value="$PROJECT_DIR$/src/app/object/Persoon.java" />
+        <option value="$PROJECT_DIR$/src/app/model/StudentModel.java" />
+        <option value="$PROJECT_DIR$/src/app/model/KlasModel.java" />
+        <option value="$PROJECT_DIR$/src/app/model/CoreModel.java" />
+        <option value="$PROJECT_DIR$/src/app/object/Student.java" />
+        <option value="$PROJECT_DIR$/src/app/main.java" />
+        <option value="$PROJECT_DIR$/src/app/object/Les.java" />
+        <option value="$PROJECT_DIR$/src/app/model/LesModel.java" />
       </list>
     </option>
   </component>
@@ -233,9 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,6 +377,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -783,11 +818,12 @@
       <workItem from="1490917672586" duration="703000" />
       <workItem from="1490952952445" duration="37560000" />
       <workItem from="1491166452875" duration="744000" />
+      <workItem from="1491211321807" duration="5908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51615000" />
+    <option name="totallyTimeSpent" value="57523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,16 +849,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33411488" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6107855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2672919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17569445" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194445" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -843,7 +880,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -852,6 +889,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/CoreObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/PersoonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Persoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Klas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Docent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Les.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -864,7 +987,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,8 +1008,8 @@
         <state relative-caret-position="150">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -896,26 +1021,13 @@
           <folding>
             <element signature="docComment;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="docComment;method#getNaam#0;class#Persoon#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
             <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
             <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
             <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1665#1666#0" expanded="false" />
-            <element signature="e#1709#1710#0" expanded="false" />
             <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
             <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
           </folding>
         </state>
@@ -925,10 +1037,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -952,8 +1061,8 @@
         <state relative-caret-position="165">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,26 +1074,13 @@
           <folding>
             <element signature="docComment;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="docComment;method#getNaam#0;class#Persoon#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
             <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
             <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
             <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1665#1666#0" expanded="false" />
-            <element signature="e#1709#1710#0" expanded="false" />
             <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
             <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
           </folding>
         </state>
@@ -1001,10 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="83" lean-forward="false" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,8 +1121,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,26 +1134,13 @@
           <folding>
             <element signature="docComment;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="docComment;method#getNaam#0;class#Persoon#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
             <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
             <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
             <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
             <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1665#1666#0" expanded="false" />
-            <element signature="e#1709#1710#0" expanded="false" />
             <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
             <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
           </folding>
         </state>
@@ -1077,10 +1157,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="83" lean-forward="false" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,91 +1205,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/model/LesModel.java">
+    <entry file="file://$PROJECT_DIR$/src/app/object/Klas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/model/CoreModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <marker date="1491083524000" expanded="true" signature="696:711" ph="SELECT * FRO... " />
-            <marker date="1491083524000" expanded="true" signature="696:738" ph="SELECT * FRO... persoon" />
-            <marker date="1491083524000" expanded="true" signature="696:741" ph="SELECT * FRO... missingValue" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/model/PersoonModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/object/Persoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#Persoon#0" expanded="false" />
-            <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="docComment;method#getNaam#0;class#Persoon#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#870#871#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
-            <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1665#1666#0" expanded="false" />
-            <element signature="e#1709#1710#0" expanded="false" />
-            <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1900#1901#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/object/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/object/CoreObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1221,29 +1236,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/object/Docent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/object/Klas.java">
+    <entry file="file://$PROJECT_DIR$/src/app/object/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/object/Persoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#Persoon#0;class#Persoon#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="docComment;method#getAbsenties#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#getLessen#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#checkPassword#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#addAbsentie#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#removeAbsentie#0;class#Persoon#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Persoon#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/StudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/KlasModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <marker date="1491217289000" expanded="true" signature="492:515" ph="SELECT * FRO... " />
+            <marker date="1491217289000" expanded="true" signature="492:540" ph="SELECT * FRO... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/object/Les.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/CoreModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1491217526000" expanded="true" signature="793:838" ph="SELECT * FRO... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/LesModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <marker date="1491218565000" expanded="true" signature="505:546" ph="SELECT * FRO... missingValue" />
           </folding>
         </state>
       </provider>

@@ -25,6 +25,9 @@ class CoreModel <T extends CoreObject> {
         try {
             CoreObject x = this.classRef.newInstance();
             String typeName = this.classRef.getSimpleName();
+            if (typeName.equals("Student")){
+                typeName = "persoon";
+            }
 
             PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `"+typeName+"` WHERE `id` = (?)");
             prepStat.setInt(1,id);

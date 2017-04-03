@@ -1,17 +1,6 @@
 
-"squid:ClassVariableVisibilityCheck"UMake absenties a static final constant or non-public and provide accessors if needed.(¸¯ƒÍøÿÿÿÿ8İª¤Ş²+
-‡squid:S1319"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(»šè­8‹äèÛ²+
-‰"squid:ClassVariableVisibilityCheck"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ8İª¤Ş²+
-vsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(ôÇ¶Âûÿÿÿÿ8¹Ì—ƒ²+
-lsquid:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8ĞÀšƒ²+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹şüÿÿÿÿ8ä–ƒƒ²+
-•squid:S1319"tThe type of the "absenties" object should be an interface such as "List" rather than the implementation "ArrayList".(¸¯ƒÍøÿÿÿÿ8İª¤Ş²+
-‡"squid:ClassVariableVisibilityCheck"OMake rol a static final constant or non-public and provide accessors if needed.(‰­Úöùÿÿÿÿ8Ëç¹ü²+
-Š"squid:ClassVariableVisibilityCheck"RMake lessen a static final constant or non-public and provide accessors if needed.(©Ëµ£ùÿÿÿÿ8İª¤Ş²+
-squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹‚œİ8Â³çÛ²+
-Dsquid:S1185"(Remove this method to simply inherit it.(»šè­8‹äèÛ²+
-’squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(©Ëµ£ùÿÿÿÿ8İª¤Ş²+
-’squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(Ü‘ŸÛşÿÿÿÿ8‘Ú Ç²+
-‰"squid:ClassVariableVisibilityCheck"VMake wachtwoord a static final constant or non-public and provide accessors if needed.(ÚÖç8¼·ûû²+
-ˆ"squid:ClassVariableVisibilityCheck"PMake naam a static final constant or non-public and provide accessors if needed.(Åç¬”ÿÿÿÿÿ8İª¤Ş²+
 Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ñ€ş®8ä–ƒƒ²+
+vsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(ôÇ¶Âûÿÿÿÿ8¹Ì—ƒ²+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹şüÿÿÿÿ8ä–ƒƒ²+
+lsquid:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8ĞÀšƒ²+
+squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(ºÈóØ8Ÿ‹„³+

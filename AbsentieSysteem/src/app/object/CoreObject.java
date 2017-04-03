@@ -15,19 +15,13 @@ public class CoreObject {
 
     public void deserialize(HashMap map) {
         Class objDesc = this.getClass();
-
-
         Field objFields[] = objDesc.getFields();
-        System.out.println(objFields.length);
-
         map.forEach((k, v) -> {
             for (Field field : objFields) {
                 boolean accessible = field.isAccessible();
                 field.setAccessible(true);
                 if (field.getName().equals(k)) {
                     try {
-
-
                         Class valueClass = v.getClass();
                         Type fieldType = field.getType();
 
@@ -38,14 +32,9 @@ public class CoreObject {
                                 break;
 
                             case "java.lang.String":
-
-
                                 field.set(this, v);
                                 break;
-
                         }
-
-
                         valueClass = v.getClass();
 
                         System.out.println("SQL TYPE\t" + valueClass.getTypeName());

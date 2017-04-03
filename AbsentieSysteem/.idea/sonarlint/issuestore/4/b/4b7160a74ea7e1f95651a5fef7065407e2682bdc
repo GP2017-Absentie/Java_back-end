@@ -1,5 +1,4 @@
 
-Vsquid:S1068"5Remove this unused "medewerkersNummer" private field.(ûÌ¬Êüÿÿÿÿ8°ş±+
-squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í§Éá8ù¦ìÛ²+
-Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‘”ìÛ²+
-Fsquid:S2160"*Override this superclass' "equals" method.(ÁÊÛÎ8­æòÛ²+
+Fsquid:S2160"*Override this superclass' "equals" method.(ÁÊÛÎ8ñŠ‹„³+
+Vsquid:S1068"5Remove this unused "medewerkersNummer" private field.(ûÌ¬Êüÿÿÿÿ8ñŠ‹„³+
+’squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(™«Û¾üÿÿÿÿ8ñŠ‹„³+
