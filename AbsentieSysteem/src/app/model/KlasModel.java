@@ -11,7 +11,7 @@ public class KlasModel {
 	public static ArrayList<Student> getListStudent(String klascode) {
 		try {
             Statement stat = DatabaseModel.getStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = " + klascode);           
+            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = '" + klascode + "'");           
 //            res.next();
 //            System.out.println("DEBUG: klas = " + res.getInt("klas_FK"));
             
@@ -32,5 +32,6 @@ public class KlasModel {
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
         }
+		return null;
 	}
 }
