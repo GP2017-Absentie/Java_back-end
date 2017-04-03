@@ -4,36 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/app/object/CoreObject.java" line="30" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d06344-e5e5-4c87-a93a-e003057d23db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/model/KlasModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/model/StudentModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fdffc14c6bbf4aa96f48282cc348f7b61197554" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fdffc14c6bbf4aa96f48282cc348f7b61197554" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/2497449ee84e030cbb2b65f90983e6102969722b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/2497449ee84e030cbb2b65f90983e6102969722b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7160a74ea7e1f95651a5fef7065407e2682bdc" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7160a74ea7e1f95651a5fef7065407e2682bdc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559a198813f475db8ff2d7ca1db66c39d5bfdf2c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559a198813f475db8ff2d7ca1db66c39d5bfdf2c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/628afb87c6d2cd775186f36cba736a16ca4d3782" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/628afb87c6d2cd775186f36cba736a16ca4d3782" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67a0d5c4073699f97cb764177669c54c25fb879b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67a0d5c4073699f97cb764177669c54c25fb879b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a43de7a2beb443eee0eea840aaa15f24027561d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a43de7a2beb443eee0eea840aaa15f24027561d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60b243b4941d13eacfcd66d93b674f7d8e2d9b0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c60b243b4941d13eacfcd66d93b674f7d8e2d9b0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dceba51af22c86ebb4357a2a20ca3838969fe2a4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dceba51af22c86ebb4357a2a20ca3838969fe2a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e084fdffe41d0cc60543fb5012c430de839ea7ec" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e084fdffe41d0cc60543fb5012c430de839ea7ec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/main.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/model/PersoonModel.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/model/PersoonModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/CoreObject.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/CoreObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Docent.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Docent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Persoon.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Persoon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Student.class" afterPath="$PROJECT_DIR$/out/production/AbsentieSysteem/app/object/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main.java" afterPath="$PROJECT_DIR$/src/app/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/CoreModel.java" afterPath="$PROJECT_DIR$/src/app/model/CoreModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/LesModel.java" afterPath="$PROJECT_DIR$/src/app/model/LesModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/PersoonModel.java" afterPath="$PROJECT_DIR$/src/app/model/PersoonModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/CoreObject.java" afterPath="$PROJECT_DIR$/src/app/object/CoreObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Docent.java" afterPath="$PROJECT_DIR$/src/app/object/Docent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Les.java" afterPath="$PROJECT_DIR$/src/app/object/Les.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Persoon.java" afterPath="$PROJECT_DIR$/src/app/object/Persoon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/object/Student.java" afterPath="$PROJECT_DIR$/src/app/object/Student.java" />
-    </list>
+    <list default="true" id="21d06344-e5e5-4c87-a93a-e003057d23db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LesModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LesModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/model/LesModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -164,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KlasModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KlasModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/model/KlasModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="40">
               <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -309,72 +280,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="object" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbsentieSysteem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -387,7 +292,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -818,12 +723,12 @@
       <workItem from="1490917672586" duration="703000" />
       <workItem from="1490952952445" duration="37560000" />
       <workItem from="1491166452875" duration="744000" />
-      <workItem from="1491211321807" duration="5908000" />
+      <workItem from="1491211321807" duration="6946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57523000" />
+    <option name="totallyTimeSpent" value="58561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +741,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -859,7 +764,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194445" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194445" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1285,20 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/model/KlasModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <marker date="1491217289000" expanded="true" signature="492:515" ph="SELECT * FRO... " />
-            <marker date="1491217289000" expanded="true" signature="492:540" ph="SELECT * FRO... missingValue" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1336,6 +1227,20 @@
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
             <marker date="1491218565000" expanded="true" signature="505:546" ph="SELECT * FRO... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/KlasModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <marker date="1491217289000" expanded="true" signature="492:515" ph="SELECT * FRO... " />
+            <marker date="1491217289000" expanded="true" signature="492:540" ph="SELECT * FRO... missingValue" />
           </folding>
         </state>
       </provider>
