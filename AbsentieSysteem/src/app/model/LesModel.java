@@ -17,29 +17,22 @@ public final class LesModel {
         	Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `les` WHERE `id` = " + id);           
             res.next();
-            System.out.println("DEBUG: ID = " + res.getInt("id"));
+            System.out.println("DEBUG: LES ID = " + res.getInt("id"));
             
             int les_id = res.getInt("id");
             int vak_FK = res.getInt("vak_FK");
             String klas = res.getString("klas_FK");
             int lokaal_FK = res.getInt("lokaal_FK");
             int docent_FK = res.getInt("docent_FK");
-            Time starttijd = res.getTime("starttijd"); // 10:00:00
-            Time eindtijd = res.getTime("eindtijd"); // 12:30:00
+            Time starttijd = res.getTime("starttijd");
+            Time eindtijd = res.getTime("eindtijd");
             
-            
-            System.out.println(starttijd);
-            System.out.println(eindtijd);
-            
-
             res = stat.executeQuery("SELECT * FROM `vak` WHERE `id` = " + vak_FK);
             res.next();
             
             String vakNaam = res.getString("naam");
             String vakCode = res.getString("code");
-            
-            
-            
+        
             res = stat.executeQuery("SELECT * FROM `lokaal` WHERE `id` = " + lokaal_FK);
             res.next();
             	
