@@ -1,0 +1,31 @@
+
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡…óüûÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+Esquid:UselessImportCheck"Remove this duplicated import.(ä†¢Øıÿÿÿÿ
+asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(Ø¦£Üûÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ä–ú«
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.( Ç‹£úÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+ksquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆŸ
+
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú®İ
+?squid:S1481"+Remove this unused "les_id" local variable.(ìÆŸ
+
+Osquid:S1118":Add a private constructor to hide the implicit public one.(í¯¤á
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò ­¶øÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¨ø™ıÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(‡ğ—úÿÿÿÿ
+Nsquid:S1854":Remove this useless assignment to local variable "les_id".(ìÆŸ
+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(ÿ›ëøÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(Ø¦£Üûÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(½ÓÇ•

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="absentieAPI" />
+        <module name="AbsentieService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="absentieAPI" target="1.8" />
+      <module name="AbsentieService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

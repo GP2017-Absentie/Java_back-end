@@ -12,20 +12,36 @@ public class Klas {
 
     /**
      * @param code grade code
-     * @param studenten ArrayList of students
-     * @param lessen ArrayList of lessons
      */
-    public Klas(String code, ArrayList<Student> studenten, ArrayList<Les> lessen) {
+    public Klas(String code) {
+
         this.code = code;
-        this.studenten = studenten;
-        this.lessen = lessen;
+        this.studenten = new ArrayList<Student>();
+    }
+
+    public ArrayList<Student> getStudenten() {
+        return studenten;
     }
 
     /**
      * Returns lessons of corresponding grade object
      * @return lessen
      */
+
+
     public ArrayList<Les> getLessen(){
         return this.lessen;
     }
+
+    public void addStudent(Student s){
+        this.studenten.add(s);
+    }
+    public void addLes(Les l){
+        this.lessen.add(l);
+    }
+
+    public String getCode() {
+        return code;
+    }
 }
+

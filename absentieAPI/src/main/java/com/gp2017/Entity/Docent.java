@@ -4,9 +4,6 @@ package com.gp2017.Entity;
  * Object that represents a teacher. Inherited from Persoon class.
  */
 public class Docent extends Persoon {
-    private int medewerkersNummer;
-
-
     /**
      * @param naam name of teacher
      * @param email email of teacher
@@ -14,8 +11,9 @@ public class Docent extends Persoon {
      * @param medewerkersNummer employee number
      * @param lessen array of lesson objects corresponding to the teacher
      */
-    public Docent(String naam, String email, String pswrd, int medewerkersNummer) { //, ArrayList<Les> lessen) {
-        super(naam, email, pswrd); //, lessen);
-        this.medewerkersNummer = medewerkersNummer;
+    public Docent(int id, String naam, String email, String pswrd) { //, ArrayList<Les> lessen) {
+        super(id, naam, email, pswrd); //, lessen);
+
     }
+
 }

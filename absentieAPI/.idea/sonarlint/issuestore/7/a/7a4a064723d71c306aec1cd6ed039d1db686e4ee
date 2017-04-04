@@ -1,0 +1,5 @@
+
+…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Óõ½•
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÝÕõ·
+asquid:UselessImportCheck":Remove this unused import 'com.gp2017.Model.StudentModel'.(€èµžÿÿÿÿÿ
+Usquid:UselessImportCheck"3Remove this unused import 'com.gp2017.Entity.Klas'.(šôÂû

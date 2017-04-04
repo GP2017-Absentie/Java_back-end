@@ -1,0 +1,26 @@
+
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+|squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8²Í®Å³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÿä–Ì³+
+isquid:UselessImportCheck"@Remove this unused import 'io.swagger.annotations.ApiOperation'.(¡šÜ8¦ÔÎ³+
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Áñ¼õ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ³×¢8ÿä–Ì³+
+8squid:S2095"Close this "ResultSet".(µ¾ÄÕüÿÿÿÿ8ÿä–Ì³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é¼®Áüÿÿÿÿ8ÿä–Ì³+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿä–Ì³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿä–Ì³+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿä–Ì³+
+_squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Student'.(»ªãä8•Ï—Ì³+
+squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8²Í®Å³+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿä–Ì³+

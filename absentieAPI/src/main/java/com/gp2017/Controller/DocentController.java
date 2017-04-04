@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -20,7 +21,17 @@ public class DocentController {
     @Autowired
     private DocentService docentService;
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
+    public Collection getAll(){
+        ArrayList<Docent> docents = docentService.getAll();
+        HashMap<Integer, Docent> allDocents = new HashMap<Integer, Docent>();
+        for (Docent docent :docents){
+            allDocents.put(docent.getId(), docent);
+        }
+        return allDocents.values();
+    }
+
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id) {
 
         HashMap<Integer, Docent> docent = new HashMap<Integer, Docent>() {

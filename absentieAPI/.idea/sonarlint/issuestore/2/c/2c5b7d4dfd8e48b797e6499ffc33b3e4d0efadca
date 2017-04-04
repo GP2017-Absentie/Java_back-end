@@ -1,0 +1,5 @@
+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+_squid:UselessImportCheck"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8§¥¢Í³+
+Nsquid:S3599"9Replace this syntax with a different type initialization.(ë¨½¹

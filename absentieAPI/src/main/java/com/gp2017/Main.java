@@ -1,7 +1,6 @@
 package com.gp2017;
 
 import com.gp2017.Model.DatabaseModel;
-import com.gp2017.Model.LesModel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,5 +12,6 @@ class Main
         SpringApplication.run(Main.class, args);
 
     }
+
 
 }

@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * Object to represent a person
  */
 public class Persoon {
+    private int id;
     private String naam;
     private String email;
     private String pswd;
@@ -18,13 +19,18 @@ public class Persoon {
      * @param pswd persons password
      * @param lessen ArrayList of persons lessons
      */
-    public Persoon(String naam, String email, String pswd) {   //, ArrayList<Les> lessen) {
+    public Persoon(int id, String naam, String email, String pswd) {   //, ArrayList<Les> lessen) {
+        this.id = id;
         this.naam = naam;
         this.email = email;
         this.pswd = pswd;
         this.absenties = new ArrayList<Absentie>();
         this.lessen = new ArrayList<Les>();
         //this.lessen = lessen;
+    }
+
+    public int getId() {
+        return id;
     }
 
     /**
@@ -69,6 +75,8 @@ public class Persoon {
             return true;
         } return false;
     }
+
+
 
     /**
      * adds an absence object to the ArrayList

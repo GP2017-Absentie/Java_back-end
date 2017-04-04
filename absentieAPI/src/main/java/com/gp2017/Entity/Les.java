@@ -7,6 +7,7 @@ import java.util.ArrayList;
  * Object that represents a lesson.
  */
 public class Les {
+    private int id;
     private String vakNaam;
     private String vakCode;
     private String gebouw;
@@ -30,9 +31,10 @@ public class Les {
      * @param docent teacher
      * @param absenties ArrayList of absence objects
      */
-    public Les(String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, String klas,
+    public Les(int id, String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, String klas,
                Docent docent)
     {
+        this.id = id;
         this.vakNaam = vakNaam;
         this.vakCode = vakCode;
         this.gebouw = gebouw;
@@ -50,6 +52,10 @@ public class Les {
 
     public String getVakNaam() {
         return vakNaam;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getVakCode() {
