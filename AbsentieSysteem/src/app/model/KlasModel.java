@@ -10,7 +10,7 @@ import app.object.Student;
 public class KlasModel {
 	public static ArrayList<Student> getListStudent(String klascode) {
 		try {
-            Statement stat = DatabaseModel.getStatement();
+            Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = '" + klascode + "'");           
 //            res.next();
 //            System.out.println("DEBUG: klas = " + res.getInt("klas_FK"));
