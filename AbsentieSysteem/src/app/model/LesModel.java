@@ -2,13 +2,16 @@ package app.model;
 
 
 import app.model.DatabaseModel;
+import app.object.Absentie;
 import app.object.Docent;
 import app.object.Les;
+import app.object.Persoon;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Time;
+import java.util.ArrayList;
 
 public final class LesModel {
 	
@@ -48,6 +51,33 @@ public final class LesModel {
             stat.close();
             
             return l;
+
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+        return null;
+    }
+	
+	public static ArrayList<Absentie> getAbsentieByLesId (int id) {
+        try {
+        	ArrayList<Absentie> absenties = new ArrayList<Absentie>();
+			 
+        	Statement stat = DatabaseModel.myConn.createStatement();
+            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `les_FK` = " + id); 
+            
+            while (res.next()) {
+            	absenties.add(AbsentieModel.getById(res.getInt("id")));
+            }
+        
+            System.out.println("DEBUG: aantal absenties voor opgegevens les: " + absenties.size());
+            
+            res.close();
+            stat.close();
+            
+            return absenties;
 
         } catch (SQLException ex) {
             // handle any errors
