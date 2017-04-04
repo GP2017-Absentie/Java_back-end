@@ -14,7 +14,7 @@ public final class LesModel {
 	
 	public static Les getById(int id) { // VERVANG Les DATE door Les TIME
         try {
-            Statement stat = DatabaseModel.getStatement();
+        	Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `les` WHERE `id` = " + id);           
             res.next();
             System.out.println("DEBUG: ID = " + res.getInt("id"));

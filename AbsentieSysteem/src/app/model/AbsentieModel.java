@@ -12,7 +12,7 @@ public final class AbsentieModel {
 
 	public static Absentie getById (int id) {
         try {
-            Statement stat = DatabaseModel.getStatement();
+        	Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `id` = " + id);           
             res.next();
             System.out.println("DEBUG: ABSENTIE ID = " + res.getInt("id"));

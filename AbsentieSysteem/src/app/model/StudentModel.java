@@ -11,7 +11,7 @@ public final class StudentModel {
 
 	 public static Student getById(int id) {
 	        try {
-	            Statement stat = DatabaseModel.getStatement();
+	        	Statement stat = DatabaseModel.myConn.createStatement();
 	            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);           
 	            res.next();
 	            System.out.println("DEBUG: STUDENT ID = " + res.getInt("id"));
@@ -33,4 +33,4 @@ public final class StudentModel {
 	        return null;
 	    }
 
-	}
+}

@@ -12,8 +12,8 @@ public final class PersoonModel {
 
     public static Persoon getById(int id) {
         try {
-            Statement stat = DatabaseModel.getStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);           
+        	Statement stat = DatabaseModel.myConn.createStatement();
+        	ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);           
             res.next();
             System.out.println("DEBUG: PERSOON ID = " + res.getInt("id"));
             
