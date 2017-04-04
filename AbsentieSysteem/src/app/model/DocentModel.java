@@ -4,8 +4,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Time;
+import java.util.ArrayList;
 
 import app.object.Docent;
+import app.object.Les;
 
 public final class DocentModel {
 
@@ -33,5 +35,28 @@ public final class DocentModel {
         }
         return null;
     }
+	
+	public static ArrayList<Les> getLessenDocent(int docent_FK) {
+		try {
+			Statement stat = DatabaseModel.myConn.createStatement();
+			ResultSet res = stat.executeQuery("SELECT * FROM `les` WHERE `docent_FK` = '" + docent_FK + "'");
+			
+			ArrayList<Les> lessenDocent = new ArrayList<Les>();
+			while(res.next()) {
+				lessenDocent.add(LesModel.getById(res.getInt("id")));
+			}
+			
+			res.close();
+			stat.close();
+			
+			return lessenDocent;
+		} catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+		return null;
+	}
 
 }
