@@ -1,0 +1,117 @@
+
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¶Ñ„´
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(“šƒÖÿÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(âÂŒëüÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(àû£
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ñ„Ãî
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÍÛ¸Éûÿÿÿÿ
+csquid:S2077"N"tableName" is provided externally to the method and not sanitized before use.(¼Ü¼®
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(üÍ¸ôşÿÿÿÿ
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ğß¢²ıÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(Û¦±¾şÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(Û¦±¾şÿÿÿÿ
+dsquid:S1192"JDefine a constant instead of duplicating this literal "localhost" 4 times.(¤•²¦ùÿÿÿÿ
+csquid:S1192"NDefine a constant instead of duplicating this literal "Connected to " 4 times.(İö¨Ê
+[squid:S1192"FDefine a constant instead of duplicating this literal "TABLE" 3 times.(²©Ñ±
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıøÍ®ÿÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Éşı‡
+-squid:S2095"Close this "Connection".(ÿ¹¥ù
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(€Ä›“úÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Î…ÒÅ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(õ¿ˆ‹ÿÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ü´Œè
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÌµÎğûÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÌµÎğûÿÿÿÿ
+psquid:S1488"[Immediately return this expression instead of assigning it to the temporary variable "url".(œ¼ïÄ
+rsquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "lbConn".(ï®×j
+_squid:S1132"JMove the "USER" string literal on the left side of this string comparison.(ÿ¹¥ù
+vsquid:S1132"\Move the "gwe.sql.gweMysqlDriver" string literal on the left side of this string comparison.(è“ºşÿÿÿÿ
+`squid:S1132"KMove the "short" string literal on the left side of this string comparison.(ö³ºó
+csquid:S1132"IMove the "int" string literal on the left side of this string comparison.(»“Ø‘üÿÿÿÿ
+dsquid:S1132"JMove the "long" string literal on the left side of this string comparison.(¯ÿ³›şÿÿÿÿ
+gsquid:S1132"MMove the "boolean" string literal on the left side of this string comparison.(§‹¯ıÿÿÿÿ
+_squid:S1132"JMove the "byte" string literal on the left side of this string comparison.(¿ûŠ§
+asquid:S1132"LMove the "double" string literal on the left side of this string comparison.(Œ‹ÆÇ
+`squid:S1132"KMove the "float" string literal on the left side of this string comparison.(øšÜ·
+Gsquid:S1135"2Complete the task associated to this TODO comment.(¶¨³Ñ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(™èÎíûÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ß›´üÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÛŸÀêÿÿÿÿÿ
+Gsquid:S1135"2Complete the task associated to this TODO comment.(êş°å
+Lsquid:S1135"2Complete the task associated to this TODO comment.(î‘Ï¢ÿÿÿÿÿ
+Ysquid:S1226"DIntroduce a new variable instead of reusing the parameter "message".(ŠªœÚ
+[squid:S1226"GIntroduce a new variable instead of reusing the parameter "customHost".(ÙÏ=
+asquid:S1226"GIntroduce a new variable instead of reusing the parameter "customHost".(àİÒ¯úÿÿÿÿ
+]squid:S1226"HIntroduce a new variable instead of reusing the parameter "downedHosts".(Éşı‡
+Wsquid:S1226"BIntroduce a new variable instead of reusing the parameter "props".(Ûãøò
+]squid:S1226"CIntroduce a new variable instead of reusing the parameter "haMode".(ƒ¶åüÿÿÿÿ
+]squid:S1226"CIntroduce a new variable instead of reusing the parameter "haMode".(¸·“çûÿÿÿÿ
+Wsquid:S1226"BIntroduce a new variable instead of reusing the parameter "props".(Ûãøò
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(‚ëô¡şÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(«¤ÜÕ
+Csquid:S2140")Use "java.util.Random.nextInt()" instead.(âˆíÆşÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ä×“Çıÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ıàÑÎ
+?squid:S1166"%Either log or rethrow this exception.(•”ø¾øÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+ksquid:S00104"[This file has 887 lines, which is greater than 750 authorized. Split it into smaller files.
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(ä×“Çıÿÿÿÿ
+Bsquid:S1604"(Make this anonymous inner class a lambda(ø°ßåûÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+Ssquid:S1854"?Remove this useless assignment to local variable "hostsString".(Ãáˆ
+vsquid:S00116"`Rename this field "DISABLED_testBug15121" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨³Ñ
+zsquid:S00116"_Rename this field "DISABLED_testBug7033" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™èÎíûÿÿÿÿ
+zsquid:S00116"_Rename this field "DISABLED_testBug2654" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß›´üÿÿÿÿ
+zsquid:S00116"_Rename this field "DISABLED_testBug5136" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛŸÀêÿÿÿÿÿ
+vsquid:S00116"`Rename this field "DISABLED_testBug65503" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êş°å
+}squid:S00116"bRename this field "DISABLED_testContention" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‘Ï¢ÿÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä×“Çıÿÿÿÿ
+dsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ŠÙÙÆüÿÿÿÿ
+_squid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(‹†Ø¨
+_squid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(„öˆâ
+dsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(£Ëñèıÿÿÿÿ
+Wsquid:S1858"="get" returns a string, there's no need to call "toString()".(—õ§Øüÿÿÿÿ
+8squid:S1148"#Use a logger to log this exception.(Ç’Çê
+8squid:S1148"#Use a logger to log this exception.(Ç’Çê
+O
+squid:S899";Do something with the "boolean" value returned by "delete".(ŒÅú
+Osquid:S1161":Add the "@Override" annotation above this method signature(¶şÏç
+9squid:S2129"Remove this "Short" constructor(ÖÌ™²øÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(ü½ü
+3squid:S2129"Remove this "Long" constructor(ŒŒ‚Î
+6squid:S2129"!Remove this "Boolean" constructor(½†ä¦
+3squid:S2129"Remove this "Byte" constructor(³Ö¤
+5squid:S2129" Remove this "Double" constructor(“Ôş¶

@@ -1,0 +1,20 @@
+
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(¹•ûøþÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼þÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ
+:squid:S1166"%Either log or rethrow this exception.(û¹§Ï
+Dsquid:S1068"/Remove this unused "myResultSet" private field.(Þ—Þ±
+Csquid:S1481")Remove this unused "conn" local variable.(þöì¦ùÿÿÿÿ
+Rsquid:S1854"8Remove this useless assignment to local variable "conn".(þöì¦ùÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ

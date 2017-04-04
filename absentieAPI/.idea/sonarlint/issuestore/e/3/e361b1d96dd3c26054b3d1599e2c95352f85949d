@@ -1,0 +1,6 @@
+
+[squid:S1118":Add a private constructor to hide the implicit public one.(é¹‹Ýüÿÿÿÿ8¡ý›¬³+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ìð‚éøÿÿÿÿ8¡ý›¬³+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’Öµÿÿÿÿÿ8¡ý›¬³+
+osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é¹‹Ýüÿÿÿÿ8¡ý›¬³+
+hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘8¡ý›¬³+

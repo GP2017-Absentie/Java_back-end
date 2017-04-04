@@ -1,6 +1,0 @@
-
-squid:S1319"tThe type of the "studenten" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåşø8¯Üå†²+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹şüÿÿÿÿ8Ÿ‹Èƒ²+
-squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåşø8¯Üå†²+
-Nsquid:S1068"-Remove this unused "studenten" private field.(³Š¿–øÿÿÿÿ8„‚šş±+
-Dsquid:S1068"(Remove this unused "code" private field.(²âèú8ŞÜş±+

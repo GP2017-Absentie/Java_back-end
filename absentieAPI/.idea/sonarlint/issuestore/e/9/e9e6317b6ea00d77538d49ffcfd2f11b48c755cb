@@ -1,0 +1,11 @@
+
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾âÇ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£‚ëó
+…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ñ€ş®
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜şÿÿÿÿ
+osquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(ôÇ¶Âûÿÿÿÿ
+esquid:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ì‰„Çşÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«·„Åúÿÿÿÿ
+?squid:S1068"*Remove this unused "lessen" private field.(¢ğœÒ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Î°©ø

@@ -1,0 +1,12 @@
+
+@squid:S1068"+Remove this unused "vakNaam" private field.(äÑñË
+?squid:S1068"*Remove this unused "gebouw" private field.(õ‰±Î
+Esquid:S1068"+Remove this unused "vakCode" private field.(ÃÁÛ øÿÿÿÿ
+Gsquid:S1068"-Remove this unused "starttijd" private field.(‰Û–÷úÿÿÿÿ
+Dsquid:S1068"*Remove this unused "docent" private field.(˜Éú‰üÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«·„Åúÿÿÿÿ
+Dsquid:S1068"*Remove this unused "lokaal" private field.(°—šÍÿÿÿÿÿ
+Bsquid:S1068"(Remove this unused "klas" private field.(•äõåùÿÿÿÿ
+Wsquid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(È•×î
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
+Asquid:S1068",Remove this unused "eindtijd" private field.(â÷—Œ

@@ -1,12 +1,0 @@
-
-•squid:S1319"tThe type of the "absenties" object should be an interface such as "List" rather than the implementation "ArrayList".(µ€•áùÿÿÿÿ8û§ß†²+
-Ksquid:S1068"*Remove this unused "docent" private field.(˜Éú‰üÿÿÿÿ8Ÿ†Ú†²+
-Ksquid:S1068"*Remove this unused "lokaal" private field.(°—šÍÿÿÿÿÿ8€õĞƒ²+
-Nsquid:S1068"-Remove this unused "starttijd" private field.(Ö¹ìúÿÿÿÿ8ş©Ó†²+
-Isquid:S1068"(Remove this unused "klas" private field.(Éû»êøÿÿÿÿ8şÓÖ†²+
-Isquid:S1068"-Remove this unused "absenties" private field.(ËªÉ¶8Ÿ†Ú†²+
-^squid:S00107"AConstructor has 9 parameters, which is greater than 7 authorized.(÷‡­Ê8û§ß†²+
-Lsquid:S1068"+Remove this unused "vakCode" private field.(ÃÁÛ øÿÿÿÿ8€õĞƒ²+
-Gsquid:S1068"+Remove this unused "vakNaam" private field.(äÑñË8€õĞƒ²+
-Fsquid:S1068"*Remove this unused "gebouw" private field.(õ‰±Î8€õĞƒ²+
-Gsquid:S1068",Remove this unused "eindtijd" private field.(ñ¾æ8ş©Ó†²+
