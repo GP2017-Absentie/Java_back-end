@@ -47,4 +47,42 @@ public class Les {
     public void voegAbsentieToe(Absentie abs) {
     	this.absenties.add(abs);
     }
+
+    public String getVakNaam() {
+        return vakNaam;
+    }
+
+    public String getVakCode() {
+        return vakCode;
+    }
+
+    public String getGebouw() {
+        return gebouw;
+    }
+
+    public String getLokaal() {
+        return lokaal;
+    }
+
+    public Time getStarttijd() {
+        return starttijd;
+    }
+
+    public Time getEindtijd() {
+        return eindtijd;
+    }
+
+    public String getKlas() {
+        return klas;
+    }
+
+    public Docent getDocent() {
+        return docent;
+    }
+
+    public ArrayList<Absentie> getAbsenties() {
+        return absenties;
+    }
 }
+
+

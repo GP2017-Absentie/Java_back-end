@@ -1,7 +1,0 @@
-
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
-=squid:S1068"(Remove this unused "code" private field.(²âèú
-Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹þüÿÿÿÿ
-Gsquid:S1068"-Remove this unused "studenten" private field.(³Š¿–øÿÿÿÿ
-‰squid:S1319"tThe type of the "studenten" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåþø
-†squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåþø

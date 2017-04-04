@@ -4,12 +4,14 @@ package com.gp2017.Model;
 import com.gp2017.Entity.Docent;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Les;
+import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Time;
 
+@Repository
 public final class LesModel {
 	
 	public static Les getById(int id) { // VERVANG Les DATE door Les TIME
@@ -47,7 +49,7 @@ public final class LesModel {
             String lokaal_nummer = res.getString("nummer");
                         
             Docent docent = DocentModel.getById(docent_FK);
-            //ArrayList<Absentie> absenties  = AbsentieModel.getById(les_id); ABSENTIEMODEL
+            //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
             
             Les l = new Les(vakNaam,vakCode,gebouw,lokaal_nummer,starttijd,eindtijd, klas, docent);
                         

@@ -1,11 +1,15 @@
 package com.gp2017.Model;
 
 import com.gp2017.Entity.Docent;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+@Repository
 public final class DocentModel {
 
 	public static Docent getById(int id) {

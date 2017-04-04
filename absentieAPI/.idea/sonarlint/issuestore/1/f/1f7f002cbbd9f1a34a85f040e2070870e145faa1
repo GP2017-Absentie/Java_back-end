@@ -1,15 +1,0 @@
-
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-8squid:S2095"Close this "Statement".(”ÁëÑøÿÿÿÿ8¡¯¬³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-Osquid:S1118":Add a private constructor to hide the implicit public one.(ôÇ©•
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-\squid:S2077"G"id" is provided externally to the method and not sanitized before use.(ëŸê¯
-,squid:S2095"Close this "ResultSet".(ëŸê¯
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÑŒÿ©ÿÿÿÿÿ

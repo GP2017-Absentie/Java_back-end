@@ -3,11 +3,13 @@ package com.gp2017.Model;
 import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Persoon;
+import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+@Repository
 public class AbsentieModel {
     private PersoonModel persoonModel;
 
