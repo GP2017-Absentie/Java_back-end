@@ -2,6 +2,7 @@ package com.gp2017.Entity;
 
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Object that represents a lesson.
@@ -12,6 +13,8 @@ public class Les {
     private String vakCode;
     private String gebouw;
     private String lokaal;
+
+    private Date datum;
 
     private Time starttijd;
     private Time eindtijd;
@@ -31,7 +34,7 @@ public class Les {
      * @param docent teacher
      * @param absenties ArrayList of absence objects
      */
-    public Les(int id, String vakNaam, String vakCode, String gebouw, String lokaal, Time starttijd, Time eindtijd, String klas,
+    public Les(int id, String vakNaam, String vakCode, String gebouw, String lokaal, Date datum, Time starttijd, Time eindtijd, String klas,
                Docent docent)
     {
         this.id = id;
@@ -39,6 +42,7 @@ public class Les {
         this.vakCode = vakCode;
         this.gebouw = gebouw;
         this.lokaal = lokaal;
+        this.datum = datum;
         this.starttijd = starttijd;
         this.eindtijd = eindtijd;
         this.klas = klas;
@@ -76,6 +80,10 @@ public class Les {
 
     public Time getEindtijd() {
         return eindtijd;
+    }
+
+    public Date getDatum() {
+        return datum;
     }
 
     public String getKlas() {
