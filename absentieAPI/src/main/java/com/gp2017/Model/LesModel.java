@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Date;
 
 @Repository
 public class LesModel {
@@ -28,6 +29,7 @@ public class LesModel {
                 String klas = resultSet.getString("klas_FK");
                 int lokaal_FK = resultSet.getInt("lokaal_FK");
                 int docent_FK = resultSet.getInt("docent_FK");
+                Date datum = resultSet.getDate( "datum");
                 Time starttijd = resultSet.getTime("starttijd"); // 10:00:00
                 Time eindtijd = resultSet.getTime("eindtijd"); // 12:30:00
 
@@ -48,7 +50,7 @@ public class LesModel {
                 Docent docent = DocentModel.getById(docent_FK);
                 //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
 
-                Les l = new Les(les_id, vakNaam, vakCode, gebouw, lokaal_nummer, starttijd, eindtijd, klas, docent);
+                Les l = new Les(les_id, vakNaam, vakCode, gebouw, lokaal_nummer, datum, starttijd, eindtijd, klas, docent);
                 resultArray.add(l);
                 stat1.close();
                 stat2.close();
@@ -81,6 +83,7 @@ public class LesModel {
             String klas = res.getString("klas_FK");
             int lokaal_FK = res.getInt("lokaal_FK");
             int docent_FK = res.getInt("docent_FK");
+            Date datum = res.getDate("datum");
             Time starttijd = res.getTime("starttijd"); // 10:00:00
             Time eindtijd = res.getTime("eindtijd"); // 12:30:00
             
@@ -106,7 +109,7 @@ public class LesModel {
             Docent docent = DocentModel.getById(docent_FK);
             //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
             
-            Les l = new Les(les_id, vakNaam,vakCode,gebouw,lokaal_nummer,starttijd,eindtijd, klas, docent);
+            Les l = new Les(les_id, vakNaam,vakCode,gebouw,lokaal_nummer,datum,starttijd,eindtijd, klas, docent);
                         
             res.close();
             stat.close();
