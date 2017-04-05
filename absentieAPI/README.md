@@ -40,7 +40,7 @@ regular		=	done
 - **student requests**
 
   - getById(int id): Student
-  - getByName(String name): Student
+  - <u>getByName(String name): Student</u>
 
 - **docent requests**
 

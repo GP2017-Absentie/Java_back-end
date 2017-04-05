@@ -1,6 +1,6 @@
 
-Ssquid:UselessImportCheck",Remove this unused import 'javax.print.Doc'.(ö«‘™ıÿÿÿÿ
+_squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Student'.(»ªãä8¯àœÌ³+
+Vsquid:S2209"5Change this instance-reference to a static reference.(ÈÏŸ•şÿÿÿÿ8ÆÑ•Ó³+
 ‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷ªİõùÿÿÿÿ8«œÌ³+
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(İÕõ·
-_squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Student'.(»ªãä8¯àœÌ³+
-Vsquid:S2209"5Change this instance-reference to a static reference.(ÈÏŸ•şÿÿÿÿ8áàÜÏ³+
+Ssquid:UselessImportCheck",Remove this unused import 'javax.print.Doc'.(ö«‘™ıÿÿÿÿ

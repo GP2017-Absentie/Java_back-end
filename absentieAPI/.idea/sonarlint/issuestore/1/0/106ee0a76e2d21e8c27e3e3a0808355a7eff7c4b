@@ -1,9 +1,5 @@
 
-Esquid:S1068"+Remove this unused "persoon" private field.(¸òªËıÿÿÿÿ
-Asquid:S1068"'Remove this unused "les" private field.(¸ğüÿÿÿÿ
-Ksquid:S1068"1Remove this unused "redenAbsentie" private field.(·¥Ÿâüÿÿÿÿ
-Dsquid:S1068"/Remove this unused "toelichting" private field.(½áıÔ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºè Øÿÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
 `squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èš´¤
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºè Øÿÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜şÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

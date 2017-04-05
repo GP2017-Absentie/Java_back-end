@@ -1,0 +1,17 @@
+
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+csquid:S1871"IThis case's code block is the same as the block for the case on line 227.(Õ¾âøÿÿÿÿ
+csquid:S1871"IThis case's code block is the same as the block for the case on line 239.(ëè—‡ıÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(ªÂŒ”úÿÿÿÿ
+Gsquid:S1135"2Complete the task associated to this TODO comment.(•Ûö
+Isquid:S1066"/Merge this if statement with the enclosing one.(ªÂŒ”úÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ï­£Ä
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(úÉ—ñ
+csquid:S1871"IThis case's code block is the same as the block for the case on line 239.(ä„¥«úÿÿÿÿ
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+csquid:S1871"IThis case's code block is the same as the block for the case on line 337.(Õ¾âøÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(áÔâÚ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñé×Ş
+csquid:S1871"IThis case's code block is the same as the block for the case on line 222.(È¼Õ…şÿÿÿÿ
+csquid:S1871"IThis case's code block is the same as the block for the case on line 333.(È¼Õ…şÿÿÿÿ
+csquid:S1871"IThis case's code block is the same as the block for the case on line 239.(èçØÛşÿÿÿÿ

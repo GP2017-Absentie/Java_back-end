@@ -1,0 +1,489 @@
+
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ê×Êüÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+„squid:S1151"jReduce this switch case number of lines from 29 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ
+xsquid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "valueAsLong".(À–ŞË
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(ïÀ°Ëşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ıû¥Ğ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(®©¯øÿÿÿÿ
+\squid:S1132"GMove the "0" string literal on the left side of this string comparison.(¯°š…
+Tsquid:S1854"?Remove this useless assignment to local variable "dataAsBytes".(¼¸ÉÕ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ï ‚çıÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡’÷°ıÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(‚Ä©Öùÿÿÿÿ
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ºÀ©¿üÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(şš›…ûÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(§Å•—ÿÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(Õ¾âøÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(­Ó–Ô
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ç‰’øÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.( Šê¶ıÿÿÿÿ
+Qsquid:S1854"<Remove this useless assignment to local variable "datatype".(ã¶º¬
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(òÿ¹ò
+Bsquid:S1199"-Extract this nested code block into a method.(ÎŞèº
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¯³ôÿÿÿÿÿ
+nsquid:S1132"YMove the "0000-00-00 00:00:00" string literal on the left side of this string comparison.(„È
+Fsquid:S1135"2Complete the task associated to this TODO comment.(¶Ğ
+9squid:S2129"Remove this "Float" constructor(“¶³şÿÿÿÿ
+]squid:S1132"HMove the "-1" string literal on the left side of this string comparison.(Õò”·
+Zsquid:S1226"@Introduce a new variable instead of reusing the parameter "cal".(Ìã§úúÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(º³åÜ
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ÆÇ™ßıÿÿÿÿ
+Msquid:S1854"8Remove this useless assignment to local variable "year".(¢äš™
+?squid:S1166"%Either log or rethrow this exception.(àöÆœøÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(Õ¾âøÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(•×şıÿÿÿÿ
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ÆÇ™ßıÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 13 to at most 5, for example by extracting code into methods.(ı´ª¿ûÿÿÿÿ
+dsquid:S1132"JMove the "true" string literal on the left side of this string comparison.(ó¾Ò¬úÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Œ×ˆı
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ïÀ°Ëşÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Õò”·
+[squid:S1226"FIntroduce a new variable instead of reusing the parameter "stringVal".(ú¬çî
+Qsquid:S1854"=Remove this useless assignment to local variable "stringVal".(Èò™g
+„squid:S1151"jReduce this switch case number of lines from 37 to at most 5, for example by extracting code into methods.(†ß­Çıÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(‚Ä©Öùÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Isquid:S1066"/Merge this if statement with the enclosing one.(ƒ¡•şøÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(Í¤³
+asquid:S1132"GMove the "0" string literal on the left side of this string comparison.(¬’ÔØÿÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(ÊÌ§¹ûÿÿÿÿ
+isquid:S1132"TMove the "00000000000000" string literal on the left side of this string comparison.(ìÛ®ı
+„squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(‡Ëæ˜
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(·ùŸÿÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(±“·µ
+osquid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "rs".(¥¬¯
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(îÒ«Â
+[squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(éàÑÍ
+Wsquid:S1244"=Equality tests should not be made with floating point values.(Úö’øÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(Õ¾âøÿÿÿÿ
+squid:S1151"jReduce this switch case number of lines from 28 to at most 5, for example by extracting code into methods.(«¬úŠ
+Msquid:S1764"8Identical sub-expressions on both sides of operator "||"(½ö–¤
+Bsquid:S1199"-Extract this nested code block into a method.(õÿÑÜ
+?squid:S1166"%Either log or rethrow this exception.(»öœƒûÿÿÿÿ
+zsquid:S1192"eDefine a constant instead of duplicating this literal "ResultSet.Bad_format_for_BigDecimal" 11 times.(Ù‚¹
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(³Ì”½
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(¥ï¸€
+[squid:S3027"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(àë¢¦
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+[squid:S1226"FIntroduce a new variable instead of reusing the parameter "stringVal".(ö…¸”
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(Ç²¾
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+csquid:S1226"IIntroduce a new variable instead of reusing the parameter "timeAsString".(û®”Èüÿÿÿÿ
+_squid:S1871"JThis case's code block is the same as the block for the case on line 4750.(•ø×È
+Ssquid:S1854">Remove this useless assignment to local variable "shortValue".(Æ¬Êÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(˜İÔÀüÿÿÿÿ
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ô¾ôüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(÷¶¯
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+5squid:S2129" Remove this "Double" constructor(Œî…¼
+hsquid:S1871"NThis branch's code block is the same as the block for the branch on line 2311.(ù÷ì¦ÿÿÿÿÿ
+™%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(¦èÇ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(êØ˜“
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(©ßÜ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‡Á²²
+™%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(¡â÷
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(–Ğí®ùÿÿÿÿ
+Nsquid:S1143"4Remove this throw statement from this finally block.(›–åùÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(îÒ«Â
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ë‰Öİ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(Öé‹ıÿÿÿÿ
+\squid:S2259"GNullPointerException might be thrown as 'shortAsBytes' is nullable here(‚³ô
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(ê‚“Ï
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄÊú
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Í¤³
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(Õ¾âøÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÚÌÉªúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ç®Éüÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(®°üÈúÿÿÿÿ
+xsquid:S1192"^Define a constant instead of duplicating this literal "ResultSet.Bad_format_for_Date" 3 times.(–¬Ğ‚üÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹¯‡úÿÿÿÿ
+Rsquid:S1244"=Equality tests should not be made with floating point values.(ÂÎÙ
+Rsquid:S1244"=Equality tests should not be made with floating point values.(äÃ‚
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 46 to the 15 allowed.(‹«ŠËøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÊÜÒİúÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¸ÍÈºøÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 77 to the 15 allowed.(ôıß—ûÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËÒ›Ü
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+`squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(Ó½ö¶øÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(’Á´Ëşÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(é–Ÿ…
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÜİŞ
+[squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Ã°€§
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(ş³ùÓ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(î©æ±øÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(‚Ä©Öùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ï¸Óğúÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(ğÁ–Óûÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(†Ëàøÿÿÿÿ
+Csquid:S1066"/Merge this if statement with the enclosing one.(¹Î¬O
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ãø¯Õ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(¥¸œ'
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Õ¾âøÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Û§ûİùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(åù
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ú•“‡ùÿÿÿÿ
+Wsquid:S1854"=Remove this useless assignment to local variable "longValue".(Ş”Ó®ÿÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(îÒ«Â
+Gsquid:S1199"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+esquid:S1226"KIntroduce a new variable instead of reusing the parameter "timestampValue".(ÕÔ€›øÿÿÿÿ
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ÆÇ™ßıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(àºõ¸ùÿÿÿÿ
+Rsquid:S1244"=Equality tests should not be made with floating point values.(®§
+Bsquid:S1199"-Extract this nested code block into a method.(´Ï–à
+}squid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(Ï­’=
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+Jsquid:S1172"0Remove this unused method parameter "mysqlType".(á’Š³øÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(î–…
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Û§ûİùÿÿÿÿ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ëíà˜
+`squid:S3027"FPut single-quotes around '-' to use the faster "indexOf(char)" method.(“°ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‡šÏÅúÿÿÿÿ
+Usquid:S1854";Remove this useless assignment to local variable "timeVal".(º¯Ù”ıÿÿÿÿ
+bsquid:S1192"HDefine a constant instead of duplicating this literal "Value '" 3 times.(µé»Îüÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(ìÛ®ı
+^squid:S1134"DTake the required action to fix the issue indicated by this comment.(˜İÔÀüÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(ñ¢æÊúÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(öà‡šüÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÚÌÉªúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(­ÃÜ¾şÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ı´ª¿ûÿÿÿÿ
+squid:S1151"jReduce this switch case number of lines from 11 to at most 5, for example by extracting code into methods.(›á—®
+hsquid:S1871"NThis branch's code block is the same as the block for the branch on line 2315.(ºÀ©¿üÿÿÿÿ
+[squid:S1226"FIntroduce a new variable instead of reusing the parameter "stringVal".(ö…¸”
+[squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(éàÑÍ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Úó—ùÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(Š°Óùşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(…å¢†
+Csquid:S1066"/Merge this if statement with the enclosing one.(ûİ¦q
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(êùäùÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(€œÉáıÿÿÿÿ
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(­Ó–Ô
+Rsquid:S1244"=Equality tests should not be made with floating point values.(ëá¾«
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ï¦ùª
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(È¼Õ…şÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Isquid:S1066"/Merge this if statement with the enclosing one.(ïğ¾ùøÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ĞÃùM
+Isquid:S1066"/Merge this if statement with the enclosing one.(¡ºÿüÿÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(äÃ‚
+Fsquid:S1135"2Complete the task associated to this TODO comment.(¶Ğ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(¡Ì¨¥
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+Rsquid:S1244"=Equality tests should not be made with floating point values.(‰Ë£ü
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+nsquid:S1132"TMove the "00000000000000" string literal on the left side of this string comparison.(¬’ÔØÿÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(É¦à®ıÿÿÿÿ
+[squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(éàÑÍ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Áˆ €
+hsquid:S3776"SRefactor this method to reduce its Cognitive Complexity from 117 to the 15 allowed.(¼üŞ×
+Qsquid:S1854"7Remove this useless assignment to local variable "val".(Àîººøÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(ÎŞèº
+Isquid:S1066"/Merge this if statement with the enclosing one.(¡ºÿüÿÿÿÿÿ
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ù÷ì¦ÿÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(‚Ä©Öùÿÿÿÿ
+[squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(éàÑÍ
+Isquid:S1066"/Merge this if statement with the enclosing one.(²»¯Ãşÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËÒ›Ü
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(…¾¨
+~squid:S1151"jReduce this switch case number of lines from 14 to at most 5, for example by extracting code into methods.(…°é
+~squid:S1151"jReduce this switch case number of lines from 12 to at most 5, for example by extracting code into methods.(…°é
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(²õÒçùÿÿÿÿ
+9squid:S1166"%Either log or rethrow this exception.(ÿÕœR
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Rsquid:S00107"<Method has 8 parameters, which is greater than 7 authorized.(Ø¡îï
+squid:S1151"jReduce this switch case number of lines from 28 to at most 5, for example by extracting code into methods.(î–…
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Šı¨şÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(­Ó–Ô
+[squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(éàÑÍ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¿­åÊ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(¤³¨¶
+Rsquid:S1244"=Equality tests should not be made with floating point values.(äÃ‚
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(”üî…üÿÿÿÿ
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ò‰úD
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ï¦™å
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(•Äê
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(İ–Ò˜ÿÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(‡†ë¾
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÒŠÓÍ
+esquid:S1132"PMove the "0000-00-00" string literal on the left side of this string comparison.(¯°š…
+9squid:S1166"%Either log or rethrow this exception.(ÿÕœR
+Osquid:S1854";Remove this useless assignment to local variable "asBytes".(¦Ïß"
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ú¹Ûùÿÿÿÿ
+`squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(Ó½ö¶øÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Óö…ÿúÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÈÂ¿øıÿÿÿÿ
+dsquid:S1226"JIntroduce a new variable instead of reusing the parameter "valueAsString".(ó“üÓùÿÿÿÿ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+`squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Ğê Šşÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(°ä³ô
+dsquid:S1192"ODefine a constant instead of duplicating this literal "00000000000000" 3 times.(ìÛ®ı
+nsquid:S1132"YMove the "0000-00-00 00:00:00" string literal on the left side of this string comparison.(¯°š…
+9squid:S1166"%Either log or rethrow this exception.(ÿÕœR
+Ssquid:S1854"9Remove this useless assignment to local variable "month".(Æúô¦øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÄµÍı
+hsquid:S1871"NThis branch's code block is the same as the block for the branch on line 1070.(Š‡â°şÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ñ¢æÊúÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ä“
+Nsquid:S1854"9Remove this useless assignment to local variable "tsVal".(ÿŠ Î
+Bsquid:S1199"-Extract this nested code block into a method.(ş³ùÓ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(½ò
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ïğ¾ùøÿÿÿÿ
+esquid:S1132"PMove the "0000-00-00" string literal on the left side of this string comparison.(„È
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ô¾ôüÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(€²¿
+Dsquid:S1066"/Merge this if statement with the enclosing one.(ªˆè
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÚÕèœıÿÿÿÿ
+[squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(éàÑÍ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¯äœ
+5squid:S2129" Remove this "Double" constructor(Œî…¼
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(³î©«úÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(¤Ó²T
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËÒ›Ü
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¦áşıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¼×Æñ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(àë¢¦
+Isquid:S1066"/Merge this if statement with the enclosing one.(‚Ä©Öùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÁÈ—–úÿÿÿÿ
+™%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(‹­Ùò
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ëÏ¯ôşÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+msquid:S00104"]This file has 4,041 lines, which is greater than 750 authorized. Split it into smaller files.
+„squid:S1151"jReduce this switch case number of lines from 17 to at most 5, for example by extracting code into methods.(öà‡šüÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ÿÙ‚øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ã£Î†
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(€É
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(êĞı¡
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(„Ù¤ÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+`squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(½ºÄÊüÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(ğÁ–Óûÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(©°­÷
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(—ó–½şÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ì¨ß2
+Gsquid:S1199"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(™®Ğ™
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ƒ¡•şøÿÿÿÿ
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(È—ı¼
+Isquid:S1066"/Merge this if statement with the enclosing one.(Ù¢éüÿÿÿÿ
+Gsquid:S1135"2Complete the task associated to this TODO comment.(’™€°
+}squid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(üÒªs
+Isquid:S1066"/Merge this if statement with the enclosing one.(ÊçÀ©şÿÿÿÿ
+`squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(Ó½ö¶øÿÿÿÿ
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(É¼ëÍşÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(öŒÛå
+Jsquid:S1854"5Remove this useless assignment to local variable "b".(ÛºŠê
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(„È
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(üÒ÷úÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(È¼Õ…şÿÿÿÿ
+[squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(éàÑÍ
+[squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(éàÑÍ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+5squid:S2129" Remove this "Double" constructor(Õ¤ÿ©
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä®…şÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ä™¢©ùÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(õÿÑÜ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(íí×“ÿÿÿÿÿ
+Zsquid:S1854"@Remove this useless assignment to local variable "dateToReturn".(íùéùÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(Ãôş•
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.( şƒåúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(äğÌÛ
+Rsquid:S1244"=Equality tests should not be made with floating point values.(Á²°½
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+Qsquid:S1854"=Remove this useless assignment to local variable "stringVal".(Èò™g
+[squid:S3027"FPut single-quotes around 'E' to use the faster "indexOf(char)" method.(éàÑÍ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(¾Îï{
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ô¾ôüÿÿÿÿ
+Zsquid:S1226"@Introduce a new variable instead of reusing the parameter "row".(ºÚªşÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(àöÆœøÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(“°ùÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(éàÑÍ
+[squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(éàÑÍ
+[squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(éàÑÍ
+nsquid:S1488"YImmediately return this expression instead of assigning it to the temporary variable "b".(Öôˆå
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…ï×Òûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(©ÎÖ¯üÿÿÿÿ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(—…ù
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(•€×Ğ
+`squid:S3027"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(ïÉ¿Çÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(»öœƒûÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(Ù¢éüÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆá·Üşÿÿÿÿ
+dsquid:S1871"JThis case's code block is the same as the block for the case on line 4812.(İ–Ò˜ÿÿÿÿÿ
+isquid:S1192"TDefine a constant instead of duplicating this literal "0000-00-00 00:00:00" 5 times.(ìÛ®ı
+squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(ÎŞèº
+„squid:S1151"jReduce this switch case number of lines from 12 to at most 5, for example by extracting code into methods.(ÊÌ§¹ûÿÿÿÿ
+Wsquid:S1244"=Equality tests should not be made with floating point values.(ô¾ôüÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(‚Ä©Öùÿÿÿÿ
+[squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(éàÑÍ
+:squid:S1166"%Either log or rethrow this exception.(Ãôş•
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÅÓ“ÿûÿÿÿÿ
+Wsquid:S1163"=Refactor this code to not throw exceptions in finally blocks.(›–åùÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(È¼Õ…şÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 20 to at most 5, for example by extracting code into methods.(ê×Êüÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÏÖµ£úÿÿÿÿ
+esquid:S1132"PMove the "0000-00-00" string literal on the left side of this string comparison.(ìÛ®ı
+nsquid:S1132"YMove the "0000-00-00 00:00:00" string literal on the left side of this string comparison.(ìÛ®ı
+Ksquid:S1213"8Move this variable to comply with Java Code Conventions.(³n
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+dsquid:S1226"JIntroduce a new variable instead of reusing the parameter "valueAsString".(ó“üÓùÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(´Ï–à
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(º¶‹öùÿÿÿÿ
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ÆÇ™ßıÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(®ÈŒÍıÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+`squid:S3027"FPut single-quotes around 'e' to use the faster "indexOf(char)" method.(Ó½ö¶øÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(÷ó·½ùÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÏÖµ£úÿÿÿÿ
+\squid:S1132"GMove the "0" string literal on the left side of this string comparison.(ìÛ®ı
+Dsquid:S1066"/Merge this if statement with the enclosing one.(ê‚“Ï
+`squid:S1192"KDefine a constant instead of duplicating this literal "0000-00-00" 5 times.(ìÛ®ı
+Qsquid:S1854"7Remove this useless assignment to local variable "day".(¹ÒÍğüÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ñØ…²şÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ö®áÜ
+Bsquid:S1199"-Extract this nested code block into a method.(ÎŞèº
+Isquid:S1066"/Merge this if statement with the enclosing one.(²»¯Ãşÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(•ø×È
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ó½ö¶øÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(—…ù
+Usquid:S1226"@Introduce a new variable instead of reusing the parameter "val".(î¯‡¤
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(ÊÌ§¹ûÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(äÃ‚
+„squid:S1151"jReduce this switch case number of lines from 15 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 17 to at most 5, for example by extracting code into methods.(öà‡šüÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(†ß­Çıÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¸…æ™
+nsquid:S1132"TMove the "00000000000000" string literal on the left side of this string comparison.(”Á‡øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(üì©
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‚óå£
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(€Ê™²
+Zsquid:S1226"@Introduce a new variable instead of reusing the parameter "cal".(Ìã§úúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÁŞ–®
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(È¼Õ…şÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(çÛõ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÏÖµ£úÿÿÿÿ
+9squid:S2129"Remove this "Float" constructor(“¶³şÿÿÿÿ
+9squid:S1166"%Either log or rethrow this exception.(ÿÕœR
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "columnIndex".(ÆÇ™ßıÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(¡ºÿüÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ìøïÓúÿÿÿÿ
+Dsquid:EmptyStatementUsageCheck"Remove this empty statement.(Æ›®
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ëíà˜
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+}squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(Ï­’=
+squid:S1151"jReduce this switch case number of lines from 17 to at most 5, for example by extracting code into methods.(­Ó–Ô
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(„ª½
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(éàÑÍ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+Nsquid:S1854"9Remove this useless assignment to local variable "tsVal".(ÿŠ Î
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ıø™¥şÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ê‚“Ï
+squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(îÒ«Â
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(ÚÜ¬âüÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Š©™Æÿÿÿÿÿ
+:squid:S2129" Remove this "Double" constructor(³ÅñÙúÿÿÿÿ
+Zsquid:S2147"ECombine this catch with the one at line 117, which has the same body.(ıàÑÎ
+Gsquid:S1199"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+`squid:S2184"FCast one of the operands of this substraction operation to a "double".(Úñ™Ñûÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 117, which has the same body.(¼¯•¶ùÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(»öœƒûÿÿÿÿ
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 3424.(¦üÊ´
+9squid:S2129"Remove this "Float" constructor(Ş™ıÿÿÿÿ
+dsquid:S1871"JThis case's code block is the same as the block for the case on line 3415.(İ–Ò˜ÿÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(µ·ˆÃüÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ
+csquid:S1226"IIntroduce a new variable instead of reusing the parameter "timeAsString".(Ş¸æ±üÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(ô¾ôüÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "row".(¾§¶‹üÿÿÿÿ
+\squid:S1132"GMove the "0" string literal on the left side of this string comparison.(½ö–¤
+Qsquid:S1854"=Remove this useless assignment to local variable "stringVal".(Èò™g

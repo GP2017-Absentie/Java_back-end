@@ -1,9 +1,2 @@
 
-wsquid:UselessImportCheck"NRemove this unused import 'springfox.documentation.spring.web.plugins.Docket'.(‡éÔå8¹÷ÙÏ³+
-qsquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8¹÷ÙÏ³+
-Wsquid:UselessImportCheck"6Remove this unused import 'com.gp2017.Model.LesModel'.(ıõ~
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(îÛ¥ß8¹÷ÙÏ³+
-tsquid:UselessImportCheck"KRemove this unused import 'springfox.documentation.builders.PathSelectors'.(âİ¸ñ8¹÷ÙÏ³+
-ƒsquid:UselessImportCheck"URemove this unused import 'springfox.documentation.builders.RequestHandlerSelectors'.(òßª¿ıÿÿÿÿ8¹÷ÙÏ³+
-ssquid:UselessImportCheck"JRemove this unused import 'springfox.documentation.spi.DocumentationType'.(ÉêÉ¥8¹÷ÙÏ³+
-squid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8ğ¶Î³+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(îÛ¥ß8“¹Óë³+

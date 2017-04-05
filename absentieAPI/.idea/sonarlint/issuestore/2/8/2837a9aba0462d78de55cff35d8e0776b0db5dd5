@@ -1,0 +1,438 @@
+
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÊÜÒİúÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+Dsquid:S1066"/Merge this if statement with the enclosing one.(Ê˜¡Û
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‡«³ºúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(«†ßúÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(òãã şÿÿÿÿ
+[squid:S2147"FCombine this catch with the one at line 2312, which has the same body.(Å¡ß
+:squid:S1166"%Either log or rethrow this exception.(«Ä¨û
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ìï—ˆùÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(–å‰ç
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‹ëš
+Zsquid:S2077"E"" is provided externally to the method and not sanitized before use.(®ÀÚ¯
+Wsquid:S1854"BRemove this useless assignment to local variable "isFunctionCall".(‰…£Œ
+?squid:S1166"%Either log or rethrow this exception.(ÛÙ²³úÿÿÿÿ
+Csquid:S1066"/Merge this if statement with the enclosing one.(¥°ä
+?squid:S1166"%Either log or rethrow this exception.(™Ï¯”ÿÿÿÿÿ
+Ssquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(÷í›úÿÿÿÿ
+gsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ûŞã6
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(­¤Äò
+usquid:S1192"`Define a constant instead of duplicating this literal "Connection.CantLoadCacheFactory" 4 times.(±õ½…
+csquid:S1132"IMove the "GMT" string literal on the left side of this string comparison.(ò°µ§ûÿÿÿÿ
+Rsquid:S1854"=Remove this useless assignment to local variable "converter".(î×‡ë
+Dsquid:S1066"/Merge this if statement with the enclosing one.(æÇ¦
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ã€Œøÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿ¯›è
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(”ŞöÁ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÑèÿŞ
+Ysquid:S1226"EIntroduce a new variable instead of reusing the parameter "userName".(øŠê=
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(·ª„ï
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ø†¾÷
+:squid:S1166"%Either log or rethrow this exception.(€¨Ì
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(õ¥®Ó
+`squid:S1132"FMove the "" string literal on the left side of this string comparison.(øŠÏÃøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ï¬®©ÿÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ã†Ëö
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(Ûš¸ã
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(İªŒÖøÿÿÿÿ
+hsquid:S2077"S"versionComment" is provided externally to the method and not sanitized before use.(ı×¾ş
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Êó¿ùÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¿‘ ‡şÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 1107.(·¯ü¬
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ì’Æ{
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(çÖùàıÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¿Çæ³
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(»Æç 
+?squid:S1166"%Either log or rethrow this exception.(›§Ñùÿÿÿÿ
+]squid:S2583"CChange this condition so that it does not always evaluate to "true"(Ñá¦œûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¨½€øÿÿÿÿ
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 1099.(ç°…
+Isquid:S1066"/Merge this if statement with the enclosing one.(âˆâ™ûÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(¯‘Â‹
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­°Àò
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ëƒ“Ô
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(²†`
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(İµıêÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(îÌ©èşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(“ÓÑ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Öò…
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Û¸¾Ğøÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÎË0
+Usquid:S1193"@Replace the usage of the "instanceof" operator by a catch block.(¸à‹ß
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¬¶œıÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(äŸãÄ
+_squid:S1226"KIntroduce a new variable instead of reusing the parameter "cachedMetaData".(Í¬ñf
+hsquid:S1871"NThis branch's code block is the same as the block for the branch on line 1105.(¢Ü”Üüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(½‡‡Ü
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 1103.(Æè”ò
+?squid:S1166"%Either log or rethrow this exception.(’ÇíŸüÿÿÿÿ
+Dsquid:S1172"*Remove this unused method parameter "url".(”Ï»‰üÿÿÿÿ
+tsquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(¯Ç¯ûÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(Ú²äÉ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(èÍŒĞ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(·«’úüÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ú¤òª
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Üå
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(½Æáú
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ìï—ˆùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ğ«¿¿úÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 308, which has the same body.(¼¯•¶ùÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨õëŒ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ëşÁûÿÿÿÿ
+Ssquid:S2259">NullPointerException might be thrown as 'sql' is nullable here(Ùÿõ
+msquid:S00104"]This file has 3,371 lines, which is greater than 750 authorized. Split it into smaller files.
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÀŸĞêùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(—ìˆœşÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+?squid:S00108")Either remove or fill this block of code.(«Ä¨û
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¡ŸûÅ
+Isquid:S1066"/Merge this if statement with the enclosing one.(âˆâ™ûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(·Œ•ª
+Dsquid:S1066"/Merge this if statement with the enclosing one.(İ¨©ò
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‚ –úÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÍšÕëıÿÿÿÿ
+m
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¨ïÎÖ
+]squid:S2583"CChange this condition so that it does not always evaluate to "true"(òÀ£†øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(œ„‚ˆ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†üÖĞûÿÿÿÿ
+_squid:S1132"JMove the "UTF8" string literal on the left side of this string comparison.(×ˆ¶»
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¾¼‹
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+psquid:S1192"VDefine a constant instead of duplicating this literal "parseInfoCacheFactory" 6 times.(Õ”˜Ñøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(À–Éøÿÿÿÿ
+Nsquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(íĞ†ş
+:squid:S2068" Remove this hard-coded password.(›ôÃúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ïíıˆ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(æÇ¦
+Dsquid:S1066"/Merge this if statement with the enclosing one.(ìæ”·
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹÷Ú«
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 2169.(å¥‡
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(äš‡éùÿÿÿÿ
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(¤®à‹şÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(•”ø¾øÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(–èƒ@
+‘"squid:ClassVariableVisibilityCheck"eMake indexToCustomMysqlCharset a static final constant or non-public and provide accessors if needed.(õ¥®Ó
+Usquid:S1193"@Replace the usage of the "instanceof" operator by a catch block.(š÷•
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(·Š•ğüÿÿÿÿ
+[squid:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 5 times.(»®¯
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡ğÔûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(“„õÏ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‡öîûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ØÔÎ»ùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(İéèüÿÿÿÿÿ
+tsquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(÷˜¡äúÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ì¬Æ•
+Dsquid:S1066"/Merge this if statement with the enclosing one.(æÇ¦
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(±Ä‘Ùúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Àİø
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(òãã şÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(òúô¨
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(÷ç²—ÿÿÿÿÿ
+hsquid:S1871"NThis branch's code block is the same as the block for the branch on line 1101.(‡ÍãŞÿÿÿÿÿ
+hsquid:S3776"SRefactor this method to reduce its Cognitive Complexity from 204 to the 15 allowed.(ÊáÙÆ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÜÚÎ˜ûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¨ÿã¯úÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(±ÛÎÀıÿÿÿÿ
+9squid:S1166"%Either log or rethrow this exception.(à¼ßa
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ûŞã6
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ¢‚”úÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢åíıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(éßóß
+bsquid:S1192"HDefine a constant instead of duplicating this literal " ms: \t" 3 times.(¦á½–üÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(å¼˜Ü
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ê’íıÿÿÿÿ
+Lsquid:S1197"8Move the array designator from the variable to the type.(Ü–ìb
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ï¯”ÿÿÿÿÿ
+]squid:S1192"HDefine a constant instead of duplicating this literal "utf8mb4" 4 times.(ÿ‡Ô«
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(®²ï¯ùÿÿÿÿ
+Ksquid:S1213"8Move this variable to comply with Java Code Conventions.(ïæe
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(õ¾Â]
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÜÌ™ 
+usquid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "idleTime".(®ñí÷
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(–œ†¾ùÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ª·
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ï´­Ûûÿÿÿÿ
+asquid:S1226"GIntroduce a new variable instead of reusing the parameter "lowerBound".(ã¦”êÿÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(âˆâ™ûÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ş°ãõÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(è·²­
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(èäÀ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(¨ÇÑÍøÿÿÿÿ
+Lsquid:S1854"7Remove this useless assignment to local variable "sql".(êƒİÕ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(º–ğòüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(éÔÅÆùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÓÜ™—ùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(íÿÖŒ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ñäğı
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(òˆõñüÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"VMake charsetMap a static final constant or non-public and provide accessors if needed.(ø†¾÷
+^squid:S1192"IDefine a constant instead of duplicating this literal "sql_mode" 3 times.( ôÎß
+:squid:S1166"%Either log or rethrow this exception.(€¨Ì
+_squid:S2147"ECombine this catch with the one at line 352, which has the same body.(’ÇíŸüÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(’ÇíŸüÿÿÿÿ
+5squid:S2068" Remove this hard-coded password.(Ä„ö
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ïå×Ê
+:squid:S1166"%Either log or rethrow this exception.(«Ä¨û
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(•Â¹³úÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ŞŒ¯Æúÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Çâ¯°
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(âßÈûÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÕĞÃâ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÕÊÊ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(³Ç˜úÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ùØÂúÿÿÿÿ
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "cStmt".(¿¹µÍûÿÿÿÿ
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(«¥é
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(è™˜ùÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¤àÙıüÿÿÿÿ
+jsquid:S1192"UDefine a constant instead of duplicating this literal "character_set_client" 6 times.(¿Çæ³
+csquid:S1132"IMove the "GMT" string literal on the left side of this string comparison.(ò°µ§ûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ê¼Ëˆ
+Dsquid:S00108")Either remove or fill this block of code.(’ÇíŸüÿÿÿÿ
+Wsquid:S1226"BIntroduce a new variable instead of reusing the parameter "sqlEx".(š¥ûí
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ô›ÿŠşÿÿÿÿ
+asquid:S1854"GRemove this useless assignment to local variable "setStackTraceMethod".(òÎÚûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(Ó¯à©øÿÿÿÿ
+`squid:S1132"KMove the "UTF-8" string literal on the left side of this string comparison.(×ˆ¶»
+jsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ö³¾Şıÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(œ³óııÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(‰£Óıÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¨½€øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ø³®Ú
+_squid:S2147"ECombine this catch with the one at line 352, which has the same body.(¨ÇÑÍøÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ãäÓ«
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ï¯”ÿÿÿÿÿ
+asquid:S1132"GMove the " " string literal on the left side of this string comparison.(‡ÊÙ™ùÿÿÿÿ
+Vsquid:S1226"AIntroduce a new variable instead of reusing the parameter "sqlE".(ïñ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¡ğÔûÿÿÿÿ
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(íĞ†ş
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(åºƒ¦şÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(ÊäêÌùÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ºÎJ
+asquid:S1192"GDefine a constant instead of duplicating this literal "latin1" 5 times.(»Ôæııÿÿÿÿ
+,squid:S2095"Close this "ResultSet".(Í©÷
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¸Õ¹‡øÿÿÿÿ
+[squid:S2147"FCombine this catch with the one at line 3676, which has the same body.(Å¡ß
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ªèÒí
+dsquid:S1854"JRemove this useless assignment to local variable "defaultMetadataCharset".(Ì¥£±şÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÙ²³úÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ŞöÁ
+Zsquid:S2147"ECombine this catch with the one at line 308, which has the same body.(ıàÑÎ
+Usquid:S1193"@Replace the usage of the "instanceof" operator by a catch block.(ãùª
+Gsquid:UselessParenthesesCheck"!Remove those useless parentheses.(½¹%
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(½™ıÏüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ù¦¬
+Zsquid:S1192"FDefine a constant instead of duplicating this literal " and " 4 times.(£õ».
+msquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª·
+>squid:S1125")Remove the literal "false" boolean value.(¿‹Òˆ
+Rsquid:S1854"8Remove this useless assignment to local variable "stmt".(ÏĞ§æüÿÿÿÿ
+]squid:S2583"CChange this condition so that it does not always evaluate to "true"(åää‡şÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÔ¬œşÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±¶¹Ş
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ä¶éß
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ó•éÄ
+osquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(öá•Ş
+`squid:S1192"KDefine a constant instead of duplicating this literal "SET NAMES " 3 times.(«‹ã
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(øøÜ
+?squid:S1166"%Either log or rethrow this exception.(•”ø¾øÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ôÜ¬ªùÿÿÿÿ
+]squid:S1226"HIntroduce a new variable instead of reusing the parameter "newPassword".(Ä„ö
+Rsquid:S1854"=Remove this useless assignment to local variable "parsedSql".(®Ùòû
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(²Ô‡
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(•Õ·Èûÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìş°øùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÆÇ…‘øÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ïì‚øÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¡Ğ™àÿÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ˆ†ÀË
+jsquid:S1226"PIntroduce a new variable instead of reusing the parameter "databaseToConnectTo".(áæãšûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(©ÊÔîşÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "pStmt".(½˜ò“üÿÿÿÿ
+Xsquid:S1854"CRemove this useless assignment to local variable "txIsolationName".(ËÅºï
+?squid:S00108")Either remove or fill this block of code.(«Ä¨û
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ª¼ÏŞşÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(»Ê¢˜ûÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(âˆâ™ûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(›£Äí
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(Ï±Æš
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(óµÉ¢ûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ª—×Ø
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Šÿş¶
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(”Â­Çÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ˆÀ¢‹ÿÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(—ÆÖìùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(è×Æóûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(–ş‡ˆ
+Osquid:S1161":Add the "@Override" annotation above this method signature(“–ış
+^squid:S1854"IRemove this useless assignment to local variable "theStackTraceAsObject".(ÕÎÔ¿
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(áê¤Üüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ò®øÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óµ×§ùÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï´­Ûûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(óâèâıÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ƒÑ¾úÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ åÓ
+„squid:S1450"jRemove the "characterSetResultsOnServer" field and declare it as a local variable in the relevant methods.(‚ –úÿÿÿÿ
+[squid:S1132"FMove the "" string literal on the left side of this string comparison.(ÜÃà³
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÏÏ»–
+asquid:S1192"MDefine a constant instead of duplicating this literal "\n\tbetween " 4 times.(£õ».
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÄÆæÕ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(•Â¹³úÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(›§Ñùÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "cStmt".(®Ãúÿÿÿÿ
+l
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(›”„
+Rsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(Šÿş¶
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ß½¦Æüÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(·Š•ğüÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(†šóºøÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(š†£øüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(öÀò½
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(÷í›úÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã £ó
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.( ª·¥
+Ysquid:S2583"DChange this condition so that it does not always evaluate to "false"(­‘£ö
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÖıïĞûÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.(«°Ïû
+Osquid:S1161":Add the "@Override" annotation above this method signature(“–ış
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Â´‡
+Ssquid:S1854"9Remove this useless assignment to local variable "pStmt".(½˜ò“üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(œê½íÿÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(”ı¾
+Esquid:S1444"0Make this "public static charsetMap" field final(ø†¾÷
+’squid:S1192"}Define a constant instead of duplicating this literal "HOLD_CUSRORS_OVER_COMMIT is only supported holdability level" 4 times.(œ éú
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¤®à‹şÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ã¤»´
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…È½º
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "stmt".(ÏĞ§æüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(®èÀçıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÁ¾ìúÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Íğ“İ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(®àôš
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(…¤¤¿
+?squid:S1166"%Either log or rethrow this exception.(ş°ãõÿÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(¦ÉÂ½
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾»¢ˆÿÿÿÿÿ
+qsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "index".(•´êe
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(Á˜Õîøÿÿÿÿ
+[squid:S3027"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(Ä‘èî
+^squid:S1192"JDefine a constant instead of duplicating this literal "localhost" 3 times.(ãÓ7
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ü–•¶øÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(™Ï¯”ÿÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(„®ğ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‚äšìÿÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(”Ëç4
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(¾áå¬
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(û¸€ä
+Dsquid:S1066"/Merge this if statement with the enclosing one.(¥À¬à
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(®‡Ûøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ôñø°úÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(óØ¶óşÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÜÙ‰Ê
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ˆ—óıÿÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(Ì’ÎÚ
+Ssquid:S00107"=Method has 10 parameters, which is greater than 7 authorized.(Šÿş¶
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Àûäµÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.( –Üüÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(ğ‹Ê¾
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ñüø¡
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Üİ ‹
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ı™ÈÙûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‚˜ì°ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ğŸ‹üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ş™ıÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ãäÓ«
+Vsquid:S1854"BRemove this useless assignment to local variable "firstPartEqual".(ßÂçf
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ï×ÁÁúÿÿÿÿ
+nsquid:S1192"YDefine a constant instead of duplicating this literal "character_set_connection" 6 times.(±«Ğ¥
+Nsquid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(Ûš¸ã
+?squid:S1166"%Either log or rethrow this exception.(óôí¦ùÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌãØ²ùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(µ°ß
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¢éß 
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+\squid:S1854"GRemove this useless assignment to local variable "getStackTraceMethod".(èĞ£í
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(İœ¶ƒÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‘œ³¡
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ã £ó
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ôº¤Û
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨õëŒ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(öš˜ü

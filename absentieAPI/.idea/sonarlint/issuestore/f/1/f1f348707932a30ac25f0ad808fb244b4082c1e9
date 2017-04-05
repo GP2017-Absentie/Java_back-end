@@ -1,0 +1,14 @@
+
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(¡÷‘þÿÿÿÿ
+Gsquid:UselessParenthesesCheck"!Remove those useless parentheses.(–‚–
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¡÷‘þÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(˜é†…ýÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(…¬î¦ÿÿÿÿÿ
+Rsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ØöÐ<
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(˜é†…ýÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±þýÿÿÿÿ
+ysquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "hasMore".(Ÿ­Ÿïüÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(˜é†…ýÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(˜é†…ýÿÿÿÿ
+Rsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Þ²ªO
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¹Ðîþþÿÿÿÿ

@@ -4,6 +4,7 @@ import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Persoon;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
@@ -13,7 +14,9 @@ import java.util.ArrayList;
 
 @Repository
 public class AbsentieModel {
+    @Autowired
     private PersoonModel persoonModel;
+    @Autowired
     private LesModel lesModel;
 
     public ArrayList<Absentie> getAll(){
@@ -21,11 +24,14 @@ public class AbsentieModel {
             Statement stat = DatabaseModel.myConn.createStatement();
             ArrayList<Absentie> absenties = new ArrayList<Absentie>();
             ResultSet res = stat.executeQuery("SELECT * FROM `absentie`");
+
             while (res.next()){
+                Persoon p = persoonModel.getById(res.getInt("persoon_FK"));
+                Les l = lesModel.getById(res.getInt("les_FK"));
                 Absentie a = new Absentie(
                         res.getInt("id"),
-                        persoonModel.getById(res.getInt("persoon_FK")),
-                        lesModel.getById(res.getInt("les_FK")),
+                        p,
+                        l,
                         res.getString("reden"),
                         res.getString("toelichting"));
                 absenties.add(a);
@@ -46,11 +52,6 @@ public class AbsentieModel {
     }
 
 	public Absentie getById (int id) {
-
-
-
-
-
         try {
             Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `id` = " + id);           

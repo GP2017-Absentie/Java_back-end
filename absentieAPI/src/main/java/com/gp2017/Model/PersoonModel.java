@@ -47,22 +47,22 @@ public class PersoonModel {
 
     public Persoon getById(int id) {
         try {
-            Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);           
-            res.next();
-            System.out.println("DEBUG: PERSOON ID = " + res.getInt("id"));
+            Statement stat2 = DatabaseModel.myConn.createStatement();
+            ResultSet res2 = stat2.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);
+            res2.next();
+            System.out.println("DEBUG: PERSOON ID = " + res2.getInt("id"));
 
             Persoon p = null;
 
-            if (res.getString("rol").equals("student")){
-                p = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+            if (res2.getString("rol").equals("student")){
+                p = new Student(res2.getInt("id"), res2.getString("naam"), res2.getString("email"), res2.getString("wachtwoord"), res2.getString("klas_FK"));
             }
-            else if (res.getString("rol").equals("docent")){
-                p = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"));
+            else if (res2.getString("rol").equals("docent")){
+                p = new Docent(res2.getInt("id"), res2.getString("naam"), res2.getString("email"), res2.getString("wachtwoord"));
             }
 
-            res.close();
-            stat.close();
+            res2.close();
+            stat2.close();
             
             return p;
 

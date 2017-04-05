@@ -19,6 +19,7 @@ public class KlasModel {
     private StudentModel studentModel;
 
     public ArrayList<Klas> getAll(){
+
         ArrayList<Klas> klassen = new ArrayList<Klas>();
         Klas k;
         try {

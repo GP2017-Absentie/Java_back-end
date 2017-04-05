@@ -1,19 +1,23 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€Î¾çþÿÿÿÿ8þÉÜÍ³+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßšáßøÿÿÿÿ8þÉÜÍ³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¼”úƒûÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ò¡â8þÉÜÍ³+
-asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
-1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
 Lsquid:UselessImportCheck"Remove this duplicated import.(ªçë‘øÿÿÿÿ8Þ¬³Ì³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ8ñ·“Ò³+
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼þÿÿÿÿ
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚Žùÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²”æ8þÉÜÍ³+
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ«K8þÉÜÍ³+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ñ·“Ò³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ñ·“Ò³+
+3squid:S2095"Close this "ResultSet".(êþ°›8ñ·“Ò³+
+asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ð‡Ñ8ñ·“Ò³+
+1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8ñ·“Ò³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ú€ë¨ÿÿÿÿÿ8ñ·“Ò³+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ñ·“Ò³+

@@ -1,0 +1,130 @@
+
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(‹êŸöûÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(ì×¦¾
+Gsquid:S1199"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+~squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(¤—;
+|squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "adjustedTs".(®œõìÿÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(¼À´™üÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 17 to at most 5, for example by extracting code into methods.(†ß­Çıÿÿÿÿ
+\squid:S1192"HDefine a constant instead of duplicating this literal "Value '" 3 times.(¼Ò¶
+„squid:S1151"jReduce this switch case number of lines from 27 to at most 5, for example by extracting code into methods.(ê×Êüÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(îÒ«Â
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ááöµ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Gsquid:S1199"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+Rsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(Á³½–
+Bsquid:S1199"-Extract this nested code block into a method.(´Ï–à
+Rsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(ì×¦¾
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹üİ‹üÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(£ÖĞ
+Bsquid:S1199"-Extract this nested code block into a method.(õÿÑÜ
+„squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(ğÁ–Óûÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(­Ó–Ô
+Gsquid:S1199"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(òˆä˜øÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(Á¦ı“
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(®©¯øÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(­Ó–Ô
+Gsquid:S1199"-Extract this nested code block into a method.(ı´ª¿ûÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+Bsquid:S1199"-Extract this nested code block into a method.(ÎŞèº
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(ğÁ–Óûÿÿÿÿ
+Qsquid:S1854"=Remove this useless assignment to local variable "stringVal".(Èò™g
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+}squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(üÒªs
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ááöµ
+Bsquid:S1199"-Extract this nested code block into a method.(ş³ùÓ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(•Ø·üûÿÿÿÿ
+Xsquid:S1226"CIntroduce a new variable instead of reusing the parameter "length".(–´¼Ë
+Gsquid:S1199"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "nanos".(õò–ßÿÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "day".(¹ÒÍğüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+Rsquid:S00107"<Method has 8 parameters, which is greater than 7 authorized.(é·ë¥
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+„squid:S1151"jReduce this switch case number of lines from 16 to at most 5, for example by extracting code into methods.( üıÕûÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(î²¡À
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹üİ‹üÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+Gsquid:S1199"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(îÒ«Â
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÔşßŞ
+|squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "adjustedTs".(®œõìÿÿÿÿÿ
+Gsquid:S1135"2Complete the task associated to this TODO comment.(î²¡À
+Bsquid:S1199"-Extract this nested code block into a method.(­Ó–Ô
+Gsquid:S1481"2Remove this unused "precisionLost" local variable.(Ö¤ßˆ
+Wsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(¼À´™üÿÿÿÿ
+`squid:S2184"FCast one of the operands of this substraction operation to a "double".(Úñ™Ñûÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(Í¤³
+~squid:S1488"dImmediately return this expression instead of assigning it to the temporary variable "adjustedTime".(ĞÕßúÿÿÿÿ
+Vsquid:S1854"ARemove this useless assignment to local variable "precisionLost".(Ö¤ßˆ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¹èÊÿÿÿÿÿ
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¾Á
+ƒsquid:S1151"iReduce this switch case number of lines from 7 to at most 5, for example by extracting code into methods.(èçØÛşÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(ş³ùÓ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(´Ï–à
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¢÷€–úÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(îÒ«Â
+Xsquid:S00107"=Method has 11 parameters, which is greater than 7 authorized.( †ªıÿÿÿÿ
+Gsquid:S1481"2Remove this unused "precisionLost" local variable.(Ö¤ßˆ
+Bsquid:S1199"-Extract this nested code block into a method.(ÎŞèº
+Gsquid:S1172"2Remove this unused method parameter "columnIndex".(öš¤À
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(õÿÑÜ
+squid:S1151"jReduce this switch case number of lines from 10 to at most 5, for example by extracting code into methods.(îÒ«Â
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜
+}squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "valueAsLong".(Ñš÷Òÿÿÿÿÿ
+Xsquid:S1226"CIntroduce a new variable instead of reusing the parameter "length".(–´¼Ë
+csquid:S1854"NRemove this useless assignment to local variable "populatedFromDateTimeValue".(ĞÍç“
+]squid:S1226"CIntroduce a new variable instead of reusing the parameter "length".(üƒİ‡ÿÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 13 to at most 5, for example by extracting code into methods.(ı´ª¿ûÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ı´ª¿ûÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.( †ªıÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 9 to at most 5, for example by extracting code into methods.(ÎŞèº
+~squid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Í¤³
+Ssquid:S1854"9Remove this useless assignment to local variable "month".(Æúô¦øÿÿÿÿ
+xsquid:S1192"^Define a constant instead of duplicating this literal "ResultSet.Bad_format_for_Date" 3 times.(áŠöøÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(‡¾Á
+`squid:S2184"FCast one of the operands of this substraction operation to a "double".(Úñ™Ñûÿÿÿÿ
+|squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "valueAsInt".(½ë¼–ûÿÿÿÿ
+Vsquid:S1854"ARemove this useless assignment to local variable "precisionLost".(Ö¤ßˆ
+ysquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "asShort".(ÉÖÄŒùÿÿÿÿ
+Msquid:S1854"8Remove this useless assignment to local variable "year".(¢äš™
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Œ£ü÷ùÿÿÿÿ
+Wsquid:S00107"<Method has 8 parameters, which is greater than 7 authorized.(Šæğüúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‡±êúÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹…ú¶
+~squid:S1488"dImmediately return this expression instead of assigning it to the temporary variable "adjustedTime".(ĞÕßúÿÿÿÿ
+ksquid:S00104"[This file has 762 lines, which is greater than 750 authorized. Split it into smaller files.
+Gsquid:S1172"2Remove this unused method parameter "columnIndex".(Á³½–
+squid:S1151"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(î–…
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(£ÖĞ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¢÷€–úÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(£ÖĞ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ı€°Øûÿÿÿÿ
+squid:S1151"jReduce this switch case number of lines from 24 to at most 5, for example by extracting code into methods.(­Ó–Ô
+~squid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(ÎŞèº
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ê×Êüÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ñ·‡˜

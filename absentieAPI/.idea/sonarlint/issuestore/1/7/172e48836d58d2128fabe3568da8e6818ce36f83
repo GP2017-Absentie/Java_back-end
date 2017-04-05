@@ -1,0 +1,54 @@
+
+tsquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(½éºæûÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¦£Íž
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(’­êðúÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨Í¡r
+osquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(¦£Íž
+:squid:S1166"%Either log or rethrow this exception.(”†Ü
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ã±·…ýÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ñßª‘ùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(¯ã¨úúÿÿÿÿ
+Xsquid:S00107"BConstructor has 19 parameters, which is greater than 7 authorized.( ­­Æ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(žªœÍþÿÿÿÿ
+asquid:S1854"GRemove this useless assignment to local variable "fullOriginalNameBuf".(Í—£ªøÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(°÷ãð
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(×žÓãøÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.( ý°¿ûÿÿÿÿ
+Tsquid:S1854":Remove this useless assignment to local variable "retVal".(¤êÜªþÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(´“™ûÿÿÿÿ
+Qsquid:S1854"=Remove this useless assignment to local variable "stringVal".(Èò™g
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Ü±Ã
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥÷²ƒûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ç£Êéûÿÿÿÿ
+M"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(Æþí
+Isquid:S1066"/Merge this if statement with the enclosing one.(õªà™ûÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(”€÷™
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÊçÙàýÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(½¿´i
+Usquid:S1213";Move this constructor to comply with Java Code Conventions.(¢¥ÖÖøÿÿÿÿ
+S"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(‡äÉ–úÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(—âÙóùÿÿÿÿ
+_squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Æþí
+Ysquid:S1854"?Remove this useless assignment to local variable "fullNameBuf".(ê¯É„ÿÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(÷Àæè
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.( ­­Æ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(“ƒî£úÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+M"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(Æþí
+]squid:S00107"BConstructor has 10 parameters, which is greater than 7 authorized.(¢¥ÖÖøÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸­„Æÿÿÿÿÿ
+Csquid:S1066"/Merge this if statement with the enclosing one.(½¿´i
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(˜Ž©úÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(”’¢°ûÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(÷¤–ùÿÿÿÿ
+esquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(‡äÉ–úÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ù¿üèüÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+tsquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(˜ÿ€ûÿÿÿÿ
+Psquid:S1213";Move this constructor to comply with Java Code Conventions.(¤Éµ‚
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¿¹óü
+?squid:S1166"%Either log or rethrow this exception.(•”ø¾øÿÿÿÿ

@@ -1,7 +1,5 @@
 
-=squid:S1068"(Remove this unused "code" private field.(²âèú
-Gsquid:S1068"-Remove this unused "studenten" private field.(³Š¿–øÿÿÿÿ
-‰squid:S1319"tThe type of the "studenten" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåþø
-†squid:S1319"qThe type of the "lessen" object should be an interface such as "List" rather than the implementation "ArrayList".(Æåþø
-Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹þüÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
+Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡‡‹þüÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ƒŽÙ8®Ý‘Õ³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÔÏÁšùÿÿÿÿ8ªÄ˜Õ³+

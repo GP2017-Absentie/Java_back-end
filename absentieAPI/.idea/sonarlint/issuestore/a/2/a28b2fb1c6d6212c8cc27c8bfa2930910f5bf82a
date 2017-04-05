@@ -1,0 +1,298 @@
+
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(«Æ×Ñùÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(Ö«½ùüÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(—ÊÓÖ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(°Çóûÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Î²â
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(°Çóûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(°Çóûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(°Çóûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(š•˜Êùÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ÛÊ€¹üÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(¡Å“Îøÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Û—¸×
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ƒÃşşüÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(»ı¬¬ÿÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(»ı¬¬ÿÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(»ı¬¬ÿÿÿÿÿ
+Gsquid:UselessParenthesesCheck"!Remove those useless parentheses.(­Şù
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(©ì‚Çûÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ñÛ†âıÿÿÿÿ
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(ù¨ÕÕùÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(’¯±û
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(¯ö’úıÿÿÿÿ
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Œ£ÿ¦
+Msquid:UselessParenthesesCheck"!Remove those useless parentheses.(æÉÃÉÿÿÿÿÿ
+3squid:S2178"Correct this "&" to "&&".(·ûÖøÿÿÿÿ
+`squid:S3027"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(¨ìáÎùÿÿÿÿ
+N"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(€Ëé¢
+gsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ß³â
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‘Ùª²ıÿÿÿÿ
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(öû¸Üıÿÿÿÿ
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(à¶¨†úÿÿÿÿ
+esquid:S1192"KDefine a constant instead of duplicating this literal "MysqlIO.43" 3 times.(Ã¤ëµøÿÿÿÿ
+`squid:S1192"KDefine a constant instead of duplicating this literal "MysqlIO.92" 4 times.(Éˆ¬
+\squid:S1192"GDefine a constant instead of duplicating this literal "ASCII" 10 times.(ÿÉú€
+xsquid:S1192"cDefine a constant instead of duplicating this literal "Connection.BadAuthenticationPlugin" 3 times.(ú¢ÃÇ
+`squid:S1192"KDefine a constant instead of duplicating this literal "MysqlIO.91" 4 times.(Éˆ¬
+tsquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(‡ÔŒüÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).( À¹”
+tsquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(‚½àÿÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(™ÿÇË
+Dsquid:S1066"/Merge this if statement with the enclosing one.(â –
+Isquid:S1066"/Merge this if statement with the enclosing one.(“¹ã›şÿÿÿÿ
+Csquid:S1066"/Merge this if statement with the enclosing one.(Ñû”
+Csquid:S1066"/Merge this if statement with the enclosing one.(Ñû”
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖŠÕ¯
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£¾×Ë
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆàÀëøÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùí½É
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯Ú²æüÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸õÛ”
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ìµıøÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ª¦Ô
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(äçæˆ
+msquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠØ.
+csquid:S1871"NThis branch's code block is the same as the block for the branch on line 1324.(å¥‡
+dsquid:S1871"JThis case's code block is the same as the block for the case on line 4505.(È¼Õ…şÿÿÿÿ
+dsquid:S1871"JThis case's code block is the same as the block for the case on line 4510.(Õ¾âøÿÿÿÿ
+dsquid:S1871"JThis case's code block is the same as the block for the case on line 4529.(ä„¥«úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ßÄˆî
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÿï÷¢
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¶ÉÌøÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¡Å§
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(›ƒª
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ï˜é­
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¡Æ’™şÿÿÿÿ
+\$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(úÉ—ñ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+2squid:S2095"Close this "Connection".(ìçËñûÿÿÿÿ
+2squid:S2095"Close this "FileInputStream".(‘¬Ñ÷
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉØ#
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è¬¿Ğşÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†·­òøÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬›ˆªÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(íòÊîùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è¥øùÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à¸—Èúÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Íøäùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õñ¼°øÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾øì¢ûÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’ÆĞv
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¬¨Ø¿
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(°Çóûÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(€ößª
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ïÑÊş
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÿë”åùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Å¦¹ƒıÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(æÁíŠ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ú° ™
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¸Ôã
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Êˆ‚ï
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(«°Àë
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(å¼–æıÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ßíÒÙ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(™ì¯
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¸Ôã
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(÷Û÷Ûøÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(æƒ"
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(æÁíŠ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(™ì¯
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¸Ôã
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(š•˜Êùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(è¨õÄÿÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¾¤°î
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Œ‰°¶
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(›“µƒşÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¸Çùÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ñµ©È
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(‰ÆÕûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Õ¼Öøÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÿ­úô
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(£Íºó
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ú‘ÃŸúÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(àÏ«
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¼›Ñ²úÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…½ŒÊ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Óâùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Óâùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ë™Î•úÿÿÿÿ
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ñû”
+a
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ñû”
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.( âÿôıÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+tsquid:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "rs".(ØŠÊæüÿÿÿÿ
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "field".(Î¾Š¹ÿÿÿÿÿ
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "field".(´Èù´ùÿÿÿÿ
+tsquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "results".(×Ñ¯Ì
+qsquid:S1488"\Immediately throw this expression instead of assigning it to the temporary variable "sqlEx".(ŸÑ‡„
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"[Make mysqlConnection a static final constant or non-public and provide accessors if needed.(îøïŒşÿÿÿÿ
+`squid:S1132"KMove the "HY000" string literal on the left side of this string comparison.(à£˜…
+Gsquid:S1135"2Complete the task associated to this TODO comment.(Æ®¥…
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ùÛüÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(Í‚“İøÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(«™Î×ûÿÿÿÿ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(¢îãå
+[squid:S1226"FIntroduce a new variable instead of reusing the parameter "challenge".(ÜÔŸ¹
+fsquid:S1226"QIntroduce a new variable instead of reusing the parameter "useBufferRowExplicit".(³«•ú
+bsquid:S1226"HIntroduce a new variable instead of reusing the parameter "queryPacket".(è¡“şÿÿÿÿ
+hsquid:S1226"NIntroduce a new variable instead of reusing the parameter "originalResultSet".(âÉÊüÿÿÿÿ
+esquid:S1226"KIntroduce a new variable instead of reusing the parameter "multiPacketSeq".(ƒ›·œúÿÿÿÿ
+`squid:S1226"FIntroduce a new variable instead of reusing the parameter "packetLen".(Ùø››ûÿÿÿÿ
+`squid:S1226"FIntroduce a new variable instead of reusing the parameter "packetLen".(äß¾—úÿÿÿÿ
+Wsquid:S1226"CIntroduce a new variable instead of reusing the parameter "packet".( á›S
+Wsquid:S1226"CIntroduce a new variable instead of reusing the parameter "packet".( á›S
+\squid:S1226"HIntroduce a new variable instead of reusing the parameter "fetchedRows".(ŠØ.
+_squid:S2674"JCheck the return value of the "skip" call to see how many bytes were read.(Ìûìß
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(€¥¦øùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ŸÅÃñùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ğí½ùÿÿÿÿ
+hsquid:S3776"SRefactor this method to reduce its Cognitive Complexity from 126 to the 15 allowed.(Øñ½
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ô›¥ò
+hsquid:S3776"SRefactor this method to reduce its Cognitive Complexity from 143 to the 15 allowed.(íÔîë
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(üå™¥
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Î¯ø°
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÿËşºıÿÿÿÿ
+hsquid:S3776"SRefactor this method to reduce its Cognitive Complexity from 108 to the 15 allowed.(Ùùâƒ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.( ‰ıÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(—Ş›åûÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(õâø¶øÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(‚ùñ•
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ìÈİşÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(æüæÔ
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(åˆˆy
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÒØòv
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(Öù§Ü
+Ssquid:S1172"9Remove this unused method parameter "preSentColumnCount".(èæÙØıÿÿÿÿ
+Csquid:S1172".Remove this unused method parameter "command".(’Î´
+@squid:S1172"+Remove this unused method parameter "user".(ñàª¡
+Vsquid:S2259"ANullPointerException might be thrown as 'plugin' is nullable here(£÷¨’
+[squid:S2259"ANullPointerException might be thrown as 'plugin' is nullable here(ğëÇÏøÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(¿Šó¡úÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(ÅŸ­Â
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+?squid:S1166"%Either log or rethrow this exception.(ĞĞ¹óúÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(Ñ„—„
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(±Ÿ—±ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(ìşÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(¦¬ë«
+:squid:S1166"%Either log or rethrow this exception.(¦¬ë«
+:squid:S1166"%Either log or rethrow this exception.(¦¬ë«
+?squid:S1166"%Either log or rethrow this exception.(ĞĞ¹óúÿÿÿÿ
+msquid:S00104"]This file has 3,192 lines, which is greater than 750 authorized. Split it into smaller files.
+Wsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(€¥¦øùÿÿÿÿ
+Rsquid:S00107"<Method has 8 parameters, which is greater than 7 authorized.(üå™¥
+Xsquid:S00107"=Method has 10 parameters, which is greater than 7 authorized.(ÑïŒ§üÿÿÿÿ
+Ssquid:S00107"=Method has 10 parameters, which is greater than 7 authorized.(Ùùâƒ
+Ssquid:S00107"=Method has 10 parameters, which is greater than 7 authorized.(’¿ÎÆ
+Dsquid:S00108")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(ÅŸ­Â
+Dsquid:S00108")Either remove or fill this block of code.(ĞĞ¹óúÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+Dsquid:S00108")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ã¤ëµøÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‘Ãã¢øÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+Tsquid:S1854"?Remove this useless assignment to local variable "fieldPacket".(°’÷
+Psquid:S1854";Remove this useless assignment to local variable "rowData".(Ù±Á£
+Ysquid:S1854"DRemove this useless assignment to local variable "catalogNameStart".(©Â‘É
+Wsquid:S1854"=Remove this useless assignment to local variable "colLength".(ü“Ãùÿÿÿÿ
+Usquid:S1854";Remove this useless assignment to local variable "colFlag".(«†÷Üşÿÿÿÿ
+Usquid:S1854";Remove this useless assignment to local variable "colFlag".(«†÷Üşÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "errno".(é¾º®ùÿÿÿÿ
+Tsquid:S1854":Remove this useless assignment to local variable "packet".(Á¢–ÿÿÿÿÿ
+Wsquid:S1854"=Remove this useless assignment to local variable "last_sent".(«ÜœÉşÿÿÿÿ
+Ssquid:S1854">Remove this useless assignment to local variable "fromServer".(”’å‘
+Wsquid:S1854"=Remove this useless assignment to local variable "rowPacket".(™è•ˆÿÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "len".(¤í´‚şÿÿÿÿ
+Vsquid:S1854"ARemove this useless assignment to local variable "testcaseQuery".(Ò÷Ï”
+Zsquid:S1854"@Remove this useless assignment to local variable "fetchEndTime".(ÃÊ½äúÿÿÿÿ
+Psquid:S1854";Remove this useless assignment to local variable "logSlow".(Çæş
+Nsquid:S1854"9Remove this useless assignment to local variable "cause".(«Ş½
+Psquid:S1854"<Remove this useless assignment to local variable "fileName".(ĞÔ&
+Psquid:S1854"6Remove this useless assignment to local variable "rs".(ÅäØ»şÿÿÿÿ
+]squid:S1854"CRemove this useless assignment to local variable "compressedBytes".(ö‡÷Àşÿÿÿÿ
+Ssquid:S1854">Remove this useless assignment to local variable "packetDump".(öá¿
+Usquid:S1854"@Remove this useless assignment to local variable "packetLength".(¶§
+Zsquid:S1854"@Remove this useless assignment to local variable "packetLength".(’ïá›üÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "errno".(é¾º®ùÿÿÿÿ
+Ssquid:S1854"9Remove this useless assignment to local variable "xOpen".(¥öÙğüÿÿÿÿ
+Psquid:S1854";Remove this useless assignment to local variable "seconds".(—Å‹
+Tsquid:S1854":Remove this useless assignment to local variable "minute".(À›í¸úÿÿÿÿ
+Rsquid:S1854"8Remove this useless assignment to local variable "hour".(ÌÇÍüÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "row".(¯àÿöøÿÿÿÿ
+`squid:S2147"FCombine this catch with the one at line 4392, which has the same body.(ĞĞ¹óúÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Áƒ¦øÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÜœÉşÿÿÿÿ
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óê—È
+ƒsquid:S1151"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(·æÃ‡üÿÿÿÿ
+~squid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(›á—®
+}squid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(Ï­’=
+ƒsquid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(ö¾—ùÿÿÿÿ
+ƒsquid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(çğÎçúÿÿÿÿ
+~squid:S1151"jReduce this switch case number of lines from 25 to at most 5, for example by extracting code into methods.(¤—;
+„squid:S1151"jReduce this switch case number of lines from 39 to at most 5, for example by extracting code into methods.(èçØÛşÿÿÿÿ
+„squid:S1151"jReduce this switch case number of lines from 60 to at most 5, for example by extracting code into methods.( üıÕûÿÿÿÿ
+Isquid:S1143"4Remove this throw statement from this finally block.(Ğ·Ç·
+Isquid:S1143"4Remove this throw statement from this finally block.(Æ‚Õà
+Rsquid:S1163"=Refactor this code to not throw exceptions in finally blocks.(Ğ·Ç·
+Rsquid:S1163"=Refactor this code to not throw exceptions in finally blocks.(Æ‚Õà
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(÷ˆìÒ

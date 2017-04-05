@@ -1,14 +1,27 @@
 
-bsquid:S2077"M"klascode" is provided externally to the method and not sanitized before use.(¼­ºê
-,squid:S2095"Close this "ResultSet".(¼­ºê
 …squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğŸıù
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ô·ÓÓ³+
+\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ñØÈÔ³+
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-@squid:S1168"+Return an empty collection instead of null.(¥¹ï
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ô·ÓÓ³+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥¢©8¸ÛÆÔ³+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+bsquid:S2077"M"klascode" is provided externally to the method and not sanitized before use.(¼­ºê
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8—÷¾Ô³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ô·ÓÓ³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ô·ÓÓ³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(óÆ¬Ïúÿÿÿÿ8ĞÌÛÔ³+
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÔÁÔüÿÿÿÿ
+3squid:S2095"Close this "ResultSet".(”ø»Ğ8ô·ÓÓ³+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÔÁÔüÿÿÿÿ
+,squid:S2095"Close this "ResultSet".(¼­ºê
+_squid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ĞÌÛÔ³+

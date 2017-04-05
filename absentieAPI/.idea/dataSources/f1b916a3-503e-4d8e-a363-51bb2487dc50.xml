@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="AbsentieSys@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="AbsentieSys">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="AbsentieSysteem"/>
+    <schema id="4" parent="1" name="domotica"/>
+    <schema id="5" parent="1" name="gotTestServer"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <table id="9" parent="2" name="Absentie"/>
+    <table id="10" parent="2" name="Klas"/>
+    <table id="11" parent="2" name="Les"/>
+    <table id="12" parent="2" name="Lokaal"/>
+    <table id="13" parent="2" name="Persoon"/>
+    <table id="14" parent="2" name="Vak"/>
+    <column id="15" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="16" parent="9" name="reden">
+      <Position>2</Position>
+      <DataType>enum(&apos;ziekte&apos;, &apos;doctor&apos;, &apos;tandarts&apos;, &apos;overig&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;ziekte&apos;</DefaultExpression>
+    </column>
+    <column id="17" parent="9" name="toelichting">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="18" parent="9" name="persoon_FK">
+      <Position>4</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="9" name="les_FK">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="20" parent="9" name="absentie_les_FK">
+      <ColNames>les_FK</ColNames>
+    </index>
+    <index id="21" parent="9" name="absentie_persoon_FK">
+      <ColNames>persoon_FK</ColNames>
+    </index>
+    <key id="22" parent="9" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="23" parent="9" name="absentie_persoon_FK">
+      <ColNames>persoon_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>persoon</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="24" parent="9" name="absentie_les_FK">
+      <ColNames>les_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>les</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="25" parent="10" name="code">
+      <Position>1</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <key id="26" parent="10" name="PRIMARY">
+      <ColNames>code</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="11" name="datum">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="11" name="starttijd">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="11" name="eindtijd">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="11" name="vak_FK">
+      <Position>5</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="11" name="lokaal_FK">
+      <Position>6</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="11" name="docent_FK">
+      <Position>7</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="11" name="klas_FK">
+      <Position>8</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <index id="35" parent="11" name="les_klas_FK">
+      <ColNames>klas_FK</ColNames>
+    </index>
+    <index id="36" parent="11" name="les_lokaal_FK">
+      <ColNames>lokaal_FK</ColNames>
+    </index>
+    <index id="37" parent="11" name="les_persoon_FK">
+      <ColNames>docent_FK</ColNames>
+    </index>
+    <index id="38" parent="11" name="les_vak_FK">
+      <ColNames>vak_FK</ColNames>
+    </index>
+    <key id="39" parent="11" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="11" name="les_vak_FK">
+      <ColNames>vak_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>vak</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="41" parent="11" name="les_lokaal_FK">
+      <ColNames>lokaal_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>lokaal</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="42" parent="11" name="les_persoon_FK">
+      <ColNames>docent_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>persoon</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="43" parent="11" name="les_klas_FK">
+      <ColNames>klas_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>klas</RefTableName>
+      <RefColNames>code</RefColNames>
+    </foreign-key>
+    <column id="44" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="12" name="gebouw">
+      <Position>2</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="46" parent="12" name="nummer">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <key id="47" parent="12" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="13" name="naam">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="50" parent="13" name="email">
+      <Position>3</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="13" name="wachtwoord">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="13" name="rol">
+      <Position>5</Position>
+      <DataType>enum(&apos;docent&apos;, &apos;student&apos;)|0</DataType>
+      <DefaultExpression>&apos;student&apos;</DefaultExpression>
+    </column>
+    <column id="53" parent="13" name="klas_FK">
+      <Position>6</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <index id="54" parent="13" name="persoon_klas_FK">
+      <ColNames>klas_FK</ColNames>
+    </index>
+    <index id="55" parent="13" name="persoon_rol_FK">
+      <ColNames>rol</ColNames>
+    </index>
+    <key id="56" parent="13" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="13" name="persoon_klas_FK">
+      <ColNames>klas_FK</ColNames>
+      <RefSchemaName>absentiesys</RefSchemaName>
+      <RefTableName>klas</RefTableName>
+      <RefColNames>code</RefColNames>
+    </foreign-key>
+    <column id="58" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="14" name="code">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <column id="60" parent="14" name="naam">
+      <Position>3</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <key id="61" parent="14" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

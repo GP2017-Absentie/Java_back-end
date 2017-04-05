@@ -1,5 +1,5 @@
 
-Wsquid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(È•×î
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«·„Åúÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
+Wsquid:S00107"AConstructor has 9 parameters, which is greater than 7 authorized.(„ëƒÁ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«·„Åúÿÿÿÿ
 Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ñ€þ®8‚ŽüÄ³+

@@ -1,0 +1,302 @@
+
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(Â÷ƒ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(üûÏ€
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(·íÒ¹üÿÿÿÿ
+asquid:S1192"GDefine a constant instead of duplicating this literal "5.1.13" 7 times.(÷öåØúÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Õ¨üşşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(î¼êÁ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÄ¿ƒıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÿÇ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ôìƒúşÿÿÿÿ
+`squid:S1226"KIntroduce a new variable instead of reusing the parameter "extractedValue".(–‡„¢
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(­–§…ıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(İ”˜şıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ä‘ÅÂşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Òš
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(â”Õ•
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¾Á˜áûÿÿÿÿ
+asquid:S1192"GDefine a constant instead of duplicating this literal "3.0.10" 4 times.(ù¡‘şÿÿÿÿ
+dsquid:S1132"JMove the "TRUE" string literal on the left side of this string comparison.(·±†—şÿÿÿÿ
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(¥¡ë
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ëÄËÒ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ò¥ˆÅ
+squid:S1845"uRename method "getProfileSQL" to prevent any misunderstanding/clash with method "getProfileSql" defined on line 2064.(Ğñë¶şÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(§Á°øÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(¡õ@
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¥ßÍäùÿÿÿÿ
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ã×è¸
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(×Ö¢øÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¡Û¨øüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¬úÅ‚øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(İƒğ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÕÙüÄüÿÿÿÿ
+vsquid:S1192"aDefine a constant instead of duplicating this literal "ConnectionProperties.allVersions" 3 times.(ñ«¼
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÒÍø¡üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÕ¥ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ğÜÄ¦ÿÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.1.3" 3 times.(’½òíùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¶¥ı÷øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ä†£Ì
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÕÙèÎúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Û½ÊÂ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(©Ö·
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(²©å²
+hsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(åÀ—ş
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(×Åò—
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¬Ğˆïûÿÿÿÿ
+qsquid:S1192"\Define a constant instead of duplicating this literal "Internal properties failure" 3 times.(˜Úâ³
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(êÂó‚úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(êáÏ
+`squid:S1226"KIntroduce a new variable instead of reusing the parameter "extractedValue".(Áœ¹è
+\squid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(ÎĞ“Òúÿÿÿÿ
+Vsquid:S00107"AConstructor has 9 parameters, which is greater than 7 authorized.(íö…a
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(óÍà
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(Æã‚0
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÀÚ®óşÿÿÿÿ
+asquid:S1192"GDefine a constant instead of duplicating this literal "5.1.19" 3 times.(àë‚›ÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(èš†ªÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(½¼­æ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(âöôÀûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¨—¼Ôøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(²®£ şÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¬Á²åùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ä€­
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ˆş¿çûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(óÑ¹İüÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ëø°½
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.3" 7 times.(îÅ­šüÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ó«‘&
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(©œ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¼¦‹ä
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÑˆ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.4" 4 times.(¸ôÅ°øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(”©™å
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¿“¡Åüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ù¢¶ã
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Û¶Õüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(İÕÀìıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ïˆï“ùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ãˆœë
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒÖ¹Ïøÿÿÿÿ
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(„Í˜Êøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.( –Íùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(³ò†Šüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(­Ò„Ù
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÇËÏ¼ıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¦ÀçÜøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(à¡Î°ÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(³‘÷ß
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¹åÚáıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(œ‹Íºüÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.0.7" 8 times.(ÃºÔĞüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(†”ÅŒ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(å°®“ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(³’Ï€
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Ëú¥Ï
+Hsquid:UselessParenthesesCheck"!Remove those useless parentheses.(×¨Œº
+osquid:S1192"ZDefine a constant instead of duplicating this literal "The connection property '" 5 times.(À‘«¹
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ì°ğ¡úÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‡Ôš»ûÿÿÿÿ
+csquid:S1132"IMove the "YES" string literal on the left side of this string comparison.(·±†—şÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.8" 4 times.(Œè¦Ïÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(€èÒ²ÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(½Õ­™úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(çö±Í
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÑàÁ
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¡É€
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(”éÖıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ğÎ‘åùÿÿÿÿ
+[squid:S1192"FDefine a constant instead of duplicating this literal "5.0.6" 4 times.(ÍÀÏõ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(æ¿Îºüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ï— Åúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¦íïº
+Šsquid:S1845"uRename method "setProfileSQL" to prevent any misunderstanding/clash with method "setProfileSql" defined on line 3148.(•Ñ÷¯
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(×Â‘‘ùÿÿÿÿ
+[squid:S1192"FDefine a constant instead of duplicating this literal "5.0.5" 8 times.(Äù…ª
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(±·ÙÊøÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ùß§Ö
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒñ¢·øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÖÆ²Ä
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ûŞ˜ıÿÿÿÿÿ
+`squid:S1226"KIntroduce a new variable instead of reusing the parameter "extractedValue".(õµàä
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ùåå
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÓÎÍ¸
+?squid:S1166"%Either log or rethrow this exception.(àöÆœøÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¨ÅÃ¸ûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ôµÍÿÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ï¯”ÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¶ö
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ş’ÀÕüÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(§—£´
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ùÀ¹ÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ëŸØ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(—Ÿ£&
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ş¤Òßûÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¥›ªøøÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ç£Œ–
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ä‘š˜ûÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Û¬µñ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ğ‹éà
+\squid:S1192"GDefine a constant instead of duplicating this literal "3.1.12" 4 times.(Û“ÂÛ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ãü™ø
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ß÷ŞÇ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(«·¾›
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ğ³Œ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(—ƒÌªøÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ùÛõ§
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.1.0" 9 times.(ñÌÖåşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(§³ã¿
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÌŞ™°
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÚŸ
+[squid:S1192"FDefine a constant instead of duplicating this literal "3.0.3" 3 times.(¶¬Ó¾
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(â·ãø
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‚³¡Ò
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÇŸºıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¥ƒ¦‹ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(”ÑÇ°
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.1" 5 times.(É¥Î¡ÿÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.9" 7 times.(©äê¼úÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.1.6" 6 times.(ü‰¯ÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÓµÒ‹
+msquid:S00104"]This file has 2,435 lines, which is greater than 750 authorized. Split it into smaller files.
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÜÚœ`
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ä¤˜şÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(°ñË%
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÊîƒÖşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ô°¡Ì
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ôğÆßıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ê¾şË
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(µ¶ã¬
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(À„°¤ıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(óÍùÇşÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(–Ôÿ”ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ËØï¤ÿÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¡ÆÒô
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(û®Æş
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¦· ÷
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(šÀªô
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ô€İÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(‰×Â²
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(—ñßğ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Äè›“
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ï¿¶±
+\squid:S1192"GDefine a constant instead of duplicating this literal "5.1.15" 4 times.(’ç‘
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(éÏø
+Isquid:S1066"/Merge this if statement with the enclosing one.(¶î¬÷üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Õä¬óşÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(»‹­Ä
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ô±Ÿ±üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(«˜É©ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ú©ë
+Lsquid:S1135"2Complete the task associated to this TODO comment.(û§Óïùÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.7" 7 times.(Áæ¿ıøÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(‰¢ìe
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(—·
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.0.1" 3 times.(ƒµæúÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‹Ø”úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Çş˜ã
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¥ë¨ôúÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Åìİİ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(˜¿Ò—şÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(–ÛÈÉ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒ¡®ı
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(å§­îûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(–ªÿÖøÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÈÓÓº
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ôÙ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(à÷èZ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ë¥ÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(˜åˆıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(”£×ı
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(øã”îûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Óôúíûÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ı…ğ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(°¦ „ıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ùé­çıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¥–·üÿÿÿÿ
+tsquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(şÿ¬üÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(´²Ù™
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¹’â°üÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(†—‡¨ûÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¢íƒ‚ùÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(‰ñĞ
+asquid:S1192"GDefine a constant instead of duplicating this literal "3.1.2" 10 times.(¹¢ò‰ÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Å¯Ëƒıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Ş÷Óˆ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(á€ö§
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ìĞû5
+[squid:S1192"FDefine a constant instead of duplicating this literal "3.1.0" 5 times.(ç¹ÕØ
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.0.1" 3 times.(º¥˜»úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Òœ½À
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(÷Á•
+[squid:S1192"GDefine a constant instead of duplicating this literal "5.1.35" 4 times.(ïÅ¬
+?squid:S1166"%Either log or rethrow this exception.(Â–şºıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(õ™ß¡ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(äÓì¡
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¦ì“¯øÿÿÿÿ
+Zsquid:S1192"FDefine a constant instead of duplicating this literal "5.1.1" 5 times.(€Ûÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(”Í²‡úÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ëÙŒÛ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö´Ø ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‘Êğòÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ñ³ÅÑúÿÿÿÿ
+Dsquid:S1948"/Make "valueAsObject" transient or serializable.(˜½ãß
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÚÕùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(€·Äúÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.0.2" 7 times.(ëË™¦ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(Š‚ö»
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "info".(ä¸¥½øÿÿÿÿ
+?squid:S1166"%Either log or rethrow this exception.(™Ï¯”ÿÿÿÿÿ
+‚squid:S1845"mRename field "profileSQL" to prevent any misunderstanding/clash with field "profileSql" defined on line 1011.(üûÏ€
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(„÷ÿğşÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Û½«íşÿÿÿÿ
+Ssquid:S2130">Use "Double.parseDouble" for this string-to-double conversion.(¸¤“‹
+\squid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(×±ÛÜúÿÿÿÿ
+`squid:S1192"FDefine a constant instead of duplicating this literal "3.1.5" 6 times.(Ã±ò“úÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Î¹ïøÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨±Œùÿÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ßûúşÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‰¹Šáúÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(®™İ•ÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(öíıŸüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ƒ«¶ªşÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Åâ™ºıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÍŞíàøÿÿÿÿ
+Hsquid:S1948".Make "defaultValue" transient or serializable.(îÎğıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(üÆä›úÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(éŒ¼ùÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÉÖã…
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¹ª™ªùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(å’¤øÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(…÷ƒƒ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(—»Ÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(»£¯Öıÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(˜ÉëÕıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(âŸ‹´şÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ŞÃúK
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¬ˆ®ÿşÿÿÿÿ
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÙÆØ
+`squid:S1192"FDefine a constant instead of duplicating this literal "5.1.7" 5 times.(¿£¢ëÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ú¼¦•øÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Àá³ıÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(²¶À´
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ê·â
+Lsquid:S1213"8Move this variable to comply with Java Code Conventions.(« ô_
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(æ‚ÚŠ
+osquid:S1067"ZReduce the number of conditional operators (5) used in the expression (maximum allowed 3).(¿†¹È
+esquid:S1192"KDefine a constant instead of duplicating this literal "profileSql" 3 times.(Û¶Õüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(‹ñÊÆÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¨ôúŒüÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(Ú·º±şÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(ÎÅĞ–ùÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(…‚Ìäıÿÿÿÿ
+Zsquid:S1192"FDefine a constant instead of duplicating this literal "5.0.0" 5 times.(ö®¯H
