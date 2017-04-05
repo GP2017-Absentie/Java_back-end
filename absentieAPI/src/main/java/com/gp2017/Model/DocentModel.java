@@ -1,6 +1,8 @@
 package com.gp2017.Model;
 
+import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Docent;
+import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +16,8 @@ import java.util.ArrayList;
 
 @Repository
 public final class DocentModel {
+    private LesModel lesModel;
+    private AbsentieModel absentieModel;
 
     public ArrayList<Docent> getAll(){
         try {
@@ -72,6 +76,54 @@ public final class DocentModel {
             
             
         }
+        return null;
+    }
+
+    public ArrayList<Les> getLessenDocent(int docent_FK) {
+        try {
+            Statement stat = DatabaseModel.myConn.createStatement();
+            ResultSet res = stat.executeQuery("SELECT * FROM `les` WHERE `docent_FK` = '" + docent_FK + "'");
+
+            ArrayList<Les> lessenDocent = new ArrayList<Les>();
+            while(res.next()) {
+                lessenDocent.add(lesModel.getById(res.getInt("id")));
+            }
+
+            res.close();
+            stat.close();
+
+            return lessenDocent;
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+        return null;
+    }
+
+    public ArrayList<Absentie> getAbsentiesDocent(int persoon_FK) {
+        try {
+            ArrayList<Absentie> absenties = new ArrayList<Absentie>();
+
+            Statement stat = DatabaseModel.myConn.createStatement();
+            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `persoon_FK` = '" + persoon_FK + "'");
+
+            while(res.next()) {
+                absenties.add(absentieModel.getById(res.getInt("id")));
+            }
+
+            res.close();
+            stat.close();
+
+            return absenties;
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+
         return null;
     }
 
