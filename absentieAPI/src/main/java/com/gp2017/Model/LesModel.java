@@ -1,8 +1,7 @@
 package com.gp2017.Model;
 
 
-import com.gp2017.Entity.Docent;
-import com.gp2017.Entity.Les;
+import com.gp2017.Entity.*;
 import com.gp2017.Entity.Les;
 import org.springframework.stereotype.Repository;
 
@@ -15,6 +14,8 @@ import java.util.Date;
 
 @Repository
 public class LesModel {
+    private AbsentieModel absentieModel;
+    private StudentModel studentModel;
 
     public ArrayList<Les> getAll(){
         try {
@@ -125,4 +126,59 @@ public class LesModel {
         return null;
     }
 
+    public ArrayList<Absentie> getAbsentieByLesId(int id) {
+        try {
+            ArrayList<Absentie> absenties = new ArrayList<Absentie>();
+            Statement stat = DatabaseModel.myConn.createStatement();
+            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `les_FK` = " + id);
+
+            while (res.next()) {
+                absenties.add(absentieModel.getById(res.getInt("id")));
+            }
+
+            System.out.println("DEBUG: aantal absenties voor opgegevens les: " + absenties.size());
+
+            res.close();
+            stat.close();
+
+            return absenties;
+
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+        return null;
+    }
+
+    public ArrayList<Student> getStudentenByLes(int id) {
+        try {
+            ArrayList<Student> studenten = new ArrayList<Student>();
+
+            Statement stat = DatabaseModel.myConn.createStatement();
+            ResultSet res = stat.executeQuery("SELECT `klas_FK` FROM `les` WHERE `id` = " + id);
+            res.next();
+
+            ResultSet res2 = stat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = '" + res.getString("klas_FK") + "'");
+
+            while (res2.next()) {
+                studenten.add(studentModel.getById(res2.getInt("id")));
+            }
+
+            res.close();
+            res2.close();
+            stat.close();
+
+            return studenten;
+
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+        return null;
+    }
 }
+
