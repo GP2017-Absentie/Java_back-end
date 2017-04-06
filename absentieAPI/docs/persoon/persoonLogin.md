@@ -46,15 +46,16 @@ Returns a persons object if login is succesful, nothing if unsuccesfull.
 
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
+  * **Code:** 400 BAD REQUEST <br />
     **Content:**
 
     ```json
     {
-      "timestamp": 1491431101039,
-      "status": 404,
-      "error": "Not Found",
-      "message": "No message available",
-      "path": "/student/getById/1682488/3"
+      "timestamp": 1491513650053,
+      "status": 400,
+      "error": "Bad Request",
+      "exception": "java.lang.IllegalArgumentException",
+      "message": "Password or email incorrect",
+      "path": "/persoon/login"
     }
     ```

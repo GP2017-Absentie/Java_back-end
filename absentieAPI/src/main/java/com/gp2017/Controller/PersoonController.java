@@ -8,8 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -62,7 +65,12 @@ public class PersoonController {
             }
         }
 
-        return new ResponseEntity<Persoon>(p, HttpStatus.BAD_REQUEST);
+        throw new IllegalArgumentException("Password or email incorrect");
+    }
+
+    @ExceptionHandler
+    void handleIllegalArgumentException(IllegalArgumentException e, HttpServletResponse response) throws IOException {
+        response.sendError(HttpStatus.BAD_REQUEST.value());
     }
 
 }
