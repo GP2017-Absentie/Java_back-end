@@ -4,10 +4,6 @@
 
 **Persoon**
 
-```
-&nbsp;&nbsp;
-```
-
   [persoonGetAll](absentieAPI/docs/persoonGetAll.md)
 
   [persoonGetById](absentieAPI/docs/persoonGetById.md)
