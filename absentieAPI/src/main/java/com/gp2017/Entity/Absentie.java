@@ -29,6 +29,13 @@ public class Absentie {
         this.toelichting = toelichting;
     }
 
+    public Absentie(Persoon persoon, Les les, String reden, String toelichting) {
+        this.persoon = persoon;
+        this.les = les;
+        this.reden = reden;
+        this.toelichting = toelichting;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

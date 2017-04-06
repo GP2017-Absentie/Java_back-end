@@ -1,11 +1,11 @@
-**meldAbsent**
+**a**ddAbsentie
 ----
 
 Returns a persons object if login is succesful, nothing if unsuccesfull.
 
 * **URL**
 
-  /persoon/meldAbsent
+  /absentie
 
 * **Method:**
 
@@ -19,10 +19,10 @@ Returns a persons object if login is succesful, nothing if unsuccesfull.
 
   ```json
   {
-    "persoonId": "3",
-    "lesId": "geheim",
-    "reden": "ziek",
-    "toelichting":
+  	"reden": "overig",
+  	"toelichting": "nee geen zin in.",
+  	"persoonId": 4,
+  	"lesId": 6
   }
   ```
 
@@ -32,17 +32,6 @@ Returns a persons object if login is succesful, nothing if unsuccesfull.
 
   * **Code:** 200 <br />
     **Content:** 
-
-    ```json
-    {
-      "id": 1682488,
-      "naam": "Karim Stekelenburg",
-      "email": "karim.stekelenburg@student.hu.nl",
-      "absenties": [],
-      "lessen": [],
-      "klas": "V1D"
-    }
-    ```
 
     ​
 

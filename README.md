@@ -22,6 +22,10 @@
 
 ​				[docentGetById](absentieAPI/docs/studentGetById.md)
 
+**Absentie**
+
+​				[absentieAddAbsentie](absentieAPI/docs/absentieAddAbsentie.md)
+
 
 
 

@@ -1,8 +1,14 @@
 package com.gp2017.Controller;
 
 import com.gp2017.Entity.Absentie;
+import com.gp2017.Entity.AbsentieRequest;
+import com.gp2017.Entity.LoginRequest;
+import com.gp2017.Entity.Persoon;
 import com.gp2017.Service.AbsentieService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -39,5 +45,15 @@ public class AbsentieController {
 
         };
         return absentie.values();
+    }
+
+    @CrossOrigin
+    @RequestMapping(value = "/", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void addAbsentie(@RequestBody AbsentieRequest absentieRequest) {
+        if (absentieRequest != null) {
+            absentieService.addAbsentie(absentieRequest);
+        } else throw new IllegalArgumentException("Something went wrong");
+
+
     }
 }

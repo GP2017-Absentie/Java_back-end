@@ -1,11 +1,11 @@
 package com.gp2017.Model;
 
+import com.gp2017.Entity.*;
 import com.gp2017.Entity.Absentie;
-import com.gp2017.Entity.Absentie;
-import com.gp2017.Entity.Les;
-import com.gp2017.Entity.Persoon;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -13,7 +13,9 @@ import java.util.ArrayList;
 
 @Repository
 public class AbsentieModel {
+    @Autowired
     private PersoonModel persoonModel;
+    @Autowired
     private LesModel lesModel;
 
     public ArrayList<Absentie> getAll(){
@@ -72,11 +74,21 @@ public class AbsentieModel {
         return null;
     }
 
-    public void addAbsentie(Absentie absentie){
+    public void addAbsentie(AbsentieRequest absentie){
         try{
-            Statement stat = DatabaseModel.myConn.createStatement();
-            stat.executeUpdate("INSERT INTO absentie " + "VALUES (1002, 'McBeal', 'Ms.', 'Boston', 2004)");
-            stat.close();
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
+                    "INSERT INTO absentie (reden, " +
+                            "toelichting, " +
+                            "persoon_FK, " +
+                            "les_FK) " +
+                            "VALUES ('"+absentie.getReden()+"'," +
+                            "'"+absentie.getToelichting()+"" +
+                            "','"+absentie.getPersoonId()+"" +
+                            "','"+absentie.getLesId()+"" +
+                            "')");
+
+            prepStat.execute();
+            prepStat.close();
         } catch (SQLException ex){
             System.out.println("SQLException: " + ex.getMessage());
             System.out.println("SQLState: " + ex.getSQLState());
