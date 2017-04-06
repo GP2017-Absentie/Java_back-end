@@ -10,6 +10,7 @@ class Main
     public static void main(String [] args) {
         DatabaseModel.open();
         SpringApplication.run(Main.class, args);
+        // TEST
 
     }
 
