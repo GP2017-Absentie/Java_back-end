@@ -1,19 +1,25 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€Î¾çşÿÿÿÿ8şÉÜÍ³+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßšáßøÿÿÿÿ8şÉÜÍ³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¼”úƒûÿÿÿÿ
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ò¡â8şÉÜÍ³+
-asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
-1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-Lsquid:UselessImportCheck"Remove this duplicated import.(ªçë‘øÿÿÿÿ8Ş¬³Ì³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ñ·“Ò³+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ú€ë¨ÿÿÿÿÿ8ñ·“Ò³+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
+3squid:S2095"Close this "ResultSet".(êş°›8ñ·“Ò³+
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²”æ8şÉÜÍ³+
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ«K8şÉÜÍ³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ñ·“Ò³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ñ·“Ò³+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ñ·“Ò³+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ñ·“Ò³+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8ñ·“Ò³+
+Lsquid:UselessImportCheck"Remove this duplicated import.(ªçë‘øÿÿÿÿ8Ş¬³Ì³+
+asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
+_squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Persoon'.(Øä8ÈÙæ—´+
+`squid:UselessImportCheck"2Remove this unused import 'com.gp2017.Entity.Les'.(ä†¢Øıÿÿÿÿ8ÈÙæ—´+

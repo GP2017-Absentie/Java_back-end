@@ -1,26 +1,52 @@
 
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-|squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8²Í®Å³+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÿä–Ì³+
-isquid:UselessImportCheck"@Remove this unused import 'io.swagger.annotations.ApiOperation'.(¡šÜ8¦ÔÎ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(Áñ¼õ
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ³×¢8ÿä–Ì³+
-8squid:S2095"Close this "ResultSet".(µ¾ÄÕüÿÿÿÿ8ÿä–Ì³+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿä–Ì³+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
 ‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é¼®Áüÿÿÿÿ8ÿä–Ì³+
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿä–Ì³+
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿä–Ì³+
 T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿä–Ì³+
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+|squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8²Í®Å³+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÿä–Ì³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿä–Ì³+
 _squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Student'.(»ªãä8•Ï—Ì³+
 squid:UselessImportCheck"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8²Í®Å³+
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿä–Ì³+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿä–Ì³+
+8squid:S2095"Close this "ResultSet".(µ¾ÄÕüÿÿÿÿ8ÿä–Ì³+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ³×¢8ÿä–Ì³+
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+osquid:S2077"N"docent_FK" is provided externally to the method and not sanitized before use.(Æ¥Óíûÿÿÿÿ8±ğä—´+
+ksquid:S2077"O"persoon_FK" is provided externally to the method and not sanitized before use.(û½ç8±ğä—´+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 4 times.(¥ù‚ùÿÿÿÿ8±ğä—´+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 4 times.(–Ğ‡Ñ8±ğä—´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 4 times.(Úßôƒùÿÿÿÿ8±ğä—´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒÄáÀ8±ğä—´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8±ğä—´+
+8squid:S2095"Close this "ResultSet".(Æ¥Óíûÿÿÿÿ8±ğä—´+
+3squid:S2095"Close this "ResultSet".(û½ç8±ğä—´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÃÀÄû8±ğä—´+
+‹squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ß‘ÕA8±ğä—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8±ğä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8±ğä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8±ğä—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8±ğä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8±ğä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8±ğä—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8±ğä—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8±ğä—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8±ğä—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8±ğä—´+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÀÄû8±ğä—´+
+rsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß‘ÕA8±ğä—´+

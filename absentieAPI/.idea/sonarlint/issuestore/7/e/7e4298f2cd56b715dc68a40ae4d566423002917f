@@ -1,31 +1,74 @@
 
-qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡…óüûÿÿÿÿ
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-Esquid:UselessImportCheck"Remove this duplicated import.(ä†¢Øıÿÿÿÿ
-asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(Ø¦£Üûÿÿÿÿ
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(ä–ú«
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.( Ç‹£úÿÿÿÿ
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
 :squid:S1166"%Either log or rethrow this exception.(À‹ø„
 ksquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆŸ
 
-lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú®İ
-?squid:S1481"+Remove this unused "les_id" local variable.(ìÆŸ
-
-Osquid:S1118":Add a private constructor to hide the implicit public one.(í¯¤á
-qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò ­¶øÿÿÿÿ
-qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¨ø™ıÿÿÿÿ
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-1squid:S2095"Close this "ResultSet".(‡ğ—úÿÿÿÿ
-Nsquid:S1854":Remove this useless assignment to local variable "les_id".(ìÆŸ
-
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
 1squid:S2095"Close this "ResultSet".(ÿ›ëøÿÿÿÿ
-1squid:S2095"Close this "ResultSet".(Ø¦£Üûÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(½ÓÇ•
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.( Ç‹£úÿÿÿÿ
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú®İ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ä–ú«
+asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(Ø¦£Üûÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¨ø™ıÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(‡ğ—úÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(Ø¦£Üûÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò ­¶øÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+qsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡…óüûÿÿÿÿ
+hsquid:S2077"G"id" is provided externally to the method and not sanitized before use.(ˆåúÈùÿÿÿÿ8¾Ïç—´+
+csquid:S2077"G"id" is provided externally to the method and not sanitized before use.(¨Æöì8¾Ïç—´+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 4 times.(¥ù‚ùÿÿÿÿ8¾Ïç—´+
+isquid:S1192"HDefine a constant instead of duplicating this literal "klas_FK" 3 times.(ÓØšşÿÿÿÿ8¾Ïç—´+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 4 times.(–Ğ‡Ñ8¾Ïç—´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 4 times.(Úßôƒùÿÿÿÿ8¾Ïç—´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½†™¢8¾Ïç—´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8¾Ïç—´+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÔÁÔüÿÿÿÿ8¾Ïç—´+
+8squid:S2095"Close this "ResultSet".(ˆåúÈùÿÿÿÿ8¾Ïç—´+
+3squid:S2095"Close this "ResultSet".(¨Æöì8¾Ïç—´+
+8squid:S2095"Close this "ResultSet".(å¶áúÿÿÿÿ8¾Ïç—´+
+3squid:S2095"Close this "ResultSet".(ù×Ê“8¾Ïç—´+
+8squid:S2095"Close this "ResultSet".(¾³äëûÿÿÿÿ8¾Ïç—´+
+8squid:S2095"Close this "ResultSet".(‚°Ûéşÿÿÿÿ8¾Ïç—´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ıêÓßúÿÿÿÿ8¾Ïç—´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¾¿£Øıÿÿÿÿ8¾Ïç—´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ãã´8¾Ïç—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(œÛ¿ºüÿÿÿÿ8¾Ïç—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8¾Ïç—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8¾Ïç—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8¾Ïç—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8¾Ïç—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8¾Ïç—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8¾Ïç—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8¾Ïç—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8¾Ïç—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8¾Ïç—´+
+xsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜŠÎ­úÿÿÿÿ8¾Ïç—´+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¹ÓÓ8¾Ïç—´+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø«¦´8¾Ïç—´+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÏÀ¬8¾Ïç—´+
+ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãší„8¾Ïç—´+

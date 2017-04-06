@@ -16,5 +16,11 @@ public class PersoonService {
 
     public Persoon getById(int id) { return persoonModel.getById(id); }
 
+    public Persoon getByEmail(String email) { return persoonModel.getByEmail(email); }
+
+    public Persoon login(String email, String password){
+        return persoonModel.login(email, password);
+    }
+
 
 }

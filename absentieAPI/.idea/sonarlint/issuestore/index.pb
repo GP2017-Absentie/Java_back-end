@@ -57,3 +57,7 @@ R
 "src/main/java/com/gp2017/Main.java,b/7/b77bae8c580d87798824a1de6dc34091ef5e1d7b
 i
 9src/main/java/com/gp2017/Controller/DocentController.java,8/4/84d3b064e494beedd05b2b382f258dddd8d5ac79
+r
+Bmysql-connector-java-5.1.41/src/com/mysql/jdbc/ConnectionImpl.java,2/8/2837a9aba0462d78de55cff35d8e0776b0db5dd5
+a
+1src/main/java/com/gp2017/Model/DatabaseModel.java,9/f/9f463de2b99eca8f0ff7dc40b14bf12b99fba6dc

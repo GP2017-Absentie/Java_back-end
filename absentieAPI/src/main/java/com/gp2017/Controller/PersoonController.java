@@ -1,13 +1,14 @@
 package com.gp2017.Controller;
 
 import com.gp2017.Entity.Docent;
+import com.gp2017.Entity.LoginRequest;
 import com.gp2017.Entity.Persoon;
 import com.gp2017.Service.PersoonService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -31,13 +32,37 @@ public class PersoonController {
         return persons.values();
     }
 
-    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id){
-        HashMap<Integer, Persoon> docent = new HashMap<Integer, Persoon>() {
+        HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
             {
                 put(1, persoonService.getById(id));
             }
         };
-        return docent.values();
+        return persoon.values();
     }
+
+    @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public Collection getByEmail(@PathVariable("email")String email){
+        HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
+            {
+                put(1, persoonService.getByEmail(email));
+            }
+        };
+        return persoon.values();
+    }
+
+    @RequestMapping(value = "/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Persoon> login(@RequestBody LoginRequest request) {
+        Persoon p = null;
+        if (request != null) {
+            p = persoonService.login(request.getEmail(), request.getPassword());
+            if (p != null){
+                return new ResponseEntity<Persoon>(p, HttpStatus.OK);
+            }
+        }
+
+        return new ResponseEntity<Persoon>(p, HttpStatus.BAD_REQUEST);
+    }
+
 }
