@@ -178,29 +178,6 @@ public class LesModel {
         return null;
     }
 
-    public ArrayList<Les> getLessenByStudent(Student student) {
-            ArrayList<Les> lessen = new ArrayList<Les>();
-        try {
-            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `les` WHERE `klas_FK` = (?)");
-            prepStat.setString(1,student.getKlas());
-            ResultSet res = prepStat.executeQuery();
 
-
-            while (res.next()) {
-                lessen.add(getById(res.getInt("id")));
-            }
-            res.close();
-            prepStat.close();
-
-            return lessen;
-
-        } catch (SQLException ex) {
-            // handle any errors
-            System.out.println("SQLException: " + ex.getMessage());
-            System.out.println("SQLState: " + ex.getSQLState());
-            System.out.println("VendorError: " + ex.getErrorCode());
-        }
-        return lessen;
-    }
 }
 

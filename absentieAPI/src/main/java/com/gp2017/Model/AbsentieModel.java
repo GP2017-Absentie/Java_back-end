@@ -46,11 +46,6 @@ public class AbsentieModel {
     }
 
 	public Absentie getById (int id) {
-
-
-
-
-
         try {
             Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `id` = " + id);           
@@ -75,6 +70,19 @@ public class AbsentieModel {
             System.out.println("VendorError: " + ex.getErrorCode());
         }
         return null;
+    }
+
+    public void addAbsentie(Absentie absentie){
+        try{
+            Statement stat = DatabaseModel.myConn.createStatement();
+            stat.executeUpdate("INSERT INTO absentie " + "VALUES (1002, 'McBeal', 'Ms.', 'Boston', 2004)");
+            stat.close();
+        } catch (SQLException ex){
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+
     }
 
 }

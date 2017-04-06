@@ -5,10 +5,7 @@ import com.gp2017.Entity.Student;
 import com.gp2017.Service.DocentService;
 import com.gp2017.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,6 +18,7 @@ public class DocentController {
     @Autowired
     private DocentService docentService;
 
+    @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
     public Collection getAll(){
         ArrayList<Docent> docents = docentService.getAll();
@@ -31,6 +29,7 @@ public class DocentController {
         return allDocents.values();
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id) {
 

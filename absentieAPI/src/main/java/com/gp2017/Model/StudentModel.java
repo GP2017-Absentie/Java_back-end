@@ -28,10 +28,6 @@ public class StudentModel {
 			ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `rol` = 'student'");
 			while (res.next()){
 				Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
-				ArrayList<Les> lessen = lesModel.getLessenByStudent(s);
-				for (Les l : lessen){
-					s.addLes(l);
-				}
 				students.add(s);
 			}
 
@@ -61,10 +57,8 @@ public class StudentModel {
 	            System.out.println("NAAM: " + res.getString("naam"));
 	            
 	            Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
-				ArrayList<Les> lessen = lesModel.getLessenByStudent(s);
-				for (Les l : lessen){
-					s.addLes(l);
-				}
+                updateLessen(s);
+
 	            res.close();
 	            prepStat.close();
 	            
@@ -80,34 +74,27 @@ public class StudentModel {
 	    }
 
 
-	public ArrayList<Les> getLessenByStudentId(int id) {
-		try {
-			ArrayList<Les> lessen = new ArrayList<Les>();
+    public void updateLessen(Student student) {
+        try {
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `les` WHERE `klas_FK` = (?)");
+            prepStat.setString(1,student.getKlas());
+            ResultSet res = prepStat.executeQuery();
 
-			Statement stat = DatabaseModel.myConn.createStatement();
-			ResultSet res = stat.executeQuery("SELECT `klas_FK` FROM `persoon` WHERE `id` = " + id);
-			res.next();
 
-			ResultSet res2 = stat.executeQuery("SELECT * FROM `les` WHERE `klas_FK` = '" + res.getString("klas_FK") + "'");
+            while (res.next()) {
+                student.addLes(lesModel.getById(res.getInt("id")));
+            }
+            res.close();
+            prepStat.close();
 
-			while (res2.next()) {
-				lessen.add(lesModel.getById(res2.getInt("id")));
-			}
+        } catch (SQLException ex) {
+            // handle any errors
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
+        }
+    }
 
-			res.close();
-			res2.close();
-			stat.close();
-
-			return lessen;
-
-		} catch (SQLException ex) {
-			// handle any errors
-			System.out.println("SQLException: " + ex.getMessage());
-			System.out.println("SQLState: " + ex.getSQLState());
-			System.out.println("VendorError: " + ex.getErrorCode());
-		}
-		return null;
-	}
 
 	public ArrayList<Absentie> getAbsentiesStudentId(int id) {
 		try {

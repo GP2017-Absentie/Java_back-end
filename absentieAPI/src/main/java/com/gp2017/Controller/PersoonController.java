@@ -24,7 +24,7 @@ public class PersoonController {
     @Autowired
     private PersoonService persoonService;
 
-
+    @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
     public Collection getAll(){
         HashMap<Integer, Persoon> persons = new HashMap<Integer, Persoon>();
@@ -34,7 +34,7 @@ public class PersoonController {
         }
         return persons.values();
     }
-
+    @CrossOrigin
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id){
         HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
@@ -44,7 +44,7 @@ public class PersoonController {
         };
         return persoon.values();
     }
-
+    @CrossOrigin
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public Collection getByEmail(@PathVariable("email")String email){
         HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
@@ -54,7 +54,7 @@ public class PersoonController {
         };
         return persoon.values();
     }
-
+    @CrossOrigin
     @RequestMapping(value = "/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Persoon> login(@RequestBody LoginRequest request) {
         Persoon p = null;
