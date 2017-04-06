@@ -43,16 +43,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LoginRequest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Entity/LoginRequest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="PersoonService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Service/PersoonService.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -79,17 +69,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="StudentModel.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Controller/StudentController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StudentModel.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/StudentModel.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1017">
-                  <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+                <state relative-caret-position="330">
+                  <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
                   <folding>
-                    <marker date="1491516371000" expanded="true" signature="791:838" ph="SELECT * FRO... persoon" />
-                    <marker date="1491516371000" expanded="true" signature="1470:1532" ph="SELECT * FRO... persoon" />
-                    <marker date="1491516371000" expanded="true" signature="2682:2727" ph="SELECT `klas... persoon" />
-                    <marker date="1491516371000" expanded="true" signature="2791:2863" ph="SELECT * FRO... les" />
-                    <marker date="1491516371000" expanded="true" signature="3503:3562" ph="SELECT * FRO... absentie" />
+                    <marker date="1491516828000" expanded="true" signature="791:838" ph="SELECT * FRO... persoon" />
+                    <marker date="1491516828000" expanded="true" signature="1580:1642" ph="SELECT * FRO... persoon" />
+                    <marker date="1491516828000" expanded="true" signature="2792:2837" ph="SELECT `klas... persoon" />
+                    <marker date="1491516828000" expanded="true" signature="2901:2973" ph="SELECT * FRO... les" />
+                    <marker date="1491516828000" expanded="true" signature="3613:3672" ph="SELECT * FRO... absentie" />
                   </folding>
                 </state>
               </provider>
@@ -117,7 +117,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LesModel.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LesModel.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/LesModel.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="585">
@@ -253,8 +253,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Entity/Absentie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Entity/Persoon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Model/StudentModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Model/LesModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gp2017/Model/StudentModel.java" />
       </list>
     </option>
   </component>
@@ -899,12 +899,12 @@
       <workItem from="1491471446004" duration="392000" />
       <workItem from="1491477279741" duration="470000" />
       <workItem from="1491505350507" duration="5474000" />
-      <workItem from="1491512702851" duration="2240000" />
+      <workItem from="1491512702851" duration="2424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45503000" />
+    <option name="totallyTimeSpent" value="45687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
@@ -987,13 +987,6 @@
         <state relative-caret-position="75">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1293,38 +1286,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/StudentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1017">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <marker date="1491516371000" expanded="true" signature="791:838" ph="SELECT * FRO... persoon" />
-            <marker date="1491516371000" expanded="true" signature="1470:1532" ph="SELECT * FRO... persoon" />
-            <marker date="1491516371000" expanded="true" signature="2682:2727" ph="SELECT `klas... persoon" />
-            <marker date="1491516371000" expanded="true" signature="2791:2863" ph="SELECT * FRO... les" />
-            <marker date="1491516371000" expanded="true" signature="3503:3562" ph="SELECT * FRO... absentie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Controller/AbsentieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/PersoonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <marker date="1491512620000" expanded="true" signature="538:561" ph="SELECT * FRO... persoon" />
-            <marker date="1491512620000" expanded="true" signature="1819:1856" ph="SELECT * FRO... persoon" />
-            <marker date="1491512620000" expanded="true" signature="2979:3022" ph="SELECT * FRO... persoon" />
           </folding>
         </state>
       </provider>
@@ -1346,6 +1313,40 @@
             <marker date="1491516579000" expanded="true" signature="6014:6055" ph="SELECT `klas... les" />
             <marker date="1491516579000" expanded="true" signature="6137:6213" ph="SELECT * FRO... persoon" />
             <marker date="1491516579000" expanded="true" signature="6973:7014" ph="SELECT * FRO... les" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/PersoonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <marker date="1491512620000" expanded="true" signature="538:561" ph="SELECT * FRO... persoon" />
+            <marker date="1491512620000" expanded="true" signature="1819:1856" ph="SELECT * FRO... persoon" />
+            <marker date="1491512620000" expanded="true" signature="2979:3022" ph="SELECT * FRO... persoon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gp2017/Model/StudentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <marker date="1491516828000" expanded="true" signature="791:838" ph="SELECT * FRO... persoon" />
+            <marker date="1491516828000" expanded="true" signature="1580:1642" ph="SELECT * FRO... persoon" />
+            <marker date="1491516828000" expanded="true" signature="2792:2837" ph="SELECT `klas... persoon" />
+            <marker date="1491516828000" expanded="true" signature="2901:2973" ph="SELECT * FRO... les" />
+            <marker date="1491516828000" expanded="true" signature="3613:3672" ph="SELECT * FRO... absentie" />
           </folding>
         </state>
       </provider>

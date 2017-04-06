@@ -28,6 +28,10 @@ public class StudentModel {
 			ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `rol` = 'student'");
 			while (res.next()){
 				Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+				ArrayList<Les> lessen = lesModel.getLessenByStudent(s);
+				for (Les l : lessen){
+					s.addLes(l);
+				}
 				students.add(s);
 			}
 
