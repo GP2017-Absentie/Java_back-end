@@ -147,7 +147,7 @@ accesspoint URL:	`[host]:[port]/student/*`
 
 ### Core Methods
 
-- [ ] Implement getAll everywhere
+- [x] Implement getAll everywhere
       - [x] Persoon
       - [x] Student
       - [x] Docent
@@ -157,3 +157,29 @@ accesspoint URL:	`[host]:[port]/student/*`
 
 
 
+
+**login**
+
+**get**
+
+- Input = email & wachtwoord
+- return =  persoon obj
+
+**Absent melden** **: POST** (ook annuleren)
+
++ input =/absentie/meldZiek/[datum]/[persId]
++ or
++ input = /absentie/meldAbsent/(array)[lesId]/[perId]
++ return = success code
+
+**Absentie overzicht : GET**
+
+Cal: absentie/getByPersonId/:id
+
+Response: array of absentie objects
+
+
+
+**Absenties : GET**
+
+filteren op (begin, eind) datum, persoon, 

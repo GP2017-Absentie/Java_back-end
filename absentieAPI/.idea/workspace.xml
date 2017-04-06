@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2e176ee-9250-4a2a-a391-e9cc5c3f65d7" name="Default" comment="" />
+    <list default="true" id="f2e176ee-9250-4a2a-a391-e9cc5c3f65d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -389,7 +391,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -832,12 +834,12 @@
       <workItem from="1491309027766" duration="12029000" />
       <workItem from="1491331039745" duration="6875000" />
       <workItem from="1491384722328" duration="4681000" />
-      <workItem from="1491426737587" duration="1129000" />
+      <workItem from="1491426737587" duration="1697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42737000" />
+    <option name="totallyTimeSpent" value="43305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
