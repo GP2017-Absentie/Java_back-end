@@ -183,3 +183,11 @@ Response: array of absentie objects
 **Absenties : GET**
 
 filteren op (begin, eind) datum, persoon, 
+
+
+
+**MUST:**
+
+- login
+- absent/ziek melden
+
