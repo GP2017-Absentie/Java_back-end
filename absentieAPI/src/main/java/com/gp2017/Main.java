@@ -9,12 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 class Main
 {
     public static void main(String [] args) {
-//        DatabaseModel.open();
-//        SpringApplication.run(Main.class, args);
-//
         DatabaseModel.open();
-        AbsentieModel absentieModel = new AbsentieModel();
-        absentieModel.getById(1);
+        SpringApplication.run(Main.class, args);
     }
 //
 //
