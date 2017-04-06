@@ -95,6 +95,22 @@ public class Persoon {
     }
 
     /**
+     * adds an les object to the ArrayList
+     * @param les
+     */
+    public void addLes(Les les){
+        this.lessen.add(les);
+    }
+
+    /**
+     * deletes and les object from the ArrayList
+     * @param les
+     */
+    public void delLes(Les les){
+        this.lessen.remove(les);
+    }
+
+    /**
      * check if an object is equal to another.
      * @param obj
      * @return boolean

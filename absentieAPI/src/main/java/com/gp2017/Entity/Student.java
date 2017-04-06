@@ -17,6 +17,8 @@ public class Student extends Persoon {
         return klas;
     }
 
+
+
     @Override
     public String toString() {
         return super.toString()+ "\nStudent{" +

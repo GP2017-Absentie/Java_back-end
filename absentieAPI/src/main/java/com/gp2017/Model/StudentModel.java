@@ -3,6 +3,7 @@ package com.gp2017.Model;
 import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.PreparedStatement;
@@ -15,7 +16,9 @@ import java.util.Map;
 @Repository
 public class StudentModel {
 	private static Map<Integer, Student> students;
+	@Autowired
 	private AbsentieModel absentieModel;
+	@Autowired
 	private LesModel lesModel;
 
 	public ArrayList<Student> getAll(){
@@ -54,7 +57,10 @@ public class StudentModel {
 	            System.out.println("NAAM: " + res.getString("naam"));
 	            
 	            Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
-
+				ArrayList<Les> lessen = lesModel.getLessenByStudent(s);
+				for (Les l : lessen){
+					s.addLes(l);
+				}
 	            res.close();
 	            prepStat.close();
 	            
