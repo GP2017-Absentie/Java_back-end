@@ -4,27 +4,31 @@
 
 **Persoon**
 
-​				[persoonGetAll](absentieAPI/docs/persoonGetAll.md)
+```
+&nbsp;&nbsp;
+```
 
-​				[persoonGetById](absentieAPI/docs/persoonGetById.md)
+  [persoonGetAll](absentieAPI/docs/persoonGetAll.md)
 
-​				[persoonLogin](absentieAPI/docs/persoonLogin.md)
+  [persoonGetById](absentieAPI/docs/persoonGetById.md)
+
+  [persoonLogin](absentieAPI/docs/persoonLogin.md)
 
 **Student**
 
-​				[studentGetAll](absentieAPI/docs/student/GetAll.md)
+  [studentGetAll](absentieAPI/docs/student/GetAll.md)
 
-​				[studentGetById](absentieAPI/docs/studentGetById.md)
+  [studentGetById](absentieAPI/docs/studentGetById.md)
 
 **Docent**
 
-​				[docentGetAll](absentieAPI/docs/docent/GetAll.md)
+  [docentGetAll](absentieAPI/docs/docent/GetAll.md)
 
-​				[docentGetById](absentieAPI/docs/studentGetById.md)
+  [docentGetById](absentieAPI/docs/studentGetById.md)
 
 **Absentie**
 
-​				[absentieAddAbsentie](absentieAPI/docs/absentieAddAbsentie.md)
+  [absentieAddAbsentie](absentieAPI/docs/absentieAddAbsentie.md)
 
 
 
