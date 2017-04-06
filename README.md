@@ -1,5 +1,29 @@
 # Java-back-end
 
+## API INDEX
+
+**Persoon**
+
+​	[persoonGetAll](absentieAPI/docs/persoonGetAll.md)
+
+​	[persoonGetById](absentieAPI/docs/persoonGetById.md)
+
+​	[persoonLogin](absentieAPI/docs/persoonLogin.md)
+
+**Student**
+
+​	[studentGetAll](absentieAPI/docs/student/GetAll.md)
+
+​	[studentGetById](absentieAPI/docs/studentGetById.md)
+
+**Docent**
+
+​	[docentGetAll](absentieAPI/docs/docent/GetAll.md)
+
+​	[docentGetById](absentieAPI/docs/studentGetById.md)
+
+
+
 
 
 ## Database design
