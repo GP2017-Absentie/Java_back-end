@@ -48,3 +48,4 @@ Method adds absentie objects for every lesson for the specified person for that 
       "path": "/persoon/login"
     }
     ```
+

@@ -50,3 +50,4 @@ Adds absentie instance to the database.
       "path": "/persoon/login"
     }
     ```
+

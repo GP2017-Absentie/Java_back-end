@@ -1,8 +1,12 @@
 # Java-back-end
 
+
+
+
+
 ## API INDEX
 
-**Persoon**
+**[Persoon](absentieAPI/docs/persoon.md)**
 
 ​		 [/persoon (getAll)](absentieAPI/docs/persoonGetAll.md)
 
@@ -10,19 +14,19 @@
 
 ​		 [/persoon/login](absentieAPI/docs/persoonLogin.md)
 
-**Student**
+**[Student](absentieAPI/docs/student.md)**
 
 ​		[/student (getAll)](absentieAPI/docs/student/GetAll.md)
 
 ​		[/student/getById/{id}](absentieAPI/docs/studentGetById.md)
 
-**Docent**
+**[Docent](absentieAPI/docs/docent.md)**
 
  		[/docent (getAll)](absentieAPI/docs/docent/GetAll.md)
 
  		[/docent/getById/{id}](absentieAPI/docs/studentGetById.md)
 
-**Absentie**
+**[Absentie](absentieAPI/docs/absentie.md)**
 
 ​		[/absentie/meldAbsent](absentieAPI/docs/absentieMeldAbsent.md)
 

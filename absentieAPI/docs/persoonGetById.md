@@ -50,3 +50,4 @@ Returns json array containing a single persoon instance matching the :id argumen
       "path": "/student/getById/1682488/3"
     }
     ```
+    ​

@@ -71,4 +71,6 @@ Returns json array containing all docent in the system.
       "message": "No message available",
       "path": "/student/getById/1682488/3"
     }
+
+
     ```
