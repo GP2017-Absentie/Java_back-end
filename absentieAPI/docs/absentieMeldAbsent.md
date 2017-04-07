@@ -1,11 +1,11 @@
-**a**ddAbsentie
+meldAbsent
 ----
 
-Returns a persons object if login is succesful, nothing if unsuccesfull.
+Adds absentie instance to the database.
 
 * **URL**
 
-  /absentie
+  /absentie/meldAbsent
 
 * **Method:**
 

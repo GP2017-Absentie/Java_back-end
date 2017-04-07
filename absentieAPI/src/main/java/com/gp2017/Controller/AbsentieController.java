@@ -1,9 +1,6 @@
 package com.gp2017.Controller;
 
-import com.gp2017.Entity.Absentie;
-import com.gp2017.Entity.AbsentieRequest;
-import com.gp2017.Entity.LoginRequest;
-import com.gp2017.Entity.Persoon;
+import com.gp2017.Entity.*;
 import com.gp2017.Service.AbsentieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -48,12 +46,20 @@ public class AbsentieController {
     }
 
     @CrossOrigin
-    @RequestMapping(value = "/", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void addAbsentie(@RequestBody AbsentieRequest absentieRequest) {
+    @RequestMapping(value = "/meldAbsent", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void meldAbsent(@RequestBody AbsentieRequest absentieRequest) {
         if (absentieRequest != null) {
             absentieService.addAbsentie(absentieRequest);
         } else throw new IllegalArgumentException("Something went wrong");
 
 
+    }
+
+    @CrossOrigin
+    @RequestMapping(value = "/meldZiek", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void meldZiek(@RequestBody ZiekteRequest ziekteRequest) throws ParseException {
+        if (ziekteRequest != null){
+            absentieService.meldZiek(ziekteRequest);
+        } else throw new IllegalArgumentException("Something went wrong");
     }
 }
