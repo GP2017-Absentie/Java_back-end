@@ -18,7 +18,7 @@
 
 ​		[getById](absentieAPI/docs/student/studentGetById.md)
 
-​		[getLessenbyStudentId](absentieAPI/docs/student/studentGetLessenByStudentId)
+​		[getLessenbyStudentId](absentieAPI/docs/student/studentGetLessenByStudentId.md)
 
 ​		[getAbsentiesByStudentId](absentieAPI/docs/student/studentGetAbsentiesByStudentId.md)
 
@@ -38,9 +38,9 @@
 
 ​		[getById](absentieAPI/docs/klas/klasGetById.md)
 
-​		[getLessenbyKlasId](absentieAPI/docs/klas/klasGetLessenByKlasId)
+​		[getLessenbyKlasId](absentieAPI/docs/klas/klasGetLessenByKlasId.md)
 
-​		[getAbsentiesbyKlasId](absentieAPI/docs/klas/klasGetAbsentiesByKlasId)
+​		[getAbsentiesbyKlasId](absentieAPI/docs/klas/klasGetAbsentiesByKlasId.md)
 
 **Les**
 
@@ -48,9 +48,9 @@
 
 ​		[getById](absentieAPI/docs/les/lesGetById.md)
 
-​		[getStudentenbyKlasId](absentieAPI/docs/les/lesGetStudentenByKlasId)
+​		[getStudentenbyKlasId](absentieAPI/docs/les/lesGetStudentenByKlasId.md)
 
-​		[getAbsentiesbyKlasId](absentieAPI/docs/les/lesGetAbsentiesByKlasId)
+​		[getAbsentiesbyKlasId](absentieAPI/docs/les/lesGetAbsentiesByKlasId.md)
 
 **Absentie**
 
