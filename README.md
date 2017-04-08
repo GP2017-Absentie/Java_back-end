@@ -2,7 +2,21 @@
 
 
 
-## API INDEX
+## API v2.0
+
+**Biggest changes in respect to v1.0:**
+
+> Absentie and Les instances are no longer included in Persoon, Student and Docent getById calls. To get this information please call the getAbsenties- and getLessenById methods.
+
+> Persoon, Student and Docent instances now have a `rol` attribute.
+
+> Single object instances no longer come in an array. They are represented as single json-objects.
+
+
+
+### API INDEX
+
+------
 
 **Persoon**
 
