@@ -1,5 +1,6 @@
 package com.gp2017.Service;
 
+import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Student;
 import com.gp2017.Model.StudentModel;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,10 @@ public class StudentService {
 
     public ArrayList<Student> getAll() { return studentModel.getAll(); }
     public Student getById(int id){
-        return studentModel.getById(id);
+        Student student = studentModel.getById(id);
+        studentModel.updateAbsenties(student);
+        studentModel.updateLessen(student);
+
+        return student;
     }
 }

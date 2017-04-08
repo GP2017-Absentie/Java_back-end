@@ -32,7 +32,7 @@ import java.sql.SQLException;
 
 public interface SocketMetadata {
 
-    public boolean isLocallyConnected(ConnectionImpl conn) throws SQLException;
+    boolean isLocallyConnected(ConnectionImpl conn) throws SQLException;
 
     /*
      * Provides a standard way of determining whether a socket connection is local.
@@ -40,7 +40,7 @@ public interface SocketMetadata {
      * This ensures socket factories (e.g. StandardSocketFactory, StandardSSLSocketFactory) which need to implement this interface, can delegate to a generic
      * implementation.
      */
-    static class Helper {
+    class Helper {
 
         public static final String IS_LOCAL_HOSTNAME_REPLACEMENT_PROPERTY_NAME = "com.mysql.jdbc.test.isLocalHostnameReplacement";
 

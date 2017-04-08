@@ -408,7 +408,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
 
             java.sql.DatabaseMetaData dbmd = this.conn.getMetaData();
 
-            this.rs = ((com.mysql.jdbc.DatabaseMetaData) dbmd).getFunctionColumns(this.conn.getCatalog(), null, "testBug10310", "%");
+            this.rs = dbmd.getFunctionColumns(this.conn.getCatalog(), null, "testBug10310", "%");
             ResultSetMetaData rsmd = this.rs.getMetaData();
 
             assertEquals(17, rsmd.getColumnCount());
@@ -1105,7 +1105,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                     if (args.length == 2 && args[0].equals(Integer.TYPE)) {
                         if (!args[1].isPrimitive()) {
                             try {
-                                setters[i].invoke(callable, new Object[] { new Integer(2), null });
+                                setters[i].invoke(callable, new Integer(2), null);
                             } catch (InvocationTargetException ive) {
                                 if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                         || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1115,7 +1115,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                         } else {
                             if (args[1].getName().equals("boolean")) {
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), Boolean.FALSE });
+                                    setters[i].invoke(callable, new Integer(2), Boolean.FALSE);
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1127,7 +1127,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                             if (args[1].getName().equals("byte")) {
 
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Byte((byte) 0) });
+                                    setters[i].invoke(callable, new Integer(2), new Byte((byte) 0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1140,7 +1140,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                             if (args[1].getName().equals("double")) {
 
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Double(0) });
+                                    setters[i].invoke(callable, new Integer(2), new Double(0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1153,7 +1153,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                             if (args[1].getName().equals("float")) {
 
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Float(0) });
+                                    setters[i].invoke(callable, new Integer(2), new Float(0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1166,7 +1166,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
                             if (args[1].getName().equals("int")) {
 
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Integer(0) });
+                                    setters[i].invoke(callable, new Integer(2), new Integer(0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1178,7 +1178,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
 
                             if (args[1].getName().equals("long")) {
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Long(0) });
+                                    setters[i].invoke(callable, new Integer(2), new Long(0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {
@@ -1189,7 +1189,7 @@ public class CallableStatementRegressionTest extends BaseTestCase {
 
                             if (args[1].getName().equals("short")) {
                                 try {
-                                    setters[i].invoke(callable, new Object[] { new Integer(2), new Short((short) 0) });
+                                    setters[i].invoke(callable, new Integer(2), new Short((short) 0));
                                 } catch (InvocationTargetException ive) {
                                     if (!(ive.getCause() instanceof com.mysql.jdbc.NotImplemented
                                             || ive.getCause().getClass().getName().equals("java.sql.SQLFeatureNotSupportedException"))) {

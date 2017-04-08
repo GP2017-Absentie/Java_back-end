@@ -1,8 +1,10 @@
 package com.gp2017.Controller;
 
+import com.fasterxml.jackson.annotation.JsonView;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
 import com.gp2017.Service.LesService;
+import com.gp2017.View.View;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +31,7 @@ public class LesController {
     }
 
     @CrossOrigin
+    @JsonView(View.LesGetByIdView.class)
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id){
         HashMap<Integer, Les> student = new HashMap<Integer, Les>(){

@@ -56,7 +56,7 @@ public class CallableStatementWrapper extends PreparedStatementWrapper implement
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.jdbc2.optional.JDBC42CallableStatementWrapper"
                         : "com.mysql.jdbc.jdbc2.optional.JDBC4CallableStatementWrapper";
                 JDBC_4_CALLABLE_STATEMENT_WRAPPER_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { ConnectionWrapper.class, MysqlPooledConnection.class, CallableStatement.class });
+                        .getConstructor(ConnectionWrapper.class, MysqlPooledConnection.class, CallableStatement.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

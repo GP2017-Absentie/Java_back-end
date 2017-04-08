@@ -1,13 +1,21 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.gp2017.View.KlasView;
+
 import java.util.ArrayList;
 
 /**
  * Object that represents a grade of students.
  */
 public class Klas {
+    @JsonProperty("klasId")
+    @JsonView(KlasView.Minimal.class)
     private String code;
+    @JsonView(KlasView.Full.class)
     private ArrayList<Student> studenten;
+    @JsonView(KlasView.Full.class)
     private ArrayList<Les> lessen;
 
     /**

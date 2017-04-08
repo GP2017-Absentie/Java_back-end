@@ -60,9 +60,9 @@ public class CallableStatement extends PreparedStatement implements java.sql.Cal
             try {
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.JDBC42CallableStatement" : "com.mysql.jdbc.JDBC4CallableStatement";
                 JDBC_4_CSTMT_2_ARGS_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { MySQLConnection.class, CallableStatementParamInfo.class });
+                        .getConstructor(MySQLConnection.class, CallableStatementParamInfo.class);
                 JDBC_4_CSTMT_4_ARGS_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { MySQLConnection.class, String.class, String.class, Boolean.TYPE });
+                        .getConstructor(MySQLConnection.class, String.class, String.class, Boolean.TYPE);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -518,7 +518,7 @@ public class CallableStatement extends PreparedStatement implements java.sql.Cal
                             int placeholderCount = 0;
 
                             for (int i = 0; i < numParsedParameters; i++) {
-                                if (((String) parsedParameters.get(i)).equals("?")) {
+                                if (parsedParameters.get(i).equals("?")) {
                                     this.placeholderToParameterIndexMap[placeholderCount++] = i;
                                 }
                             }
@@ -1460,7 +1460,7 @@ public class CallableStatement extends PreparedStatement implements java.sql.Cal
             ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
             // remove cast once 1.5, 1.6 EOL'd
-            T retVal = ((ResultSetImpl) rs).getObject(mapOutputParameterIndexToRsIndex(parameterIndex), type);
+            T retVal = rs.getObject(mapOutputParameterIndexToRsIndex(parameterIndex), type);
 
             this.outputParamWasNull = rs.wasNull();
 
@@ -1472,7 +1472,7 @@ public class CallableStatement extends PreparedStatement implements java.sql.Cal
         synchronized (checkClosed().getConnectionMutex()) {
             ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-            T retValue = ((ResultSetImpl) rs).getObject(fixParameterName(parameterName), type);
+            T retValue = rs.getObject(fixParameterName(parameterName), type);
 
             this.outputParamWasNull = rs.wasNull();
 
@@ -2011,7 +2011,7 @@ public class CallableStatement extends PreparedStatement implements java.sql.Cal
                         PreparedStatement setPstmt = null;
 
                         try {
-                            setPstmt = ((Wrapper) this.connection.clientPrepareStatement(queryBuf.toString())).unwrap(PreparedStatement.class);
+                            setPstmt = this.connection.clientPrepareStatement(queryBuf.toString()).unwrap(PreparedStatement.class);
 
                             if (this.isNull[inParamInfo.index]) {
                                 setPstmt.setBytesNoEscapeNoQuotes(1, "NULL".getBytes());

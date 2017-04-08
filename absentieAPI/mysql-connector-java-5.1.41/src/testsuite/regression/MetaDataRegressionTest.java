@@ -3668,7 +3668,7 @@ public class MetaDataRegressionTest extends BaseTestCase {
         Connection[] testConnections = new Connection[] { this.conn, connUseIS };
 
         // check table types returned in getTableTypes()
-        final List<String> tableTypes = Arrays.asList(new String[] { "LOCAL TEMPORARY", "SYSTEM TABLE", "SYSTEM VIEW", "TABLE", "VIEW" });
+        final List<String> tableTypes = Arrays.asList("LOCAL TEMPORARY", "SYSTEM TABLE", "SYSTEM VIEW", "TABLE", "VIEW");
 
         for (int i = 0; i < testStepDescription.length; i++) {
             DatabaseMetaData testDbMetaData = testConnections[i].getMetaData();

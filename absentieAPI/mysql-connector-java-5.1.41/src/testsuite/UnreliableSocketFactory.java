@@ -156,11 +156,11 @@ public class UnreliableSocketFactory extends StandardSocketFactory {
 
     public static boolean isConnected() {
         String lastHost = getHostFromLastConnection();
-        return lastHost == null ? false : lastHost.startsWith(STATUS_CONNECTED);
+        return lastHost != null && lastHost.startsWith(STATUS_CONNECTED);
     }
 
     @Override
-    public Socket connect(String host_name, int port_number, Properties prop) throws SocketException, IOException {
+    public Socket connect(String host_name, int port_number, Properties prop) throws IOException {
         this.hostname = host_name;
         this.portNumber = port_number;
         this.props = prop;
@@ -182,7 +182,7 @@ public class UnreliableSocketFactory extends StandardSocketFactory {
         return socket;
     }
 
-    private Socket getNewSocket() throws SocketException, IOException {
+    private Socket getNewSocket() throws IOException {
         if (IMMEDIATELY_DOWNED_HOSTS.contains(this.hostname)) {
             sleepMillisForProperty(this.props, "connectTimeout");
 
@@ -227,12 +227,12 @@ public class UnreliableSocketFactory extends StandardSocketFactory {
     }
 
     @Override
-    public Socket afterHandshake() throws SocketException, IOException {
+    public Socket afterHandshake() throws IOException {
         return getNewSocket();
     }
 
     @Override
-    public Socket beforeHandshake() throws SocketException, IOException {
+    public Socket beforeHandshake() throws IOException {
         return getNewSocket();
     }
 

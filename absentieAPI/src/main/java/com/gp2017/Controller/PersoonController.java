@@ -1,14 +1,12 @@
 package com.gp2017.Controller;
 
-import com.gp2017.Entity.Docent;
-import com.gp2017.Entity.LoginRequest;
+import com.gp2017.RequestEntity.LoginRequest;
 import com.gp2017.Entity.Persoon;
 import com.gp2017.Service.PersoonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;

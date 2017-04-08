@@ -61,3 +61,9 @@ r
 Bmysql-connector-java-5.1.41/src/com/mysql/jdbc/ConnectionImpl.java,2/8/2837a9aba0462d78de55cff35d8e0776b0db5dd5
 a
 1src/main/java/com/gp2017/Model/DatabaseModel.java,9/f/9f463de2b99eca8f0ff7dc40b14bf12b99fba6dc
+h
+8src/main/java/com/gp2017/RequestEntity/LoginRequest.java,9/5/953dd01988649c43120c3ba7c3dce87c8f751370
+k
+;src/main/java/com/gp2017/RequestEntity/AbsentieRequest.java,4/4/447a6e080030deeed364024eb989f96b09f9bb53
+i
+9src/main/java/com/gp2017/RequestEntity/ZiekteRequest.java,5/0/50f02f2daf4c70acc13f9d4f1ca70b54f97693f8

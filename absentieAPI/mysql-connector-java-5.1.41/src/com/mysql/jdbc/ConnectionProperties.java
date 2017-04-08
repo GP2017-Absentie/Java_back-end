@@ -34,189 +34,189 @@ public interface ConnectionProperties {
      * @throws SQLException
      *             if an error occurs.
      */
-    public String exposeAsXml() throws SQLException;
+    String exposeAsXml() throws SQLException;
 
-    public boolean getAllowLoadLocalInfile();
+    boolean getAllowLoadLocalInfile();
 
-    public boolean getAllowMultiQueries();
+    boolean getAllowMultiQueries();
 
     /**
      * @return Returns the allowNanAndInf.
      */
-    public boolean getAllowNanAndInf();
+    boolean getAllowNanAndInf();
 
     /**
      * @return Returns the allowUrlInLocalInfile.
      */
-    public boolean getAllowUrlInLocalInfile();
+    boolean getAllowUrlInLocalInfile();
 
     /**
      * @return Returns the alwaysSendSetIsolation.
      */
-    public boolean getAlwaysSendSetIsolation();
+    boolean getAlwaysSendSetIsolation();
 
     /**
      * @return Returns the autoDeserialize.
      */
-    public boolean getAutoDeserialize();
+    boolean getAutoDeserialize();
 
-    public boolean getAutoGenerateTestcaseScript();
+    boolean getAutoGenerateTestcaseScript();
 
-    public boolean getAutoReconnectForPools();
+    boolean getAutoReconnectForPools();
 
     /**
      * @return Returns the blobSendChunkSize.
      */
-    public int getBlobSendChunkSize();
+    int getBlobSendChunkSize();
 
     /**
      * @return Returns if cacheCallableStatements is enabled
      */
-    public boolean getCacheCallableStatements();
+    boolean getCacheCallableStatements();
 
     /**
      * @return Returns the cachePreparedStatements.
      */
-    public boolean getCachePreparedStatements();
+    boolean getCachePreparedStatements();
 
-    public boolean getCacheResultSetMetadata();
+    boolean getCacheResultSetMetadata();
 
     /**
      * @return Returns the cacheServerConfiguration.
      */
-    public boolean getCacheServerConfiguration();
+    boolean getCacheServerConfiguration();
 
     /**
      * @return Returns the callableStatementCacheSize.
      */
-    public int getCallableStatementCacheSize();
+    int getCallableStatementCacheSize();
 
-    public boolean getCapitalizeTypeNames();
+    boolean getCapitalizeTypeNames();
 
     /**
      * @return Returns the characterSetResults.
      */
-    public String getCharacterSetResults();
+    String getCharacterSetResults();
 
     /**
      * @return Returns the clobberStreamingResults.
      */
-    public boolean getClobberStreamingResults();
+    boolean getClobberStreamingResults();
 
-    public String getClobCharacterEncoding();
+    String getClobCharacterEncoding();
 
     /**
      * @return Returns the connectionCollation.
      */
-    public String getConnectionCollation();
+    String getConnectionCollation();
 
-    public int getConnectTimeout();
+    int getConnectTimeout();
 
-    public boolean getContinueBatchOnError();
+    boolean getContinueBatchOnError();
 
-    public boolean getCreateDatabaseIfNotExist();
+    boolean getCreateDatabaseIfNotExist();
 
-    public int getDefaultFetchSize();
+    int getDefaultFetchSize();
 
     /**
      * @return Returns the dontTrackOpenResources.
      */
-    public boolean getDontTrackOpenResources();
+    boolean getDontTrackOpenResources();
 
     /**
      * @return Returns the dumpQueriesOnException.
      */
-    public boolean getDumpQueriesOnException();
+    boolean getDumpQueriesOnException();
 
     /**
      * @return Returns the dynamicCalendars.
      */
-    public boolean getDynamicCalendars();
+    boolean getDynamicCalendars();
 
     /**
      * @return Returns the elideSetAutoCommits.
      */
-    public boolean getElideSetAutoCommits();
+    boolean getElideSetAutoCommits();
 
-    public boolean getEmptyStringsConvertToZero();
+    boolean getEmptyStringsConvertToZero();
 
-    public boolean getEmulateLocators();
+    boolean getEmulateLocators();
 
     /**
      * @return Returns the emulateUnsupportedPstmts.
      */
-    public boolean getEmulateUnsupportedPstmts();
+    boolean getEmulateUnsupportedPstmts();
 
     /**
      * @return Returns the enablePacketDebug.
      */
-    public boolean getEnablePacketDebug();
+    boolean getEnablePacketDebug();
 
-    public String getEncoding();
+    String getEncoding();
 
     /**
      * @return Returns the explainSlowQueries.
      */
-    public boolean getExplainSlowQueries();
+    boolean getExplainSlowQueries();
 
     /**
      * @return Returns the failOverReadOnly.
      */
-    public boolean getFailOverReadOnly();
+    boolean getFailOverReadOnly();
 
     /**
      * @return Returns the gatherPerformanceMetrics.
      */
-    public boolean getGatherPerformanceMetrics();
+    boolean getGatherPerformanceMetrics();
 
     /**
      * @return Returns the holdResultsOpenOverStatementClose.
      */
-    public boolean getHoldResultsOpenOverStatementClose();
+    boolean getHoldResultsOpenOverStatementClose();
 
-    public boolean getIgnoreNonTxTables();
+    boolean getIgnoreNonTxTables();
 
-    public int getInitialTimeout();
+    int getInitialTimeout();
 
-    public boolean getInteractiveClient();
+    boolean getInteractiveClient();
 
     /**
      * @return Returns the isInteractiveClient.
      */
-    public boolean getIsInteractiveClient();
+    boolean getIsInteractiveClient();
 
     /**
      * @return Returns the jdbcCompliantTruncation.
      */
-    public boolean getJdbcCompliantTruncation();
+    boolean getJdbcCompliantTruncation();
 
     /**
      * @return Returns the dontTrackOpenResources.
      */
-    public int getLocatorFetchBufferSize();
+    int getLocatorFetchBufferSize();
 
-    public String getLogger();
+    String getLogger();
 
     /**
      * @return Returns the loggerClassName.
      */
-    public String getLoggerClassName();
+    String getLoggerClassName();
 
     /**
      * @return Returns the logSlowQueries.
      */
-    public boolean getLogSlowQueries();
+    boolean getLogSlowQueries();
 
-    public boolean getMaintainTimeStats();
+    boolean getMaintainTimeStats();
 
     /**
      * @return Returns the maxQuerySizeToLog.
      */
-    public int getMaxQuerySizeToLog();
+    int getMaxQuerySizeToLog();
 
-    public int getMaxReconnects();
+    int getMaxReconnects();
 
-    public int getMaxRows();
+    int getMaxRows();
 
     /**
      * Returns the number of queries that metadata can be cached if caching is
@@ -224,263 +224,263 @@ public interface ConnectionProperties {
      * 
      * @return the number of queries to cache metadata for.
      */
-    public int getMetadataCacheSize();
+    int getMetadataCacheSize();
 
     /**
      * @return Returns the noDatetimeStringSync.
      */
-    public boolean getNoDatetimeStringSync();
+    boolean getNoDatetimeStringSync();
 
-    public boolean getNullCatalogMeansCurrent();
+    boolean getNullCatalogMeansCurrent();
 
-    public boolean getNullNamePatternMatchesAll();
+    boolean getNullNamePatternMatchesAll();
 
     /**
      * @return Returns the packetDebugBufferSize.
      */
-    public int getPacketDebugBufferSize();
+    int getPacketDebugBufferSize();
 
-    public boolean getParanoid();
+    boolean getParanoid();
 
-    public boolean getPedantic();
+    boolean getPedantic();
 
     /**
      * @return Returns the preparedStatementCacheSize.
      */
-    public int getPreparedStatementCacheSize();
+    int getPreparedStatementCacheSize();
 
     /**
      * @return Returns the preparedStatementCacheSqlLimit.
      */
-    public int getPreparedStatementCacheSqlLimit();
+    int getPreparedStatementCacheSqlLimit();
 
-    public boolean getProfileSql();
+    boolean getProfileSql();
 
     /**
      * @return Returns the profileSQL flag
      */
-    public boolean getProfileSQL();
+    boolean getProfileSQL();
 
     /**
      * @return Returns the propertiesTransform.
      */
-    public String getPropertiesTransform();
+    String getPropertiesTransform();
 
-    public int getQueriesBeforeRetryMaster();
+    int getQueriesBeforeRetryMaster();
 
-    public boolean getReconnectAtTxEnd();
+    boolean getReconnectAtTxEnd();
 
-    public boolean getRelaxAutoCommit();
+    boolean getRelaxAutoCommit();
 
     /**
      * @return Returns the reportMetricsIntervalMillis.
      */
-    public int getReportMetricsIntervalMillis();
+    int getReportMetricsIntervalMillis();
 
-    public boolean getRequireSSL();
+    boolean getRequireSSL();
 
     /**
      * @return Returns the rollbackOnPooledClose.
      */
-    public boolean getRollbackOnPooledClose();
+    boolean getRollbackOnPooledClose();
 
     /**
      * Returns whether or not hosts will be picked in a round-robin fashion.
      * 
      * @return Returns the roundRobinLoadBalance property.
      */
-    public boolean getRoundRobinLoadBalance();
+    boolean getRoundRobinLoadBalance();
 
     /**
      * @return Returns the runningCTS13.
      */
-    public boolean getRunningCTS13();
+    boolean getRunningCTS13();
 
-    public int getSecondsBeforeRetryMaster();
+    int getSecondsBeforeRetryMaster();
 
     /**
      * Returns the 'serverTimezone' property.
      * 
      * @return the configured server timezone property.
      */
-    public String getServerTimezone();
+    String getServerTimezone();
 
     /**
      * @return Returns the sessionVariables.
      */
-    public String getSessionVariables();
+    String getSessionVariables();
 
     /**
      * @return Returns the slowQueryThresholdMillis.
      */
-    public int getSlowQueryThresholdMillis();
+    int getSlowQueryThresholdMillis();
 
-    public String getSocketFactoryClassName();
+    String getSocketFactoryClassName();
 
-    public int getSocketTimeout();
+    int getSocketTimeout();
 
-    public boolean getStrictFloatingPoint();
+    boolean getStrictFloatingPoint();
 
-    public boolean getStrictUpdates();
+    boolean getStrictUpdates();
 
     /**
      * @return Returns the tinyInt1isBit.
      */
-    public boolean getTinyInt1isBit();
+    boolean getTinyInt1isBit();
 
     /**
      * @return Returns the logProtocol.
      */
-    public boolean getTraceProtocol();
+    boolean getTraceProtocol();
 
-    public boolean getTransformedBitIsBoolean();
+    boolean getTransformedBitIsBoolean();
 
-    public boolean getUseCompression();
+    boolean getUseCompression();
 
     /**
      * @return Returns the useFastIntParsing.
      */
-    public boolean getUseFastIntParsing();
+    boolean getUseFastIntParsing();
 
-    public boolean getUseHostsInPrivileges();
+    boolean getUseHostsInPrivileges();
 
-    public boolean getUseInformationSchema();
+    boolean getUseInformationSchema();
 
     /**
      * @return Returns the useLocalSessionState.
      */
-    public boolean getUseLocalSessionState();
+    boolean getUseLocalSessionState();
 
     /**
      * @return Returns the useOldUTF8Behavior.
      */
-    public boolean getUseOldUTF8Behavior();
+    boolean getUseOldUTF8Behavior();
 
     /**
      * @return Returns the useOnlyServerErrorMessages.
      */
-    public boolean getUseOnlyServerErrorMessages();
+    boolean getUseOnlyServerErrorMessages();
 
     /**
      * @return Returns the useReadAheadInput.
      */
-    public boolean getUseReadAheadInput();
+    boolean getUseReadAheadInput();
 
-    public boolean getUseServerPreparedStmts();
+    boolean getUseServerPreparedStmts();
 
     /**
      * @return Returns the useSqlStateCodes state.
      */
-    public boolean getUseSqlStateCodes();
+    boolean getUseSqlStateCodes();
 
-    public boolean getUseSSL();
+    boolean getUseSSL();
 
     boolean isUseSSLExplicit();
 
-    public boolean getUseStreamLengthsInPrepStmts();
+    boolean getUseStreamLengthsInPrepStmts();
 
-    public boolean getUseTimezone();
+    boolean getUseTimezone();
 
-    public boolean getUseUltraDevWorkAround();
+    boolean getUseUltraDevWorkAround();
 
     /**
      * @return Returns the useUnbufferedInput.
      */
-    public boolean getUseUnbufferedInput();
+    boolean getUseUnbufferedInput();
 
-    public boolean getUseUnicode();
+    boolean getUseUnicode();
 
     /**
      * Returns whether or not the driver advises of proper usage.
      * 
      * @return the value of useUsageAdvisor
      */
-    public boolean getUseUsageAdvisor();
+    boolean getUseUsageAdvisor();
 
-    public boolean getYearIsDateType();
+    boolean getYearIsDateType();
 
     /**
      * @return Returns the zeroDateTimeBehavior.
      */
-    public String getZeroDateTimeBehavior();
+    String getZeroDateTimeBehavior();
 
-    public void setAllowLoadLocalInfile(boolean property);
+    void setAllowLoadLocalInfile(boolean property);
 
     /**
      * @param property
      */
-    public void setAllowMultiQueries(boolean property);
+    void setAllowMultiQueries(boolean property);
 
     /**
      * @param allowNanAndInf
      *            The allowNanAndInf to set.
      */
-    public void setAllowNanAndInf(boolean flag);
+    void setAllowNanAndInf(boolean flag);
 
     /**
      * @param allowUrlInLocalInfile
      *            The allowUrlInLocalInfile to set.
      */
-    public void setAllowUrlInLocalInfile(boolean flag);
+    void setAllowUrlInLocalInfile(boolean flag);
 
     /**
      * @param alwaysSendSetIsolation
      *            The alwaysSendSetIsolation to set.
      */
-    public void setAlwaysSendSetIsolation(boolean flag);
+    void setAlwaysSendSetIsolation(boolean flag);
 
     /**
      * @param autoDeserialize
      *            The autoDeserialize to set.
      */
-    public void setAutoDeserialize(boolean flag);
+    void setAutoDeserialize(boolean flag);
 
-    public void setAutoGenerateTestcaseScript(boolean flag);
+    void setAutoGenerateTestcaseScript(boolean flag);
 
     /**
      * @param flag
      *            The autoReconnect to set.
      */
-    public void setAutoReconnect(boolean flag);
+    void setAutoReconnect(boolean flag);
 
-    public void setAutoReconnectForConnectionPools(boolean property);
+    void setAutoReconnectForConnectionPools(boolean property);
 
     /**
      * @param flag
      *            The autoReconnectForPools to set.
      */
-    public void setAutoReconnectForPools(boolean flag);
+    void setAutoReconnectForPools(boolean flag);
 
     /**
      * @param blobSendChunkSize
      *            The blobSendChunkSize to set.
      */
-    public void setBlobSendChunkSize(String value) throws SQLException;
+    void setBlobSendChunkSize(String value) throws SQLException;
 
     /**
      * @param flag
      *            The cacheCallableStatements to set.
      */
-    public void setCacheCallableStatements(boolean flag);
+    void setCacheCallableStatements(boolean flag);
 
     /**
      * @param flag
      *            The cachePreparedStatements to set.
      */
-    public void setCachePreparedStatements(boolean flag);
+    void setCachePreparedStatements(boolean flag);
 
     /**
      * Sets whether or not we should cache result set metadata.
      * 
      * @param property
      */
-    public void setCacheResultSetMetadata(boolean property);
+    void setCacheResultSetMetadata(boolean property);
 
     /**
      * @param cacheServerConfiguration
      *            The cacheServerConfiguration to set.
      */
-    public void setCacheServerConfiguration(boolean flag);
+    void setCacheServerConfiguration(boolean flag);
 
     /**
      * Configures the number of callable statements to cache. (this is
@@ -490,199 +490,199 @@ public interface ConnectionProperties {
      *            The callableStatementCacheSize to set.
      * @throws SQLException
      */
-    public void setCallableStatementCacheSize(int size) throws SQLException;
+    void setCallableStatementCacheSize(int size) throws SQLException;
 
-    public void setCapitalizeDBMDTypes(boolean property);
+    void setCapitalizeDBMDTypes(boolean property);
 
     /**
      * @param flag
      *            The capitalizeTypeNames to set.
      */
-    public void setCapitalizeTypeNames(boolean flag);
+    void setCapitalizeTypeNames(boolean flag);
 
     /**
      * @param encoding
      *            The characterEncoding to set.
      */
-    public void setCharacterEncoding(String encoding);
+    void setCharacterEncoding(String encoding);
 
     /**
      * @param characterSet
      *            The characterSetResults to set.
      */
-    public void setCharacterSetResults(String characterSet);
+    void setCharacterSetResults(String characterSet);
 
     /**
      * @param flag
      *            The clobberStreamingResults to set.
      */
-    public void setClobberStreamingResults(boolean flag);
+    void setClobberStreamingResults(boolean flag);
 
-    public void setClobCharacterEncoding(String encoding);
+    void setClobCharacterEncoding(String encoding);
 
     /**
      * @param collation
      *            The connectionCollation to set.
      */
-    public void setConnectionCollation(String collation);
+    void setConnectionCollation(String collation);
 
     /**
      * @param timeoutMs
      * @throws SQLException
      */
-    public void setConnectTimeout(int timeoutMs) throws SQLException;
+    void setConnectTimeout(int timeoutMs) throws SQLException;
 
     /**
      * @param property
      */
-    public void setContinueBatchOnError(boolean property);
+    void setContinueBatchOnError(boolean property);
 
-    public void setCreateDatabaseIfNotExist(boolean flag);
+    void setCreateDatabaseIfNotExist(boolean flag);
 
-    public void setDefaultFetchSize(int n) throws SQLException;
+    void setDefaultFetchSize(int n) throws SQLException;
 
     /**
      * @param property
      */
-    public void setDetectServerPreparedStmts(boolean property);
+    void setDetectServerPreparedStmts(boolean property);
 
     /**
      * @param dontTrackOpenResources
      *            The dontTrackOpenResources to set.
      */
-    public void setDontTrackOpenResources(boolean flag);
+    void setDontTrackOpenResources(boolean flag);
 
     /**
      * @param flag
      *            The dumpQueriesOnException to set.
      */
-    public void setDumpQueriesOnException(boolean flag);
+    void setDumpQueriesOnException(boolean flag);
 
     /**
      * @param dynamicCalendars
      *            The dynamicCalendars to set.
      */
-    public void setDynamicCalendars(boolean flag);
+    void setDynamicCalendars(boolean flag);
 
     /**
      * @param flag
      *            The elideSetAutoCommits to set.
      */
-    public void setElideSetAutoCommits(boolean flag);
+    void setElideSetAutoCommits(boolean flag);
 
-    public void setEmptyStringsConvertToZero(boolean flag);
+    void setEmptyStringsConvertToZero(boolean flag);
 
     /**
      * @param property
      */
-    public void setEmulateLocators(boolean property);
+    void setEmulateLocators(boolean property);
 
     /**
      * @param emulateUnsupportedPstmts
      *            The emulateUnsupportedPstmts to set.
      */
-    public void setEmulateUnsupportedPstmts(boolean flag);
+    void setEmulateUnsupportedPstmts(boolean flag);
 
     /**
      * @param flag
      *            The enablePacketDebug to set.
      */
-    public void setEnablePacketDebug(boolean flag);
+    void setEnablePacketDebug(boolean flag);
 
     /**
      * @param property
      */
-    public void setEncoding(String property);
+    void setEncoding(String property);
 
     /**
      * @param flag
      *            The explainSlowQueries to set.
      */
-    public void setExplainSlowQueries(boolean flag);
+    void setExplainSlowQueries(boolean flag);
 
     /**
      * @param flag
      *            The failOverReadOnly to set.
      */
-    public void setFailOverReadOnly(boolean flag);
+    void setFailOverReadOnly(boolean flag);
 
     /**
      * @param flag
      *            The gatherPerformanceMetrics to set.
      */
-    public void setGatherPerformanceMetrics(boolean flag);
+    void setGatherPerformanceMetrics(boolean flag);
 
     /**
      * @param holdResultsOpenOverStatementClose
      *            The holdResultsOpenOverStatementClose to set.
      */
-    public void setHoldResultsOpenOverStatementClose(boolean flag);
+    void setHoldResultsOpenOverStatementClose(boolean flag);
 
     /**
      * @param property
      */
-    public void setIgnoreNonTxTables(boolean property);
+    void setIgnoreNonTxTables(boolean property);
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setInitialTimeout(int property) throws SQLException;
+    void setInitialTimeout(int property) throws SQLException;
 
     /**
      * @param property
      */
-    public void setIsInteractiveClient(boolean property);
+    void setIsInteractiveClient(boolean property);
 
     /**
      * @param flag
      *            The jdbcCompliantTruncation to set.
      */
-    public void setJdbcCompliantTruncation(boolean flag);
+    void setJdbcCompliantTruncation(boolean flag);
 
     /**
      * @param locatorFetchBufferSize
      *            The locatorFetchBufferSize to set.
      */
-    public void setLocatorFetchBufferSize(String value) throws SQLException;
+    void setLocatorFetchBufferSize(String value) throws SQLException;
 
     /**
      * @param property
      */
-    public void setLogger(String property);
+    void setLogger(String property);
 
     /**
      * @param className
      *            The loggerClassName to set.
      */
-    public void setLoggerClassName(String className);
+    void setLoggerClassName(String className);
 
     /**
      * @param flag
      *            The logSlowQueries to set.
      */
-    public void setLogSlowQueries(boolean flag);
+    void setLogSlowQueries(boolean flag);
 
-    public void setMaintainTimeStats(boolean flag);
+    void setMaintainTimeStats(boolean flag);
 
     /**
      * @param sizeInBytes
      *            The maxQuerySizeToLog to set.
      * @throws SQLException
      */
-    public void setMaxQuerySizeToLog(int sizeInBytes) throws SQLException;
+    void setMaxQuerySizeToLog(int sizeInBytes) throws SQLException;
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setMaxReconnects(int property) throws SQLException;
+    void setMaxReconnects(int property) throws SQLException;
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setMaxRows(int property) throws SQLException;
+    void setMaxRows(int property) throws SQLException;
 
     /**
      * Sets the number of queries that metadata can be cached if caching is
@@ -692,101 +692,101 @@ public interface ConnectionProperties {
      *            the number of queries to cache metadata for.
      * @throws SQLException
      */
-    public void setMetadataCacheSize(int value) throws SQLException;
+    void setMetadataCacheSize(int value) throws SQLException;
 
     /**
      * @param noDatetimeStringSync
      *            The noDatetimeStringSync to set.
      */
-    public void setNoDatetimeStringSync(boolean flag);
+    void setNoDatetimeStringSync(boolean flag);
 
-    public void setNullCatalogMeansCurrent(boolean value);
+    void setNullCatalogMeansCurrent(boolean value);
 
-    public void setNullNamePatternMatchesAll(boolean value);
+    void setNullNamePatternMatchesAll(boolean value);
 
     /**
      * @param size
      *            The packetDebugBufferSize to set.
      * @throws SQLException
      */
-    public void setPacketDebugBufferSize(int size) throws SQLException;
+    void setPacketDebugBufferSize(int size) throws SQLException;
 
     /**
      * @param property
      */
-    public void setParanoid(boolean property);
+    void setParanoid(boolean property);
 
     /**
      * @param property
      */
-    public void setPedantic(boolean property);
+    void setPedantic(boolean property);
 
     /**
      * @param cacheSize
      *            The preparedStatementCacheSize to set.
      * @throws SQLException
      */
-    public void setPreparedStatementCacheSize(int cacheSize) throws SQLException;
+    void setPreparedStatementCacheSize(int cacheSize) throws SQLException;
 
     /**
      * @param cacheSqlLimit
      *            The preparedStatementCacheSqlLimit to set.
      * @throws SQLException
      */
-    public void setPreparedStatementCacheSqlLimit(int cacheSqlLimit) throws SQLException;
+    void setPreparedStatementCacheSqlLimit(int cacheSqlLimit) throws SQLException;
 
     /**
      * @param property
      */
-    public void setProfileSql(boolean property);
+    void setProfileSql(boolean property);
 
     /**
      * @param flag
      *            The profileSQL to set.
      */
-    public void setProfileSQL(boolean flag);
+    void setProfileSQL(boolean flag);
 
     /**
      * @param propertiesTransform
      *            The propertiesTransform to set.
      */
-    public void setPropertiesTransform(String value);
+    void setPropertiesTransform(String value);
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setQueriesBeforeRetryMaster(int property) throws SQLException;
+    void setQueriesBeforeRetryMaster(int property) throws SQLException;
 
     /**
      * @param property
      */
-    public void setReconnectAtTxEnd(boolean property);
+    void setReconnectAtTxEnd(boolean property);
 
     /**
      * @param property
      */
-    public void setRelaxAutoCommit(boolean property);
+    void setRelaxAutoCommit(boolean property);
 
     /**
      * @param millis
      *            The reportMetricsIntervalMillis to set.
      * @throws SQLException
      */
-    public void setReportMetricsIntervalMillis(int millis) throws SQLException;
+    void setReportMetricsIntervalMillis(int millis) throws SQLException;
 
     /**
      * @param property
      */
-    public void setRequireSSL(boolean property);
+    void setRequireSSL(boolean property);
 
-    public void setRetainStatementAfterResultSetClose(boolean flag);
+    void setRetainStatementAfterResultSetClose(boolean flag);
 
     /**
      * @param rollbackOnPooledClose
      *            The rollbackOnPooledClose to set.
      */
-    public void setRollbackOnPooledClose(boolean flag);
+    void setRollbackOnPooledClose(boolean flag);
 
     /**
      * Sets whether or not hosts will be picked in a round-robin fashion.
@@ -794,158 +794,158 @@ public interface ConnectionProperties {
      * @param flag
      *            The roundRobinLoadBalance property to set.
      */
-    public void setRoundRobinLoadBalance(boolean flag);
+    void setRoundRobinLoadBalance(boolean flag);
 
     /**
      * @param runningCTS13
      *            The runningCTS13 to set.
      */
-    public void setRunningCTS13(boolean flag);
+    void setRunningCTS13(boolean flag);
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setSecondsBeforeRetryMaster(int property) throws SQLException;
+    void setSecondsBeforeRetryMaster(int property) throws SQLException;
 
     /**
      * @param property
      */
-    public void setServerTimezone(String property);
+    void setServerTimezone(String property);
 
     /**
      * @param sessionVariables
      *            The sessionVariables to set.
      */
-    public void setSessionVariables(String variables);
+    void setSessionVariables(String variables);
 
     /**
      * @param millis
      *            The slowQueryThresholdMillis to set.
      * @throws SQLException
      */
-    public void setSlowQueryThresholdMillis(int millis) throws SQLException;
+    void setSlowQueryThresholdMillis(int millis) throws SQLException;
 
     /**
      * @param property
      */
-    public void setSocketFactoryClassName(String property);
+    void setSocketFactoryClassName(String property);
 
     /**
      * @param property
      * @throws SQLException
      */
-    public void setSocketTimeout(int property) throws SQLException;
+    void setSocketTimeout(int property) throws SQLException;
 
     /**
      * @param property
      */
-    public void setStrictFloatingPoint(boolean property);
+    void setStrictFloatingPoint(boolean property);
 
     /**
      * @param property
      */
-    public void setStrictUpdates(boolean property);
+    void setStrictUpdates(boolean property);
 
     /**
      * @param tinyInt1isBit
      *            The tinyInt1isBit to set.
      */
-    public void setTinyInt1isBit(boolean flag);
+    void setTinyInt1isBit(boolean flag);
 
     /**
      * @param flag
      *            The logProtocol to set.
      */
-    public void setTraceProtocol(boolean flag);
+    void setTraceProtocol(boolean flag);
 
-    public void setTransformedBitIsBoolean(boolean flag);
+    void setTransformedBitIsBoolean(boolean flag);
 
     /**
      * @param property
      */
-    public void setUseCompression(boolean property);
+    void setUseCompression(boolean property);
 
     /**
      * @param useFastIntParsing
      *            The useFastIntParsing to set.
      */
-    public void setUseFastIntParsing(boolean flag);
+    void setUseFastIntParsing(boolean flag);
 
     /**
      * @param property
      */
-    public void setUseHostsInPrivileges(boolean property);
+    void setUseHostsInPrivileges(boolean property);
 
-    public void setUseInformationSchema(boolean flag);
+    void setUseInformationSchema(boolean flag);
 
     /**
      * @param useLocalSessionState
      *            The useLocalSessionState to set.
      */
-    public void setUseLocalSessionState(boolean flag);
+    void setUseLocalSessionState(boolean flag);
 
     /**
      * @param useOldUTF8Behavior
      *            The useOldUTF8Behavior to set.
      */
-    public void setUseOldUTF8Behavior(boolean flag);
+    void setUseOldUTF8Behavior(boolean flag);
 
     /**
      * @param useOnlyServerErrorMessages
      *            The useOnlyServerErrorMessages to set.
      */
-    public void setUseOnlyServerErrorMessages(boolean flag);
+    void setUseOnlyServerErrorMessages(boolean flag);
 
     /**
      * @param useReadAheadInput
      *            The useReadAheadInput to set.
      */
-    public void setUseReadAheadInput(boolean flag);
+    void setUseReadAheadInput(boolean flag);
 
     /**
      * @param flag
      *            The detectServerPreparedStmts to set.
      */
-    public void setUseServerPreparedStmts(boolean flag);
+    void setUseServerPreparedStmts(boolean flag);
 
     /**
      * @param flag
      *            The useSqlStateCodes to set.
      */
-    public void setUseSqlStateCodes(boolean flag);
+    void setUseSqlStateCodes(boolean flag);
 
     /**
      * @param property
      */
-    public void setUseSSL(boolean property);
+    void setUseSSL(boolean property);
 
     /**
      * @param property
      */
-    public void setUseStreamLengthsInPrepStmts(boolean property);
+    void setUseStreamLengthsInPrepStmts(boolean property);
 
     /**
      * @param property
      */
-    public void setUseTimezone(boolean property);
+    void setUseTimezone(boolean property);
 
     /**
      * @param property
      */
-    public void setUseUltraDevWorkAround(boolean property);
+    void setUseUltraDevWorkAround(boolean property);
 
     /**
      * @param flag
      *            The useUnbufferedInput to set.
      */
-    public void setUseUnbufferedInput(boolean flag);
+    void setUseUnbufferedInput(boolean flag);
 
     /**
      * @param flag
      *            The useUnicode to set.
      */
-    public void setUseUnicode(boolean flag);
+    void setUseUnicode(boolean flag);
 
     /**
      * Sets whether or not the driver advises of proper usage.
@@ -953,476 +953,476 @@ public interface ConnectionProperties {
      * @param useUsageAdvisorFlag
      *            whether or not the driver advises of proper usage.
      */
-    public void setUseUsageAdvisor(boolean useUsageAdvisorFlag);
+    void setUseUsageAdvisor(boolean useUsageAdvisorFlag);
 
-    public void setYearIsDateType(boolean flag);
+    void setYearIsDateType(boolean flag);
 
     /**
      * @param zeroDateTimeBehavior
      *            The zeroDateTimeBehavior to set.
      */
-    public void setZeroDateTimeBehavior(String behavior);
+    void setZeroDateTimeBehavior(String behavior);
 
     /**
      * @return Returns the useUnbufferedInput.
      */
-    public boolean useUnbufferedInput();
+    boolean useUnbufferedInput();
 
-    public boolean getUseCursorFetch();
+    boolean getUseCursorFetch();
 
-    public void setUseCursorFetch(boolean flag);
+    void setUseCursorFetch(boolean flag);
 
-    public boolean getOverrideSupportsIntegrityEnhancementFacility();
+    boolean getOverrideSupportsIntegrityEnhancementFacility();
 
-    public void setOverrideSupportsIntegrityEnhancementFacility(boolean flag);
+    void setOverrideSupportsIntegrityEnhancementFacility(boolean flag);
 
-    public boolean getNoTimezoneConversionForTimeType();
+    boolean getNoTimezoneConversionForTimeType();
 
-    public void setNoTimezoneConversionForTimeType(boolean flag);
+    void setNoTimezoneConversionForTimeType(boolean flag);
 
-    public boolean getNoTimezoneConversionForDateType();
+    boolean getNoTimezoneConversionForDateType();
 
-    public void setNoTimezoneConversionForDateType(boolean flag);
+    void setNoTimezoneConversionForDateType(boolean flag);
 
-    public boolean getCacheDefaultTimezone();
+    boolean getCacheDefaultTimezone();
 
-    public void setCacheDefaultTimezone(boolean flag);
+    void setCacheDefaultTimezone(boolean flag);
 
-    public boolean getUseJDBCCompliantTimezoneShift();
+    boolean getUseJDBCCompliantTimezoneShift();
 
-    public void setUseJDBCCompliantTimezoneShift(boolean flag);
+    void setUseJDBCCompliantTimezoneShift(boolean flag);
 
-    public boolean getAutoClosePStmtStreams();
+    boolean getAutoClosePStmtStreams();
 
-    public void setAutoClosePStmtStreams(boolean flag);
+    void setAutoClosePStmtStreams(boolean flag);
 
-    public boolean getProcessEscapeCodesForPrepStmts();
+    boolean getProcessEscapeCodesForPrepStmts();
 
-    public void setProcessEscapeCodesForPrepStmts(boolean flag);
+    void setProcessEscapeCodesForPrepStmts(boolean flag);
 
-    public boolean getUseGmtMillisForDatetimes();
+    boolean getUseGmtMillisForDatetimes();
 
-    public void setUseGmtMillisForDatetimes(boolean flag);
+    void setUseGmtMillisForDatetimes(boolean flag);
 
-    public boolean getDumpMetadataOnColumnNotFound();
+    boolean getDumpMetadataOnColumnNotFound();
 
-    public void setDumpMetadataOnColumnNotFound(boolean flag);
+    void setDumpMetadataOnColumnNotFound(boolean flag);
 
-    public String getResourceId();
+    String getResourceId();
 
-    public void setResourceId(String resourceId);
+    void setResourceId(String resourceId);
 
-    public boolean getRewriteBatchedStatements();
+    boolean getRewriteBatchedStatements();
 
-    public void setRewriteBatchedStatements(boolean flag);
+    void setRewriteBatchedStatements(boolean flag);
 
-    public boolean getJdbcCompliantTruncationForReads();
+    boolean getJdbcCompliantTruncationForReads();
 
-    public void setJdbcCompliantTruncationForReads(boolean jdbcCompliantTruncationForReads);
+    void setJdbcCompliantTruncationForReads(boolean jdbcCompliantTruncationForReads);
 
-    public boolean getUseJvmCharsetConverters();
+    boolean getUseJvmCharsetConverters();
 
-    public void setUseJvmCharsetConverters(boolean flag);
+    void setUseJvmCharsetConverters(boolean flag);
 
-    public boolean getPinGlobalTxToPhysicalConnection();
+    boolean getPinGlobalTxToPhysicalConnection();
 
-    public void setPinGlobalTxToPhysicalConnection(boolean flag);
+    void setPinGlobalTxToPhysicalConnection(boolean flag);
 
-    public void setGatherPerfMetrics(boolean flag);
+    void setGatherPerfMetrics(boolean flag);
 
-    public boolean getGatherPerfMetrics();
+    boolean getGatherPerfMetrics();
 
-    public void setUltraDevHack(boolean flag);
+    void setUltraDevHack(boolean flag);
 
-    public boolean getUltraDevHack();
+    boolean getUltraDevHack();
 
-    public void setInteractiveClient(boolean property);
+    void setInteractiveClient(boolean property);
 
-    public void setSocketFactory(String name);
+    void setSocketFactory(String name);
 
-    public String getSocketFactory();
+    String getSocketFactory();
 
-    public void setUseServerPrepStmts(boolean flag);
+    void setUseServerPrepStmts(boolean flag);
 
-    public boolean getUseServerPrepStmts();
+    boolean getUseServerPrepStmts();
 
-    public void setCacheCallableStmts(boolean flag);
+    void setCacheCallableStmts(boolean flag);
 
-    public boolean getCacheCallableStmts();
+    boolean getCacheCallableStmts();
 
-    public void setCachePrepStmts(boolean flag);
+    void setCachePrepStmts(boolean flag);
 
-    public boolean getCachePrepStmts();
+    boolean getCachePrepStmts();
 
-    public void setCallableStmtCacheSize(int cacheSize) throws SQLException;
+    void setCallableStmtCacheSize(int cacheSize) throws SQLException;
 
-    public int getCallableStmtCacheSize();
+    int getCallableStmtCacheSize();
 
-    public void setPrepStmtCacheSize(int cacheSize) throws SQLException;
+    void setPrepStmtCacheSize(int cacheSize) throws SQLException;
 
-    public int getPrepStmtCacheSize();
+    int getPrepStmtCacheSize();
 
-    public void setPrepStmtCacheSqlLimit(int sqlLimit) throws SQLException;
+    void setPrepStmtCacheSqlLimit(int sqlLimit) throws SQLException;
 
-    public int getPrepStmtCacheSqlLimit();
+    int getPrepStmtCacheSqlLimit();
 
-    public boolean getNoAccessToProcedureBodies();
+    boolean getNoAccessToProcedureBodies();
 
-    public void setNoAccessToProcedureBodies(boolean flag);
+    void setNoAccessToProcedureBodies(boolean flag);
 
-    public boolean getUseOldAliasMetadataBehavior();
+    boolean getUseOldAliasMetadataBehavior();
 
-    public void setUseOldAliasMetadataBehavior(boolean flag);
+    void setUseOldAliasMetadataBehavior(boolean flag);
 
-    public String getClientCertificateKeyStorePassword();
+    String getClientCertificateKeyStorePassword();
 
-    public void setClientCertificateKeyStorePassword(String value);
+    void setClientCertificateKeyStorePassword(String value);
 
-    public String getClientCertificateKeyStoreType();
+    String getClientCertificateKeyStoreType();
 
-    public void setClientCertificateKeyStoreType(String value);
+    void setClientCertificateKeyStoreType(String value);
 
-    public String getClientCertificateKeyStoreUrl();
+    String getClientCertificateKeyStoreUrl();
 
-    public void setClientCertificateKeyStoreUrl(String value);
+    void setClientCertificateKeyStoreUrl(String value);
 
-    public String getTrustCertificateKeyStorePassword();
+    String getTrustCertificateKeyStorePassword();
 
-    public void setTrustCertificateKeyStorePassword(String value);
+    void setTrustCertificateKeyStorePassword(String value);
 
-    public String getTrustCertificateKeyStoreType();
+    String getTrustCertificateKeyStoreType();
 
-    public void setTrustCertificateKeyStoreType(String value);
+    void setTrustCertificateKeyStoreType(String value);
 
-    public String getTrustCertificateKeyStoreUrl();
+    String getTrustCertificateKeyStoreUrl();
 
-    public void setTrustCertificateKeyStoreUrl(String value);
+    void setTrustCertificateKeyStoreUrl(String value);
 
-    public boolean getUseSSPSCompatibleTimezoneShift();
+    boolean getUseSSPSCompatibleTimezoneShift();
 
-    public void setUseSSPSCompatibleTimezoneShift(boolean flag);
+    void setUseSSPSCompatibleTimezoneShift(boolean flag);
 
-    public boolean getTreatUtilDateAsTimestamp();
+    boolean getTreatUtilDateAsTimestamp();
 
-    public void setTreatUtilDateAsTimestamp(boolean flag);
+    void setTreatUtilDateAsTimestamp(boolean flag);
 
-    public boolean getUseFastDateParsing();
+    boolean getUseFastDateParsing();
 
-    public void setUseFastDateParsing(boolean flag);
+    void setUseFastDateParsing(boolean flag);
 
-    public String getLocalSocketAddress();
+    String getLocalSocketAddress();
 
-    public void setLocalSocketAddress(String address);
+    void setLocalSocketAddress(String address);
 
-    public void setUseConfigs(String configs);
+    void setUseConfigs(String configs);
 
-    public String getUseConfigs();
+    String getUseConfigs();
 
-    public boolean getGenerateSimpleParameterMetadata();
+    boolean getGenerateSimpleParameterMetadata();
 
-    public void setGenerateSimpleParameterMetadata(boolean flag);
+    void setGenerateSimpleParameterMetadata(boolean flag);
 
-    public boolean getLogXaCommands();
+    boolean getLogXaCommands();
 
-    public void setLogXaCommands(boolean flag);
+    void setLogXaCommands(boolean flag);
 
-    public int getResultSetSizeThreshold();
+    int getResultSetSizeThreshold();
 
-    public void setResultSetSizeThreshold(int threshold) throws SQLException;
+    void setResultSetSizeThreshold(int threshold) throws SQLException;
 
-    public int getNetTimeoutForStreamingResults();
+    int getNetTimeoutForStreamingResults();
 
-    public void setNetTimeoutForStreamingResults(int value) throws SQLException;
+    void setNetTimeoutForStreamingResults(int value) throws SQLException;
 
-    public boolean getEnableQueryTimeouts();
+    boolean getEnableQueryTimeouts();
 
-    public void setEnableQueryTimeouts(boolean flag);
+    void setEnableQueryTimeouts(boolean flag);
 
-    public boolean getPadCharsWithSpace();
+    boolean getPadCharsWithSpace();
 
-    public void setPadCharsWithSpace(boolean flag);
+    void setPadCharsWithSpace(boolean flag);
 
-    public boolean getUseDynamicCharsetInfo();
+    boolean getUseDynamicCharsetInfo();
 
-    public void setUseDynamicCharsetInfo(boolean flag);
+    void setUseDynamicCharsetInfo(boolean flag);
 
-    public String getClientInfoProvider();
+    String getClientInfoProvider();
 
-    public void setClientInfoProvider(String classname);
+    void setClientInfoProvider(String classname);
 
-    public boolean getPopulateInsertRowWithDefaultValues();
+    boolean getPopulateInsertRowWithDefaultValues();
 
-    public void setPopulateInsertRowWithDefaultValues(boolean flag);
+    void setPopulateInsertRowWithDefaultValues(boolean flag);
 
-    public String getLoadBalanceStrategy();
+    String getLoadBalanceStrategy();
 
-    public void setLoadBalanceStrategy(String strategy);
+    void setLoadBalanceStrategy(String strategy);
 
-    public boolean getTcpNoDelay();
+    boolean getTcpNoDelay();
 
-    public void setTcpNoDelay(boolean flag);
+    void setTcpNoDelay(boolean flag);
 
-    public boolean getTcpKeepAlive();
+    boolean getTcpKeepAlive();
 
-    public void setTcpKeepAlive(boolean flag);
+    void setTcpKeepAlive(boolean flag);
 
-    public int getTcpRcvBuf();
+    int getTcpRcvBuf();
 
-    public void setTcpRcvBuf(int bufSize) throws SQLException;
+    void setTcpRcvBuf(int bufSize) throws SQLException;
 
-    public int getTcpSndBuf();
+    int getTcpSndBuf();
 
-    public void setTcpSndBuf(int bufSize) throws SQLException;
+    void setTcpSndBuf(int bufSize) throws SQLException;
 
-    public int getTcpTrafficClass();
+    int getTcpTrafficClass();
 
-    public void setTcpTrafficClass(int classFlags) throws SQLException;
+    void setTcpTrafficClass(int classFlags) throws SQLException;
 
-    public boolean getUseNanosForElapsedTime();
+    boolean getUseNanosForElapsedTime();
 
-    public void setUseNanosForElapsedTime(boolean flag);
+    void setUseNanosForElapsedTime(boolean flag);
 
-    public long getSlowQueryThresholdNanos();
+    long getSlowQueryThresholdNanos();
 
-    public void setSlowQueryThresholdNanos(long nanos) throws SQLException;
+    void setSlowQueryThresholdNanos(long nanos) throws SQLException;
 
-    public String getStatementInterceptors();
+    String getStatementInterceptors();
 
-    public void setStatementInterceptors(String value);
+    void setStatementInterceptors(String value);
 
-    public boolean getUseDirectRowUnpack();
+    boolean getUseDirectRowUnpack();
 
-    public void setUseDirectRowUnpack(boolean flag);
+    void setUseDirectRowUnpack(boolean flag);
 
-    public String getLargeRowSizeThreshold();
+    String getLargeRowSizeThreshold();
 
-    public void setLargeRowSizeThreshold(String value) throws SQLException;
+    void setLargeRowSizeThreshold(String value) throws SQLException;
 
-    public boolean getUseBlobToStoreUTF8OutsideBMP();
+    boolean getUseBlobToStoreUTF8OutsideBMP();
 
-    public void setUseBlobToStoreUTF8OutsideBMP(boolean flag);
+    void setUseBlobToStoreUTF8OutsideBMP(boolean flag);
 
-    public String getUtf8OutsideBmpExcludedColumnNamePattern();
+    String getUtf8OutsideBmpExcludedColumnNamePattern();
 
-    public void setUtf8OutsideBmpExcludedColumnNamePattern(String regexPattern);
+    void setUtf8OutsideBmpExcludedColumnNamePattern(String regexPattern);
 
-    public String getUtf8OutsideBmpIncludedColumnNamePattern();
+    String getUtf8OutsideBmpIncludedColumnNamePattern();
 
-    public void setUtf8OutsideBmpIncludedColumnNamePattern(String regexPattern);
+    void setUtf8OutsideBmpIncludedColumnNamePattern(String regexPattern);
 
-    public boolean getIncludeInnodbStatusInDeadlockExceptions();
+    boolean getIncludeInnodbStatusInDeadlockExceptions();
 
-    public void setIncludeInnodbStatusInDeadlockExceptions(boolean flag);
+    void setIncludeInnodbStatusInDeadlockExceptions(boolean flag);
 
-    public boolean getIncludeThreadDumpInDeadlockExceptions();
+    boolean getIncludeThreadDumpInDeadlockExceptions();
 
-    public void setIncludeThreadDumpInDeadlockExceptions(boolean flag);
+    void setIncludeThreadDumpInDeadlockExceptions(boolean flag);
 
-    public boolean getIncludeThreadNamesAsStatementComment();
+    boolean getIncludeThreadNamesAsStatementComment();
 
-    public void setIncludeThreadNamesAsStatementComment(boolean flag);
+    void setIncludeThreadNamesAsStatementComment(boolean flag);
 
-    public boolean getBlobsAreStrings();
+    boolean getBlobsAreStrings();
 
-    public void setBlobsAreStrings(boolean flag);
+    void setBlobsAreStrings(boolean flag);
 
-    public boolean getFunctionsNeverReturnBlobs();
+    boolean getFunctionsNeverReturnBlobs();
 
-    public void setFunctionsNeverReturnBlobs(boolean flag);
+    void setFunctionsNeverReturnBlobs(boolean flag);
 
-    public boolean getAutoSlowLog();
+    boolean getAutoSlowLog();
 
-    public void setAutoSlowLog(boolean flag);
+    void setAutoSlowLog(boolean flag);
 
-    public String getConnectionLifecycleInterceptors();
+    String getConnectionLifecycleInterceptors();
 
-    public void setConnectionLifecycleInterceptors(String interceptors);
+    void setConnectionLifecycleInterceptors(String interceptors);
 
-    public String getProfilerEventHandler();
+    String getProfilerEventHandler();
 
-    public void setProfilerEventHandler(String handler);
+    void setProfilerEventHandler(String handler);
 
-    public boolean getVerifyServerCertificate();
+    boolean getVerifyServerCertificate();
 
-    public void setVerifyServerCertificate(boolean flag);
+    void setVerifyServerCertificate(boolean flag);
 
-    public boolean getUseLegacyDatetimeCode();
+    boolean getUseLegacyDatetimeCode();
 
-    public void setUseLegacyDatetimeCode(boolean flag);
+    void setUseLegacyDatetimeCode(boolean flag);
 
-    public boolean getSendFractionalSeconds();
+    boolean getSendFractionalSeconds();
 
-    public void setSendFractionalSeconds(boolean flag);
+    void setSendFractionalSeconds(boolean flag);
 
-    public int getSelfDestructOnPingSecondsLifetime();
+    int getSelfDestructOnPingSecondsLifetime();
 
-    public void setSelfDestructOnPingSecondsLifetime(int seconds) throws SQLException;
+    void setSelfDestructOnPingSecondsLifetime(int seconds) throws SQLException;
 
-    public int getSelfDestructOnPingMaxOperations();
+    int getSelfDestructOnPingMaxOperations();
 
-    public void setSelfDestructOnPingMaxOperations(int maxOperations) throws SQLException;
+    void setSelfDestructOnPingMaxOperations(int maxOperations) throws SQLException;
 
-    public boolean getUseColumnNamesInFindColumn();
+    boolean getUseColumnNamesInFindColumn();
 
-    public void setUseColumnNamesInFindColumn(boolean flag);
+    void setUseColumnNamesInFindColumn(boolean flag);
 
-    public boolean getUseLocalTransactionState();
+    boolean getUseLocalTransactionState();
 
-    public void setUseLocalTransactionState(boolean flag);
+    void setUseLocalTransactionState(boolean flag);
 
-    public boolean getCompensateOnDuplicateKeyUpdateCounts();
+    boolean getCompensateOnDuplicateKeyUpdateCounts();
 
-    public void setCompensateOnDuplicateKeyUpdateCounts(boolean flag);
+    void setCompensateOnDuplicateKeyUpdateCounts(boolean flag);
 
-    public void setUseAffectedRows(boolean flag);
+    void setUseAffectedRows(boolean flag);
 
-    public boolean getUseAffectedRows();
+    boolean getUseAffectedRows();
 
-    public void setPasswordCharacterEncoding(String characterSet);
+    void setPasswordCharacterEncoding(String characterSet);
 
-    public String getPasswordCharacterEncoding();
+    String getPasswordCharacterEncoding();
 
-    public int getLoadBalanceBlacklistTimeout();
+    int getLoadBalanceBlacklistTimeout();
 
-    public void setLoadBalanceBlacklistTimeout(int loadBalanceBlacklistTimeout) throws SQLException;
+    void setLoadBalanceBlacklistTimeout(int loadBalanceBlacklistTimeout) throws SQLException;
 
-    public void setRetriesAllDown(int retriesAllDown) throws SQLException;
+    void setRetriesAllDown(int retriesAllDown) throws SQLException;
 
-    public int getRetriesAllDown();
+    int getRetriesAllDown();
 
-    public ExceptionInterceptor getExceptionInterceptor();
+    ExceptionInterceptor getExceptionInterceptor();
 
-    public void setExceptionInterceptors(String exceptionInterceptors);
+    void setExceptionInterceptors(String exceptionInterceptors);
 
-    public String getExceptionInterceptors();
+    String getExceptionInterceptors();
 
-    public boolean getQueryTimeoutKillsConnection();
+    boolean getQueryTimeoutKillsConnection();
 
-    public void setQueryTimeoutKillsConnection(boolean queryTimeoutKillsConnection);
+    void setQueryTimeoutKillsConnection(boolean queryTimeoutKillsConnection);
 
-    public int getMaxAllowedPacket();
+    int getMaxAllowedPacket();
 
     boolean getRetainStatementAfterResultSetClose();
 
-    public int getLoadBalancePingTimeout();
+    int getLoadBalancePingTimeout();
 
-    public void setLoadBalancePingTimeout(int loadBalancePingTimeout) throws SQLException;
+    void setLoadBalancePingTimeout(int loadBalancePingTimeout) throws SQLException;
 
-    public boolean getLoadBalanceValidateConnectionOnSwapServer();
+    boolean getLoadBalanceValidateConnectionOnSwapServer();
 
-    public void setLoadBalanceValidateConnectionOnSwapServer(boolean loadBalanceValidateConnectionOnSwapServer);
+    void setLoadBalanceValidateConnectionOnSwapServer(boolean loadBalanceValidateConnectionOnSwapServer);
 
-    public String getLoadBalanceConnectionGroup();
+    String getLoadBalanceConnectionGroup();
 
-    public void setLoadBalanceConnectionGroup(String loadBalanceConnectionGroup);
+    void setLoadBalanceConnectionGroup(String loadBalanceConnectionGroup);
 
-    public String getLoadBalanceExceptionChecker();
+    String getLoadBalanceExceptionChecker();
 
-    public void setLoadBalanceExceptionChecker(String loadBalanceExceptionChecker);
+    void setLoadBalanceExceptionChecker(String loadBalanceExceptionChecker);
 
-    public String getLoadBalanceSQLStateFailover();
+    String getLoadBalanceSQLStateFailover();
 
-    public void setLoadBalanceSQLStateFailover(String loadBalanceSQLStateFailover);
+    void setLoadBalanceSQLStateFailover(String loadBalanceSQLStateFailover);
 
-    public String getLoadBalanceSQLExceptionSubclassFailover();
+    String getLoadBalanceSQLExceptionSubclassFailover();
 
-    public void setLoadBalanceSQLExceptionSubclassFailover(String loadBalanceSQLExceptionSubclassFailover);
+    void setLoadBalanceSQLExceptionSubclassFailover(String loadBalanceSQLExceptionSubclassFailover);
 
-    public boolean getLoadBalanceEnableJMX();
+    boolean getLoadBalanceEnableJMX();
 
-    public void setLoadBalanceEnableJMX(boolean loadBalanceEnableJMX);
+    void setLoadBalanceEnableJMX(boolean loadBalanceEnableJMX);
 
-    public void setLoadBalanceHostRemovalGracePeriod(int loadBalanceHostRemovalGracePeriod) throws SQLException;
+    void setLoadBalanceHostRemovalGracePeriod(int loadBalanceHostRemovalGracePeriod) throws SQLException;
 
-    public int getLoadBalanceHostRemovalGracePeriod();
+    int getLoadBalanceHostRemovalGracePeriod();
 
-    public void setLoadBalanceAutoCommitStatementThreshold(int loadBalanceAutoCommitStatementThreshold) throws SQLException;
+    void setLoadBalanceAutoCommitStatementThreshold(int loadBalanceAutoCommitStatementThreshold) throws SQLException;
 
-    public int getLoadBalanceAutoCommitStatementThreshold();
+    int getLoadBalanceAutoCommitStatementThreshold();
 
-    public void setLoadBalanceAutoCommitStatementRegex(String loadBalanceAutoCommitStatementRegex);
+    void setLoadBalanceAutoCommitStatementRegex(String loadBalanceAutoCommitStatementRegex);
 
-    public String getLoadBalanceAutoCommitStatementRegex();
+    String getLoadBalanceAutoCommitStatementRegex();
 
-    public void setAuthenticationPlugins(String authenticationPlugins);
+    void setAuthenticationPlugins(String authenticationPlugins);
 
-    public String getAuthenticationPlugins();
+    String getAuthenticationPlugins();
 
-    public void setDisabledAuthenticationPlugins(String disabledAuthenticationPlugins);
+    void setDisabledAuthenticationPlugins(String disabledAuthenticationPlugins);
 
-    public String getDisabledAuthenticationPlugins();
+    String getDisabledAuthenticationPlugins();
 
-    public void setDefaultAuthenticationPlugin(String defaultAuthenticationPlugin);
+    void setDefaultAuthenticationPlugin(String defaultAuthenticationPlugin);
 
-    public String getDefaultAuthenticationPlugin();
+    String getDefaultAuthenticationPlugin();
 
-    public void setParseInfoCacheFactory(String factoryClassname);
+    void setParseInfoCacheFactory(String factoryClassname);
 
-    public String getParseInfoCacheFactory();
+    String getParseInfoCacheFactory();
 
-    public void setServerConfigCacheFactory(String factoryClassname);
+    void setServerConfigCacheFactory(String factoryClassname);
 
-    public String getServerConfigCacheFactory();
+    String getServerConfigCacheFactory();
 
-    public void setDisconnectOnExpiredPasswords(boolean disconnectOnExpiredPasswords);
+    void setDisconnectOnExpiredPasswords(boolean disconnectOnExpiredPasswords);
 
-    public boolean getDisconnectOnExpiredPasswords();
+    boolean getDisconnectOnExpiredPasswords();
 
-    public boolean getAllowMasterDownConnections();
+    boolean getAllowMasterDownConnections();
 
-    public void setAllowMasterDownConnections(boolean connectIfMasterDown);
+    void setAllowMasterDownConnections(boolean connectIfMasterDown);
 
-    public boolean getAllowSlaveDownConnections();
+    boolean getAllowSlaveDownConnections();
 
-    public void setAllowSlaveDownConnections(boolean connectIfSlaveDown);
+    void setAllowSlaveDownConnections(boolean connectIfSlaveDown);
 
-    public boolean getReadFromMasterWhenNoSlaves();
+    boolean getReadFromMasterWhenNoSlaves();
 
-    public void setReadFromMasterWhenNoSlaves(boolean useMasterIfSlavesDown);
+    void setReadFromMasterWhenNoSlaves(boolean useMasterIfSlavesDown);
 
-    public boolean getReplicationEnableJMX();
+    boolean getReplicationEnableJMX();
 
-    public void setReplicationEnableJMX(boolean replicationEnableJMX);
+    void setReplicationEnableJMX(boolean replicationEnableJMX);
 
-    public void setGetProceduresReturnsFunctions(boolean getProcedureReturnsFunctions);
+    void setGetProceduresReturnsFunctions(boolean getProcedureReturnsFunctions);
 
-    public boolean getGetProceduresReturnsFunctions();
+    boolean getGetProceduresReturnsFunctions();
 
-    public void setDetectCustomCollations(boolean detectCustomCollations);
+    void setDetectCustomCollations(boolean detectCustomCollations);
 
-    public boolean getDetectCustomCollations();
+    boolean getDetectCustomCollations();
 
     String getConnectionAttributes() throws SQLException;
 
-    public String getServerRSAPublicKeyFile();
+    String getServerRSAPublicKeyFile();
 
-    public void setServerRSAPublicKeyFile(String serverRSAPublicKeyFile) throws SQLException;
+    void setServerRSAPublicKeyFile(String serverRSAPublicKeyFile) throws SQLException;
 
-    public boolean getAllowPublicKeyRetrieval();
+    boolean getAllowPublicKeyRetrieval();
 
-    public void setAllowPublicKeyRetrieval(boolean allowPublicKeyRetrieval) throws SQLException;
+    void setAllowPublicKeyRetrieval(boolean allowPublicKeyRetrieval) throws SQLException;
 
-    public void setDontCheckOnDuplicateKeyUpdateInSQL(boolean dontCheckOnDuplicateKeyUpdateInSQL);
+    void setDontCheckOnDuplicateKeyUpdateInSQL(boolean dontCheckOnDuplicateKeyUpdateInSQL);
 
-    public boolean getDontCheckOnDuplicateKeyUpdateInSQL();
+    boolean getDontCheckOnDuplicateKeyUpdateInSQL();
 
-    public void setSocksProxyHost(String socksProxyHost);
+    void setSocksProxyHost(String socksProxyHost);
 
-    public String getSocksProxyHost();
+    String getSocksProxyHost();
 
-    public void setSocksProxyPort(int socksProxyPort) throws SQLException;
+    void setSocksProxyPort(int socksProxyPort) throws SQLException;
 
-    public int getSocksProxyPort();
+    int getSocksProxyPort();
 
-    public boolean getReadOnlyPropagatesToServer();
+    boolean getReadOnlyPropagatesToServer();
 
-    public void setReadOnlyPropagatesToServer(boolean flag);
+    void setReadOnlyPropagatesToServer(boolean flag);
 
-    public String getEnabledSSLCipherSuites();
+    String getEnabledSSLCipherSuites();
 
-    public void setEnabledSSLCipherSuites(String cipherSuites);
+    void setEnabledSSLCipherSuites(String cipherSuites);
 
-    public boolean getEnableEscapeProcessing();
+    boolean getEnableEscapeProcessing();
 
-    public void setEnableEscapeProcessing(boolean flag);
+    void setEnableEscapeProcessing(boolean flag);
 }

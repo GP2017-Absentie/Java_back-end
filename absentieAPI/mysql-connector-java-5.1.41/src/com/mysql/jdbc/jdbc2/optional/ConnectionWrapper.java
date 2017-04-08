@@ -65,7 +65,7 @@ public class ConnectionWrapper extends WrapperBase implements Connection {
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_CONNECTION_WRAPPER_CTOR = Class.forName("com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper")
-                        .getConstructor(new Class[] { MysqlPooledConnection.class, Connection.class, Boolean.TYPE });
+                        .getConstructor(MysqlPooledConnection.class, Connection.class, Boolean.TYPE);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

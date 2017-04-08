@@ -1,26 +1,56 @@
 
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ŒÀíÇ³+
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-csquid:HiddenFieldCheck"<Rename "students" which hides the field declared at line 15.(ÉãĞ¸8—¦ôÇ³+
-8squid:S2095"Close this "ResultSet".(Ğ¯¤øıÿÿÿÿ8ŒÀíÇ³+
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8€˜êÇ³+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ŒÀíÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(ıæÂâ
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ŒÀíÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ÿ”ß
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ŒÀíÇ³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÌÚ®Ä´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ŒÀíÇ³+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8†çì¨´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉãĞ¸8ÌÚ®Ä´+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-Msquid:S1068",Remove this unused "students" private field.(ğä”ãúÿÿÿÿ8å‹°Å³+
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉãĞ¸8—ÇøÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8†çì¨´+
+csquid:HiddenFieldCheck"<Rename "students" which hides the field declared at line 18.(ÉãĞ¸8ÌÚ®Ä´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(ıæÂâ8ÌÚ®Ä´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÌÚ®Ä´+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 5 times.(–Ğ‡Ñ8ÌÚ®Ä´+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÌÚ®Ä´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ÿ”ß8ÌÚ®Ä´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ŒÀíÇ³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8„Ç°Ä´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÌÚ®Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÌÚ®Ä´+
 Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ŒÀíÇ³+
+8squid:S2095"Close this "ResultSet".(Ğ¯¤øıÿÿÿÿ8ÌÚ®Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ŒÀíÇ³+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 5 times.(¥ù‚ùÿÿÿÿ8ÌÚ®Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÌÚ®Ä´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8„Ç°Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8„Ç°Ä´+
+csquid:S2077"G"id" is provided externally to the method and not sanitized before use.(¤±Ó­8†çì¨´+
+`squid:UselessImportCheck"2Remove this unused import 'com.gp2017.Entity.Les'.(ä†¢Øıÿÿÿÿ8ĞÔğª´+
+Msquid:S1068",Remove this unused "students" private field.(ğä”ãúÿÿÿÿ8å‹°Å³+
+3squid:S2095"Close this "ResultSet".(¤±Ó­8†çì¨´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8†çì¨´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÌÚ®Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8†çì¨´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÌÚ®Ä´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 5 times.(Úßôƒùÿÿÿÿ8ÌÚ®Ä´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8ÌÚ®Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8„Ç°Ä´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(•·ÜÙúÿÿÿÿ8†çì¨´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÌÚ®Ä´+

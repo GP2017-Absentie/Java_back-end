@@ -50,8 +50,7 @@ public class ResultSetScannerInterceptor implements StatementInterceptor {
         try {
             this.regexP = Pattern.compile(regexFromUser);
         } catch (Throwable t) {
-            SQLException sqlEx = new SQLException("Can't use configured regex due to underlying exception.");
-            sqlEx.initCause(t);
+            SQLException sqlEx = new SQLException("Can't use configured regex due to underlying exception.", t);
 
             throw sqlEx;
         }

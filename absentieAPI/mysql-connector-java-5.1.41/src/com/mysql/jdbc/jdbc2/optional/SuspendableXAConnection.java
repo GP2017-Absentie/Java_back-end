@@ -44,7 +44,7 @@ public class SuspendableXAConnection extends MysqlPooledConnection implements XA
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_XA_CONNECTION_WRAPPER_CTOR = Class.forName("com.mysql.jdbc.jdbc2.optional.JDBC4SuspendableXAConnection")
-                        .getConstructor(new Class[] { Connection.class });
+                        .getConstructor(Connection.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

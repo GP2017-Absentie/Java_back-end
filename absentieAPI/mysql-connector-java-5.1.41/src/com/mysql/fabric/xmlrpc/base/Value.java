@@ -115,11 +115,7 @@ public class Value {
     }
 
     public void setBoolean(String value) {
-        if (value.trim().equals("1") || value.trim().equalsIgnoreCase("true")) {
-            this.objValue = true;
-        } else {
-            this.objValue = false;
-        }
+        this.objValue = value.trim().equals("1") || value.trim().equalsIgnoreCase("true");
         this.objType = TYPE_boolean;
     }
 
@@ -169,10 +165,10 @@ public class Value {
         StringBuilder sb = new StringBuilder("<value>");
         switch (this.objType) {
             case Value.TYPE_i4:
-                sb.append("<i4>" + ((Integer) this.objValue).toString() + "</i4>");
+                sb.append("<i4>" + this.objValue.toString() + "</i4>");
                 break;
             case Value.TYPE_int:
-                sb.append("<int>" + ((Integer) this.objValue).toString() + "</int>");
+                sb.append("<int>" + this.objValue.toString() + "</int>");
                 break;
 
             case Value.TYPE_boolean:
@@ -180,11 +176,11 @@ public class Value {
                 break;
 
             case Value.TYPE_double:
-                sb.append("<double>" + ((Double) this.objValue).toString() + "</double>");
+                sb.append("<double>" + this.objValue.toString() + "</double>");
                 break;
 
             case Value.TYPE_dateTime_iso8601:
-                sb.append("<dateTime.iso8601>" + ((XMLGregorianCalendar) this.objValue).toString() + "</dateTime.iso8601>");
+                sb.append("<dateTime.iso8601>" + this.objValue.toString() + "</dateTime.iso8601>");
                 break;
 
             case Value.TYPE_base64:
@@ -192,11 +188,11 @@ public class Value {
                 break;
 
             case Value.TYPE_struct:
-                sb.append(((Struct) this.objValue).toString());
+                sb.append(this.objValue.toString());
                 break;
 
             case Value.TYPE_array:
-                sb.append(((Array) this.objValue).toString());
+                sb.append(this.objValue.toString());
                 break;
 
             default:

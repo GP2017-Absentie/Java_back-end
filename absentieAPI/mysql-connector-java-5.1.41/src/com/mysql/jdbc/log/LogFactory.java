@@ -67,9 +67,9 @@ public class LogFactory {
                 loggerClass = Class.forName(Util.getPackageName(Log.class) + "." + className);
             }
 
-            Constructor<?> constructor = loggerClass.getConstructor(new Class[] { String.class });
+            Constructor<?> constructor = loggerClass.getConstructor(String.class);
 
-            return (Log) constructor.newInstance(new Object[] { instanceName });
+            return (Log) constructor.newInstance(instanceName);
         } catch (ClassNotFoundException cnfe) {
             SQLException sqlEx = SQLError.createSQLException("Unable to load class for logger '" + className + "'", SQLError.SQL_STATE_ILLEGAL_ARGUMENT,
                     exceptionInterceptor);

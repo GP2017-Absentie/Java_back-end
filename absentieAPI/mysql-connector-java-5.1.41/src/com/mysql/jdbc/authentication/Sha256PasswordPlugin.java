@@ -153,8 +153,8 @@ public class Sha256PasswordPlugin implements AuthenticationPlugin {
         byte[] mysqlScrambleBuff = new byte[input.length];
         Security.xorString(input, mysqlScrambleBuff, seed.getBytes(), input.length);
         return ExportControlled.encryptWithRSAPublicKey(mysqlScrambleBuff,
-                ExportControlled.decodeRSAPublicKey(key, ((MySQLConnection) connection).getExceptionInterceptor()),
-                ((MySQLConnection) connection).getExceptionInterceptor());
+                ExportControlled.decodeRSAPublicKey(key, connection.getExceptionInterceptor()),
+                connection.getExceptionInterceptor());
     }
 
     private static String readRSAKey(Connection connection, String pkPath) throws SQLException {

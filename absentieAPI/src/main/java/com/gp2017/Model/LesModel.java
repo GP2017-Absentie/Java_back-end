@@ -3,6 +3,7 @@ package com.gp2017.Model;
 
 import com.gp2017.Entity.*;
 import com.gp2017.Entity.Les;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;
@@ -11,7 +12,9 @@ import java.util.Date;
 
 @Repository
 public class LesModel {
+    @Autowired
     private AbsentieModel absentieModel;
+    @Autowired
     private StudentModel studentModel;
 
     public ArrayList<Les> getAll(){
@@ -85,10 +88,6 @@ public class LesModel {
             Time starttijd = res.getTime("starttijd"); // 10:00:00
             Time eindtijd = res.getTime("eindtijd"); // 12:30:00
             
-            
-            System.out.println(starttijd);
-            System.out.println(eindtijd);
-            
 
             res = stat.executeQuery("SELECT * FROM `vak` WHERE `id` = " + vak_FK);
             res.next();
@@ -107,12 +106,13 @@ public class LesModel {
             Docent docent = DocentModel.getById(docent_FK);
             //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
             
-            Les l = new Les(les_id, vakNaam,vakCode,gebouw,lokaal_nummer,datum,starttijd,eindtijd, klas, docent);
+            Les les = new Les(les_id, vakNaam,vakCode,gebouw,lokaal_nummer,datum,starttijd,eindtijd, klas, docent);
+
                         
             res.close();
             stat.close();
             
-            return l;
+            return les;
 
         } catch (SQLException ex) {
             // handle any errors
@@ -123,22 +123,18 @@ public class LesModel {
         return null;
     }
 
-    public ArrayList<Absentie> getAbsentieByLesId(int id) {
+    public void updateAbsenties(Les les) {
         try {
             ArrayList<Absentie> absenties = new ArrayList<Absentie>();
             Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `les_FK` = " + id);
+            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `les_FK` = " + les.getId());
 
             while (res.next()) {
-                absenties.add(absentieModel.getById(res.getInt("id")));
+                les.addAbsentie(absentieModel.getById(res.getInt("id")));
             }
-
-            System.out.println("DEBUG: aantal absenties voor opgegevens les: " + absenties.size());
 
             res.close();
             stat.close();
-
-            return absenties;
 
         } catch (SQLException ex) {
             // handle any errors
@@ -146,7 +142,6 @@ public class LesModel {
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
         }
-        return null;
     }
 
     public ArrayList<Student> getStudentenByLesId(int id) {

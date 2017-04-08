@@ -66,7 +66,7 @@ public class ReplicationConnectionProxy extends MultiHostConnectionProxy impleme
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_REPL_CONNECTION_CTOR = Class.forName("com.mysql.jdbc.JDBC4ReplicationMySQLConnection")
-                        .getConstructor(new Class[] { ReplicationConnectionProxy.class });
+                        .getConstructor(ReplicationConnectionProxy.class);
                 INTERFACES_TO_PROXY = new Class<?>[] { ReplicationConnection.class, Class.forName("com.mysql.jdbc.JDBC4MySQLConnection") };
             } catch (SecurityException e) {
                 throw new RuntimeException(e);

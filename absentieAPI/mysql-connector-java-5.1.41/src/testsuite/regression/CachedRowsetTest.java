@@ -69,7 +69,7 @@ public class CachedRowsetTest extends BaseTestCase {
             System.out.println("skipping testBug5188. Requires: " + implClass);
             return;
         }
-        populate = c.getMethod("populate", new Class[] { ResultSet.class });
+        populate = c.getMethod("populate", ResultSet.class);
 
         createTable("testBug5188", "(ID int NOT NULL AUTO_INCREMENT, datafield VARCHAR(64), PRIMARY KEY(ID))");
 
@@ -83,7 +83,7 @@ public class CachedRowsetTest extends BaseTestCase {
         // create a CachedRowSet and populate it
         RowSet cachedRowSet = (RowSet) c.newInstance();
         // cachedRowSet.populate(rs);
-        populate.invoke(cachedRowSet, new Object[] { this.rs });
+        populate.invoke(cachedRowSet, this.rs);
 
         // scroll through CachedRowSet ...
         assertTrue(cachedRowSet.next());

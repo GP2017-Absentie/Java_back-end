@@ -99,7 +99,7 @@ import com.mysql.jdbc.profiler.ProfilerEventHandler;
 public class ResultSetImpl implements ResultSetInternalMethods {
 
     private static final Constructor<?> JDBC_4_RS_4_ARG_CTOR;
-    private static final Constructor<?> JDBC_4_RS_5_ARG_CTOR;;
+    private static final Constructor<?> JDBC_4_RS_5_ARG_CTOR;
     private static final Constructor<?> JDBC_4_UPD_RS_5_ARG_CTOR;
 
     static {
@@ -107,13 +107,13 @@ public class ResultSetImpl implements ResultSetInternalMethods {
             try {
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.JDBC42ResultSet" : "com.mysql.jdbc.JDBC4ResultSet";
                 JDBC_4_RS_4_ARG_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { Long.TYPE, Long.TYPE, MySQLConnection.class, com.mysql.jdbc.StatementImpl.class });
+                        .getConstructor(Long.TYPE, Long.TYPE, MySQLConnection.class, StatementImpl.class);
                 JDBC_4_RS_5_ARG_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { String.class, Field[].class, RowData.class, MySQLConnection.class, com.mysql.jdbc.StatementImpl.class });
+                        .getConstructor(String.class, Field[].class, RowData.class, MySQLConnection.class, StatementImpl.class);
 
                 jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.JDBC42UpdatableResultSet" : "com.mysql.jdbc.JDBC4UpdatableResultSet";
                 JDBC_4_UPD_RS_5_ARG_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { String.class, Field[].class, RowData.class, MySQLConnection.class, com.mysql.jdbc.StatementImpl.class });
+                        .getConstructor(String.class, Field[].class, RowData.class, MySQLConnection.class, StatementImpl.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -1468,11 +1468,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
 
             int columnIndexMinusOne = columnIndex - 1;
 
-            if (this.thisRow.isNull(columnIndexMinusOne)) {
-                this.wasNullFlag = true;
-            } else {
-                this.wasNullFlag = false;
-            }
+            this.wasNullFlag = this.thisRow.isNull(columnIndexMinusOne);
 
             if (this.wasNullFlag) {
                 return null;
@@ -1752,11 +1748,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
 
             int columnIndexMinusOne = columnIndex - 1;
 
-            if (this.thisRow.isNull(columnIndexMinusOne)) {
-                this.wasNullFlag = true;
-            } else {
-                this.wasNullFlag = false;
-            }
+            this.wasNullFlag = this.thisRow.isNull(columnIndexMinusOne);
 
             if (this.wasNullFlag) {
                 return null;
@@ -2486,11 +2478,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
             }
 
             if (this.useFastIntParsing) {
-                if (this.thisRow.isNull(columnIndexMinusOne)) {
-                    this.wasNullFlag = true;
-                } else {
-                    this.wasNullFlag = false;
-                }
+                this.wasNullFlag = this.thisRow.isNull(columnIndexMinusOne);
 
                 if (this.wasNullFlag) {
                     return 0;
@@ -2667,11 +2655,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
             }
 
             if (this.useFastIntParsing) {
-                if (this.thisRow.isNull(columnIndexMinusOne)) {
-                    this.wasNullFlag = true;
-                } else {
-                    this.wasNullFlag = false;
-                }
+                this.wasNullFlag = this.thisRow.isNull(columnIndexMinusOne);
 
                 if (this.wasNullFlag) {
                     return 0;
@@ -2968,11 +2952,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
 
         Object value = this.thisRow.getColumnValue(columnIndex - 1);
 
-        if (value == null) {
-            this.wasNullFlag = true;
-        } else {
-            this.wasNullFlag = false;
-        }
+        this.wasNullFlag = value == null;
 
         if (this.wasNullFlag) {
             return null;
@@ -3169,11 +3149,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
 
         Object value = this.thisRow.getColumnValue(columnIndex - 1);
 
-        if (value == null) {
-            this.wasNullFlag = true;
-        } else {
-            this.wasNullFlag = false;
-        }
+        this.wasNullFlag = value == null;
 
         if (this.wasNullFlag) {
             return null;
@@ -4987,11 +4963,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
             if (this.useFastIntParsing) {
                 Object value = this.thisRow.getColumnValue(columnIndex - 1);
 
-                if (value == null) {
-                    this.wasNullFlag = true;
-                } else {
-                    this.wasNullFlag = false;
-                }
+                this.wasNullFlag = value == null;
 
                 if (this.wasNullFlag) {
                     return 0;
@@ -5936,11 +5908,7 @@ public class ResultSetImpl implements ResultSetInternalMethods {
             tsVal = this.thisRow.getTimestampFast(columnIndex - 1, targetCalendar, tz, rollForward, this.connection, this);
         }
 
-        if (tsVal == null) {
-            this.wasNullFlag = true;
-        } else {
-            this.wasNullFlag = false;
-        }
+        this.wasNullFlag = tsVal == null;
 
         return tsVal;
     }

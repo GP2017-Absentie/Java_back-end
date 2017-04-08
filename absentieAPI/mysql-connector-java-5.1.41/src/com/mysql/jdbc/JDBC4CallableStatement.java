@@ -62,7 +62,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public SQLXML getSQLXML(int parameterIndex) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
-        SQLXML retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getSQLXML(mapOutputParameterIndexToRsIndex(parameterIndex));
+        SQLXML retValue = rs.getSQLXML(mapOutputParameterIndexToRsIndex(parameterIndex));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -73,7 +73,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public SQLXML getSQLXML(String parameterName) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-        SQLXML retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getSQLXML(fixParameterName(parameterName));
+        SQLXML retValue = rs.getSQLXML(fixParameterName(parameterName));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -83,7 +83,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public RowId getRowId(int parameterIndex) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
-        RowId retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getRowId(mapOutputParameterIndexToRsIndex(parameterIndex));
+        RowId retValue = rs.getRowId(mapOutputParameterIndexToRsIndex(parameterIndex));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -93,7 +93,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public RowId getRowId(String parameterName) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-        RowId retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getRowId(fixParameterName(parameterName));
+        RowId retValue = rs.getRowId(fixParameterName(parameterName));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -166,7 +166,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public Reader getNCharacterStream(int parameterIndex) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
-        Reader retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNCharacterStream(mapOutputParameterIndexToRsIndex(parameterIndex));
+        Reader retValue = rs.getNCharacterStream(mapOutputParameterIndexToRsIndex(parameterIndex));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -179,7 +179,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public Reader getNCharacterStream(String parameterName) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-        Reader retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNCharacterStream(fixParameterName(parameterName));
+        Reader retValue = rs.getNCharacterStream(fixParameterName(parameterName));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -192,7 +192,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public NClob getNClob(int parameterIndex) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
-        NClob retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNClob(mapOutputParameterIndexToRsIndex(parameterIndex));
+        NClob retValue = rs.getNClob(mapOutputParameterIndexToRsIndex(parameterIndex));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -205,7 +205,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public NClob getNClob(String parameterName) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-        NClob retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNClob(fixParameterName(parameterName));
+        NClob retValue = rs.getNClob(fixParameterName(parameterName));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -218,7 +218,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public String getNString(int parameterIndex) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(parameterIndex);
 
-        String retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNString(mapOutputParameterIndexToRsIndex(parameterIndex));
+        String retValue = rs.getNString(mapOutputParameterIndexToRsIndex(parameterIndex));
 
         this.outputParamWasNull = rs.wasNull();
 
@@ -231,7 +231,7 @@ public class JDBC4CallableStatement extends CallableStatement {
     public String getNString(String parameterName) throws SQLException {
         ResultSetInternalMethods rs = getOutputParameters(0); // definitely not going to be from ?=
 
-        String retValue = ((com.mysql.jdbc.JDBC4ResultSet) rs).getNString(fixParameterName(parameterName));
+        String retValue = rs.getNString(fixParameterName(parameterName));
 
         this.outputParamWasNull = rs.wasNull();
 

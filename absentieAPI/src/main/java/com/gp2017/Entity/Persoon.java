@@ -1,32 +1,33 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.gp2017.View.PersoonView;
+
 import java.util.ArrayList;
 
 /**
  * Object to represent a person
  */
 public class Persoon {
+    @JsonProperty("persoonId")
     private int id;
     private String naam;
     private String email;
+    @JsonIgnore
     private String pswd;
-    private ArrayList<Absentie> absenties;
-    private ArrayList<Les> lessen;
 
     /**
      * @param naam persons name
      * @param email persons email
      * @param pswd persons password
-     * @param lessen ArrayList of persons lessons
      */
     public Persoon(int id, String naam, String email, String pswd) {   //, ArrayList<Les> lessen) {
         this.id = id;
         this.naam = naam;
         this.email = email;
         this.pswd = pswd;
-        this.absenties = new ArrayList<Absentie>();
-        this.lessen = new ArrayList<Les>();
-        //this.lessen = lessen;
     }
 
     public int getId() {
@@ -49,21 +50,6 @@ public class Persoon {
         return email;
     }
 
-    /**
-     * Get's persons absences
-     * @return ArrayList of Absentie objects
-     */
-    public ArrayList<Absentie> getAbsenties() {
-        return absenties;
-    }
-
-    /**
-     * Get's persons lessons
-     * @return lessons
-     */
-    public ArrayList<Les> getLessen() {
-        return lessen;
-    }
 
     /**
      * Checks password of the user
@@ -71,44 +57,11 @@ public class Persoon {
      * @return boolean
      */
     public boolean checkPswd(String pswd){
-        if (this.pswd.equals(pswd)){
-            return true;
-        } return false;
+        return this.pswd.equals(pswd);
     }
 
 
 
-    /**
-     * adds an absence object to the ArrayList
-     * @param absentie
-     */
-    public void addAbsentie(Absentie absentie){
-        this.absenties.add(absentie);
-    }
-
-    /**
-     * deletes and absence object from the ArrayList
-     * @param absentie
-     */
-    public void delAbsentie(Absentie absentie){
-        this.absenties.remove(absentie);
-    }
-
-    /**
-     * adds an les object to the ArrayList
-     * @param les
-     */
-    public void addLes(Les les){
-        this.lessen.add(les);
-    }
-
-    /**
-     * deletes and les object from the ArrayList
-     * @param les
-     */
-    public void delLes(Les les){
-        this.lessen.remove(les);
-    }
 
     /**
      * check if an object is equal to another.
@@ -133,8 +86,6 @@ public class Persoon {
                 "naam='" + naam + '\'' +
                 ", email='" + email + '\'' +
                 ", pswd='" + pswd + '\'' +
-                ", absenties=" + absenties +
-                ", lessen=" + lessen +
                 '}';
     }
 }

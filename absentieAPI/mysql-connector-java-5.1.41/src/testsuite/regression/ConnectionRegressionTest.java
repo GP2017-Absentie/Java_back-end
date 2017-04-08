@@ -1088,7 +1088,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
 
             try {
                 replConn = getMasterSlaveReplicationConnection();
-                assertTrue(!((MySQLConnection) ((ReplicationConnection) replConn).getMasterConnection())
+                assertTrue(!((ReplicationConnection) replConn).getMasterConnection()
                         .hasSameProperties(((ReplicationConnection) replConn).getSlavesConnection()));
             } finally {
                 if (replConn != null) {
@@ -1329,7 +1329,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
 
                                 try {
 
-                                    getMethods[i].invoke(this.rs, new Object[] { new Integer(1) });
+                                    getMethods[i].invoke(this.rs, new Integer(1));
                                 } catch (InvocationTargetException invokeEx) {
                                     // we don't care about bad values, just that
                                     // the
@@ -2034,12 +2034,12 @@ public class ConnectionRegressionTest extends BaseTestCase {
             return;
         }
 
-        Method isValid = java.sql.Connection.class.getMethod("isValid", new Class[] { Integer.TYPE });
+        Method isValid = java.sql.Connection.class.getMethod("isValid", Integer.TYPE);
 
         Connection newConn = getConnectionWithProps((Properties) null);
-        isValid.invoke(newConn, new Object[] { new Integer(1) });
+        isValid.invoke(newConn, new Integer(1));
         Thread.sleep(2000);
-        assertTrue(((Boolean) isValid.invoke(newConn, new Object[] { new Integer(0) })).booleanValue());
+        assertTrue(((Boolean) isValid.invoke(newConn, new Integer(0))).booleanValue());
     }
 
     public void testBug34937() throws Exception {
@@ -2462,7 +2462,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
 
         ObjectName mbeanName = new ObjectName("com.mysql.jdbc.jmx:type=ReplicationGroupManager");
-        return (ReplicationGroupManagerMBean) MBeanServerInvocationHandler.newProxyInstance(mbs, mbeanName, ReplicationGroupManagerMBean.class, false);
+        return MBeanServerInvocationHandler.newProxyInstance(mbs, mbeanName, ReplicationGroupManagerMBean.class, false);
 
     }
 
@@ -2701,7 +2701,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
         }
 
         @Override
-        public Socket connect(String hostname, int portNumber, Properties props) throws SocketException, IOException {
+        public Socket connect(String hostname, int portNumber, Properties props) throws IOException {
             assertEquals(9999, portNumber);
 
             throw new IOException();
@@ -5123,7 +5123,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
         }
 
         if ((mysqlCls != null) && (mysqlCls.isAssignableFrom(jcls))) {
-            Method abort = mysqlCls.getMethod("abortInternal", new Class[] {});
+            Method abort = mysqlCls.getMethod("abortInternal");
             boolean hasAbortMethod = abort != null;
             assertTrue("abortInternal() method should be found for connection class " + jcls, hasAbortMethod);
         } else {
@@ -5429,11 +5429,11 @@ public class ConnectionRegressionTest extends BaseTestCase {
             if (Proxy.isProxyClass(this.c.getClass())) {
                 try {
                     if (this.num == 7 || this.num == 10) {
-                        Proxy.getInvocationHandler(this.c).invoke(this.c, Connection.class.getMethod("close", new Class[] {}), null);
+                        Proxy.getInvocationHandler(this.c).invoke(this.c, Connection.class.getMethod("close"), null);
                     } else if (this.num == 8 || this.num == 11) {
-                        Proxy.getInvocationHandler(this.c).invoke(this.c, MySQLConnection.class.getMethod("abortInternal", new Class[] {}), null);
+                        Proxy.getInvocationHandler(this.c).invoke(this.c, MySQLConnection.class.getMethod("abortInternal"), null);
                     } else if (this.num == 9 || this.num == 12) {
-                        Proxy.getInvocationHandler(this.c).invoke(this.c, com.mysql.jdbc.Connection.class.getMethod("abort", new Class[] { Executor.class }),
+                        Proxy.getInvocationHandler(this.c).invoke(this.c, com.mysql.jdbc.Connection.class.getMethod("abort", Executor.class),
                                 new Object[] { new ThreadPerTaskExecutor() });
                     }
 
@@ -6638,18 +6638,18 @@ public class ConnectionRegressionTest extends BaseTestCase {
         Socket underlyingSocket;
 
         @Override
-        public Socket connect(String hostname, int portNumber, Properties props) throws SocketException, IOException {
+        public Socket connect(String hostname, int portNumber, Properties props) throws IOException {
             return this.underlyingSocket = new ConnectionRegressionTest.TestBug73053SocketWrapper(super.connect(hostname, portNumber, props));
         }
 
         @Override
-        public Socket beforeHandshake() throws SocketException, IOException {
+        public Socket beforeHandshake() throws IOException {
             super.beforeHandshake();
             return this.underlyingSocket;
         }
 
         @Override
-        public Socket afterHandshake() throws SocketException, IOException {
+        public Socket afterHandshake() throws IOException {
             super.afterHandshake();
             return this.underlyingSocket;
         }
@@ -7328,7 +7328,7 @@ public class ConnectionRegressionTest extends BaseTestCase {
                 }
                 for (Object k : connPropsLocal.keySet()) {
                     if (!"cacheDefaultTimezone".equalsIgnoreCase((String) k)) {
-                        propsList += "," + (String) k;
+                        propsList += "," + k;
                     }
                 }
 

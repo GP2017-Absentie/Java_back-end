@@ -49,7 +49,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class StringUtils {
     public enum SearchMode {
-        ALLOW_BACKSLASH_ESCAPE, SKIP_BETWEEN_MARKERS, SKIP_BLOCK_COMMENTS, SKIP_LINE_COMMENTS, SKIP_WHITE_SPACE;
+        ALLOW_BACKSLASH_ESCAPE, SKIP_BETWEEN_MARKERS, SKIP_BLOCK_COMMENTS, SKIP_LINE_COMMENTS, SKIP_WHITE_SPACE
     }
 
     /*
@@ -158,7 +158,7 @@ public class StringUtils {
         }
 
         try {
-            toPlainStringMethod = BigDecimal.class.getMethod("toPlainString", new Class[0]);
+            toPlainStringMethod = BigDecimal.class.getMethod("toPlainString");
         } catch (NoSuchMethodException nsme) {
             // that's okay, we fallback to .toString()
         }
@@ -914,7 +914,7 @@ public class StringUtils {
         }
 
         /* Return the result of the appropriate sign. */
-        return (negative ? (short) -i : (short) i);
+        return (negative ? (short) -i : i);
     }
 
     /**

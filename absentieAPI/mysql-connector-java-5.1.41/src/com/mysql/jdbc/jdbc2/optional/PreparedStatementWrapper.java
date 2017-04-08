@@ -57,7 +57,7 @@ public class PreparedStatementWrapper extends StatementWrapper implements Prepar
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.jdbc2.optional.JDBC42PreparedStatementWrapper"
                         : "com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper";
                 JDBC_4_PREPARED_STATEMENT_WRAPPER_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { ConnectionWrapper.class, MysqlPooledConnection.class, PreparedStatement.class });
+                        .getConstructor(ConnectionWrapper.class, MysqlPooledConnection.class, PreparedStatement.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

@@ -14,5 +14,9 @@ public class LesService {
 
     public ArrayList<Les> getAll() { return lesModel.getAll(); }
 
-    public Les getById(int id) { return lesModel.getById(id); }
+    public Les getById(int id) {
+        Les les = lesModel.getById(id);
+        lesModel.updateAbsenties(les);
+        return les;
+    }
 }

@@ -1,14 +1,13 @@
 package com.gp2017.Controller;
 
 import com.gp2017.Entity.*;
+import com.gp2017.RequestEntity.AbsentieRequest;
+import com.gp2017.RequestEntity.ZiekteRequest;
 import com.gp2017.Service.AbsentieService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;

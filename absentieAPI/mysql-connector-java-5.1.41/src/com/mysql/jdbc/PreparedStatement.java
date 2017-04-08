@@ -84,10 +84,10 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
         if (Util.isJdbc4()) {
             try {
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.JDBC42PreparedStatement" : "com.mysql.jdbc.JDBC4PreparedStatement";
-                JDBC_4_PSTMT_2_ARG_CTOR = Class.forName(jdbc4ClassName).getConstructor(new Class[] { MySQLConnection.class, String.class });
-                JDBC_4_PSTMT_3_ARG_CTOR = Class.forName(jdbc4ClassName).getConstructor(new Class[] { MySQLConnection.class, String.class, String.class });
+                JDBC_4_PSTMT_2_ARG_CTOR = Class.forName(jdbc4ClassName).getConstructor(MySQLConnection.class, String.class);
+                JDBC_4_PSTMT_3_ARG_CTOR = Class.forName(jdbc4ClassName).getConstructor(MySQLConnection.class, String.class, String.class);
                 JDBC_4_PSTMT_4_ARG_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { MySQLConnection.class, String.class, String.class, ParseInfo.class });
+                        .getConstructor(MySQLConnection.class, String.class, String.class, ParseInfo.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -304,11 +304,7 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
                 }
 
                 if (this.firstStmtChar == 'L') {
-                    if (StringUtils.startsWithIgnoreCaseAndWs(sql, "LOAD DATA")) {
-                        this.foundLoadData = true;
-                    } else {
-                        this.foundLoadData = false;
-                    }
+                    this.foundLoadData = StringUtils.startsWithIgnoreCaseAndWs(sql, "LOAD DATA");
                 } else {
                     this.foundLoadData = false;
                 }
@@ -343,8 +339,7 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
                     }
                 }
             } catch (StringIndexOutOfBoundsException oobEx) {
-                SQLException sqlEx = new SQLException("Parse error for " + sql);
-                sqlEx.initCause(oobEx);
+                SQLException sqlEx = new SQLException("Parse error for " + sql, oobEx);
 
                 throw sqlEx;
             }
@@ -564,13 +559,13 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
     }
 
     interface BatchVisitor {
-        abstract BatchVisitor increment();
+        BatchVisitor increment();
 
-        abstract BatchVisitor decrement();
+        BatchVisitor decrement();
 
-        abstract BatchVisitor append(byte[] values);
+        BatchVisitor append(byte[] values);
 
-        abstract BatchVisitor merge(byte[] begin, byte[] end);
+        BatchVisitor merge(byte[] begin, byte[] end);
     }
 
     static class AppendingBatchVisitor implements BatchVisitor {
@@ -1328,10 +1323,10 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
                     }
 
                     if (this.retrieveGeneratedKeys) {
-                        batchedStatement = ((Wrapper) locallyScopedConn.prepareStatement(generateMultiStatementForBatch(numValuesPerBatch),
-                                RETURN_GENERATED_KEYS)).unwrap(java.sql.PreparedStatement.class);
+                        batchedStatement = locallyScopedConn.prepareStatement(generateMultiStatementForBatch(numValuesPerBatch),
+                                RETURN_GENERATED_KEYS).unwrap(java.sql.PreparedStatement.class);
                     } else {
-                        batchedStatement = ((Wrapper) locallyScopedConn.prepareStatement(generateMultiStatementForBatch(numValuesPerBatch)))
+                        batchedStatement = locallyScopedConn.prepareStatement(generateMultiStatementForBatch(numValuesPerBatch))
                                 .unwrap(java.sql.PreparedStatement.class);
                     }
 
@@ -2417,14 +2412,14 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
                     if (c == 'X') {
                         c = 'y';
                         nv = new Object[3];
-                        nv[1] = (new StringBuilder(((StringBuilder) v[1]).toString())).append('M');
+                        nv[1] = (new StringBuilder(v[1].toString())).append('M');
                         nv[0] = Character.valueOf('M');
                         nv[2] = Integer.valueOf(1);
                         vec.add(nv);
                     } else if (c == 'Y') {
                         c = 'M';
                         nv = new Object[3];
-                        nv[1] = (new StringBuilder(((StringBuilder) v[1]).toString())).append('d');
+                        nv[1] = (new StringBuilder(v[1].toString())).append('d');
                         nv[0] = Character.valueOf('d');
                         nv[2] = Integer.valueOf(1);
                         vec.add(nv);
@@ -2461,7 +2456,7 @@ public class PreparedStatement extends com.mysql.jdbc.StatementImpl implements j
             boolean bk = getSuccessor(c, n) != c;
             boolean atEnd = (((c == 's') || (c == 'm') || ((c == 'h') && toTime)) && bk);
             boolean finishesAtDate = (bk && (c == 'd') && !toTime);
-            boolean containsEnd = (((StringBuilder) v[1]).toString().indexOf('W') != -1);
+            boolean containsEnd = (v[1].toString().indexOf('W') != -1);
 
             if ((!atEnd && !finishesAtDate) || (containsEnd)) {
                 vecRemovelist.add(v);

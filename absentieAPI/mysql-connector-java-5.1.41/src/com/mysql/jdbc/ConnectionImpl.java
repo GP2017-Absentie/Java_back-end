@@ -110,7 +110,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
     // this connection has to be proxied when using multi-host settings so that statements get routed to the right physical connection
     // (works as "logical" connection)
     private MySQLConnection getProxy() {
-        return (this.proxy != null) ? this.proxy : (MySQLConnection) this;
+        return (this.proxy != null) ? this.proxy : this;
     }
 
     /**
@@ -158,7 +158,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
                 Iterator<Extension> iter = this.interceptors.iterator();
 
                 while (iter.hasNext()) {
-                    ((ExceptionInterceptor) iter.next()).destroy();
+                    iter.next().destroy();
                 }
             }
 
@@ -169,7 +169,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
                 Iterator<Extension> iter = this.interceptors.iterator();
 
                 while (iter.hasNext()) {
-                    ((ExceptionInterceptor) iter.next()).init(conn, properties);
+                    iter.next().init(conn, properties);
                 }
             }
         }
@@ -304,7 +304,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_CONNECTION_CTOR = Class.forName("com.mysql.jdbc.JDBC4Connection")
-                        .getConstructor(new Class[] { String.class, Integer.TYPE, Properties.class, String.class, String.class });
+                        .getConstructor(String.class, Integer.TYPE, Properties.class, String.class, String.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -341,13 +341,13 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
             Class<?> stackTraceElementClass = Class.forName("java.lang.StackTraceElement");
             Class<?> stackTraceElementArrayClass = Array.newInstance(stackTraceElementClass, new int[] { 0 }).getClass();
 
-            getStackTraceMethod = Throwable.class.getMethod("getStackTrace", new Class[] {});
+            getStackTraceMethod = Throwable.class.getMethod("getStackTrace");
 
-            setStackTraceMethod = Throwable.class.getMethod("setStackTrace", new Class[] { stackTraceElementArrayClass });
+            setStackTraceMethod = Throwable.class.getMethod("setStackTrace", stackTraceElementArrayClass);
 
             if (getStackTraceMethod != null && setStackTraceMethod != null) {
-                theStackTraceAsObject = getStackTraceMethod.invoke(sqlEx, new Object[0]);
-                setStackTraceMethod.invoke(sqlExceptionWithNewMessage, new Object[] { theStackTraceAsObject });
+                theStackTraceAsObject = getStackTraceMethod.invoke(sqlEx);
+                setStackTraceMethod.invoke(sqlExceptionWithNewMessage, theStackTraceAsObject);
             }
         } catch (NoClassDefFoundError noClassDefFound) {
 
@@ -367,9 +367,9 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
 
                 // Use reflection magic to try this on JDK's 1.5 and newer, fallback to non-named timer on older VMs.
                 try {
-                    Constructor<Timer> ctr = Timer.class.getConstructor(new Class[] { String.class, Boolean.TYPE });
+                    Constructor<Timer> ctr = Timer.class.getConstructor(String.class, Boolean.TYPE);
 
-                    this.cancelTimer = ctr.newInstance(new Object[] { "MySQL Statement Cancellation Timer", Boolean.TRUE });
+                    this.cancelTimer = ctr.newInstance("MySQL Statement Cancellation Timer", Boolean.TRUE);
                     createdNamedTimer = true;
                 } catch (Throwable t) {
                     createdNamedTimer = false;
@@ -707,7 +707,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
         this.origDatabaseToConnectTo = databaseToConnectTo;
 
         try {
-            Blob.class.getMethod("truncate", new Class[] { Long.TYPE });
+            Blob.class.getMethod("truncate", Long.TYPE);
 
             this.isRunningOnJDK13 = false;
         } catch (NoSuchMethodException nsme) {
@@ -3225,13 +3225,8 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
         // Users can turn off detection of server-side prepared statements
         //
         if (getUseServerPreparedStmts() && versionMeetsMinimum(4, 1, 0)) {
-            this.useServerPreparedStmts = true;
 
-            if (versionMeetsMinimum(5, 0, 0) && !versionMeetsMinimum(5, 0, 3)) {
-                this.useServerPreparedStmts = false; // 4.1.2+ style prepared
-                // statements
-                // don't work on these versions
-            }
+            this.useServerPreparedStmts = !(versionMeetsMinimum(5, 0, 0) && !versionMeetsMinimum(5, 0, 3));
         }
 
         //
@@ -3328,11 +3323,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
             this.transactionsSupported = false;
         }
 
-        if (versionMeetsMinimum(3, 23, 36)) {
-            this.hasIsolationLevels = true;
-        } else {
-            this.hasIsolationLevels = false;
-        }
+        this.hasIsolationLevels = versionMeetsMinimum(3, 23, 36);
 
         this.hasQuotedIdentifiers = versionMeetsMinimum(3, 23, 6);
 
@@ -3609,7 +3600,7 @@ public class ConnectionImpl extends ConnectionPropertiesImpl implements MySQLCon
             }
 
             // Has the user explicitly set a resourceId?
-            String otherResourceId = ((ConnectionImpl) otherConnection).getResourceId();
+            String otherResourceId = otherConnection.getResourceId();
             String myResourceId = getResourceId();
 
             if (otherResourceId != null || myResourceId != null) {

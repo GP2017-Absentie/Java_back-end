@@ -1,18 +1,28 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.gp2017.View.AbsentieView;
+
 /**
  * Object to hold absence instance. Takes an Les and Person object.
  */
 public class Absentie {
+    @JsonProperty("absentieId")
+    @JsonView(AbsentieView.Minimal.class)
     private int id;
+    @JsonView(AbsentieView.Minimal.class)
     private Persoon persoon;
+    @JsonView(AbsentieView.Full.class)
     private Les les;
     //public enum Redenen{
     //    ziek, afwezig, zorgafspraak
     //}
 
     //private Redenen redenAbsentie;
+    @JsonView(AbsentieView.Minimal.class)
     private String reden;
+    @JsonView(AbsentieView.Minimal.class)
     private String toelichting;
 
     /**

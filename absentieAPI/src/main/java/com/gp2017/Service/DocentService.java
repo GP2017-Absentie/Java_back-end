@@ -16,5 +16,5 @@ public class DocentService {
 
     public ArrayList<Docent> getAll() { return docentModel.getAll(); }
 
-    public Docent getById(int id) { return docentModel.getById(id); }
+    public Docent getById(int id) { return DocentModel.getById(id); }
 }

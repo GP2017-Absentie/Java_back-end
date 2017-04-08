@@ -213,9 +213,9 @@ public class JDBC4UpdatableResultSet extends UpdatableResultSet {
                 syncUpdate();
             }
 
-            ((com.mysql.jdbc.JDBC4PreparedStatement) this.updater).setNCharacterStream(columnIndex, x, length);
+            this.updater.setNCharacterStream(columnIndex, x, length);
         } else {
-            ((com.mysql.jdbc.JDBC4PreparedStatement) this.inserter).setNCharacterStream(columnIndex, x, length);
+            this.inserter.setNCharacterStream(columnIndex, x, length);
 
             if (x == null) {
                 this.thisRow.setColumnValue(columnIndex - 1, null);
@@ -295,9 +295,9 @@ public class JDBC4UpdatableResultSet extends UpdatableResultSet {
                 syncUpdate();
             }
 
-            ((com.mysql.jdbc.JDBC4PreparedStatement) this.updater).setNString(columnIndex, x);
+            this.updater.setNString(columnIndex, x);
         } else {
-            ((com.mysql.jdbc.JDBC4PreparedStatement) this.inserter).setNString(columnIndex, x);
+            this.inserter.setNString(columnIndex, x);
 
             if (x == null) {
                 this.thisRow.setColumnValue(columnIndex - 1, null);

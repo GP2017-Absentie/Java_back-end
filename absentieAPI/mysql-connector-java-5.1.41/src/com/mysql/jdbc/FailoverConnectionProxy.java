@@ -165,11 +165,8 @@ public class FailoverConnectionProxy extends MultiHostConnectionProxy {
         }
 
         // Always handle CommunicationsException
-        if (t instanceof CommunicationsException) {
-            return true;
-        }
+        return t instanceof CommunicationsException;
 
-        return false;
     }
 
     /**

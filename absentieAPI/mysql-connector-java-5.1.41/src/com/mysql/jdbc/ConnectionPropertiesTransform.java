@@ -45,5 +45,5 @@ public interface ConnectionPropertiesTransform {
      * @throws SQLException
      *             if a transform can not be made for any reason.
      */
-    public Properties transformProperties(Properties props) throws SQLException;
+    Properties transformProperties(Properties props) throws SQLException;
 }

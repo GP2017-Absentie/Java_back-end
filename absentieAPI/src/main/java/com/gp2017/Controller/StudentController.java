@@ -1,13 +1,16 @@
 package com.gp2017.Controller;
+import com.fasterxml.jackson.annotation.JsonView;
 import com.gp2017.Entity.Student;
 import com.gp2017.Service.StudentService;
+import com.gp2017.View.PersoonView;
+import com.gp2017.View.StudentView;
+import com.gp2017.View.View;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/student")
@@ -17,6 +20,7 @@ public class StudentController {
     private StudentService studentService;
 
     @CrossOrigin
+    @JsonView(PersoonView.Minimal.class)
     @RequestMapping(method = RequestMethod.GET)
     public Collection getAll(){
         ArrayList<Student> students = studentService.getAll();
@@ -28,6 +32,7 @@ public class StudentController {
     }
 
     @CrossOrigin
+    @JsonView(View.StudentGetByIdView.class)
     @RequestMapping(value = "getById/{id}", method = RequestMethod.GET)
     public Collection getById(@PathVariable("id") int id){
 

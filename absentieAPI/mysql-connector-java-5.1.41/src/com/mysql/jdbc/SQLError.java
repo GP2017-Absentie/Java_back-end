@@ -146,7 +146,7 @@ public class SQLError {
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_COMMUNICATIONS_EXCEPTION_CTOR = Class.forName("com.mysql.jdbc.exceptions.jdbc4.CommunicationsException")
-                        .getConstructor(new Class[] { MySQLConnection.class, Long.TYPE, Long.TYPE, Exception.class });
+                        .getConstructor(MySQLConnection.class, Long.TYPE, Long.TYPE, Exception.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -1165,8 +1165,7 @@ public class SQLError {
                     interceptor);
         } else { // return pre-JDBC4.2 BatchUpdateException (updateCounts are limited to int[])
             newEx = new BatchUpdateException(underlyingEx.getMessage(), underlyingEx.getSQLState(), underlyingEx.getErrorCode(),
-                    Util.truncateAndConvertToInt(updateCounts));
-            newEx.initCause(underlyingEx);
+                    Util.truncateAndConvertToInt(updateCounts), underlyingEx);
         }
         return runThroughExceptionInterceptor(interceptor, newEx, null);
     }

@@ -68,6 +68,6 @@ public interface BalanceStrategy extends Extension {
      * 
      * @see LoadBalancedConnectionProxy#createConnectionForHost(String)
      */
-    public abstract ConnectionImpl pickConnection(LoadBalancedConnectionProxy proxy, List<String> configuredHosts, Map<String, ConnectionImpl> liveConnections,
-            long[] responseTimes, int numRetries) throws SQLException;
+    ConnectionImpl pickConnection(LoadBalancedConnectionProxy proxy, List<String> configuredHosts, Map<String, ConnectionImpl> liveConnections,
+                                  long[] responseTimes, int numRetries) throws SQLException;
 }

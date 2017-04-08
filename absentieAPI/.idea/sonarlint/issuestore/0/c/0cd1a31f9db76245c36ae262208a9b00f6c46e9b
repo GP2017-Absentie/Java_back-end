@@ -1,25 +1,39 @@
 
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ñ·“Ò³+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ú€ë¨ÿÿÿÿÿ8ñ·“Ò³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-1squid:S2095"Close this "ResultSet".(÷¨’úÿÿÿÿ
-3squid:S2095"Close this "ResultSet".(êş°›8ñ·“Ò³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ñ·“Ò³+
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
 T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ñ·“Ò³+
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ñ·“Ò³+
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ˆ—“«´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ˆ—“«´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(¼şĞ8õºÁ¯´+
+3squid:S2095"Close this "ResultSet".(êş°›8ñ·“Ò³+
+asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 3 times.(–Ğ‡Ñ8ˆ—“«´+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 3 times.(¥ù‚ùÿÿÿÿ8ˆ—“«´+
 V
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ñ·“Ò³+
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ñ·“Ò³+
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ñ·“Ò³+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8°î’«´+
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ÿ¾¦8Õ¬˜¿´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(²Ïï…ûÿÿÿÿ8Ó—À¯´+
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8ñ·“Ò³+
-Lsquid:UselessImportCheck"Remove this duplicated import.(ªçë‘øÿÿÿÿ8Ş¬³Ì³+
-asquid:S2077"G"id" is provided externally to the method and not sanitized before use.(÷¨’úÿÿÿÿ
-_squid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Persoon'.(Øä8ÈÙæ—´+
-`squid:UselessImportCheck"2Remove this unused import 'com.gp2017.Entity.Les'.(ä†¢Øıÿÿÿÿ8ÈÙæ—´+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ˆ—“«´+
+Hsquid:S1905"'Remove this unnecessary cast to "Date".(Ô¨Éøÿÿÿÿ8‹áÖ¯´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ú€ë¨ÿÿÿÿÿ8ñ·“Ò³+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 3 times.(Úßôƒùÿÿÿÿ8ˆ—“«´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ñ·“Ò³+

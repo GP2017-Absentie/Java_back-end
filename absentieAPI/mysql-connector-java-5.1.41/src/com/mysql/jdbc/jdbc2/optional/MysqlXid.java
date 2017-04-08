@@ -91,7 +91,7 @@ public class MysqlXid implements Xid {
 
     public int getFormatId() {
         return this.myFormatId;
-    };
+    }
 
     public byte[] getGlobalTransactionId() {
         return this.myGtrid;

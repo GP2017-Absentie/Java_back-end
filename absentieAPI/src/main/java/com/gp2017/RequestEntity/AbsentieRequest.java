@@ -1,4 +1,4 @@
-package com.gp2017.Entity;
+package com.gp2017.RequestEntity;
 
 public class AbsentieRequest {
     private String reden;

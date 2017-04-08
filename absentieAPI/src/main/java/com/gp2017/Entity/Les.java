@@ -1,5 +1,10 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.gp2017.View.LesView;
+import com.gp2017.View.View;
+
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,19 +13,28 @@ import java.util.Date;
  * Object that represents a lesson.
  */
 public class Les {
+    @JsonProperty("lesId")
+    @JsonView(LesView.Minimal.class)
     private int id;
+    @JsonView(LesView.Minimal.class)
     private String vakNaam;
+    @JsonView(LesView.Full.class)
     private String vakCode;
+    @JsonView(LesView.Full.class)
     private String gebouw;
+    @JsonView(LesView.Full.class)
     private String lokaal;
-
+    @JsonView(LesView.Full.class)
     private Date datum;
-
+    @JsonView(LesView.Full.class)
     private Time starttijd;
+    @JsonView(LesView.Full.class)
     private Time eindtijd;
-
+    @JsonView(LesView.Full.class)
     private String klas;
+    @JsonView(LesView.Full.class)
     private Docent docent;
+    @JsonView(LesView.Full.class)
     private ArrayList<Absentie> absenties;
 
     /**
@@ -50,7 +64,7 @@ public class Les {
         this.absenties = new ArrayList<Absentie>();
     }
     
-    public void voegAbsentieToe(Absentie abs) {
+    public void addAbsentie(Absentie abs) {
     	this.absenties.add(abs);
     }
 

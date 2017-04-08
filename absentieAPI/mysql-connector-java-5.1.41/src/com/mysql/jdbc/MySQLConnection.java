@@ -35,7 +35,7 @@ import com.mysql.jdbc.profiler.ProfilerEventHandler;
 
 public interface MySQLConnection extends Connection, ConnectionProperties {
 
-    public boolean isProxySet();
+    boolean isProxySet();
 
     void createNewIO(boolean isForReconnect) throws SQLException;
 
@@ -149,9 +149,9 @@ public interface MySQLConnection extends Connection, ConnectionProperties {
 
     boolean isReadInfoMsgEnabled();
 
-    public boolean isReadOnly() throws SQLException;
+    boolean isReadOnly() throws SQLException;
 
-    public boolean isReadOnly(boolean useSessionStatus) throws SQLException;
+    boolean isReadOnly(boolean useSessionStatus) throws SQLException;
 
     boolean isRunningOnJDK13();
 

@@ -2,6 +2,8 @@ package com.gp2017.Model;
 
 import com.gp2017.Entity.*;
 import com.gp2017.Entity.Absentie;
+import com.gp2017.RequestEntity.AbsentieRequest;
+import com.gp2017.RequestEntity.ZiekteRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -101,14 +103,15 @@ public class AbsentieModel {
 
     public void meldZiek(ZiekteRequest ziekteRequest) throws ParseException {
 
-        Student persoon = studentModel.getById(ziekteRequest.getPersoonId());
+        Persoon student = persoonModel.getById(ziekteRequest.getPersoonId());
+
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         java.util.Date reqDate = formatter.parse(ziekteRequest.getDatum());
 
 
-        for (Les les : persoon.getLessen()) {
-            java.util.Date lesDate = (Date) les.getDatum();
+        for (Les les : student) {
+            java.util.Date lesDate = les.getDatum();
 
             System.out.println("LES\t\t"+lesDate);
             System.out.println("REQUEST\t\t"+reqDate);

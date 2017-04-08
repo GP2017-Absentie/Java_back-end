@@ -76,7 +76,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createSQLXML();
+            return this.mc.createSQLXML();
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -88,7 +88,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createArrayOf(typeName, elements);
+            return this.mc.createArrayOf(typeName, elements);
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -100,7 +100,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createStruct(typeName, attributes);
+            return this.mc.createStruct(typeName, attributes);
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -112,7 +112,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).getClientInfo();
+            return this.mc.getClientInfo();
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -124,7 +124,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).getClientInfo(name);
+            return this.mc.getClientInfo(name);
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -156,7 +156,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
      */
     public synchronized boolean isValid(int timeout) throws SQLException {
         try {
-            return ((java.sql.Connection) this.mc).isValid(timeout);
+            return this.mc.isValid(timeout);
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -168,7 +168,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         try {
             checkClosed();
 
-            ((java.sql.Connection) this.mc).setClientInfo(properties);
+            this.mc.setClientInfo(properties);
         } catch (SQLException sqlException) {
             try {
                 checkAndFireConnectionError(sqlException);
@@ -185,7 +185,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         try {
             checkClosed();
 
-            ((java.sql.Connection) this.mc).setClientInfo(name, value);
+            this.mc.setClientInfo(name, value);
         } catch (SQLException sqlException) {
             try {
                 checkAndFireConnectionError(sqlException);
@@ -280,7 +280,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createBlob();
+            return this.mc.createBlob();
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -295,7 +295,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createClob();
+            return this.mc.createClob();
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }
@@ -310,7 +310,7 @@ public class JDBC4ConnectionWrapper extends ConnectionWrapper {
         checkClosed();
 
         try {
-            return ((java.sql.Connection) this.mc).createNClob();
+            return this.mc.createNClob();
         } catch (SQLException sqlException) {
             checkAndFireConnectionError(sqlException);
         }

@@ -50,7 +50,7 @@ public class MysqlPooledConnection implements PooledConnection {
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_POOLED_CONNECTION_WRAPPER_CTOR = Class.forName("com.mysql.jdbc.jdbc2.optional.JDBC4MysqlPooledConnection")
-                        .getConstructor(new Class[] { com.mysql.jdbc.Connection.class });
+                        .getConstructor(com.mysql.jdbc.Connection.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

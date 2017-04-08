@@ -5,7 +5,7 @@ Returns json array containing a single persoon instance matching the :id argumen
 
 * **URL**
 
-  /persoon/getById:id
+  /persoon/getById/:id
 
 * **Method:**
 

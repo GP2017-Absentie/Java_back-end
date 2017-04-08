@@ -26,11 +26,11 @@ package com.mysql.jdbc;
 import java.sql.SQLException;
 
 public interface LoadBalancedConnection extends MySQLConnection {
-    public boolean addHost(String host) throws SQLException;
+    boolean addHost(String host) throws SQLException;
 
-    public void removeHost(String host) throws SQLException;
+    void removeHost(String host) throws SQLException;
 
-    public void removeHostWhenNotInUse(String host) throws SQLException;
+    void removeHostWhenNotInUse(String host) throws SQLException;
 
     void ping(boolean allConnections) throws SQLException;
 }
