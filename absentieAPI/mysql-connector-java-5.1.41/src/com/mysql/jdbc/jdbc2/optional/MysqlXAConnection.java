@@ -92,7 +92,7 @@ public class MysqlXAConnection extends MysqlPooledConnection implements XAConnec
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_XA_CONNECTION_WRAPPER_CTOR = Class.forName("com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection")
-                        .getConstructor(new Class[] { com.mysql.jdbc.Connection.class, Boolean.TYPE });
+                        .getConstructor(com.mysql.jdbc.Connection.class, Boolean.TYPE);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {

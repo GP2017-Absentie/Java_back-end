@@ -455,7 +455,7 @@ public class Util {
     public static boolean interfaceExists(String hostname) {
         try {
             Class<?> networkInterfaceClass = Class.forName("java.net.NetworkInterface");
-            return networkInterfaceClass.getMethod("getByName", (Class[]) null).invoke(networkInterfaceClass, new Object[] { hostname }) != null;
+            return networkInterfaceClass.getMethod("getByName", (Class[]) null).invoke(networkInterfaceClass, hostname) != null;
         } catch (Throwable t) {
             return false;
         }
@@ -509,17 +509,17 @@ public class Util {
             }
 
             if (value1 instanceof Byte) {
-                diffMap.put(key, Byte.valueOf((byte) (((Byte) value2).byteValue() - ((Byte) value1).byteValue())));
+                diffMap.put(key, Byte.valueOf((byte) (value2.byteValue() - value1.byteValue())));
             } else if (value1 instanceof Short) {
-                diffMap.put(key, Short.valueOf((short) (((Short) value2).shortValue() - ((Short) value1).shortValue())));
+                diffMap.put(key, Short.valueOf((short) (value2.shortValue() - value1.shortValue())));
             } else if (value1 instanceof Integer) {
-                diffMap.put(key, Integer.valueOf((((Integer) value2).intValue() - ((Integer) value1).intValue())));
+                diffMap.put(key, Integer.valueOf((value2.intValue() - value1.intValue())));
             } else if (value1 instanceof Long) {
-                diffMap.put(key, Long.valueOf((((Long) value2).longValue() - ((Long) value1).longValue())));
+                diffMap.put(key, Long.valueOf((value2.longValue() - value1.longValue())));
             } else if (value1 instanceof Float) {
-                diffMap.put(key, Float.valueOf(((Float) value2).floatValue() - ((Float) value1).floatValue()));
+                diffMap.put(key, Float.valueOf(value2.floatValue() - value1.floatValue()));
             } else if (value1 instanceof Double) {
-                diffMap.put(key, Double.valueOf((((Double) value2).shortValue() - ((Double) value1).shortValue())));
+                diffMap.put(key, Double.valueOf((value2.shortValue() - value1.shortValue())));
             } else if (value1 instanceof BigDecimal) {
                 diffMap.put(key, ((BigDecimal) value2).subtract((BigDecimal) value1));
             } else if (value1 instanceof BigInteger) {

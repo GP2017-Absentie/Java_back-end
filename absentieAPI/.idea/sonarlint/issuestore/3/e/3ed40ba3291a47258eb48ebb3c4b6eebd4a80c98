@@ -1,6 +1,5 @@
 
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±®ºäüÿÿÿÿ8ôÜ·Ï´+
-Xsquid:UselessImportCheck"6Remove this unused import 'com.gp2017.Entity.Student'.(»ªãä
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ
-ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
 Ssquid:S3599"9Replace this syntax with a different type initialization.(øâ‹Æşÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ
+rsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8ì½ÅÚ´+
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ

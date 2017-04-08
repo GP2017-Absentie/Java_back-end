@@ -57,12 +57,12 @@ public class TestResultSetParser extends TestCase {
             private static final long serialVersionUID = 1L;
 
             {
-                put("names", Arrays.asList(new String[] { "server_uuid", "group_id", "host", "port", "mode", "status", "weight" }));
+                put("names", Arrays.asList("server_uuid", "group_id", "host", "port", "mode", "status", "weight"));
             }
         };
-        final List<?> row1 = Arrays.asList(new Object[] { "5e26a7ab-de84-11e2-a885-df73a3d95316", "fabric_test1_global", "127.0.0.1", 3401, 3, 3, 1.0 });
-        final List<?> row2 = Arrays.asList(new Object[] { "07eee140-d466-11e3-abdf-dfb2de41aa92", "fabric_test1_shard1", "127.0.0.1", 3402, 1, 2, 1.0 });
-        final List<?> rows = Arrays.asList(new List[] { row1, row2 });
+        final List<?> row1 = Arrays.asList("5e26a7ab-de84-11e2-a885-df73a3d95316", "fabric_test1_global", "127.0.0.1", 3401, 3, 3, 1.0);
+        final List<?> row2 = Arrays.asList("07eee140-d466-11e3-abdf-dfb2de41aa92", "fabric_test1_shard1", "127.0.0.1", 3402, 1, 2, 1.0);
+        final List<?> rows = Arrays.asList(row1, row2);
         Map<String, ?> resultData = new HashMap<String, Object>() {
             private static final long serialVersionUID = 1L;
 

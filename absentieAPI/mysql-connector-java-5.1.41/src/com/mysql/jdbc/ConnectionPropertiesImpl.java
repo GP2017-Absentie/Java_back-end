@@ -637,8 +637,7 @@ public class ConnectionPropertiesImpl implements Serializable, ConnectionPropert
                 }
             }
         } catch (Exception ex) {
-            RuntimeException rtEx = new RuntimeException();
-            rtEx.initCause(ex);
+            RuntimeException rtEx = new RuntimeException(ex);
 
             throw rtEx;
         }

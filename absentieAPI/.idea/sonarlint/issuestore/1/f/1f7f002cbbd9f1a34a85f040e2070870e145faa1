@@ -1,57 +1,41 @@
 
+Psquid:S1066"/Merge this if statement with the enclosing one.(©•½Üüÿÿÿÿ8ó·ªÌ´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8˜¥×Ë³+
+isquid:S1132"MMove the "student" string literal on the left side of this string comparison.(àó°É8„·ê—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8„¹Ù´+
+gsquid:S1192"KDefine a constant instead of duplicating this literal "wachtwoord" 6 times.(è˜ŒÅ8ó·ªÌ´+
+bsquid:S1192"FDefine a constant instead of duplicating this literal "email" 6 times.(è˜ŒÅ8ÜËàË³+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 3 times.(¥ù‚ùÿÿÿÿ8ó·ªÌ´+
+msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(©òø€şÿÿÿÿ8ó·ªÌ´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ó·ªÌ´+
+hsquid:S1192"GDefine a constant instead of duplicating this literal "docent" 3 times.(ùæôóûÿÿÿÿ8¹¬‘é´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦®»œûÿÿÿÿ8»ôÕË³+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ó·ªÌ´+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ğöÙ´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ğöÙ´+
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜àë8à¸’Ù´+
-gsquid:S1192"FDefine a constant instead of duplicating this literal "email" 6 times.(ÆÑŠïøÿÿÿÿ8ÜËàË³+
-csquid:S2077"G"id" is provided externally to the method and not sanitized before use.(ëŸê¯8„·ê—´+
-[
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8˜¥×Ë³+
-lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 4 times.(¥ù‚ùÿÿÿÿ8ó·ªÌ´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ğöÙ´+
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8˜¥×Ë³+
-msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(©òø€şÿÿÿÿ8ó·ªÌ´+
-isquid:S1192"HDefine a constant instead of duplicating this literal "klas_FK" 3 times.(ÆÑŠïøÿÿÿÿ8ó·ªÌ´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ó·ªÌ´+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
+dsquid:S1192"HDefine a constant instead of duplicating this literal "klas_FK" 3 times.(è˜ŒÅ8ÜËàË³+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 3 times.(–Ğ‡Ñ8ó·ªÌ´+
 Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ğöÙ´+
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8„¹Ù´+
-2squid:S2095"Close this "ResultSet".(”¤=8ğöÙ´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ó·ªÌ´+
+isquid:S1132"MMove the "student" string literal on the left side of this string comparison.(àó°É8ó·ªÌ´+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+dsquid:S1192"HDefine a constant instead of duplicating this literal "student" 3 times.(àó°É8ó·ªÌ´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ó·ªÌ´+
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-hsquid:S1192"GDefine a constant instead of duplicating this literal "docent" 3 times.(©òø€şÿÿÿÿ8ó·ªÌ´+
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(´øŒ˜şÿÿÿÿ8øºßË³+
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8˜¥×Ë³+
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ó·ªÌ´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8˜¥×Ë³+
-lsquid:S1192"KDefine a constant instead of duplicating this literal "wachtwoord" 6 times.(ÆÑŠïøÿÿÿÿ8ÜËàË³+
-dsquid:S1192"HDefine a constant instead of duplicating this literal "student" 3 times.(àó°É8ó·ªÌ´+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦®»œûÿÿÿÿ8»ôÕË³+
-osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 4 times.(Úßôƒùÿÿÿÿ8ó·ªÌ´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÑŒÿ©ÿÿÿÿÿ8„·ê—´+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ó·ªÌ´+
 8squid:S2095"Close this "ResultSet".(¹ÚÌíşÿÿÿÿ8›§ØË³+
-msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(©òø€şÿÿÿÿ8ó·ªÌ´+
-msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(©òø€şÿÿÿÿ8ÜËàË³+
-ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 4 times.(–Ğ‡Ñ8ó·ªÌ´+
-isquid:S1132"MMove the "student" string literal on the left side of this string comparison.(àó°É8„·ê—´+
 V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8˜¥×Ë³+
-isquid:S1132"MMove the "student" string literal on the left side of this string comparison.(àó°É8ó·ªÌ´+
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
-3squid:S2095"Close this "ResultSet".(ëŸê¯8„·ê—´+
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ğöÙ´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 3 times.(Úßôƒùÿÿÿÿ8ó·ªÌ´+
 isquid:S1132"MMove the "student" string literal on the left side of this string comparison.(àó°É8ÜËàË³+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒŠóƒûÿÿÿÿ8ª¨‘Ù´+
-Psquid:S1066"/Merge this if statement with the enclosing one.(©•½Üüÿÿÿÿ8ó·ªÌ´+
+msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(ùæôóûÿÿÿÿ8¹¬‘é´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ğöÙ´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ó·ªÌ´+
+msquid:S1132"LMove the "docent" string literal on the left side of this string comparison.(©òø€şÿÿÿÿ8ó·ªÌ´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ğöÙ´+

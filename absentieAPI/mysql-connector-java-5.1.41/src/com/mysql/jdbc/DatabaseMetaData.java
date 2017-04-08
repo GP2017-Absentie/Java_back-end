@@ -612,7 +612,7 @@ public class DatabaseMetaData implements java.sql.DatabaseMetaData {
      * Enumeration for Procedure Types
      */
     protected enum ProcedureType {
-        PROCEDURE, FUNCTION;
+        PROCEDURE, FUNCTION
     }
 
     protected static final int MAX_IDENTIFIER_LENGTH = 64;
@@ -665,9 +665,9 @@ public class DatabaseMetaData implements java.sql.DatabaseMetaData {
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_DBMD_SHOW_CTOR = Class.forName("com.mysql.jdbc.JDBC4DatabaseMetaData")
-                        .getConstructor(new Class[] { com.mysql.jdbc.MySQLConnection.class, String.class });
+                        .getConstructor(MySQLConnection.class, String.class);
                 JDBC_4_DBMD_IS_CTOR = Class.forName("com.mysql.jdbc.JDBC4DatabaseMetaDataUsingInfoSchema")
-                        .getConstructor(new Class[] { com.mysql.jdbc.MySQLConnection.class, String.class });
+                        .getConstructor(MySQLConnection.class, String.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -957,7 +957,7 @@ public class DatabaseMetaData implements java.sql.DatabaseMetaData {
                 rowData[5] = null;
                 rowData[6] = s2b(proceduresRs.getString("comment"));
 
-                boolean isFunction = fromSelect ? "FUNCTION".equalsIgnoreCase(proceduresRs.getString("type")) : false;
+                boolean isFunction = fromSelect && "FUNCTION".equalsIgnoreCase(proceduresRs.getString("type"));
                 rowData[7] = s2b(isFunction ? Integer.toString(procedureReturnsResult) : Integer.toString(procedureNoResult));
 
                 rowData[8] = s2b(procedureName);
@@ -7236,11 +7236,7 @@ public class DatabaseMetaData implements java.sql.DatabaseMetaData {
      * @throws SQLException
      */
     public boolean supportsIntegrityEnhancementFacility() throws SQLException {
-        if (!this.conn.getOverrideSupportsIntegrityEnhancementFacility()) {
-            return false;
-        }
-
-        return true;
+        return this.conn.getOverrideSupportsIntegrityEnhancementFacility();
     }
 
     /**

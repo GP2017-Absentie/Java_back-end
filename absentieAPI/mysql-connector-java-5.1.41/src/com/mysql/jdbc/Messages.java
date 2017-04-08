@@ -51,8 +51,7 @@ public class Messages {
             try {
                 temp = ResourceBundle.getBundle(BUNDLE_NAME);
             } catch (Throwable t2) {
-                RuntimeException rt = new RuntimeException("Can't load resource bundle due to underlying exception " + t.toString());
-                rt.initCause(t2);
+                RuntimeException rt = new RuntimeException("Can't load resource bundle due to underlying exception " + t.toString(), t2);
 
                 throw rt;
             }

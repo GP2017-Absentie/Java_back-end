@@ -26,27 +26,27 @@ package com.mysql.jdbc;
 import java.sql.SQLException;
 
 public interface ReplicationConnection extends MySQLConnection {
-    public long getConnectionGroupId();
+    long getConnectionGroupId();
 
-    public Connection getCurrentConnection();
+    Connection getCurrentConnection();
 
-    public Connection getMasterConnection();
+    Connection getMasterConnection();
 
-    public void promoteSlaveToMaster(String host) throws SQLException;
+    void promoteSlaveToMaster(String host) throws SQLException;
 
-    public void removeMasterHost(String host) throws SQLException;
+    void removeMasterHost(String host) throws SQLException;
 
-    public void removeMasterHost(String host, boolean waitUntilNotInUse) throws SQLException;
+    void removeMasterHost(String host, boolean waitUntilNotInUse) throws SQLException;
 
-    public boolean isHostMaster(String host);
+    boolean isHostMaster(String host);
 
-    public Connection getSlavesConnection();
+    Connection getSlavesConnection();
 
-    public void addSlaveHost(String host) throws SQLException;
+    void addSlaveHost(String host) throws SQLException;
 
-    public void removeSlave(String host) throws SQLException;
+    void removeSlave(String host) throws SQLException;
 
-    public void removeSlave(String host, boolean closeGently) throws SQLException;
+    void removeSlave(String host, boolean closeGently) throws SQLException;
 
-    public boolean isHostSlave(String host);
+    boolean isHostSlave(String host);
 }

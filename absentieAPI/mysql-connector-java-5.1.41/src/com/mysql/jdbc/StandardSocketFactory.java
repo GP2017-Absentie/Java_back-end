@@ -86,7 +86,7 @@ public class StandardSocketFactory implements SocketFactory, SocketMetadata {
      * 
      * @return The socket to use after the handshake
      */
-    public Socket afterHandshake() throws SocketException, IOException {
+    public Socket afterHandshake() throws IOException {
         resetLoginTimeCountdown();
         this.rawSocket.setSoTimeout(this.socketTimeoutBackup);
         return this.rawSocket;
@@ -103,7 +103,7 @@ public class StandardSocketFactory implements SocketFactory, SocketMetadata {
      * 
      * @return the socket to use before the handshake
      */
-    public Socket beforeHandshake() throws SocketException, IOException {
+    public Socket beforeHandshake() throws IOException {
         resetLoginTimeCountdown();
         this.socketTimeoutBackup = this.rawSocket.getSoTimeout();
         this.rawSocket.setSoTimeout(getRealTimeout(this.socketTimeoutBackup));
@@ -128,7 +128,7 @@ public class StandardSocketFactory implements SocketFactory, SocketMetadata {
      * @throws SocketException
      * @throws IOException
      */
-    private void configureSocket(Socket sock, Properties props) throws SocketException, IOException {
+    private void configureSocket(Socket sock, Properties props) throws IOException {
         sock.setTcpNoDelay(Boolean.valueOf(props.getProperty(TCP_NO_DELAY_PROPERTY_NAME, TCP_NO_DELAY_DEFAULT_VALUE)).booleanValue());
 
         String keepAlive = props.getProperty(TCP_KEEP_ALIVE_PROPERTY_NAME, TCP_KEEP_ALIVE_DEFAULT_VALUE);
@@ -159,7 +159,7 @@ public class StandardSocketFactory implements SocketFactory, SocketMetadata {
     /**
      * @see com.mysql.jdbc.SocketFactory#createSocket(Properties)
      */
-    public Socket connect(String hostname, int portNumber, Properties props) throws SocketException, IOException {
+    public Socket connect(String hostname, int portNumber, Properties props) throws IOException {
 
         if (props != null) {
             this.host = hostname;

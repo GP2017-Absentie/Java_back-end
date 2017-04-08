@@ -181,16 +181,16 @@ public class ExportControlled {
             this.existingSocket = existingSocket;
         }
 
-        public Socket afterHandshake() throws SocketException, IOException {
+        public Socket afterHandshake() throws IOException {
             this.existingSocketFactory.afterHandshake();
             return this.rawSocket;
         }
 
-        public Socket beforeHandshake() throws SocketException, IOException {
+        public Socket beforeHandshake() throws IOException {
             return this.rawSocket;
         }
 
-        public Socket connect(String host, int portNumber, Properties props) throws SocketException, IOException {
+        public Socket connect(String host, int portNumber, Properties props) throws IOException {
             this.rawSocket = (SSLSocket) this.sslFact.createSocket(this.existingSocket, host, portNumber, true);
             return this.rawSocket;
         }

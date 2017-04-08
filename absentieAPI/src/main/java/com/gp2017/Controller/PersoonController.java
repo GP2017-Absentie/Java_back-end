@@ -26,36 +26,18 @@ public class PersoonController {
 
     @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
-    public Collection getAll(){
-        HashMap<Integer, Persoon> persons = new HashMap<Integer, Persoon>();
-        ArrayList<Persoon> allPersons = persoonService.getAll();
-        for (Persoon person : allPersons){
-            persons.put(person.getId(), person);
-        }
-        return persons.values();
+    public ResponseEntity<ArrayList<Persoon>> getAll(){
+        return new ResponseEntity<>(persoonService.getAll(), HttpStatus.OK);
     }
+
     @CrossOrigin
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Collection getById(@PathVariable("id") int id){
-        HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
-            {
-                put(1, persoonService.getById(id));
-            }
-        };
-        return persoon.values();
+    public ResponseEntity<Persoon> getById(@PathVariable("id") int id){
+        return new ResponseEntity<>(persoonService.getById(id), HttpStatus.OK);
     }
+
     @CrossOrigin
-    @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public Collection getByEmail(@PathVariable("email")String email){
-        HashMap<Integer, Persoon> persoon = new HashMap<Integer, Persoon>() {
-            {
-                put(1, persoonService.getByEmail(email));
-            }
-        };
-        return persoon.values();
-    }
-    @CrossOrigin
-    @RequestMapping(value = "/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/login", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Persoon> login(@RequestBody LoginRequest request) {
         Persoon p = null;
         if (request != null) {

@@ -687,8 +687,7 @@ public class UtilsRegressionTest extends BaseTestCase {
                 assertEquals("ORIGINAL_EXCEPTION", sqlEx.getMessage());
                 assertEquals("ORIGINAL_CAUSE", sqlEx.getCause().getMessage());
 
-                SQLException newSqlEx = new SQLException("INTERCEPT_EXCEPTION");
-                newSqlEx.initCause(new Exception("INTERCEPT_CAUSE"));
+                SQLException newSqlEx = new SQLException("INTERCEPT_EXCEPTION", new Exception("INTERCEPT_CAUSE"));
                 return newSqlEx;
             }
         }, null);

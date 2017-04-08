@@ -36,8 +36,6 @@ Returns a persons object if login is succesful, nothing if unsuccesfull.
       "id": 1682488,
       "naam": "Karim Stekelenburg",
       "email": "karim.stekelenburg@student.hu.nl",
-      "absenties": [],
-      "lessen": [],
       "klas": "V1D"
     }
     ```

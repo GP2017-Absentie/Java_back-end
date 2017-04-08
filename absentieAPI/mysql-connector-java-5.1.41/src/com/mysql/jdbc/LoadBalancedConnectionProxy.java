@@ -87,7 +87,7 @@ public class LoadBalancedConnectionProxy extends MultiHostConnectionProxy implem
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_LB_CONNECTION_CTOR = Class.forName("com.mysql.jdbc.JDBC4LoadBalancedMySQLConnection")
-                        .getConstructor(new Class<?>[] { LoadBalancedConnectionProxy.class });
+                        .getConstructor(LoadBalancedConnectionProxy.class);
                 INTERFACES_TO_PROXY = new Class<?>[] { LoadBalancedConnection.class, Class.forName("com.mysql.jdbc.JDBC4MySQLConnection") };
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
@@ -583,7 +583,7 @@ public class LoadBalancedConnectionProxy extends MultiHostConnectionProxy implem
                 throw se;
             }
             // or create a new SQLException and throw it, must be no liveConnections
-            ((ConnectionImpl) this.currentConnection).throwConnectionClosedException();
+            this.currentConnection.throwConnectionClosedException();
         }
     }
 

@@ -74,7 +74,7 @@ public abstract class MultiHostConnectionProxy implements InvocationHandler {
         if (Util.isJdbc4()) {
             try {
                 JDBC_4_MS_CONNECTION_CTOR = Class.forName("com.mysql.jdbc.JDBC4MultiHostMySQLConnection")
-                        .getConstructor(new Class[] { MultiHostConnectionProxy.class });
+                        .getConstructor(MultiHostConnectionProxy.class);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -253,7 +253,7 @@ public abstract class MultiHostConnectionProxy implements InvocationHandler {
      * @param e
      *            The Exception instance to check.
      */
-    void dealWithInvocationException(InvocationTargetException e) throws SQLException, Throwable, InvocationTargetException {
+    void dealWithInvocationException(InvocationTargetException e) throws Throwable {
         Throwable t = e.getTargetException();
 
         if (t != null) {

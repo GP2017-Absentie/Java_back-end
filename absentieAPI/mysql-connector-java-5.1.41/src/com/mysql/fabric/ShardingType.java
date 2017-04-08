@@ -31,5 +31,5 @@ package com.mysql.fabric;
  * @see ListShardMapping
  */
 public enum ShardingType {
-    LIST, RANGE, HASH;
+    LIST, RANGE, HASH
 }

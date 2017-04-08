@@ -1,8 +1,8 @@
 
-Nsquid:S3599"9Replace this syntax with a different type initialization.(ë¨½¹
-_squid:UselessImportCheck"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8§¥¢Í³+
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕØÁ—8ŞÒ£Ò³+
 nsquid:UselessImportCheck"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ˆğ«´+
-ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+Nsquid:S3599"9Replace this syntax with a different type initialization.(ë¨½¹
 rsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8„æñ«´+
+_squid:UselessImportCheck"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8§¥¢Í³+

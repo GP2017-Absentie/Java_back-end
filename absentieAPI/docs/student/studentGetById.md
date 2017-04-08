@@ -1,11 +1,11 @@
 **getById**
 ----
 
-Returns json array containing a single persoon instance matching the :id argument.
+Returns json array containing a single student instance matching the <id> argument.
 
 * **URL**
 
-  /persoon/getById:id
+  /student/<id>
 
 * **Method:**
 
@@ -23,15 +23,13 @@ Returns json array containing a single persoon instance matching the :id argumen
     **Content:** 
 
     ```json
-    [
-      {
-        "id": 7,
-        "naam": "Bart van Eijkelenburg",
-        "email": "bart.vaneijkelenburg@hu.nl",
-        "absenties": [],
-        "lessen": []
-      }
-    ]
+    {
+      "naam": "Devin Minnaard",
+      "email": "devin.minnaard@student.hu.nl",
+      "rol": "student",
+      "klas": "V1F",
+      "persoonId": 1679641
+    }
     ```
 
     ​
@@ -47,7 +45,6 @@ Returns json array containing a single persoon instance matching the :id argumen
       "status": 404,
       "error": "Not Found",
       "message": "No message available",
-      "path": "/student/getById/1682488/3"
+      "path": "/student/1679641"
     }
     ```
-    ​

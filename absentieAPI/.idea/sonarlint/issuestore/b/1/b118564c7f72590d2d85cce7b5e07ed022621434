@@ -1,42 +1,48 @@
 
 Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿÿä—´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(óÆ¬Ïúÿÿÿÿ8ÿÿä—´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñÅêÆÿÿÿÿÿ8Ãö†ï´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8Ãö†ï´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿÿä—´+
 Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿÿä—´+
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óğğñ8ÿÿä—´+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÔÁÔüÿÿÿÿ
-nsquid:S2077"M"klascode" is provided externally to the method and not sanitized before use.(ìàôìÿÿÿÿÿ8ÿÿä—´+
-ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 3 times.(–Ğ‡Ñ8ÿÿä—´+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µïĞûÿÿÿÿ8ÿÿä—´+
+_squid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ÿÿä—´+
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Å„‡•8§º¸ğ´+
+]squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8£·µğ´+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 4 times.(–Ğ‡Ñ8ÿÿä—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿÿä—´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨¼Ö¡üÿÿÿÿ8ÿÿä—´+
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿÿä—´+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÿÿä—´+
-,squid:S2095"Close this "ResultSet".(¼­ºê
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿÿä—´+
 T
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÿÿä—´+
-8squid:S2095"Close this "ResultSet".(ìàôìÿÿÿÿÿ8ÿÿä—´+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿÿä—´+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿÿä—´+
-bsquid:S2077"M"klascode" is provided externally to the method and not sanitized before use.(¼­ºê
-osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 3 times.(Úßôƒùÿÿÿÿ8ÿÿä—´+
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-_squid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ÿÿä—´+
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿÿä—´+
-…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğŸıù
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ÿÿä—´+
-lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 3 times.(¥ù‚ùÿÿÿÿ8ÿÿä—´+
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÔÁÔüÿÿÿÿ
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥¢©8ÿÿä—´+
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿÿä—´+
-@squid:S1168"+Return an empty collection instead of null.(¥¹ï
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(óÆ¬Ïúÿÿÿÿ8ÿÿä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8Ãö†ï´+
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ÿÿä—´+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ÿÿä—´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ÿÿä—´+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
 O
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Óõ½•
+\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÿÿä—´+
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 4 times.(¥ù‚ùÿÿÿÿ8ÿÿä—´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8Ãö†ï´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 4 times.(Úßôƒùÿÿÿÿ8ÿÿä—´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8Ãö†ï´+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8Ãö†ï´+
 3squid:S2095"Close this "ResultSet".(”ø»Ğ8ÿÿä—´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÿÿä—´+

@@ -7956,7 +7956,7 @@ public class StatementRegressionTest extends BaseTestCase {
                 // Prepare a statement to be executed later. This is prepare #1.
                 PreparedStatement testPstmt1 = testConn.prepareStatement("INSERT INTO testBug80615 VALUES (?)");
                 assertTrue(testCase, testPstmt1 instanceof ServerPreparedStatement);
-                ((StatementImpl) testPstmt1).setPoolable(poolable); // Need to cast, this is a JDBC 4.0 feature.
+                testPstmt1.setPoolable(poolable); // Need to cast, this is a JDBC 4.0 feature.
                 testPstmt1.setInt(1, 100);
                 testPstmt1.addBatch();
                 testPstmt1.setInt(1, 200);
@@ -7992,7 +7992,7 @@ public class StatementRegressionTest extends BaseTestCase {
                         assertTrue(testCase, isSPS);
                     } // prepStmtCacheSize + 1 < prepCount <= maxPrepStmtCount --> can't assert anything as there can statements prepared externally.
 
-                    ((StatementImpl) testPstmt2).setPoolable(poolable); // Need to cast, this is a JDBC 4.0 feature.
+                    testPstmt2.setPoolable(poolable); // Need to cast, this is a JDBC 4.0 feature.
                     testPstmt2.setInt(1, 0);
                     testPstmt2.execute();
                     if (isSPS) {

@@ -1,11 +1,11 @@
-**getById**
+**getAll**
 ----
 
-Returns json array containing a single docent instance matching the :id argument.
+Returns json array containing all docent in the system.
 
 * **URL**
 
-  /docent/getById:id
+  /docent
 
 * **Method:**
 
@@ -13,9 +13,7 @@ Returns json array containing a single docent instance matching the :id argument
 
 * **URL Params**
 
-   **Required:**
-
-   `id=[integer]`
+   None`
 
 * **Success Response:**
 
@@ -25,13 +23,21 @@ Returns json array containing a single docent instance matching the :id argument
     ```json
     [
       {
-        "id": 4,
-        "naam": "Martijn Jansen",
-        "email": "martijn.jansen@hu.nl",
-        "absenties": [],
-        "lessen": []
-      }
-    ]
+        "naam": "Alex Jongman",
+        "email": "alex.jongman@hu.nl",
+        "rol": "docent",
+        "persoonId": 0
+      },
+      {
+        "naam": "Jos van Reenen",
+        "email": "jos.vanreenen@hu.nl",
+        "rol": "docent",
+        "persoonId": 1
+      },
+      .... AND
+      ...... SO
+      ........ ON
+      ]
     ```
 
     ​
@@ -50,3 +56,6 @@ Returns json array containing a single docent instance matching the :id argument
       "path": "/student/getById/1682488/3"
     }
     ```
+
+
+    ​```

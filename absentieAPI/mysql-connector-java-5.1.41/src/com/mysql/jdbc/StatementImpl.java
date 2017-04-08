@@ -1262,7 +1262,7 @@ public class StatementImpl implements Statement {
     }
 
     protected SQLException handleExceptionForBatch(int endOfBatchIndex, int numValuesPerBatch, long[] updateCounts, SQLException ex)
-            throws BatchUpdateException, SQLException {
+            throws SQLException {
         for (int j = endOfBatchIndex; j > endOfBatchIndex - numValuesPerBatch; j--) {
             updateCounts[j] = EXECUTE_FAILED;
         }
@@ -2052,7 +2052,7 @@ public class StatementImpl implements Statement {
      */
     public java.sql.ResultSet getResultSet() throws SQLException {
         synchronized (checkClosed().getConnectionMutex()) {
-            return ((this.results != null) && this.results.reallyResult()) ? (java.sql.ResultSet) this.results : null;
+            return ((this.results != null) && this.results.reallyResult()) ? this.results : null;
         }
     }
 

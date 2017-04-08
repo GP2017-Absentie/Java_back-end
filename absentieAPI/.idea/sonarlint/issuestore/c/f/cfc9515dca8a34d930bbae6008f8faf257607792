@@ -1,6 +1,5 @@
 
-asquid:UselessImportCheck"8Remove this unused import 'com.gp2017.View.StudentView'.(ĞÆÿÀ8¹…ŸÓ´+
-Zsquid:S3599"9Replace this syntax with a different type initialization.(å®Õÿÿÿÿÿ8íŞÍ´+
-zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8íŞÍ´+
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ8íŞÍ´+
 zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÍï–ÿÿÿÿÿ8íŞÍ´+
+Zsquid:S3599"9Replace this syntax with a different type initialization.(å®Õÿÿÿÿÿ8íŞÍ´+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ8íŞÍ´+
+zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8íŞÍ´+

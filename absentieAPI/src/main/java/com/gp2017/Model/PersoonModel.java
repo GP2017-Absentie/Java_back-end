@@ -18,16 +18,16 @@ public class PersoonModel {
         try{
             Statement stat = DatabaseModel.myConn.createStatement();
             ResultSet res = stat.executeQuery("SELECT * FROM `persoon`");
-            ArrayList<Persoon> allPersons = new ArrayList<Persoon>();
+            ArrayList<Persoon> allPersons = new ArrayList<>();
 
             while(res.next()){
 
                 if (res.getString("rol").equals("student")){
-                    Student newStudent = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+                    Student newStudent = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"), res.getString("rol"));
                     allPersons.add(newStudent);
                 }
                 else if (res.getString("rol").equals("docent")){
-                    Docent newDocent = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"));
+                    Docent newDocent = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("rol"));
                     allPersons.add(newDocent);
                 }
             }
@@ -48,21 +48,20 @@ public class PersoonModel {
 
     public Persoon getById(int id) {
         try {
-            Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `id` = " + id);
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `persoon` WHERE `id` = (?)");
+            prepStat.setInt(1,id);
+            ResultSet res = prepStat.executeQuery();
+
             Persoon p = null;
             if (res.next()) {
-                System.out.println("DEBUG: PERSOON ID = " + res.getInt("id"));
-
-
                 if (res.getString("rol").equals("student")) {
-                    p = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+                    p = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"), res.getString("rol"));
                 } else if (res.getString("rol").equals("docent")) {
-                    p = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"));
+                    p = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("rol"));
                 }
             }
             res.close();
-            stat.close();
+            prepStat.close();
 
             return p;
 
@@ -81,19 +80,19 @@ public class PersoonModel {
             prepStat.setString(1,email);
             ResultSet res = prepStat.executeQuery();
 
-
             Persoon p = null;
             if (res.next()) {
                 if (res.getString("rol").equals("student")) {
-                    p = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+                    p = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"), res.getString("rol"));
                 } else if (res.getString("rol").equals("docent")) {
-                    p = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"));
+                    p = new Docent(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("rol"));
                 }
                 return p;
             }
             res.close();
             prepStat.close();
 
+            return p;
         } catch (SQLException ex) {
             // handle any errors
             System.out.println("SQLException: " + ex.getMessage());

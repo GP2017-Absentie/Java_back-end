@@ -1,3 +1,5 @@
 
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÉÅ“®8ø¦êÏ´+
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(İÕõ·
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(”­ìùÿÿÿÿ8âøÊî´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÉÅ“®8ø¦êÏ´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Á üÿÿÿÿ8è†»Ú´+

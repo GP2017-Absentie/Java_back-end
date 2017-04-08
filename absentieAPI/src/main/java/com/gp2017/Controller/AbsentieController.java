@@ -23,30 +23,19 @@ public class AbsentieController {
 
     @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
-    public Collection getAll(){
-        ArrayList<Absentie> absenties = absentieService.getAll();
-        HashMap<Integer, Absentie> allAbsenties = new HashMap<Integer, Absentie>();
-        for (Absentie absentie : absenties){
-            allAbsenties.put(absentie.getId(), absentie);
-        }
-        return allAbsenties.values();
+    public ResponseEntity<ArrayList<Absentie>> getAll() {
+        return new ResponseEntity<>(absentieService.getAll(), HttpStatus.OK);
+    }
+
+
+    @CrossOrigin
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ResponseEntity<Absentie> getById(@PathVariable("id") int id){
+        return new ResponseEntity<>(absentieService.getById(id), HttpStatus.OK);
     }
 
     @CrossOrigin
-    @RequestMapping(value = "{id}", method = RequestMethod.GET)
-    public Collection getById(@PathVariable("id") int id){
-
-        HashMap<Integer, Absentie> absentie = new HashMap<Integer, Absentie>(){
-            {
-                put(1, absentieService.getById(id));
-            }
-
-        };
-        return absentie.values();
-    }
-
-    @CrossOrigin
-    @RequestMapping(value = "/meldAbsent", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/absent", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void meldAbsent(@RequestBody AbsentieRequest absentieRequest) {
         if (absentieRequest != null) {
             absentieService.addAbsentie(absentieRequest);
@@ -56,7 +45,7 @@ public class AbsentieController {
     }
 
     @CrossOrigin
-    @RequestMapping(value = "/meldZiek", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/ziek", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void meldZiek(@RequestBody ZiekteRequest ziekteRequest) throws ParseException {
         if (ziekteRequest != null){
             absentieService.meldZiek(ziekteRequest);

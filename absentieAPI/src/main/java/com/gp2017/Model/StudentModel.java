@@ -15,7 +15,8 @@ import java.util.Map;
 
 @Repository
 public class StudentModel {
-	private static Map<Integer, Student> students;
+    @Autowired
+    private PersoonModel persoonModel;
 	@Autowired
 	private AbsentieModel absentieModel;
 	@Autowired
@@ -27,7 +28,7 @@ public class StudentModel {
 			ArrayList<Student> students = new ArrayList<Student>();
 			ResultSet res = stat.executeQuery("SELECT * FROM `persoon` WHERE `rol` = 'student'");
 			while (res.next()){
-				Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
+				Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"), "student");
 				students.add(s);
 			}
 
@@ -46,19 +47,13 @@ public class StudentModel {
 	}
 
 	public Student getById(int id) {
-
 	        try {
 				PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `persoon` WHERE `id` = (?) AND `rol` = 'student'");
 				prepStat.setInt(1,id);
 				ResultSet res = prepStat.executeQuery();
+                res.next();
 
-	            res.next();
-	            System.out.println("DEBUG: STUDENT ID = " + res.getInt("id"));
-	            System.out.println("NAAM: " + res.getString("naam"));
-	            
-	            Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
-                updateLessen(s);
-                updateAbsenties(s);
+	            Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"), "student");
 
 	            res.close();
 	            prepStat.close();
@@ -74,8 +69,13 @@ public class StudentModel {
 	        return null;
 	    }
 
+    public Student getByEmail(String email){
+        return (Student) persoonModel.getByEmail(email);
+    }
 
-    public void updateLessen(Student student) {
+    public ArrayList<Les> getLessenByStudentId(int id) {
+	    Student student = getById(id);
+        ArrayList<Les> lessen = new ArrayList<>();
         try {
             PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `les` WHERE `klas_FK` = (?)");
             prepStat.setString(1,student.getKlas());
@@ -83,10 +83,12 @@ public class StudentModel {
 
 
             while (res.next()) {
-                student.addLes(lesModel.getById(res.getInt("id")));
+                lessen.add(lesModel.getById(res.getInt("id")));
             }
             res.close();
             prepStat.close();
+
+            return lessen;
 
         } catch (SQLException ex) {
             // handle any errors
@@ -94,32 +96,34 @@ public class StudentModel {
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
         }
+        return null;
     }
 
-
-	public void updateAbsenties(Student student) {
+	public ArrayList<Absentie> getAbsentiesByStudentId(int id) {
+	    ArrayList<Absentie> absenties = new ArrayList<>();
 		try {
 
-			Statement stat = DatabaseModel.myConn.createStatement();
-			ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `persoon_FK` =  '" + student.getId() + "'");
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `absentie` WHERE `persoon_FK` = (?)");
+            prepStat.setInt(1,id);
+            ResultSet res = prepStat.executeQuery();
 
 			while(res.next()) {
-				student.addAbsentie(absentieModel.getById(res.getInt("id")));
+			    System.out.println("something in the buffer");
+				absenties.add(absentieModel.getById(res.getInt("id")));
 			}
 
 			res.close();
-			stat.close();
+			prepStat.close();
 
-
+            return absenties;
 		} catch (SQLException ex) {
 			// handle any errors
 			System.out.println("SQLException: " + ex.getMessage());
 			System.out.println("SQLState: " + ex.getSQLState());
 			System.out.println("VendorError: " + ex.getErrorCode());
 		}
+        return null;
 
+	}
 
-	}    
-	    
-	    
 	}

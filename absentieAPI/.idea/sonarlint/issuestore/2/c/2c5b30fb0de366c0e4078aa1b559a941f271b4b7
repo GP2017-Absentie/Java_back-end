@@ -1,19 +1,44 @@
 
-:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8»¶ÉÙ´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ïù•é´+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+lsquid:S1192"KDefine a constant instead of duplicating this literal "SQLState: " 4 times.(¥ù‚ùÿÿÿÿ8²…Ú´+
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8„Ç°Ä´+
-Xsquid:UselessImportCheck"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8™¯»Ù´+
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÎÇå»8»¶ÉÙ´+
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8ÌÚ®Ä´+
-Msquid:S1068",Remove this unused "students" private field.(ğä”ãúÿÿÿÿ8å‹°Å³+
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ŒÀíÇ³+
-]squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Êİ±Ù´+
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óğğñ8îÈÆÙ´+
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒŠóƒûÿÿÿÿ8à±ÄÙ´+
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8»¶ÉÙ´+
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8²…Ú´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8²…Ú´+
+ksquid:S1192"ODefine a constant instead of duplicating this literal "SQLException: " 4 times.(–Ğ‡Ñ8²…Ú´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8œÚé´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÚÓ·Ğ8è¸’í´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8²…Ú´+
+osquid:S1192"NDefine a constant instead of duplicating this literal "VendorError: " 4 times.(Úßôƒùÿÿÿÿ8²…Ú´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8²…Ú´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8²…Ú´+
+8squid:S2095"Close this "ResultSet".(Ğ¯¤øıÿÿÿÿ8²…Ú´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ûÙ‡8¦Ò”é´+
+Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8‘¶ê´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8²…Ú´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8²…Ú´+
+:squid:S1166"%Either log or rethrow this exception.(À‹ø„
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8²…Ú´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(üá¸‚ûÿÿÿÿ8Àë–é´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8²…Ú´+
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉãĞ¸8Êİ±Ù´+
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
-csquid:HiddenFieldCheck"<Rename "students" which hides the field declared at line 20.(ÉãĞ¸8Êİ±Ù´+
 V
 squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8„Ç°Ä´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8²…Ú´+
+Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8²…Ú´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8²…Ú´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8Á÷ìì´+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ŒÀíÇ³+

@@ -39,31 +39,31 @@ import com.mysql.jdbc.SQLError;
 
 public interface JDBC4MySQLConnection extends MySQLConnection {
 
-    public SQLXML createSQLXML() throws SQLException;
+    SQLXML createSQLXML() throws SQLException;
 
-    public java.sql.Array createArrayOf(String typeName, Object[] elements) throws SQLException;
+    java.sql.Array createArrayOf(String typeName, Object[] elements) throws SQLException;
 
-    public Struct createStruct(String typeName, Object[] attributes) throws SQLException;
+    Struct createStruct(String typeName, Object[] attributes) throws SQLException;
 
-    public Properties getClientInfo() throws SQLException;
+    Properties getClientInfo() throws SQLException;
 
-    public String getClientInfo(String name) throws SQLException;
+    String getClientInfo(String name) throws SQLException;
 
-    public boolean isValid(int timeout) throws SQLException;
+    boolean isValid(int timeout) throws SQLException;
 
-    public void setClientInfo(Properties properties) throws SQLClientInfoException;
+    void setClientInfo(Properties properties) throws SQLClientInfoException;
 
-    public void setClientInfo(String name, String value) throws SQLClientInfoException;
+    void setClientInfo(String name, String value) throws SQLClientInfoException;
 
-    public boolean isWrapperFor(Class<?> iface) throws SQLException;
+    boolean isWrapperFor(Class<?> iface) throws SQLException;
 
-    public <T> T unwrap(java.lang.Class<T> iface) throws java.sql.SQLException;
+    <T> T unwrap(java.lang.Class<T> iface) throws java.sql.SQLException;
 
-    public Blob createBlob();
+    Blob createBlob();
 
-    public Clob createClob();
+    Clob createClob();
 
-    public NClob createNClob();
+    NClob createNClob();
 
     /*
      * Non standard methods:

@@ -154,13 +154,15 @@ public class LesModel {
 
     public ArrayList<Student> getStudentenByLesId(int id) {
         try {
-            ArrayList<Student> studenten = new ArrayList<Student>();
+            ArrayList<Student> studenten = new ArrayList<>();
 
-            Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT `klas_FK` FROM `les` WHERE `id` = " + id);
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT `klas_FK` FROM `les` WHERE `id` = (?)");
+            prepStat.setInt(1,id);
+            ResultSet res = prepStat.executeQuery();
             res.next();
 
-            ResultSet res2 = stat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = '" + res.getString("klas_FK") + "'");
+
+            ResultSet res2 = prepStat.executeQuery("SELECT * FROM `persoon` WHERE `klas_FK` = '" + res.getString("klas_FK") + "'");
 
             while (res2.next()) {
                 studenten.add(studentModel.getById(res2.getInt("id")));
@@ -168,7 +170,7 @@ public class LesModel {
 
             res.close();
             res2.close();
-            stat.close();
+            prepStat.close();
 
             return studenten;
 
@@ -180,6 +182,7 @@ public class LesModel {
         }
         return null;
     }
+
 
 
 }

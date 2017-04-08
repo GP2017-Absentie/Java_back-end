@@ -11,8 +11,8 @@ public class Docent extends Persoon {
      * @param medewerkersNummer employee number
      * @param lessen array of lesson objects corresponding to the teacher
      */
-    public Docent(int id, String naam, String email, String pswrd) { //, ArrayList<Les> lessen) {
-        super(id, naam, email, pswrd); //, lessen);
+    public Docent(int id, String naam, String email, String pswrd, String rol) { //, ArrayList<Les> lessen) {
+        super(id, naam, email, pswrd, rol); //, lessen);
 
     }
 

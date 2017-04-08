@@ -18,6 +18,8 @@ public class AbsentieModel {
     @Autowired
     private StudentModel studentModel;
     @Autowired
+    private DocentModel docentModel;
+    @Autowired
     private LesModel lesModel;
 
     public ArrayList<Absentie> getAll() {
@@ -100,26 +102,26 @@ public class AbsentieModel {
     }
 
     public void meldZiek(ZiekteRequest ziekteRequest) throws ParseException {
-
-        Student persoon = studentModel.getById(ziekteRequest.getPersoonId());
-
+        Persoon persoon = persoonModel.getById(ziekteRequest.getPersoonId());
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         java.util.Date reqDate = formatter.parse(ziekteRequest.getDatum());
+        ArrayList<Les> lessen = new ArrayList<>();
 
+        if (persoon.getRol() == "student"){
+            lessen = studentModel.getLessenByStudentId(persoon.getId());
+        } else if (persoon.getRol() == "docent"){
+            lessen = docentModel.getLessenByDocentId(persoon.getId());
+        }
 
-        for (Les les : persoon.getLessen()) {
-            java.util.Date lesDate = (Date) les.getDatum();
+        for (Les les : lessen) {
+            java.util.Date lesDate = les.getDatum();
 
-            System.out.println("LES\t\t"+lesDate);
-            System.out.println("REQUEST\t\t"+reqDate);
             if (lesDate.equals(reqDate)) {
                 AbsentieRequest absentieRequest = new AbsentieRequest();
                 absentieRequest.setLesId(les.getId());
                 absentieRequest.setPersoonId(persoon.getId());
                 absentieRequest.setReden("ziek");
                 absentieRequest.setToelichting("n.v.t.");
-                System.out.println("JAAAAAAAAATOCCCCCCCCHHHHh");
-
                 addAbsentie(absentieRequest);
             }
         }

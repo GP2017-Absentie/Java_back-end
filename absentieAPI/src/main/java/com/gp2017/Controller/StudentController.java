@@ -1,13 +1,15 @@
 package com.gp2017.Controller;
+import com.gp2017.Entity.Absentie;
+import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
 import com.gp2017.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/student")
@@ -18,26 +20,25 @@ public class StudentController {
 
     @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
-    public Collection getAll(){
-        ArrayList<Student> students = studentService.getAll();
-        HashMap<Integer, Student> allStudents = new HashMap<Integer, Student>();
-        for (Student student :students){
-            allStudents.put(student.getId(), student);
-        }
-        return allStudents.values();
+    public ResponseEntity<ArrayList<Student>> getAll(){
+        return new ResponseEntity<>(studentService.getAll(), HttpStatus.OK);
     }
 
     @CrossOrigin
-    @RequestMapping(value = "getById/{id}", method = RequestMethod.GET)
-    public Collection getById(@PathVariable("id") int id){
-
-        HashMap<Integer, Student> student = new HashMap<Integer, Student>(){
-            {
-                put(1, studentService.getById(id));
-            }
-        };
-        return student.values();
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ResponseEntity<Student> getById(@PathVariable("id") int id){
+        return new ResponseEntity<>(studentService.getById(id), HttpStatus.OK);
     }
 
+    @CrossOrigin
+    @RequestMapping(value = "lessen/{id}", method = RequestMethod.GET)
+    public ResponseEntity<ArrayList<Les>> getLessenByStudentId(@PathVariable("id")int id){
+        return new ResponseEntity<>(studentService.getLessenByStudentId(id), HttpStatus.OK);
+    }
 
+    @CrossOrigin
+    @RequestMapping(value = "absenties/{id}", method = RequestMethod.GET)
+    public ResponseEntity<ArrayList<Absentie>> getAbsentiesByStudentId(@PathVariable("id")int id){
+        return new ResponseEntity<>(studentService.getAbsentiesByStudentId(id), HttpStatus.OK);
+    }
 }

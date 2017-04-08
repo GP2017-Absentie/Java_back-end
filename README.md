@@ -1,42 +1,66 @@
 # Java-back-end
 
-Yoo Timo, ik ben gister absurt veel tijd kwijt geraakt met proberen ervoor te zorgen dat ik niet absurt veel data naar jou toe stuur, maar dat is voor geen meter gelukt.
-
-Je krijgt nu wel al de de lessen en absenties in de getById meegestuurt, maar zoals je zal zien is het absurt veel onnodige data. Ik probeer dat later er nog uit te halen.
-
-
-
-per les kun je nu ook de absenties ophalen met /les/getAbsentiesByLesId{id}. Zodra ik wakker word ga ik weer verder. 
-
 
 
 ## API INDEX
 
-**[Persoon](absentieAPI/docs/persoon.md)**
+**Persoon**
 
-​		 [/persoon (getAll)](absentieAPI/docs/persoonGetAll.md)
+​		 [getAll](absentieAPI/docs/persoon/persoonGetAll.md)
 
-​		 [/persoon/getById/{id}](absentieAPI/docs/persoonGetById.md)
+​		 [getById](absentieAPI/docs/persoon/persoonGetById.md)
 
-​		 [/persoon/login](absentieAPI/docs/persoonLogin.md)
+​		 [login](absentieAPI/docs/persoon/persoonLogin.md)
 
-**[Student](absentieAPI/docs/student.md)**
+**Student**
 
-​		[/student (getAll)](absentieAPI/docs/student/GetAll.md)
+​		[getAll](absentieAPI/docs/student/studentGetAll.md)
 
-​		[/student/getById/{id}](absentieAPI/docs/studentGetById.md)
+​		[getById](absentieAPI/docs/student/studentGetById.md)
 
-**[Docent](absentieAPI/docs/docent.md)**
+​		[getLessenbyStudentId](absentieAPI/docs/student/studentGetLessenByStudentId)
 
- 		[/docent (getAll)](absentieAPI/docs/docent/GetAll.md)
+​		[getAbsentiesByStudentId](absentieAPI/docs/student/studentGetAbsentiesByStudentId.md)
 
- 		[/docent/getById/{id}](absentieAPI/docs/studentGetById.md)
+**Docent**
 
-**[Absentie](absentieAPI/docs/absentie.md)**
+ 		[getAll](absentieAPI/docs/docent/docentGetAll.md)
 
-​		[/absentie/meldAbsent](absentieAPI/docs/absentieMeldAbsent.md)
+ 		[getById](absentieAPI/docs/docent/studentGetById.md)
 
-​		[/absentie/meldZiek](absentieAPI/docs/absentieMeldZiek.md)
+​		[getLessenByDocentId](absentieAPI/docs/docent/docentGetLessenByDocentId.md)
+
+​		[getAbsentiesByDocentId](absentieAPI/docs/docent/docentGetAbsentiesByDocentId.md)
+
+**Klas**
+
+​		[getAll](absentieAPI/docs/klas/klasGetAll.md)
+
+​		[getById](absentieAPI/docs/klas/klasGetById.md)
+
+​		[getLessenbyKlasId](absentieAPI/docs/klas/klasGetLessenByKlasId)
+
+​		[getAbsentiesbyKlasId](absentieAPI/docs/klas/klasGetAbsentiesByKlasId)
+
+**Les**
+
+​		[getAll](absentieAPI/docs/les/lesGetAll.md)
+
+​		[getById](absentieAPI/docs/les/lesGetById.md)
+
+​		[getStudentenbyKlasId](absentieAPI/docs/les/lesGetStudentenByKlasId)
+
+​		[getAbsentiesbyKlasId](absentieAPI/docs/les/lesGetAbsentiesByKlasId)
+
+**Absentie**
+
+​		[getAll](absentieAPI/docs/absentie/absentieGetAll.md)
+
+​		[getById](absentieAPI/docs/absentie/absentieGetById.md)
+
+​		[meldAbsent](absentieAPI/docs/absentie/absentieMeldAbsent.md)
+
+​		[meldZiek](absentieAPI/docs/absentie/absentieMeldZiek.md)
 
 
 

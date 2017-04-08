@@ -1,11 +1,11 @@
-meldZiek
+meldAbsent
 ----
 
-Method adds absentie objects for every lesson for the specified person for that day.
+Adds absentie instance to the database.
 
 * **URL**
 
-  /absentie/meldZiek
+  /absentie
 
 * **Method:**
 
@@ -19,8 +19,10 @@ Method adds absentie objects for every lesson for the specified person for that 
 
   ```json
   {
-  	"datum": "2017-02-23",
-  	"persoonId": 1682488
+  	"reden": "overig",
+  	"toelichting": "geen zin in.",
+  	"persoonId": 4,
+  	"lesId": 6
   }
   ```
 
@@ -28,7 +30,7 @@ Method adds absentie objects for every lesson for the specified person for that 
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200 <br/>
     **Content:** 
 
     ​
@@ -44,8 +46,7 @@ Method adds absentie objects for every lesson for the specified person for that 
       "status": 400,
       "error": "Bad Request",
       "exception": "java.lang.IllegalArgumentException",
-      "message": "Password or email incorrect",
-      "path": "/persoon/login"
+      "path": "/absentie"
     }
     ```
 

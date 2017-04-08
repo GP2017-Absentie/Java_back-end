@@ -24,7 +24,6 @@ public class Les {
 
     private String klas;
     private Docent docent;
-    private ArrayList<Absentie> absenties;
 
     /**
      * @param vakNaam course name
@@ -35,7 +34,6 @@ public class Les {
      * @param eindtijd end time
      * @param klas grade
      * @param docent teacher
-     * @param absenties ArrayList of absence objects
      */
     public Les(int id, String vakNaam, String vakCode, String gebouw, String lokaal, Date datum, Time starttijd, Time eindtijd, String klas,
                Docent docent)
@@ -50,12 +48,8 @@ public class Les {
         this.eindtijd = eindtijd;
         this.klas = klas;
         this.docent = docent;
-        this.absenties = new ArrayList<Absentie>();
     }
     
-    public void voegAbsentieToe(Absentie abs) {
-    	this.absenties.add(abs);
-    }
 
     public String getVakNaam() {
         return vakNaam;
@@ -95,10 +89,6 @@ public class Les {
 
     public Docent getDocent() {
         return docent;
-    }
-
-    public ArrayList<Absentie> getAbsenties() {
-        return absenties;
     }
 }
 

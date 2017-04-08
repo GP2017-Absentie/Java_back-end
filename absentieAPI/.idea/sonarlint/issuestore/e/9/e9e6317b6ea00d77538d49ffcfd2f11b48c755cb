@@ -1,6 +1,6 @@
 
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ì‰„Çþÿÿÿÿ8¼·˜Ú´+
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
-fsquid:UselessImportCheck"8Remove this unused import 'com.gp2017.View.PersoonView'.(ª—ñ°þÿÿÿÿ8¬üØ´+
-osquid:UselessImportCheck"FRemove this unused import 'com.fasterxml.jackson.annotation.JsonView'.(Â„Ê¬8¬üØ´+
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«æªôúÿÿÿÿ
 esquid:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
+vsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(ôÇ¶Âûÿÿÿÿ8¼·˜Ú´+
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ù¾é

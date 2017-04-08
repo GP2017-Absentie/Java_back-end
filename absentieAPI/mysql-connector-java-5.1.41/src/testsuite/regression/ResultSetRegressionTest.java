@@ -3473,7 +3473,7 @@ public class ResultSetRegressionTest extends BaseTestCase {
                 }
 
                 try {
-                    getterMethods[i].invoke(this.rs, new Object[] { zeroIndex });
+                    getterMethods[i].invoke(this.rs, zeroIndex);
                 } catch (InvocationTargetException invokeEx) {
                     Throwable ex = invokeEx.getTargetException();
 
@@ -3491,7 +3491,7 @@ public class ResultSetRegressionTest extends BaseTestCase {
                 String messageHighBound = null;
 
                 try {
-                    getterMethods[i].invoke(this.rs, new Object[] { twoIndex });
+                    getterMethods[i].invoke(this.rs, twoIndex);
                 } catch (InvocationTargetException invokeEx) {
                     Throwable ex = invokeEx.getTargetException();
 
@@ -4471,7 +4471,7 @@ public class ResultSetRegressionTest extends BaseTestCase {
             assertEquals("Operation not allowed after ResultSet closed exception shouldn't be thrown second time", 0, ei.alreadyClosedCounter);
             st1.close();
             st1.close();
-            ((StatementImpl) st1).isClosed();
+            st1.isClosed();
             assertEquals("No operations allowed after statement closed exception shouldn't be thrown second time", 0, ei.alreadyClosedCounter);
 
             PreparedStatement ps1 = c.prepareStatement("select 1");

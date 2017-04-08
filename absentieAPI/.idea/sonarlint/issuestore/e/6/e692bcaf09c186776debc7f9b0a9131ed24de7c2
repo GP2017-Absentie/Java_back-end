@@ -1,6 +1,4 @@
 
-Zsquid:UselessImportCheck"1Remove this unused import 'com.gp2017.View.View'.(Žºþã8øÿñÎ´+
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«·„Åúÿÿÿÿ
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ñ€þ®8‚ŽüÄ³+
 _squid:S00107"BConstructor has 10 parameters, which is greater than 7 authorized.(Êª·‚8¼Š·®´+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ªÊ£î´+

@@ -1,6 +1,8 @@
 package com.gp2017.Service;
 
+import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Klas;
+import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
 import com.gp2017.Model.KlasModel;
 import com.gp2017.Model.StudentModel;
@@ -18,7 +20,12 @@ public class KlasService {
 
     public ArrayList<Klas> getAll(){ return klasModel.getAll(); }
 
-    public ArrayList<Student> getStudents(String id){
+    public ArrayList<Student> getStudentenByKlasId(String id){
         return klasModel.getStudents(id);
     }
+
+    public ArrayList<Les> getLessenByKlasId(String id) { return klasModel.getLessenByKlasId(id); }
+
+    public ArrayList<ArrayList<Absentie>> getAbsentiesByKlasId(String id) { return klasModel.getAbsentiesByKlasId(id); }
+
 }

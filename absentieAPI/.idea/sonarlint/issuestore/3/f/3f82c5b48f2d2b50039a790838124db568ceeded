@@ -1,6 +1,5 @@
 
-Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
-msquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Repository'.(¦ýÍýüÿÿÿÿ
 ?squid:S2160"*Override this superclass' "equals" method.(û  æ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Òôßþÿÿÿÿ
+msquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Repository'.(¦ýÍýüÿÿÿÿ
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒ·ö˜þÿÿÿÿ
+Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

@@ -5,6 +5,7 @@ import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
 import com.gp2017.Service.LesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,34 +22,25 @@ public class LesController {
 
     @CrossOrigin
     @RequestMapping(method = RequestMethod.GET)
-    public Collection getAll(){
-        ArrayList<Les> alleLessen = lesService.getAll();
-        HashMap<Integer, Les> lessen = new HashMap<>();
-        for (Les les : alleLessen){
-            lessen.put(les.getId(), les);
-        }
-        return lessen.values();
+    public ResponseEntity<ArrayList<Les>> getAll(){
+        return new ResponseEntity<>(lesService.getAll(), HttpStatus.OK);
     }
 
     @CrossOrigin
-    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
-    public Collection getById(@PathVariable("id") int id){
-        HashMap<Integer, Les> student = new HashMap<Integer, Les>(){
-            {
-                put(1, lesService.getById(id));
-            }
-        };
-        return student.values();
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ResponseEntity<Les> getById(@PathVariable("id") int id){
+        return new ResponseEntity<>(lesService.getById(id), HttpStatus.OK);
     }
 
     @CrossOrigin
-    @RequestMapping(value = "/getAbsentiesByLesId/{id}")
-    public Collection getAbsentiesByLesId(@PathVariable("id") int id){
-        ArrayList<Absentie> alleAbsenties = lesService.getAbsentiesByLesId(id);
-        HashMap<Integer, Absentie> lessen = new HashMap<>();
-        for (Absentie absentie : alleAbsenties){
-            lessen.put(absentie.getId(), absentie);
-        }
-        return lessen.values();
+    @RequestMapping(value = "/absenties/{id}")
+    public ResponseEntity<ArrayList<Absentie>> getAbsentiesByLesId(@PathVariable("id") int id){
+        return new ResponseEntity<>(lesService.getAbsentiesByLesId(id), HttpStatus.OK);
+    }
+
+    @CrossOrigin
+    @RequestMapping(value = "/studenten/{id}")
+    public ResponseEntity<ArrayList<Student>> getStudentenByLesId(@PathVariable("id") int id){
+        return new ResponseEntity<>(lesService.getStudentenByLesId(id), HttpStatus.OK);
     }
 }

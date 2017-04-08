@@ -4,6 +4,7 @@ import com.gp2017.Entity.Absentie;
 import com.gp2017.Entity.Docent;
 import com.gp2017.Entity.Les;
 import com.gp2017.Entity.Student;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,8 +17,12 @@ import java.util.ArrayList;
 
 @Repository
 public final class DocentModel {
+    @Autowired
     private LesModel lesModel;
+    @Autowired
     private AbsentieModel absentieModel;
+    @Autowired
+    private PersoonModel persoonModel;
 
     public ArrayList<Docent> getAll(){
         try {
@@ -30,7 +35,8 @@ public final class DocentModel {
                         res.getInt("id"),
                         res.getString("naam"),
                         res.getString("email"),
-                        res.getString("wachtwoord")
+                        res.getString("wachtwoord"),
+                        "docent"
                 );
                 docents.add(s);
             }
@@ -60,7 +66,8 @@ public final class DocentModel {
                     res.getInt("id"),
                     res.getString("naam"),
                     res.getString("email"),
-                    res.getString("wachtwoord")
+                    res.getString("wachtwoord"),
+                    "docent"
             );
              
             res.close();
@@ -79,18 +86,23 @@ public final class DocentModel {
         return null;
     }
 
-    public ArrayList<Les> getLessenDocent(int docent_FK) {
-        try {
-            Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `les` WHERE `docent_FK` = '" + docent_FK + "'");
+    public Docent getByEmail(String email){
+        return (Docent) persoonModel.getByEmail(email);
+    }
 
-            ArrayList<Les> lessenDocent = new ArrayList<Les>();
+    public ArrayList<Les> getLessenByDocentId(int id) {
+        ArrayList<Les> lessenDocent = new ArrayList<>();
+        try {
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `les` WHERE `docent_FK` = (?)");
+            prepStat.setInt(1,id);
+            ResultSet res = prepStat.executeQuery();
+
             while(res.next()) {
                 lessenDocent.add(lesModel.getById(res.getInt("id")));
             }
 
             res.close();
-            stat.close();
+            prepStat.close();
 
             return lessenDocent;
         } catch (SQLException ex) {
@@ -102,19 +114,19 @@ public final class DocentModel {
         return null;
     }
 
-    public ArrayList<Absentie> getAbsentiesDocent(int persoon_FK) {
+    public ArrayList<Absentie> getAbsentiesByDocentId(int id) {
+        ArrayList<Absentie> absenties = new ArrayList<>();
         try {
-            ArrayList<Absentie> absenties = new ArrayList<Absentie>();
-
-            Statement stat = DatabaseModel.myConn.createStatement();
-            ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `persoon_FK` = '" + persoon_FK + "'");
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `absentie` WHERE `persoon_FK` = (?)");
+            prepStat.setInt(1,id);
+            ResultSet res = prepStat.executeQuery();
 
             while(res.next()) {
                 absenties.add(absentieModel.getById(res.getInt("id")));
             }
 
             res.close();
-            stat.close();
+            prepStat.close();
 
             return absenties;
         } catch (SQLException ex) {

@@ -63,7 +63,7 @@ public class ServerPreparedStatement extends PreparedStatement {
             try {
                 String jdbc4ClassName = Util.isJdbc42() ? "com.mysql.jdbc.JDBC42ServerPreparedStatement" : "com.mysql.jdbc.JDBC4ServerPreparedStatement";
                 JDBC_4_SPS_CTOR = Class.forName(jdbc4ClassName)
-                        .getConstructor(new Class[] { MySQLConnection.class, String.class, String.class, Integer.TYPE, Integer.TYPE });
+                        .getConstructor(MySQLConnection.class, String.class, String.class, Integer.TYPE, Integer.TYPE);
             } catch (SecurityException e) {
                 throw new RuntimeException(e);
             } catch (NoSuchMethodException e) {
@@ -330,7 +330,7 @@ public class ServerPreparedStatement extends PreparedStatement {
 
         try {
             return (ServerPreparedStatement) JDBC_4_SPS_CTOR
-                    .newInstance(new Object[] { conn, sql, catalog, Integer.valueOf(resultSetType), Integer.valueOf(resultSetConcurrency) });
+                    .newInstance(conn, sql, catalog, Integer.valueOf(resultSetType), Integer.valueOf(resultSetConcurrency));
         } catch (IllegalArgumentException e) {
             throw new SQLException(e.toString(), SQLError.SQL_STATE_GENERAL_ERROR);
         } catch (InstantiationException e) {
@@ -1485,11 +1485,7 @@ public class ServerPreparedStatement extends PreparedStatement {
             try {
                 long begin = 0;
 
-                if (StringUtils.startsWithIgnoreCaseAndWs(sql, "LOAD DATA")) {
-                    this.isLoadDataQuery = true;
-                } else {
-                    this.isLoadDataQuery = false;
-                }
+                this.isLoadDataQuery = StringUtils.startsWithIgnoreCaseAndWs(sql, "LOAD DATA");
 
                 if (this.connection.getProfileSql()) {
                     begin = System.currentTimeMillis();
@@ -2780,8 +2776,8 @@ public class ServerPreparedStatement extends PreparedStatement {
     protected PreparedStatement prepareBatchedInsertSQL(MySQLConnection localConn, int numBatches) throws SQLException {
         synchronized (checkClosed().getConnectionMutex()) {
             try {
-                PreparedStatement pstmt = ((Wrapper) localConn.prepareStatement(this.parseInfo.getSqlForBatch(numBatches), this.resultSetConcurrency,
-                        this.resultSetType)).unwrap(PreparedStatement.class);
+                PreparedStatement pstmt = localConn.prepareStatement(this.parseInfo.getSqlForBatch(numBatches), this.resultSetConcurrency,
+                        this.resultSetType).unwrap(PreparedStatement.class);
                 pstmt.setRetrieveGeneratedKeys(this.retrieveGeneratedKeys);
 
                 return pstmt;

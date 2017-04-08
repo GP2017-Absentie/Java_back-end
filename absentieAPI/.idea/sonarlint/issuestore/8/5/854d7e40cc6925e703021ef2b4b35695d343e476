@@ -1,11 +1,9 @@
 
-zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ÁÕ™¿´+
-qsquid:UselessImportCheck"CRemove this unused import 'org.springframework.util.MultiValueMap'.(·ÚÀÞùÿÿÿÿ8ÁÕ™¿´+
-Vsquid:S1854"5Remove this useless assignment to local variable "p".(ý÷¼¡ùÿÿÿÿ8ÁÕ™¿´+
-Tsquid:S3599"9Replace this syntax with a different type initialization.(§ÀñO8ÁÕ™¿´+
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Œ‘Éøÿÿÿÿ8ÁÕ™¿´+
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ8ÁÕ™¿´+
-csquid:UselessImportCheck"5Remove this unused import 'com.gp2017.Entity.Docent'.(Åóª¤úÿÿÿÿ8ÁÕ™¿´+
-zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ÁÕ™¿´+
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì ˜žúÿÿÿÿ8ÁÕ™¿´+
-Tsquid:S3599"9Replace this syntax with a different type initialization.(§ÀñO8ÁÕ™¿´+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ãÏèúÿÿÿÿ8™Å—ë´+
+Vsquid:S1854"5Remove this useless assignment to local variable "p".(ý÷¼¡ùÿÿÿÿ8™Å—ë´+
+Tsquid:S3599"9Replace this syntax with a different type initialization.(§ÀñO8™Å—ë´+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«Œ‘Éøÿÿÿÿ8™Å—ë´+
+qsquid:UselessImportCheck"CRemove this unused import 'org.springframework.util.MultiValueMap'.(·ÚÀÞùÿÿÿÿ8™Å—ë´+
+zsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8™Å—ë´+
+csquid:UselessImportCheck"5Remove this unused import 'com.gp2017.Entity.Docent'.(Åóª¤úÿÿÿÿ8™Å—ë´+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì ˜žúÿÿÿÿ8™Å—ë´+

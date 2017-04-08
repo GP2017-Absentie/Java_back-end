@@ -44,7 +44,7 @@ public interface SocketFactory {
      * 
      * @return the socket to use after the handshake
      */
-    Socket afterHandshake() throws SocketException, IOException;
+    Socket afterHandshake() throws IOException;
 
     /**
      * Called by the driver before issuing the MySQL protocol handshake. Should
@@ -57,7 +57,7 @@ public interface SocketFactory {
      * 
      * @return the socket to use before the handshake
      */
-    Socket beforeHandshake() throws SocketException, IOException;
+    Socket beforeHandshake() throws IOException;
 
     /**
      * Creates a new socket using the given properties. Properties are parsed by
@@ -85,5 +85,5 @@ public interface SocketFactory {
      * @throws IOException
      *             if an I/O error occurs
      */
-    Socket connect(String host, int portNumber, Properties props) throws SocketException, IOException;
+    Socket connect(String host, int portNumber, Properties props) throws IOException;
 }

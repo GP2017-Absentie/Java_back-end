@@ -2849,7 +2849,7 @@ public class MysqlIO {
             StatementInterceptorV2 interceptor = this.statementInterceptors.get(i);
 
             boolean executeTopLevelOnly = interceptor.executeTopLevelOnly();
-            boolean shouldExecute = (executeTopLevelOnly && (this.statementExecutionDepth == 1 || forceExecute)) || (!executeTopLevelOnly);
+            boolean shouldExecute = !executeTopLevelOnly || (this.statementExecutionDepth == 1 || forceExecute);
 
             if (shouldExecute) {
                 String sqlToInterceptor = sql;
@@ -2877,7 +2877,7 @@ public class MysqlIO {
             StatementInterceptorV2 interceptor = this.statementInterceptors.get(i);
 
             boolean executeTopLevelOnly = interceptor.executeTopLevelOnly();
-            boolean shouldExecute = (executeTopLevelOnly && (this.statementExecutionDepth == 1 || forceExecute)) || (!executeTopLevelOnly);
+            boolean shouldExecute = !executeTopLevelOnly || (this.statementExecutionDepth == 1 || forceExecute);
 
             if (shouldExecute) {
                 String sqlToInterceptor = sql;
