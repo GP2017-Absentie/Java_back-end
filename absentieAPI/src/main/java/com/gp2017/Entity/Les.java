@@ -1,5 +1,7 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,6 +10,7 @@ import java.util.Date;
  * Object that represents a lesson.
  */
 public class Les {
+    @JsonProperty("lesId")
     private int id;
     private String vakNaam;
     private String vakCode;

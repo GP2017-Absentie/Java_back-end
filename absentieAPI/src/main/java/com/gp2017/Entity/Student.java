@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Map;
 
 public class Student extends Persoon {
+
     private String klas;
 
     public Student(int id, String naam, String email, String pswrd, String klas) {

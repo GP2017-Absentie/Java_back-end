@@ -1,11 +1,14 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.ArrayList;
 
 /**
  * Object that represents a grade of students.
  */
 public class Klas {
+    @JsonProperty("klasId")
     private String code;
     private ArrayList<Student> studenten;
     private ArrayList<Les> lessen;

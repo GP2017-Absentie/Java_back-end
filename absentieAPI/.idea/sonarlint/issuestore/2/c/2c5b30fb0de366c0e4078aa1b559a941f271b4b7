@@ -1,26 +1,19 @@
 
-Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ŒÀíÇ³+
 :squid:S1166"%Either log or rethrow this exception.(À‹ø„
-csquid:HiddenFieldCheck"<Rename "students" which hides the field declared at line 15.(ÉãĞ¸8—¦ôÇ³+
-8squid:S2095"Close this "ResultSet".(Ğ¯¤øıÿÿÿÿ8ŒÀíÇ³+
-Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8€˜êÇ³+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8ŒÀíÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(ıæÂâ
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8ŒÀíÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ÿ”ß
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ8„Ç°Ä´+
+Xsquid:UselessImportCheck"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8™¯»Ù´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÎÇå»8»¶ÉÙ´+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û²ÿğ8ÌÚ®Ä´+
+Msquid:S1068",Remove this unused "students" private field.(ğä”ãúÿÿÿÿ8å‹°Å³+
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ8ŒÀíÇ³+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥ù‚ùÿÿÿÿ
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(Úßôƒùÿÿÿÿ
-Msquid:S1068",Remove this unused "students" private field.(ğä”ãúÿÿÿÿ8å‹°Å³+
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉãĞ¸8—ÇøÇ³+
-O
-squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ
-Asquid:S1166"%Either log or rethrow this exception.(À‹ø„8ŒÀíÇ³+
+]squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Êİ±Ù´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óğğñ8îÈÆÙ´+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒŠóƒûÿÿÿÿ8à±ÄÙ´+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8»¶ÉÙ´+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉãĞ¸8Êİ±Ù´+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ë’ã¼şÿÿÿÿ
+csquid:HiddenFieldCheck"<Rename "students" which hides the field declared at line 20.(ÉãĞ¸8Êİ±Ù´+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(–Ğ‡Ñ8„Ç°Ä´+

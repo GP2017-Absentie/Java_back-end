@@ -1,3 +1,4 @@
 
+esquid:UselessImportCheck"7Remove this unused import 'com.gp2017.Entity.Absentie'.(ªçë‘øÿÿÿÿ8ŸÌøÓ´+
 ‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àâöâüÿÿÿÿ8º˜…È³+
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(İÕõ·

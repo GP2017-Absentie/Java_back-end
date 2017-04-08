@@ -1,7 +1,5 @@
 # Absentie API
 
-
-
 [TOC]
 
 ## General usage

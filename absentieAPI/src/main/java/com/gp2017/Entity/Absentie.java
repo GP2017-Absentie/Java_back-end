@@ -1,9 +1,12 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 /**
  * Object to hold absence instance. Takes an Les and Person object.
  */
 public class Absentie {
+    @JsonProperty("absentieId")
     private int id;
     private Persoon persoon;
     private Les les;

@@ -1,11 +1,14 @@
 package com.gp2017.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.ArrayList;
 
 /**
  * Object to represent a person
  */
 public class Persoon {
+    @JsonProperty("persoonId")
     private int id;
     private String naam;
     private String email;

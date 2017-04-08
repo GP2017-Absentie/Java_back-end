@@ -1,6 +1,12 @@
 # Java-back-end
 
+Yoo Timo, ik ben gister absurt veel tijd kwijt geraakt met proberen ervoor te zorgen dat ik niet absurt veel data naar jou toe stuur, maar dat is voor geen meter gelukt.
 
+Je krijgt nu wel al de de lessen en absenties in de getById meegestuurt, maar zoals je zal zien is het absurt veel onnodige data. Ik probeer dat later er nog uit te halen.
+
+
+
+per les kun je nu ook de absenties ophalen met /les/getAbsentiesByLesId{id}. Zodra ik wakker word ga ik weer verder. 
 
 
 

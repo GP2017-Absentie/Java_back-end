@@ -58,6 +58,7 @@ public class StudentModel {
 	            
 	            Student s = new Student(res.getInt("id"), res.getString("naam"), res.getString("email"), res.getString("wachtwoord"), res.getString("klas_FK"));
                 updateLessen(s);
+                updateAbsenties(s);
 
 	            res.close();
 	            prepStat.close();
@@ -96,21 +97,20 @@ public class StudentModel {
     }
 
 
-	public ArrayList<Absentie> getAbsentiesStudentId(int id) {
+	public void updateAbsenties(Student student) {
 		try {
-			ArrayList<Absentie> absenties = new ArrayList<Absentie>();
 
 			Statement stat = DatabaseModel.myConn.createStatement();
-			ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `persoon_FK` =  '" + id + "'");
+			ResultSet res = stat.executeQuery("SELECT * FROM `absentie` WHERE `persoon_FK` =  '" + student.getId() + "'");
 
 			while(res.next()) {
-				absenties.add(absentieModel.getById(res.getInt("id")));
+				student.addAbsentie(absentieModel.getById(res.getInt("id")));
 			}
 
 			res.close();
 			stat.close();
 
-			return absenties;
+
 		} catch (SQLException ex) {
 			// handle any errors
 			System.out.println("SQLException: " + ex.getMessage());
@@ -118,7 +118,7 @@ public class StudentModel {
 			System.out.println("VendorError: " + ex.getErrorCode());
 		}
 
-		return null;
+
 	}    
 	    
 	    

@@ -3,6 +3,7 @@ package com.gp2017.Model;
 
 import com.gp2017.Entity.*;
 import com.gp2017.Entity.Les;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;
@@ -11,7 +12,9 @@ import java.util.Date;
 
 @Repository
 public class LesModel {
+    @Autowired
     private AbsentieModel absentieModel;
+    @Autowired
     private StudentModel studentModel;
 
     public ArrayList<Les> getAll(){
