@@ -5,7 +5,7 @@ Returns json array containing a single student instance matching the <id> argume
 
 * **URL**
 
-  /student/<id>
+  /student/:id
 
 * **Method:**
 
