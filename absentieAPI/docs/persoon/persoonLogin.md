@@ -9,7 +9,7 @@ Returns a persons object if login is succesful, nothing if unsuccesfull.
 
 * **Method:**
 
-  `POST` 
+  `PUT` 
 
 * **URL Params**
 
