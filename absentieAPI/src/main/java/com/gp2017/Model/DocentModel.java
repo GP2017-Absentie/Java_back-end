@@ -55,7 +55,7 @@ public final class DocentModel {
         return null;
     }
 
-	public static Docent getById(int id) {
+	public Docent getById(int id) {
         try {
             PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement("SELECT * FROM `persoon` WHERE `id` = (?) AND `rol` = 'docent'");
             prepStat.setInt(1,id);
