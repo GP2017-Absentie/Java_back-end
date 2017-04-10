@@ -18,7 +18,7 @@ public class DocentService {
 
     public ArrayList<Docent> getAll() { return docentModel.getAll(); }
 
-    public Docent getById(int id) { return DocentModel.getById(id); }
+    public Docent getById(int id) { return docentModel.getById(id); }
 
     public Docent getByEmail(String email){
         return docentModel.getByEmail(email);

@@ -16,6 +16,8 @@ public class LesModel {
     private AbsentieModel absentieModel;
     @Autowired
     private StudentModel studentModel;
+    @Autowired
+    private DocentModel docentModel;
 
     public ArrayList<Les> getAll(){
         try {
@@ -48,7 +50,7 @@ public class LesModel {
                 String gebouw = lokaalResult.getString("gebouw");
                 String lokaal_nummer = lokaalResult.getString("nummer");
 
-                Docent docent = DocentModel.getById(docent_FK);
+                Docent docent = docentModel.getById(docent_FK);
                 //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
 
                 Les l = new Les(les_id, vakNaam, vakCode, gebouw, lokaal_nummer, datum, starttijd, eindtijd, klas, docent);
@@ -107,7 +109,7 @@ public class LesModel {
             String gebouw = res.getString("gebouw");
             String lokaal_nummer = res.getString("nummer");
                         
-            Docent docent = DocentModel.getById(docent_FK);
+            Docent docent = docentModel.getById(docent_FK);
             //ArrayList<Absentie> absenties  = AbsentieService.getById(les_id); ABSENTIEMODEL
             
             Les l = new Les(les_id, vakNaam,vakCode,gebouw,lokaal_nummer,datum,starttijd,eindtijd, klas, docent);
