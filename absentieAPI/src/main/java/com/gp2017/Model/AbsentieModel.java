@@ -94,7 +94,6 @@ public class AbsentieModel {
     }
 
     public void addAbsentie(AbsentieRequest absentieRequest) {
-        Persoon persoon = persoonModel.getById(absentieRequest.getPersoonId());
 
         try {
             PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
