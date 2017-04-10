@@ -94,41 +94,28 @@ public class AbsentieModel {
     }
 
     public void addAbsentie(AbsentieRequest absentieRequest) {
-        boolean userHasLes = false;
         Persoon persoon = persoonModel.getById(absentieRequest.getPersoonId());
-        ArrayList<Les> lessen;
-        if (persoon.getRol() == "student"){
-            lessen = studentModel.getLessenByStudentId(persoon.getId());
-        } else {
-            lessen = docentModel.getLessenByDocentId(persoon.getId());
+
+        try {
+            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
+                    "INSERT INTO absentie (reden, " +
+                            "toelichting, " +
+                            "persoon_FK, " +
+                            "les_FK) " +
+                            "VALUES ('" + absentieRequest.getReden() + "'," +
+                            "'" + absentieRequest.getToelichting() + "" +
+                            "','" + absentieRequest.getPersoonId() + "" +
+                            "','" + absentieRequest.getLesId() + "" +
+                            "')");
+
+            prepStat.execute();
+            prepStat.close();
+        } catch (SQLException ex) {
+            System.out.println("SQLException: " + ex.getMessage());
+            System.out.println("SQLState: " + ex.getSQLState());
+            System.out.println("VendorError: " + ex.getErrorCode());
         }
 
-        for (Les les : lessen){
-            if (les.getId() == absentieRequest.getLesId()){
-                userHasLes = true;
-            }
-        }
-        if (userHasLes) {
-            try {
-                PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
-                        "INSERT INTO absentie (reden, " +
-                                "toelichting, " +
-                                "persoon_FK, " +
-                                "les_FK) " +
-                                "VALUES ('" + absentieRequest.getReden() + "'," +
-                                "'" + absentieRequest.getToelichting() + "" +
-                                "','" + absentieRequest.getPersoonId() + "" +
-                                "','" + absentieRequest.getLesId() + "" +
-                                "')");
-
-                prepStat.execute();
-                prepStat.close();
-            } catch (SQLException ex) {
-                System.out.println("SQLException: " + ex.getMessage());
-                System.out.println("SQLState: " + ex.getSQLState());
-                System.out.println("VendorError: " + ex.getErrorCode());
-            }
-        }
 
     }
 
@@ -137,17 +124,17 @@ public class AbsentieModel {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         java.util.Date reqDate = formatter.parse(ziekteRequest.getDatum());
         ArrayList<Les> lessen = new ArrayList<>();
-        System.out.println("meldZiek");
-        if (persoon.getRol() == "student"){
+        if (persoon.getRol().equals("student")) {
             lessen = studentModel.getLessenByStudentId(persoon.getId());
-        } else if (persoon.getRol() == "docent"){
+        } else if (persoon.getRol().equals("docent")) {
             lessen = docentModel.getLessenByDocentId(persoon.getId());
         }
 
         for (Les les : lessen) {
             java.util.Date lesDate = les.getDatum();
-
+            System.out.println("loop");
             if (lesDate.equals(reqDate)) {
+                System.out.println("lekker pik");
                 AbsentieRequest absentieRequest = new AbsentieRequest();
                 absentieRequest.setLesId(les.getId());
                 absentieRequest.setPersoonId(persoon.getId());
