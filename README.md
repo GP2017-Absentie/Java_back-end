@@ -20,61 +20,63 @@
 
 **Persoon**
 
-​		 [getAll](absentieAPI/docs/persoon/persoonGetAll.md)
+​		 [getAll](docs/persoon/persoonGetAll.md)
 
-​		 [getById](absentieAPI/docs/persoon/persoonGetById.md)
+​		 [getById](docs/persoon/persoonGetById.md)
 
-​		 [login](absentieAPI/docs/persoon/persoonLogin.md)
+​		 [login](docs/persoon/persoonLogin.md)
 
 **Student**
 
-​		[getAll](absentieAPI/docs/student/studentGetAll.md)
+​		[getAll](docs/student/studentGetAll.md)
 
-​		[getById](absentieAPI/docs/student/studentGetById.md)
+​		[getById](docs/student/studentGetById.md)
 
-​		[getLessenbyStudentId](absentieAPI/docs/student/studentGetLessenByStudentId.md)
+​		[getLessenbyStudentId](docs/student/studentGetLessenByStudentId.md)
 
-​		[getAbsentiesByStudentId](absentieAPI/docs/student/studentGetAbsentiesByStudentId.md)
+​		[getAbsentiesByStudentId](docs/student/studentGetAbsentiesByStudentId.md)
 
 **Docent**
 
- 		[getAll](absentieAPI/docs/docent/docentGetAll.md)
+ 		[getAll](docs/docent/docentGetAll.md)
 
- 		[getById](absentieAPI/docs/docent/studentGetById.md)
+ 		[getById](docs/docent/studentGetById.md)
 
-​		[getLessenByDocentId](absentieAPI/docs/docent/docentGetLessenByDocentId.md)
+​		[getLessenByDocentId](docs/docent/docentGetLessenByDocentId.md)
 
-​		[getAbsentiesByDocentId](absentieAPI/docs/docent/docentGetAbsentiesByDocentId.md)
+​		[getAbsentiesByDocentId](docs/docent/docentGetAbsentiesByDocentId.md)
 
 **Klas**
 
-​		[getAll](absentieAPI/docs/klas/klasGetAll.md)
+​		[getAll](docs/klas/klasGetAll.md)
 
-​		[getById](absentieAPI/docs/klas/klasGetById.md)
+​		[getById](docs/klas/klasGetById.md)
 
-​		[getLessenbyKlasId](absentieAPI/docs/klas/klasGetLessenByKlasId.md)
+​		[getLessenbyKlasId](docs/klas/klasGetLessenByKlasId.md)
 
-​		[getAbsentiesbyKlasId](absentieAPI/docs/klas/klasGetAbsentiesByKlasId.md)
+​		[getAbsentiesbyKlasId](docs/klas/klasGetAbsentiesByKlasId.md)
 
 **Les**
 
-​		[getAll](absentieAPI/docs/les/lesGetAll.md)
+​		[getAll](docs/les/lesGetAll.md)
 
-​		[getById](absentieAPI/docs/les/lesGetById.md)
+​		[getById](docs/les/lesGetById.md)
 
-​		[getStudentenbyKlasId](absentieAPI/docs/les/lesGetStudentenByKlasId.md)
+​		[getStudentenbyKlasId](docs/les/lesGetStudentenByKlasId.md)
 
-​		[getAbsentiesbyKlasId](absentieAPI/docs/les/lesGetAbsentiesByKlasId.md)
+​		[getAbsentiesbyKlasId](docs/les/lesGetAbsentiesByKlasId.md)
 
 **Absentie**
 
-​		[getAll](absentieAPI/docs/absentie/absentieGetAll.md)
+​		[getAll](docs/absentie/absentieGetAll.md)
 
-​		[getById](absentieAPI/docs/absentie/absentieGetById.md)
+​		[getById](docs/absentie/absentieGetById.md)
 
-​		[meldAbsent](absentieAPI/docs/absentie/absentieMeldAbsent.md)
+​		[removeById](docs/absentie/absentieRemoveById.md)
 
-​		[meldZiek](absentieAPI/docs/absentie/absentieMeldZiek.md)
+​		[meldAbsent](docs/absentie/absentieMeldAbsent.md)
+
+​		[meldZiek](docs/absentie/absentieMeldZiek.md)
 
 
 

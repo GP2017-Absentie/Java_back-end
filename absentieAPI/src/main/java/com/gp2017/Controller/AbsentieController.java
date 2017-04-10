@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -35,6 +36,12 @@ public class AbsentieController {
     }
 
     @CrossOrigin
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public void removeById(@PathVariable("id") int id){
+            absentieService.removeById(id);
+    }
+
+    @CrossOrigin
     @RequestMapping(value = "/absent", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void meldAbsent(@RequestBody AbsentieRequest absentieRequest) {
         if (absentieRequest != null) {
@@ -47,6 +54,7 @@ public class AbsentieController {
     @CrossOrigin
     @RequestMapping(value = "/ziek", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void meldZiek(@RequestBody ZiekteRequest ziekteRequest) throws ParseException {
+        System.out.println("jidhiduhiduhdiuhdidh");
         if (ziekteRequest != null){
             absentieService.meldZiek(ziekteRequest);
         } else throw new IllegalArgumentException("Something went wrong");

@@ -5,6 +5,7 @@ import com.gp2017.Entity.Absentie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.lang.reflect.*;
 import java.sql.*;
 import java.sql.Date;
 import java.text.ParseException;
@@ -78,25 +79,55 @@ public class AbsentieModel {
         return null;
     }
 
-    public void addAbsentie(AbsentieRequest absentie) {
+    public void removeById(int id) {
         try {
-            PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
-                    "INSERT INTO absentie (reden, " +
-                            "toelichting, " +
-                            "persoon_FK, " +
-                            "les_FK) " +
-                            "VALUES ('" + absentie.getReden() + "'," +
-                            "'" + absentie.getToelichting() + "" +
-                            "','" + absentie.getPersoonId() + "" +
-                            "','" + absentie.getLesId() + "" +
-                            "')");
-
-            prepStat.execute();
-            prepStat.close();
+            PreparedStatement st = DatabaseModel.myConn.prepareStatement("DELETE FROM `absentie` WHERE id = (?)");
+            st.setInt(1, id);
+            st.executeUpdate();
+            st.close();
         } catch (SQLException ex) {
+            // handle any errors
             System.out.println("SQLException: " + ex.getMessage());
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
+        }
+    }
+
+    public void addAbsentie(AbsentieRequest absentieRequest) {
+        boolean userHasLes = false;
+        Persoon persoon = persoonModel.getById(absentieRequest.getPersoonId());
+        ArrayList<Les> lessen;
+        if (persoon.getRol() == "student"){
+            lessen = studentModel.getLessenByStudentId(persoon.getId());
+        } else {
+            lessen = docentModel.getLessenByDocentId(persoon.getId());
+        }
+
+        for (Les les : lessen){
+            if (les.getId() == absentieRequest.getLesId()){
+                userHasLes = true;
+            }
+        }
+        if (userHasLes) {
+            try {
+                PreparedStatement prepStat = DatabaseModel.myConn.prepareStatement(
+                        "INSERT INTO absentie (reden, " +
+                                "toelichting, " +
+                                "persoon_FK, " +
+                                "les_FK) " +
+                                "VALUES ('" + absentieRequest.getReden() + "'," +
+                                "'" + absentieRequest.getToelichting() + "" +
+                                "','" + absentieRequest.getPersoonId() + "" +
+                                "','" + absentieRequest.getLesId() + "" +
+                                "')");
+
+                prepStat.execute();
+                prepStat.close();
+            } catch (SQLException ex) {
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
         }
 
     }
@@ -106,7 +137,7 @@ public class AbsentieModel {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         java.util.Date reqDate = formatter.parse(ziekteRequest.getDatum());
         ArrayList<Les> lessen = new ArrayList<>();
-
+        System.out.println("meldZiek");
         if (persoon.getRol() == "student"){
             lessen = studentModel.getLessenByStudentId(persoon.getId());
         } else if (persoon.getRol() == "docent"){

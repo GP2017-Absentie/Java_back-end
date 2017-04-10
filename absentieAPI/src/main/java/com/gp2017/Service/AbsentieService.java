@@ -20,6 +20,8 @@ public class AbsentieService {
 
     public Absentie getById(int id) { return absentieModel.getById(id); }
 
+    public void removeById(int id) { absentieModel.removeById(id); }
+
     public void addAbsentie(AbsentieRequest absentie) { absentieModel.addAbsentie(absentie);}
 
     public void meldZiek(ZiekteRequest ziekteRequest) throws ParseException { absentieModel.meldZiek(ziekteRequest); }
