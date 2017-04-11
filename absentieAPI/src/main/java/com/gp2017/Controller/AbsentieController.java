@@ -54,7 +54,6 @@ public class AbsentieController {
     @CrossOrigin
     @RequestMapping(value = "/ziek", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void meldZiek(@RequestBody ZiekteRequest ziekteRequest) throws ParseException {
-        System.out.println("jidhiduhiduhdiuhdidh");
         if (ziekteRequest != null){
             absentieService.meldZiek(ziekteRequest);
         } else throw new IllegalArgumentException("Something went wrong");

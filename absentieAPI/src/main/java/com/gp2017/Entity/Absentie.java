@@ -10,11 +10,6 @@ public class Absentie {
     private int id;
     private Persoon persoon;
     private Les les;
-    //public enum Redenen{
-    //    ziek, afwezig, zorgafspraak
-    //}
-
-    //private Redenen redenAbsentie;
     private String reden;
     private String toelichting;
 
