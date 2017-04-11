@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.28)
 # Database: AbsentieSys
-# Generation Time: 2017-03-31 10:18:49 +0000
+# Generation Time: 2017-04-11 09:55:45 +0000
 # ************************************************************
 
 
@@ -20,14 +20,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-# Dump of table absentie
+# Dump of table Absentie
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `absentie`;
+DROP TABLE IF EXISTS `Absentie`;
 
-CREATE TABLE `absentie` (
+CREATE TABLE `Absentie` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `reden` enum('ziekte','doctor','tandarts','overig') NOT NULL DEFAULT 'ziekte',
+  `reden` enum('Ziek','Dokter','Tandarts','Religieuze feestdag','Huwelijk','Begrafenis','Overig','N/A') NOT NULL DEFAULT 'Ziek',
   `toelichting` text,
   `persoon_FK` int(11) unsigned NOT NULL,
   `les_FK` int(11) unsigned NOT NULL,
@@ -38,22 +38,33 @@ CREATE TABLE `absentie` (
   CONSTRAINT `absentie_persoon_FK` FOREIGN KEY (`persoon_FK`) REFERENCES `persoon` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `Absentie` WRITE;
+/*!40000 ALTER TABLE `Absentie` DISABLE KEYS */;
+
+INSERT INTO `Absentie` (`id`, `reden`, `toelichting`, `persoon_FK`, `les_FK`)
+VALUES
+	(13,'Ziek','n.v.t.',1682488,1),
+	(14,'Ziek','n.v.t.',1682488,20),
+	(15,'Ziek','n.v.t.',1682488,23);
+
+/*!40000 ALTER TABLE `Absentie` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
-# Dump of table klas
+# Dump of table Klas
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `klas`;
+DROP TABLE IF EXISTS `Klas`;
 
-CREATE TABLE `klas` (
+CREATE TABLE `Klas` (
   `code` varchar(10) NOT NULL DEFAULT '',
   PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `klas` WRITE;
-/*!40000 ALTER TABLE `klas` DISABLE KEYS */;
+LOCK TABLES `Klas` WRITE;
+/*!40000 ALTER TABLE `Klas` DISABLE KEYS */;
 
-INSERT INTO `klas` (`code`)
+INSERT INTO `Klas` (`code`)
 VALUES
 	('V1A'),
 	('V1B'),
@@ -62,16 +73,16 @@ VALUES
 	('V1E'),
 	('V1F');
 
-/*!40000 ALTER TABLE `klas` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Klas` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Dump of table les
+# Dump of table Les
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `les`;
+DROP TABLE IF EXISTS `Les`;
 
-CREATE TABLE `les` (
+CREATE TABLE `Les` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `datum` date NOT NULL,
   `starttijd` time NOT NULL,
@@ -91,10 +102,10 @@ CREATE TABLE `les` (
   CONSTRAINT `les_vak_FK` FOREIGN KEY (`vak_FK`) REFERENCES `vak` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `les` WRITE;
-/*!40000 ALTER TABLE `les` DISABLE KEYS */;
+LOCK TABLES `Les` WRITE;
+/*!40000 ALTER TABLE `Les` DISABLE KEYS */;
 
-INSERT INTO `les` (`id`, `datum`, `starttijd`, `eindtijd`, `vak_FK`, `lokaal_FK`, `docent_FK`, `klas_FK`)
+INSERT INTO `Les` (`id`, `datum`, `starttijd`, `eindtijd`, `vak_FK`, `lokaal_FK`, `docent_FK`, `klas_FK`)
 VALUES
 	(1,'2017-02-06','10:00:00','12:30:00',1,1,8,'V1D'),
 	(2,'2017-02-06','11:30:00','14:00:00',1,2,7,'V1B'),
@@ -248,26 +259,26 @@ VALUES
 	(150,'2017-03-23','12:30:00','15:00:00',1,13,1,'V1F'),
 	(151,'2017-04-17','11:30:00','14:00:00',4,17,0,'V1A');
 
-/*!40000 ALTER TABLE `les` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Les` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Dump of table lokaal
+# Dump of table Lokaal
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `lokaal`;
+DROP TABLE IF EXISTS `Lokaal`;
 
-CREATE TABLE `lokaal` (
+CREATE TABLE `Lokaal` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `gebouw` varchar(10) DEFAULT NULL,
   `nummer` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `lokaal` WRITE;
-/*!40000 ALTER TABLE `lokaal` DISABLE KEYS */;
+LOCK TABLES `Lokaal` WRITE;
+/*!40000 ALTER TABLE `Lokaal` DISABLE KEYS */;
 
-INSERT INTO `lokaal` (`id`, `gebouw`, `nummer`)
+INSERT INTO `Lokaal` (`id`, `gebouw`, `nummer`)
 VALUES
 	(1,'DL200','3.91'),
 	(2,'DL200','6.84'),
@@ -287,16 +298,16 @@ VALUES
 	(16,'DL200','0.83'),
 	(17,'DL200','5.83');
 
-/*!40000 ALTER TABLE `lokaal` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Lokaal` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Dump of table persoon
+# Dump of table Persoon
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `persoon`;
+DROP TABLE IF EXISTS `Persoon`;
 
-CREATE TABLE `persoon` (
+CREATE TABLE `Persoon` (
   `id` int(11) unsigned NOT NULL,
   `naam` varchar(30) NOT NULL DEFAULT '',
   `email` varchar(40) NOT NULL,
@@ -309,10 +320,10 @@ CREATE TABLE `persoon` (
   CONSTRAINT `persoon_klas_FK` FOREIGN KEY (`klas_FK`) REFERENCES `klas` (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `persoon` WRITE;
-/*!40000 ALTER TABLE `persoon` DISABLE KEYS */;
+LOCK TABLES `Persoon` WRITE;
+/*!40000 ALTER TABLE `Persoon` DISABLE KEYS */;
 
-INSERT INTO `persoon` (`id`, `naam`, `email`, `wachtwoord`, `rol`, `klas_FK`)
+INSERT INTO `Persoon` (`id`, `naam`, `email`, `wachtwoord`, `rol`, `klas_FK`)
 VALUES
 	(0,'Alex Jongman','alex.jongman@hu.nl','geheim','docent',NULL),
 	(1,'Jos van Reenen','jos.vanreenen@hu.nl','geheim','docent',NULL),
@@ -480,33 +491,33 @@ VALUES
 	(1711403,'Shant Kalaidjian','shant.kalaidjian@student.hu.nl','geheim','student','V1F'),
 	(1711412,'Jordi Bottema','jordi.bottema@student.hu.nl','geheim','student','V1B');
 
-/*!40000 ALTER TABLE `persoon` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Persoon` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Dump of table vak
+# Dump of table Vak
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `vak`;
+DROP TABLE IF EXISTS `Vak`;
 
-CREATE TABLE `vak` (
+CREATE TABLE `Vak` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `code` varchar(15) DEFAULT NULL,
   `naam` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `vak` WRITE;
-/*!40000 ALTER TABLE `vak` DISABLE KEYS */;
+LOCK TABLES `Vak` WRITE;
+/*!40000 ALTER TABLE `Vak` DISABLE KEYS */;
 
-INSERT INTO `vak` (`id`, `code`, `naam`)
+INSERT INTO `Vak` (`id`, `code`, `naam`)
 VALUES
 	(1,'TICT-V1OODC','TICT-V1OODC-15_2016'),
 	(2,'TCIF-V1AUI','TCIF-V1AUI-15_2016'),
 	(3,'TICT-V1GP','TICT-V1GP-15_2016'),
 	(4,'TICT-V1WAC','TICT-V1WAC-15_2016');
 
-/*!40000 ALTER TABLE `vak` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Vak` ENABLE KEYS */;
 UNLOCK TABLES;
 
 

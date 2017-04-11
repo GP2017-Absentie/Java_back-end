@@ -131,13 +131,11 @@ public class AbsentieModel {
 
         for (Les les : lessen) {
             java.util.Date lesDate = les.getDatum();
-            System.out.println("loop");
             if (lesDate.equals(reqDate)) {
-                System.out.println("lekker pik");
                 AbsentieRequest absentieRequest = new AbsentieRequest();
                 absentieRequest.setLesId(les.getId());
                 absentieRequest.setPersoonId(persoon.getId());
-                absentieRequest.setReden("ziek");
+                absentieRequest.setReden("Ziek");
                 absentieRequest.setToelichting("n.v.t.");
                 addAbsentie(absentieRequest);
             }
